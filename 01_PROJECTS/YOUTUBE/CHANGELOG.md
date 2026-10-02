@@ -4,6 +4,17 @@ All folder renames, status promotions, and automated synchronizations are logged
 
 ---
 
+## [2026-10-02] EP07 + EP08 Gate 1 Packages, Git Repo, Music Credit
+
+- **EP07** `longs/[IN_PROGRESS 2026-10-02]_long07_ai_words_geometry/`: packaging (3 titles, 3 thumbnails), 5-loop ledger, 46 scenes / 229 beats / 1,674 words (≈10:59 at 157 WPM), asset specs, 4 Flow prompts, 12 sources, VERIFY list, `VO_SCRIPT_CLEAN.txt`.
+- **EP08** `longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/`: same package; 45 scenes / 219 beats / 1,638 words (≈10:45); 3 Flow prompts; 19 sources.
+- **QA**: both scripts 0 beats >6 s; 0/16 banned AI patterns; payoff windows and CTA windows inside longs_style rules.
+- **New tool**: `pipeline/qa/ep_beatcheck.py` (beat density, runtime estimate, clean VO export, `--sync` renumber + shot-list rebuild; self-check included). Calibrated WPM = 157 (EP06: 1,103 words / 420.91 s).
+- **Music**: `assets/audio/BGM.mp3` ("Microscope", Filo Starquez, CC BY-ND 3.0). Credit block in `assets/audio/CREDITS.md`, `DESCRIPTION_TEMPLATE.md`, `UPLOAD_CHECKLIST.md`.
+- **Git**: local repo initialized (text-only whitelist `.gitignore`; ~2.2 MB pack). Not pushed yet (no remote).
+
+---
+
 ## [2026-10-02] Workspace Reorganization, Motion Tooling, EP07/EP08 Approved
 
 - **Approved**: EP07 embeddings, EP08 attention; 10-15 min format (DECISION_LOG 2026-10-02).

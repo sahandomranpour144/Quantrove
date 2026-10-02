@@ -9,7 +9,8 @@
 | long04_can_ai_predict_markets | [PUBLISHED 2026-09-26] | None (live on YouTube: jwPcJSfDQPg) | `longs/[PUBLISHED 2026-09-26]_long04_can_ai_predict_markets/` |
 | long05_market_making_illusion | [PUBLISHED 2026-09-30] | Confirmed Live on YouTube (-SH2kNLF3WA) | `longs/[PUBLISHED 2026-09-30]_long05_market_making_illusion/` |
 | long06_hft_microsecond_pricing | [SCHEDULED 2026-10-04] | Final uploaded; UNLISTED in Studio until Sun 2026-10-04, then public. Do not touch. | `longs/[SCHEDULED 2026-10-04]_long06_hft_microsecond_pricing/` |
-| long07 embeddings / long08 attention (Pillar 1) | [APPROVED 2026-10-02] | Next: packaging (3 titles + thumbnail each) → scripts → Gate 1. 10-15 min, visual-density v1 | `topic_strategy/EP07_EP08_TOPIC_RESEARCH.md` |
+| long07_ai_words_geometry | [IN_PROGRESS 2026-10-02] | **GATE 1 awaiting CEO**: script + 46-scene/229-beat shot list, ≈10:59 | `longs/[IN_PROGRESS 2026-10-02]_long07_ai_words_geometry/EP07_SCRIPT_AND_SHOTLIST.md` |
+| long08_attention_transformer | [IN_PROGRESS 2026-10-02] | **GATE 1 awaiting CEO**: script + 45-scene/219-beat shot list, ≈10:45; publish after EP07 | `longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/EP08_SCRIPT_AND_SHOTLIST.md` |
 | ep01_short_margin_call | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep01_short_margin_call/` |
 | ep01_short_trigger_changes | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep01_short_trigger_changes/` |
 | ep02_short_2009_bottom | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep02_short_2009_bottom/` |
@@ -34,5 +35,5 @@
 
 ## Standards, QA & Artifacts
 - Brand: #202322, #233D4C, #C3D809, #FD802E, #E6EDF3 | Font: Nohemi (Inter fallback)
-- QA: `longs_qa.py` | `shorts_qa.py` | `html_motion_qa.py` | `test_script_humanizer.py`
+- QA: `ep_beatcheck.py` (density/runtime, `--sync` rebuilds shot list) | `longs_qa.py` | `shorts_qa.py` | `html_motion_qa.py` | `test_script_humanizer.py`
 - Memory: `MEMORY.md` | Log: `CHANGELOG.md` | Reports: `reports/` | Logs: `logs/`
