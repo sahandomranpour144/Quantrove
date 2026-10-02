@@ -27,7 +27,7 @@ EP_DIR = find_ep_dir("long01_why_stock_market_crashes")
 RENDERS = os.path.join(EP_DIR, "02_assets_code", "renders")
 MANIM = os.path.join(RENDERS, "manim")
 VOICEOVER = os.path.join(EP_DIR, "voiceover", "ElevenLabs_video_1 voiceover.mp3")
-BGM = r"E:\Agentic Workspaces\ClaudeCode\assets\audio\bgm.mp3"
+BGM = r"E:\Agentic Workspaces\ClaudeCode\assets\audio\BGM.mp3"
 OUTPUT = os.path.join(EP_DIR, "long01_why_stock_market_crashes.mp4")
 
 FONTS_DIR = r"E:\Agentic Workspaces\ClaudeCode\assets\fonts"
