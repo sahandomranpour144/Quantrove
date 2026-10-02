@@ -58,6 +58,8 @@ Quantrove: data-driven documentaries on AI, markets, and the systems behind them
 Channel: https://youtube.com/@Quantrove
 Playlists: {PILLAR_PLAYLIST_URL}
 
+{MUSIC_CREDIT — REQUIRED when assets/audio/BGM.mp3 is used. Paste verbatim from assets/audio/CREDITS.md}
+
 Educational content only. Not financial, investment, or trading advice. Markets involve risk.
 
 #Quantrove #{PillarHashtag} #{TopicHashtag}

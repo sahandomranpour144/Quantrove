@@ -61,3 +61,6 @@
    - Position cards within the final 20-second clear zone.
 5. **Pinned Comment**: Draft and pin the primary discussion question and companion video link.
 6. **Publish / Schedule**: Set public release time according to channel cadence schedule.
+
+## Music License (mandatory)
+- [ ] If `assets/audio/BGM.mp3` is in the mix, the music credit block from `assets/audio/CREDITS.md` is in the description verbatim (CC BY-ND 3.0).
