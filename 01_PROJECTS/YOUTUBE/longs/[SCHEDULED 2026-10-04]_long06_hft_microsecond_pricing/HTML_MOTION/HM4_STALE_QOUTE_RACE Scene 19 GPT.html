@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Fast vs Slow Quote Update</title>
+<style>
+  html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #202322;
+  }
+  body {
+    display: grid;
+    place-items: center;
+    font-family: "Nohemi","Inter",system-ui,-apple-system,sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+  canvas {
+    display: block;
+    width: 1920px;
+    height: 1080px;
+    max-width: 100vw;
+    max-height: 100vh;
+    background: #202322;
+  }
+</style>
+</head>
+<body>
+<canvas id="stage" width="1920" height="1080" aria-label="Illustrative fast and slow market quote update timeline"></canvas>
+<script>
+(() => {
+  "use strict";
+
+  const W = 1920, H = 1080, DURATION = 8.0;
+  const BG = "#202322";
+  const GRID = "#233D4C";
+  const ACCENT = "#C3D809";
+  const RISK = "#FD802E";
+  const TEXT = "#E6EDF3";
+  const FONT = '"Nohemi","Inter",system-ui,-apple-system,sans-serif';
+
+  const canvas = document.getElementById("stage");
+  const ctx = canvas.getContext("2d", { alpha: false, desynchronized: true });
+
+  // Seeded PRNG retained for deterministic extensibility; this scene uses no random samples.
+  let seed = 0x51A7C0DE;
+  function seededRandom() {
+    seed |= 0;
+    seed = (seed + 0x6D2B79F5) | 0;
+    let r = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    r ^= r + Math.imul(r ^ (r >>> 7), 61 | r);
+    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+  }
+  void seededRandom;
+
+  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+  const smooth = (x) => {
+    x = clamp(x, 0, 1);
+    return x * x * (3 - 2 * x);
+  };
+  const fadeIn = (t, a, b) => smooth((t - a) / (b - a));
+  const fadeOut = (t, a, b) => 1 - smooth((t - a) / (b - a));
+  const between = (t, a, b) => clamp((t - a) / (b - a), 0, 1);
+
+  function setFont(px, weight = 400) {
+    ctx.font = `${weight} ${px}px ${FONT}`;
+    ctx.textBaseline = "alphabetic";
+    ctx.fontVariantNumeric = "tabular-nums";
+  }
+
+  function text(txt, x, y, px, color, alpha = 1, align = "left", weight = 400) {
+    ctx.save();
+    setFont(px, weight);
+    ctx.textAlign = align;
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = color;
+    ctx.fillText(txt, x, y);
+    ctx.restore();
+  }
+
+  function rect(x, y, w, h, fill, alpha = 1) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = fill;
+    ctx.fillRect(x, y, w, h);
+    ctx.restore();
+  }
+
+  function strokeLine(x1, y1, x2, y2, stroke, width = 1, alpha = 1, dash = null) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.strokeStyle = stroke;
+    ctx.lineWidth = width;
+    ctx.lineCap = "butt";
+    ctx.setLineDash(dash || []);
+    ctx.beginPath();
+    ctx.moveTo(x1, y1);
+    ctx.lineTo(x2, y2);
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  function drawDashedRect(x, y, w, h, stroke, width = 1, alpha = 1, dash = [6, 5]) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.strokeStyle = stroke;
+    ctx.lineWidth = width;
+    ctx.setLineDash(dash);
+    ctx.strokeRect(x + 0.5, y + 0.5, w - 1, h - 1);
+    ctx.restore();
+  }
+
+  function draw() {
+    const dpr = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
+    if (canvas.width !== W * dpr || canvas.height !== H * dpr) {
+      canvas.width = W * dpr;
+      canvas.height = H * dpr;
+    }
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    render(currentTime);
+  }
+
+  function render(t) {
+    t = clamp(Number.isFinite(t) ? t : 0, 0, DURATION);
+    ctx.save();
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+
+    // Logical 1920x1080 stage. All visible geometry is inside the 16:9 safe box.
+    rect(0, 0, W, H, BG, 1);
+
+    const laneL = 300, laneR = 1700, laneW = laneR - laneL;
+    const fastY = 290, fastH = 160;
+    const slowY = 510, slowH = 160;
+    const barYFast = 358, barYSlow = 578, barH = 24;
+
+    const baseFade = fadeIn(t, 0, 0.6);
+    const laneFade = fadeIn(t, 0.6, 1.3);
+    const eventFade = fadeIn(t, 1.3, 1.5);
+
+    // Corner tags.
+    text("ILLUSTRATIVE DATA", 1824, 216, 28, TEXT, 0.60, "right");
+
+    // Event title.
+    // Lane labels.
+    text("FAST UPDATE", 96, 330, 32, TEXT, laneFade, "left");
+    text("SLOW UPDATE", 96, 550, 32, TEXT, laneFade, "left");
+
+    // Lane frames.
+    ctx.save();
+    ctx.globalAlpha = baseFade;
+    ctx.strokeStyle = GRID;
+    ctx.lineWidth = 1;
+    ctx.strokeRect(laneL + 0.5, fastY + 0.5, laneW - 1, fastH - 1);
+    ctx.strokeRect(laneL + 0.5, slowY + 0.5, laneW - 1, slowH - 1);
+    ctx.restore();
+
+    // Shared time ticks across both lanes.
+    const ticks = [
+      { x: 300, label: "0" },
+      { x: 767, label: "+50 μs" },
+      { x: 1233, label: "+100 μs" },
+      { x: 1700, label: "+150 μs" }
+    ];
+    for (const tick of ticks) {
+      strokeLine(tick.x + 0.5, 290, tick.x + 0.5, 670, GRID, 1, baseFade);
+      text(tick.label, tick.x, 748, 28, TEXT, 0.70 * baseFade, tick.x === 1700 ? "right" : "left");
+    }
+
+    // Resting quote bars.
+    // FAST bar: full until the 2.7s event, then cut at x=673 and fade.
+    const fastCutX = 673;
+    let fastWidth = laneW;
+    let fastAlpha = laneFade;
+    let fastEnd = laneR;
+    if (t >= 2.7) {
+      fastEnd = fastCutX;
+      fastWidth = fastCutX - laneL;
+      fastAlpha *= fadeOut(t, 2.7, 3.0);
+    }
+    rect(laneL, barYFast, fastWidth, barH, ACCENT, fastAlpha);
+
+    // SLOW bar: stays lime until 4.2, then becomes risk orange.
+    const slowRisk = fadeIn(t, 4.2, 4.6);
+    const slowAccentAlpha = laneFade * (1 - slowRisk);
+    const slowRiskAlpha = laneFade * slowRisk;
+    rect(laneL, barYSlow, laneW, barH, ACCENT, slowAccentAlpha);
+    rect(laneL, barYSlow, laneW, barH, RISK, slowRiskAlpha);
+
+    // Event line.
+    strokeLine(300.5, 270, 300.5, 670, TEXT, 3, eventFade);
+    if (eventFade > 0) {
+      const pulse = 1 + 0.08 * Math.sin(Math.PI * between(t, 1.3, 1.5));
+      ctx.save();
+      ctx.translate(300, 240);
+      ctx.scale(pulse, pulse);
+      text("PRICE MOVES ELSEWHERE", 0, 0, 28, TEXT, eventFade, "left");
+      ctx.restore();
+    }
+
+    // Playhead: precisely linear from 1.5s to 6.0s.
+    if (t >= 1.5 && t <= 6.0) {
+      const x = laneL + between(t, 1.5, 6.0) * laneW;
+      strokeLine(x + 0.5, 270, x + 0.5, 670, TEXT, 2, 0.80);
+    } else if (t > 6.0 && t < 6.5) {
+      const fade = fadeOut(t, 6.0, 6.5);
+      strokeLine(laneR + 0.5, 270, laneR + 0.5, 670, TEXT, 2, 0.80 * fade);
+    }
+
+    // Fast event annotation. The label appears when the quote is pulled.
+    const fastPullAlpha = fadeIn(t, 2.7, 3.0);
+    if (fastPullAlpha > 0) {
+      text("QUOTE PULLED", 680, 330, 28, ACCENT, fastPullAlpha, "left");
+    }
+
+    // Slow event annotation and flash square.
+    const slowHitAlpha = fadeIn(t, 4.2, 4.5);
+    if (slowHitAlpha > 0) {
+      text("HIT AT OLD PRICE", 1150, 550, 28, RISK, slowHitAlpha, "left");
+      if (t <= 4.45) {
+        const flash = 1 - smooth(between(t, 4.2, 4.45));
+        rect(1130, barYSlow + 2, 20, 20, RISK, flash);
+      }
+    }
+
+    // Bottom readouts. Exactly two secondary readouts.
+    const leftReadoutAlpha = fadeIn(t, 2.7, 3.1);
+    const rightReadoutAlpha = fadeIn(t, 4.2, 4.6);
+    text("FAST: QUOTE PULLED", 300, 832, 28, ACCENT, leftReadoutAlpha, "left");
+    text("SLOW: FILLED AT OLD PRICE", 1000, 832, 28, RISK, rightReadoutAlpha, "left");
+
+    // Keep everything strictly inside the safe geometry. No caption lane / popup-band content.
+  }
+
+  let currentTime = 0;
+  let autoplayStart = 0;
+  let playing = true;
+  let rafId = 0;
+
+  window.setTime = (t) => {
+    currentTime = clamp(Number(t) || 0, 0, DURATION);
+    render(currentTime);
+  };
+
+  function fitStage() {
+    const scale = Math.min(window.innerWidth / W, window.innerHeight / H);
+    const width = Math.round(W * scale);
+    const height = Math.round(H * scale);
+    canvas.style.width = width + "px";
+    canvas.style.height = height + "px";
+    draw();
+  }
+
+  function frame(now) {
+    if (!playing) return;
+    currentTime = clamp((now - autoplayStart) / 1000, 0, DURATION);
+    render(currentTime);
+    if (currentTime < DURATION) {
+      rafId = requestAnimationFrame(frame);
+    } else {
+      // Hold the exact t=8.0 frame.
+      currentTime = DURATION;
+      render(DURATION);
+      playing = false;
+      cancelAnimationFrame(rafId);
+    }
+  }
+
+  window.addEventListener("resize", fitStage, { passive: true });
+  fitStage();
+
+  // One clock drives the complete one-shot animation. No looping and no accumulated state.
+  autoplayStart = performance.now();
+  rafId = requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

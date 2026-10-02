@@ -1,0 +1,55 @@
+{
+  "type": "extraction",
+  "total_duration_s": 32.25,
+  "scenes": [
+    {
+      "id": 1,
+      "scene_name": "The Stationary Object Hook",
+      "start_s": 0.0,
+      "end_s": 5.6,
+      "type": "extraction",
+      "motion_tag": "camera_push",
+      "motion_purpose": "Focal emphasis on stationary object detection bounding box",
+      "font": "Nohemi"
+    },
+    {
+      "id": 2,
+      "scene_name": "Computer Vision vs Financial Market",
+      "start_s": 5.6,
+      "end_s": 13.8,
+      "type": "extraction",
+      "motion_tag": "manim_draw",
+      "hold_tag": "HOLD_FOR_UNDERSTANDING",
+      "font": "Nohemi"
+    },
+    {
+      "id": 3,
+      "scene_name": "Capital Rush & The Buying Swarm",
+      "start_s": 13.8,
+      "end_s": 22.0,
+      "type": "extraction",
+      "motion_tag": "camera_push",
+      "motion_purpose": "Focal push into algorithmic order book depth bars",
+      "font": "Nohemi"
+    },
+    {
+      "id": 4,
+      "scene_name": "The Reflexivity Erasure Collision",
+      "start_s": 22.0,
+      "end_s": 26.5,
+      "type": "extraction",
+      "motion_tag": "manim_transform",
+      "font": "Nohemi"
+    },
+    {
+      "id": 5,
+      "scene_name": "Self-Destruction Verdict",
+      "start_s": 26.5,
+      "end_s": 32.25,
+      "type": "extraction",
+      "motion_tag": "camera_push",
+      "motion_purpose": "Continuous push into the erased pattern takeaway stamp",
+      "font": "Nohemi"
+    }
+  ]
+}

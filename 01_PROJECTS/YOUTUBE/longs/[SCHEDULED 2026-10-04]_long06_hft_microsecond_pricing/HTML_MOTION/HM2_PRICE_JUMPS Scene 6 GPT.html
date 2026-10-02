@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Illustrative Data — Machine Quotes</title>
+<style>
+  html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #202322;
+  }
+  body {
+    display: grid;
+    place-items: center;
+  }
+  canvas {
+    display: block;
+    width: min(100vw, 177.7777777778vh);
+    height: min(56.25vw, 100vh);
+    background: #202322;
+  }
+</style>
+</head>
+<body>
+<canvas id="stage" width="1920" height="1080" aria-label="Illustrative market pricing animation"></canvas>
+<script>
+(() => {
+  'use strict';
+
+  const W = 1920;
+  const H = 1080;
+  const DURATION = 8.0;
+  const CYCLE_MS = 8000;
+
+  const COLORS = {
+    bg: '#202322',
+    grid: '#233D4C',
+    primary: '#C3D809',
+    anomaly: '#FD802E',
+    text: '#E6EDF3'
+  };
+
+  const SAFE = { x0: 96, x1: 1824, y0: 190, y1: 856 };
+  const PLOT = { x0: 200, x1: 1480, y0: 240, y1: 800 };
+  const X0 = 200;
+  const X1 = 1480;
+  const PLOT_W = X1 - X0;
+  const PRICE_Y = {
+    '100.20': 240,
+    '100.10': 427,
+    '100.00': 613,
+    '99.90': 800
+  };
+
+  const canvas = document.getElementById('stage');
+  const ctx = canvas.getContext('2d', { alpha: false, desynchronized: true });
+  ctx.imageSmoothingEnabled = true;
+
+  // Seeded PRNG retained for deterministic micro-structure sampling.
+  // All generated values are illustrative and are never presented as live/real data.
+  function mulberry32(seed) {
+    return function () {
+      let t = seed += 0x6D2B79F5;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  const rng = mulberry32(0x4D41524B); // deterministic seed
+  const noise = Array.from({ length: 128 }, () => rng());
+
+  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+  const lerp = (a, b, p) => a + (b - a) * p;
+  const easeInOut = (p) => {
+    p = clamp(p, 0, 1);
+    return p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2;
+  };
+  const fade = (p) => easeInOut(p);
+  const phase = (t, a, b) => clamp((t - a) / (b - a), 0, 1);
+
+  function priceToY(price) {
+    return 240 + (100.20 - price) * (560 / 0.30);
+  }
+
+  function revealX(t) {
+    return t < 0.6 ? X0 : t >= 6.5 ? X1 : X0 + phase(t, 0.6, 6.5) * PLOT_W;
+  }
+
+  function textStyle(size, weight = 400, alpha = 1) {
+    ctx.font = `${weight} ${size}px "Nohemi", "Inter", system-ui, -apple-system, sans-serif`;
+    ctx.fillStyle = COLORS.text;
+    ctx.globalAlpha = alpha;
+    ctx.fontVariantCaps = 'normal';
+    return ctx.font;
+  }
+
+  function drawText(text, x, y, size, weight = 400, alpha = 1, align = 'left') {
+    textStyle(size, weight, alpha);
+    ctx.textAlign = align;
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText(text, x, y);
+  }
+
+  function drawLine(xa, ya, xb, yb, color, width = 3, alpha = 1) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = width;
+    ctx.beginPath();
+    ctx.moveTo(xa, ya);
+    ctx.lineTo(xb, yb);
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  function drawGridAndAxis(t) {
+    const a = fade(phase(t, 0.0, 0.6));
+    ctx.save();
+    ctx.globalAlpha = a;
+    ctx.strokeStyle = COLORS.grid;
+    ctx.lineWidth = 1;
+    for (const y of Object.values(PRICE_Y)) {
+      ctx.beginPath();
+      ctx.moveTo(PLOT.x0, y + 0.5);
+      ctx.lineTo(PLOT.x1, y + 0.5);
+      ctx.stroke();
+    }
+    ctx.restore();
+
+    drawText('100.20', 190, 249, 28, 400, 0.70 * a, 'right');
+    drawText('100.10', 190, 436, 28, 400, 0.70 * a, 'right');
+    drawText('100.00', 190, 622, 28, 400, 0.70 * a, 'right');
+    drawText('99.90',  190, 809, 28, 400, 0.70 * a, 'right');
+  }
+
+  function drawCornerTag() {
+    drawText('ILLUSTRATIVE DATA', SAFE.x1, 214, 28, 400, 0.60, 'right');
+  }
+
+  function xToRevealTime(x) {
+    return 0.6 + clamp((x - X0) / PLOT_W, 0, 1) * 5.9;
+  }
+
+  function drawSeries(t, yFn, colorFn, extraAlpha = 1) {
+    const cx = revealX(t);
+    if (cx <= X0 + 0.1) return;
+    ctx.save();
+    ctx.globalAlpha = extraAlpha;
+    ctx.lineWidth = 3;
+    ctx.lineCap = 'butt';
+    ctx.lineJoin = 'miter';
+    ctx.beginPath();
+    const samples = 320;
+    const xEnd = Math.min(cx, X1);
+    for (let i = 0; i <= samples; i++) {
+      const x = X0 + (xEnd - X0) * (i / samples);
+      const y = yFn(x);
+      if (i === 0) ctx.moveTo(x, y);
+      else ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = colorFn(t);
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  function bidY(x) {
+    const tx = xToRevealTime(x);
+    const p = phase(tx, 5.2, 5.7);
+    return priceToY(lerp(100.00, 100.10, easeInOut(p)));
+  }
+
+  function askY(x) {
+    const tx = xToRevealTime(x);
+    const p = phase(tx, 5.2, 5.7);
+    return priceToY(lerp(100.01, 100.11, easeInOut(p)));
+  }
+
+  function marketY(x) {
+    const tx = xToRevealTime(x);
+    const p = phase(tx, 3.4, 3.6);
+    return priceToY(tx < 3.4 ? 100.01 : lerp(100.01, 100.11, easeInOut(p)));
+  }
+
+  function bidColor(t) {
+    return COLORS.primary;
+  }
+
+  function askColor(t) {
+    return (t >= 3.8 && t < 4.6) ? COLORS.anomaly : COLORS.primary;
+  }
+
+  function drawMachineLabel(t) {
+    const a = fade(phase(t, 1.2, 1.6));
+    drawText('MACHINE QUOTES', 260, 560, 28, 400, a, 'left');
+  }
+
+  function drawSoldMarker(t) {
+    if (t < 3.0) return;
+    const x = X0 + phase(3.0, 0.6, 6.5) * PLOT_W;
+    const y = priceToY(100.01);
+    ctx.save();
+    ctx.globalAlpha = 1;
+    ctx.fillStyle = COLORS.text;
+    ctx.fillRect(x - 7, y - 7, 14, 14);
+    ctx.restore();
+    drawText('SOLD @ 100.01', x - 18, y - 22, 28, 400, 1, 'right');
+  }
+
+  function drawStaleAskAndBracket(t) {
+    if (t < 3.8 || t > 4.6) return;
+    const a = 1;
+    drawText('STALE ASK', 850, 560, 28, 400, a, 'left');
+    drawLine(900, 595, 900, 408, COLORS.anomaly, 3, a);
+    drawLine(890, 595, 910, 595, COLORS.anomaly, 3, a);
+    drawLine(890, 408, 910, 408, COLORS.anomaly, 3, a);
+    drawText('-0.10', 924, 515, 40, 700, 1, 'left');
+  }
+
+  function drawRepriced(t) {
+    const a = fade(phase(t, 5.2, 5.55));
+    if (t < 5.2) return;
+    drawText('REPRICED', 1100, 470, 28, 400, a, 'left');
+  }
+
+  function drawReadouts(t) {
+    let sold = t >= 3.0 ? '100.01' : '—';
+    let now = t >= 3.6 ? '100.11' : '100.01';
+    let loss = t >= 3.8 ? '-0.10' : '—';
+
+    if (t >= 5.2) {
+      now = '100.11';
+    }
+
+    drawText('SOLD AT', 1540, 275, 28, 400, 0.70, 'left');
+    drawText(sold, 1540, 330, 56, 700, 1, 'left');
+
+    drawText('PRICE NOW', 1540, 455, 28, 400, 0.70, 'left');
+    drawText(now, 1540, 510, 56, 700, 1, 'left');
+
+    drawText('LOSS', 1540, 635, 28, 400, 0.70, 'left');
+    textStyle(56, 700, 1);
+    ctx.textAlign = 'left';
+    ctx.fillStyle = COLORS.anomaly;
+    ctx.fillText(loss, 1540, 690);
+    ctx.globalAlpha = 1;
+  }
+
+  function drawBottomDataRail(t) {
+    // Calm, data-dense micro-tick rail within the safe box. No decorative particles.
+    const yBase = 790;
+    const left = 260;
+    const right = 1480;
+    const width = right - left;
+    const count = 61;
+    ctx.save();
+    ctx.lineWidth = 1;
+    ctx.strokeStyle = COLORS.grid;
+    ctx.globalAlpha = 0.75;
+    for (let i = 0; i <= 10; i++) {
+      const y = 700 + i * 9;
+      ctx.beginPath();
+      ctx.moveTo(left, y + 0.5);
+      ctx.lineTo(right, y + 0.5);
+      ctx.stroke();
+    }
+
+    const reveal = clamp((t - 0.6) / 5.9, 0, 1);
+    ctx.globalAlpha = 0.95;
+    for (let i = 0; i < count; i++) {
+      const x = left + (i / (count - 1)) * width;
+      if (x > left + width * reveal) break;
+      const base = 7 + noise[i] * 13;
+      const spike = (t >= 3.8 && t <= 4.6) ? 1 + 5 * Math.max(0, 1 - Math.abs(t - 4.2) / 0.4) : 1;
+      const wave = 0.65 + 0.35 * Math.sin((t * Math.PI * 2) + i * 0.42);
+      const h = base * wave * spike;
+      const color = (i % 7 === 0 && t >= 3.8 && t <= 4.6) ? COLORS.anomaly : COLORS.primary;
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.moveTo(x + 0.5, yBase);
+      ctx.lineTo(x + 0.5, yBase - h);
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  function render(t) {
+    // Pure function of explicit t. Autoplay never mutates scene state.
+    t = clamp(Number.isFinite(t) ? t : 0, 0, DURATION);
+
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.fillStyle = COLORS.bg;
+    ctx.fillRect(0, 0, W, H);
+
+    ctx.save();
+    ctx.beginPath();
+    ctx.rect(SAFE.x0, SAFE.y0, SAFE.x1 - SAFE.x0, SAFE.y1 - SAFE.y0);
+    ctx.clip();
+
+    drawCornerTag();
+    drawGridAndAxis(t);
+
+    // Main three price paths.
+    drawSeries(t, bidY, bidColor);
+    drawSeries(t, askY, askColor);
+    drawSeries(t, marketY, () => COLORS.text);
+
+    drawMachineLabel(t);
+    drawSoldMarker(t);
+    drawStaleAskAndBracket(t);
+    drawRepriced(t);
+    drawBottomDataRail(t);
+    drawReadouts(t);
+
+    ctx.restore();
+  }
+
+  window.render = render;
+  window.setTime = (t) => render(clamp(Number(t) || 0, 0, DURATION));
+
+  let startMs = null;
+  let running = true;
+
+  function tick(now) {
+    if (startMs === null) startMs = now;
+    if (running) {
+      const elapsed = Math.min(now - startMs, CYCLE_MS);
+      render(elapsed / 1000);
+      if (elapsed >= CYCLE_MS) running = false;
+    }
+    requestAnimationFrame(tick);
+  }
+
+  // Initial state and one-shot autoplay.
+  render(0);
+  requestAnimationFrame(tick);
+
+  // Optional development self-check. It executes when ?selfcheck=1 is present.
+  if (new URLSearchParams(location.search).has('selfcheck')) {
+    window.setTime(2);
+    window.setTime(4.5);
+    window.setTime(8);
+    console.log('Self-check complete:', { t2: 'grid + quotes', t45: 'stale ask + bracket', t8: 'final hold' });
+  }
+})();
+</script>
+</body>
+</html>

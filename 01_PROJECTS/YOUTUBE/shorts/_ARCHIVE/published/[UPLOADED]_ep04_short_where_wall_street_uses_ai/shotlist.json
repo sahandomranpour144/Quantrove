@@ -1,0 +1,43 @@
+{
+  "type": "extraction",
+  "total_duration_s": 48.05,
+  "scenes": [
+    {
+      "id": 1,
+      "scene_name": "The Wall Street AI Paradox (Hook)",
+      "start_s": 0.0,
+      "end_s": 6.5,
+      "type": "extraction",
+      "motion_tag": "manim_draw",
+      "font": "Nohemi"
+    },
+    {
+      "id": 2,
+      "scene_name": "Retail Illusion vs Reflexivity",
+      "start_s": 6.5,
+      "end_s": 14.0,
+      "type": "extraction",
+      "motion_tag": "manim_transform",
+      "font": "Nohemi"
+    },
+    {
+      "id": 3,
+      "scene_name": "The 4 Invisible AI Engines",
+      "start_s": 14.0,
+      "end_s": 40.0,
+      "type": "extraction",
+      "motion_tag": "manim_transform",
+      "hold_tag": "HOLD_FOR_UNDERSTANDING",
+      "font": "Nohemi"
+    },
+    {
+      "id": 4,
+      "scene_name": "The Quantitative Truth (Verdict)",
+      "start_s": 40.0,
+      "end_s": 48.05,
+      "type": "extraction",
+      "motion_tag": "manim_transform",
+      "font": "Nohemi"
+    }
+  ]
+}

@@ -1,0 +1,981 @@
+[
+  {
+    "start": 0.05,
+    "end": 0.89,
+    "words": [
+      {
+        "word": "It",
+        "start": 0.13,
+        "end": 0.23
+      },
+      {
+        "word": "can",
+        "start": 0.23,
+        "end": 0.37
+      },
+      {
+        "word": "actively",
+        "start": 0.37,
+        "end": 0.91
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 0.89,
+    "end": 1.95,
+    "words": [
+      {
+        "word": "reshape",
+        "start": 0.91,
+        "end": 1.59
+      },
+      {
+        "word": "it.",
+        "start": 1.59,
+        "end": 1.95
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "reshape"
+  },
+  {
+    "start": 2.18,
+    "end": 3.22,
+    "words": [
+      {
+        "word": "When",
+        "start": 2.2,
+        "end": 2.56
+      },
+      {
+        "word": "a",
+        "start": 2.56,
+        "end": 2.66
+      },
+      {
+        "word": "system",
+        "start": 2.66,
+        "end": 2.96
+      },
+      {
+        "word": "is",
+        "start": 2.96,
+        "end": 3.24
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "system",
+    "risk_word": null
+  },
+  {
+    "start": 3.22,
+    "end": 4.66,
+    "words": [
+      {
+        "word": "purely",
+        "start": 3.24,
+        "end": 3.74
+      },
+      {
+        "word": "optimized",
+        "start": 3.74,
+        "end": 4.42
+      },
+      {
+        "word": "for",
+        "start": 4.42,
+        "end": 4.68
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 4.66,
+    "end": 5.66,
+    "words": [
+      {
+        "word": "keeping",
+        "start": 4.68,
+        "end": 4.96
+      },
+      {
+        "word": "you",
+        "start": 4.96,
+        "end": 5.24
+      },
+      {
+        "word": "watching,",
+        "start": 5.24,
+        "end": 5.66
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "watching",
+    "risk_word": null
+  },
+  {
+    "start": 6.06,
+    "end": 7.36,
+    "words": [
+      {
+        "word": "session",
+        "start": 6.08,
+        "end": 6.5
+      },
+      {
+        "word": "after",
+        "start": 6.5,
+        "end": 6.94
+      },
+      {
+        "word": "session,",
+        "start": 6.94,
+        "end": 7.36
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 7.92,
+    "end": 8.68,
+    "words": [
+      {
+        "word": "it",
+        "start": 7.94,
+        "end": 8.12
+      },
+      {
+        "word": "can",
+        "start": 8.12,
+        "end": 8.24
+      },
+      {
+        "word": "quietly",
+        "start": 8.24,
+        "end": 8.7
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 8.68,
+    "end": 10.2,
+    "words": [
+      {
+        "word": "narrow",
+        "start": 8.7,
+        "end": 9.34
+      },
+      {
+        "word": "what",
+        "start": 9.34,
+        "end": 9.72
+      },
+      {
+        "word": "you",
+        "start": 9.72,
+        "end": 9.88
+      },
+      {
+        "word": "see,",
+        "start": 9.88,
+        "end": 10.2
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "narrow"
+  },
+  {
+    "start": 10.82,
+    "end": 11.6,
+    "words": [
+      {
+        "word": "nudging",
+        "start": 10.84,
+        "end": 11.24
+      },
+      {
+        "word": "toward",
+        "start": 11.24,
+        "end": 11.6
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 11.6,
+    "end": 12.32,
+    "words": [
+      {
+        "word": "more",
+        "start": 11.6,
+        "end": 11.86
+      },
+      {
+        "word": "intense,",
+        "start": 11.86,
+        "end": 12.28
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "intense"
+  },
+  {
+    "start": 12.899999999999999,
+    "end": 13.62,
+    "words": [
+      {
+        "word": "more",
+        "start": 12.92,
+        "end": 13.08
+      },
+      {
+        "word": "extreme,",
+        "start": 13.08,
+        "end": 13.62
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "extreme"
+  },
+  {
+    "start": 14.08,
+    "end": 15.2,
+    "words": [
+      {
+        "word": "or",
+        "start": 14.1,
+        "end": 14.34
+      },
+      {
+        "word": "more",
+        "start": 14.34,
+        "end": 14.56
+      },
+      {
+        "word": "emotionally",
+        "start": 14.56,
+        "end": 15.22
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "emotionally"
+  },
+  {
+    "start": 15.2,
+    "end": 16.64,
+    "words": [
+      {
+        "word": "charged",
+        "start": 15.22,
+        "end": 15.76
+      },
+      {
+        "word": "versions",
+        "start": 15.76,
+        "end": 16.2
+      },
+      {
+        "word": "of",
+        "start": 16.2,
+        "end": 16.64
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "charged"
+  },
+  {
+    "start": 16.64,
+    "end": 17.36,
+    "words": [
+      {
+        "word": "whatever",
+        "start": 16.64,
+        "end": 16.94
+      },
+      {
+        "word": "you",
+        "start": 16.94,
+        "end": 17.2
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 17.36,
+    "end": 18.08,
+    "words": [
+      {
+        "word": "started",
+        "start": 17.2,
+        "end": 17.5
+      },
+      {
+        "word": "with.",
+        "start": 17.5,
+        "end": 17.9
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 18.22,
+    "end": 19.26,
+    "words": [
+      {
+        "word": "This",
+        "start": 18.24,
+        "end": 18.96
+      },
+      {
+        "word": "is",
+        "start": 18.96,
+        "end": 19.08
+      },
+      {
+        "word": "not",
+        "start": 19.08,
+        "end": 19.26
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 19.26,
+    "end": 19.98,
+    "words": [
+      {
+        "word": "a",
+        "start": 19.26,
+        "end": 19.4
+      },
+      {
+        "word": "secret.",
+        "start": 19.4,
+        "end": 19.74
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "secret",
+    "risk_word": null
+  },
+  {
+    "start": 20.38,
+    "end": 21.08,
+    "words": [
+      {
+        "word": "Platforms",
+        "start": 20.4,
+        "end": 21.02
+      },
+      {
+        "word": "have",
+        "start": 21.02,
+        "end": 21.1
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 21.08,
+    "end": 22.18,
+    "words": [
+      {
+        "word": "publicly",
+        "start": 21.1,
+        "end": 21.5
+      },
+      {
+        "word": "acknowledged",
+        "start": 21.5,
+        "end": 22.2
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 22.18,
+    "end": 23.26,
+    "words": [
+      {
+        "word": "the",
+        "start": 22.2,
+        "end": 22.46
+      },
+      {
+        "word": "effect",
+        "start": 22.46,
+        "end": 22.74
+      },
+      {
+        "word": "and",
+        "start": 22.74,
+        "end": 23.28
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 23.26,
+    "end": 24.24,
+    "words": [
+      {
+        "word": "made",
+        "start": 23.28,
+        "end": 23.44
+      },
+      {
+        "word": "real",
+        "start": 23.44,
+        "end": 23.8
+      },
+      {
+        "word": "changes",
+        "start": 23.8,
+        "end": 24.26
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 24.24,
+    "end": 25.12,
+    "words": [
+      {
+        "word": "to",
+        "start": 24.26,
+        "end": 24.52
+      },
+      {
+        "word": "reduce",
+        "start": 24.52,
+        "end": 24.82
+      },
+      {
+        "word": "it,",
+        "start": 24.82,
+        "end": 25.12
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 25.54,
+    "end": 26.3,
+    "words": [
+      {
+        "word": "because",
+        "start": 25.56,
+        "end": 25.86
+      },
+      {
+        "word": "a",
+        "start": 25.86,
+        "end": 25.98
+      },
+      {
+        "word": "system",
+        "start": 25.98,
+        "end": 26.32
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "system",
+    "risk_word": null
+  },
+  {
+    "start": 26.3,
+    "end": 27.82,
+    "words": [
+      {
+        "word": "optimized",
+        "start": 26.32,
+        "end": 27.0
+      },
+      {
+        "word": "purely",
+        "start": 27.0,
+        "end": 27.5
+      },
+      {
+        "word": "for",
+        "start": 27.5,
+        "end": 27.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 27.82,
+    "end": 30.02,
+    "words": [
+      {
+        "word": "engagement",
+        "start": 27.84,
+        "end": 28.36
+      },
+      {
+        "word": "left",
+        "start": 28.36,
+        "end": 29.06
+      },
+      {
+        "word": "unchecked",
+        "start": 29.06,
+        "end": 30.04
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "unchecked"
+  },
+  {
+    "start": 30.02,
+    "end": 30.74,
+    "words": [
+      {
+        "word": "does",
+        "start": 30.04,
+        "end": 30.32
+      },
+      {
+        "word": "not",
+        "start": 30.32,
+        "end": 30.52
+      },
+      {
+        "word": "just",
+        "start": 30.52,
+        "end": 30.76
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 30.74,
+    "end": 31.76,
+    "words": [
+      {
+        "word": "reflect",
+        "start": 30.76,
+        "end": 31.28
+      },
+      {
+        "word": "what",
+        "start": 31.28,
+        "end": 31.62
+      },
+      {
+        "word": "you",
+        "start": 31.62,
+        "end": 31.78
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 31.76,
+    "end": 32.58,
+    "words": [
+      {
+        "word": "are",
+        "start": 31.78,
+        "end": 31.9
+      },
+      {
+        "word": "interested",
+        "start": 31.9,
+        "end": 32.32
+      },
+      {
+        "word": "in.",
+        "start": 32.32,
+        "end": 32.58
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 33.06,
+    "end": 33.84,
+    "words": [
+      {
+        "word": "It",
+        "start": 33.08,
+        "end": 33.18
+      },
+      {
+        "word": "can",
+        "start": 33.18,
+        "end": 33.32
+      },
+      {
+        "word": "actively",
+        "start": 33.32,
+        "end": 33.86
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 33.84,
+    "end": 34.9,
+    "words": [
+      {
+        "word": "reshape",
+        "start": 33.86,
+        "end": 34.54
+      },
+      {
+        "word": "it.",
+        "start": 34.54,
+        "end": 34.9
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "reshape"
+  },
+  {
+    "start": 35.62,
+    "end": 36.8,
+    "words": [
+      {
+        "word": "Understanding",
+        "start": 35.64,
+        "end": 36.26
+      },
+      {
+        "word": "that",
+        "start": 36.26,
+        "end": 36.56
+      },
+      {
+        "word": "is",
+        "start": 36.56,
+        "end": 36.82
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 36.8,
+    "end": 38.04,
+    "words": [
+      {
+        "word": "not",
+        "start": 36.82,
+        "end": 37.06
+      },
+      {
+        "word": "about",
+        "start": 37.06,
+        "end": 37.32
+      },
+      {
+        "word": "paranoia.",
+        "start": 37.32,
+        "end": 38.04
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "paranoia"
+  },
+  {
+    "start": 38.160000000000004,
+    "end": 38.86,
+    "words": [
+      {
+        "word": "It",
+        "start": 38.48,
+        "end": 38.62
+      },
+      {
+        "word": "is",
+        "start": 38.62,
+        "end": 38.72
+      },
+      {
+        "word": "about",
+        "start": 38.72,
+        "end": 38.88
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 38.86,
+    "end": 39.82,
+    "words": [
+      {
+        "word": "knowing",
+        "start": 38.88,
+        "end": 39.24
+      },
+      {
+        "word": "what",
+        "start": 39.24,
+        "end": 39.64
+      },
+      {
+        "word": "the",
+        "start": 39.64,
+        "end": 39.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 39.82,
+    "end": 41.36,
+    "words": [
+      {
+        "word": "system",
+        "start": 39.84,
+        "end": 40.16
+      },
+      {
+        "word": "is",
+        "start": 40.16,
+        "end": 40.38
+      },
+      {
+        "word": "actually",
+        "start": 40.38,
+        "end": 40.9
+      },
+      {
+        "word": "doing,",
+        "start": 40.9,
+        "end": 41.36
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "system",
+    "risk_word": null
+  },
+  {
+    "start": 41.480000000000004,
+    "end": 42.18,
+    "words": [
+      {
+        "word": "so",
+        "start": 41.68,
+        "end": 41.92
+      },
+      {
+        "word": "you",
+        "start": 41.92,
+        "end": 42.06
+      },
+      {
+        "word": "can",
+        "start": 42.06,
+        "end": 42.2
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 42.18,
+    "end": 43.22,
+    "words": [
+      {
+        "word": "use",
+        "start": 42.2,
+        "end": 42.56
+      },
+      {
+        "word": "it",
+        "start": 42.56,
+        "end": 42.74
+      },
+      {
+        "word": "deliberately",
+        "start": 42.74,
+        "end": 43.24
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "deliberately",
+    "risk_word": null
+  },
+  {
+    "start": 43.22,
+    "end": 44.44,
+    "words": [
+      {
+        "word": "instead",
+        "start": 43.24,
+        "end": 44.1
+      },
+      {
+        "word": "of",
+        "start": 44.1,
+        "end": 44.24
+      },
+      {
+        "word": "being",
+        "start": 44.24,
+        "end": 44.46
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 44.44,
+    "end": 45.42,
+    "words": [
+      {
+        "word": "used",
+        "start": 44.46,
+        "end": 44.92
+      },
+      {
+        "word": "by",
+        "start": 44.92,
+        "end": 45.16
+      },
+      {
+        "word": "it.",
+        "start": 45.16,
+        "end": 45.42
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  }
+]

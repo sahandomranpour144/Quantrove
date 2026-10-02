@@ -1,0 +1,649 @@
+[
+  {
+    "start": 0.05,
+    "end": 1.687,
+    "words": [
+      {
+        "word": "How",
+        "start": 0.2,
+        "end": 0.528
+      },
+      {
+        "word": "algorithms",
+        "start": 0.586,
+        "end": 0.914
+      },
+      {
+        "word": "control",
+        "start": 0.973,
+        "end": 1.301
+      },
+      {
+        "word": "global",
+        "start": 1.359,
+        "end": 1.687
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 1.725,
+    "end": 3.233,
+    "words": [
+      {
+        "word": "liquidity",
+        "start": 1.745,
+        "end": 2.073
+      },
+      {
+        "word": "without",
+        "start": 2.132,
+        "end": 2.46
+      },
+      {
+        "word": "retail",
+        "start": 2.518,
+        "end": 2.846
+      },
+      {
+        "word": "noticing.",
+        "start": 2.905,
+        "end": 3.233
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 3.271,
+    "end": 4.778,
+    "words": [
+      {
+        "word": "Most",
+        "start": 3.291,
+        "end": 3.619
+      },
+      {
+        "word": "traders",
+        "start": 3.677,
+        "end": 4.005
+      },
+      {
+        "word": "believe",
+        "start": 4.064,
+        "end": 4.392
+      },
+      {
+        "word": "patterns",
+        "start": 4.45,
+        "end": 4.778
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 4.816,
+    "end": 6.323,
+    "words": [
+      {
+        "word": "predict",
+        "start": 4.836,
+        "end": 5.164
+      },
+      {
+        "word": "future",
+        "start": 5.223,
+        "end": 5.551
+      },
+      {
+        "word": "market",
+        "start": 5.609,
+        "end": 5.937
+      },
+      {
+        "word": "breakouts.",
+        "start": 5.995,
+        "end": 6.323
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 6.362,
+    "end": 7.483,
+    "words": [
+      {
+        "word": "They",
+        "start": 6.382,
+        "end": 6.71
+      },
+      {
+        "word": "draw",
+        "start": 6.768,
+        "end": 7.096
+      },
+      {
+        "word": "trendlines",
+        "start": 7.155,
+        "end": 7.483
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 7.521,
+    "end": 9.028,
+    "words": [
+      {
+        "word": "on",
+        "start": 7.541,
+        "end": 7.869
+      },
+      {
+        "word": "lagging",
+        "start": 7.927,
+        "end": 8.255
+      },
+      {
+        "word": "indicators",
+        "start": 8.314,
+        "end": 8.642
+      },
+      {
+        "word": "hoping",
+        "start": 8.7,
+        "end": 9.028
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 9.066,
+    "end": 9.801,
+    "words": [
+      {
+        "word": "for",
+        "start": 9.086,
+        "end": 9.414
+      },
+      {
+        "word": "reversals.",
+        "start": 9.473,
+        "end": 9.801
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 9.839,
+    "end": 11.346,
+    "words": [
+      {
+        "word": "Institutions",
+        "start": 9.859,
+        "end": 10.187
+      },
+      {
+        "word": "hunt",
+        "start": 10.245,
+        "end": 10.573
+      },
+      {
+        "word": "those",
+        "start": 10.632,
+        "end": 10.96
+      },
+      {
+        "word": "exact",
+        "start": 11.018,
+        "end": 11.346
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 11.385,
+    "end": 12.505,
+    "words": [
+      {
+        "word": "stop",
+        "start": 11.405,
+        "end": 11.733
+      },
+      {
+        "word": "losses",
+        "start": 11.791,
+        "end": 12.119
+      },
+      {
+        "word": "daily.",
+        "start": 12.177,
+        "end": 12.505
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 12.544,
+    "end": 14.051,
+    "words": [
+      {
+        "word": "The",
+        "start": 12.564,
+        "end": 12.892
+      },
+      {
+        "word": "math",
+        "start": 12.95,
+        "end": 13.278
+      },
+      {
+        "word": "proves",
+        "start": 13.336,
+        "end": 13.664
+      },
+      {
+        "word": "order",
+        "start": 13.723,
+        "end": 14.051
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 14.089,
+    "end": 15.596,
+    "words": [
+      {
+        "word": "flow",
+        "start": 14.109,
+        "end": 14.437
+      },
+      {
+        "word": "drives",
+        "start": 14.495,
+        "end": 14.823
+      },
+      {
+        "word": "twenty",
+        "start": 14.882,
+        "end": 15.21
+      },
+      {
+        "word": "billion",
+        "start": 15.268,
+        "end": 15.596
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 15.635,
+    "end": 17.142,
+    "words": [
+      {
+        "word": "dollars",
+        "start": 15.655,
+        "end": 15.983
+      },
+      {
+        "word": "in",
+        "start": 16.041,
+        "end": 16.369
+      },
+      {
+        "word": "forced",
+        "start": 16.427,
+        "end": 16.755
+      },
+      {
+        "word": "liquidations.",
+        "start": 16.814,
+        "end": 17.142
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 17.18,
+    "end": 18.687,
+    "words": [
+      {
+        "word": "When",
+        "start": 17.2,
+        "end": 17.528
+      },
+      {
+        "word": "volatility",
+        "start": 17.586,
+        "end": 17.914
+      },
+      {
+        "word": "spikes",
+        "start": 17.973,
+        "end": 18.301
+      },
+      {
+        "word": "automated",
+        "start": 18.359,
+        "end": 18.687
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 18.725,
+    "end": 20.233,
+    "words": [
+      {
+        "word": "systems",
+        "start": 18.745,
+        "end": 19.073
+      },
+      {
+        "word": "drain",
+        "start": 19.132,
+        "end": 19.46
+      },
+      {
+        "word": "depth",
+        "start": 19.518,
+        "end": 19.846
+      },
+      {
+        "word": "from",
+        "start": 19.905,
+        "end": 20.233
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 20.271,
+    "end": 21.778,
+    "words": [
+      {
+        "word": "order",
+        "start": 20.291,
+        "end": 20.619
+      },
+      {
+        "word": "books",
+        "start": 20.677,
+        "end": 21.005
+      },
+      {
+        "word": "in",
+        "start": 21.064,
+        "end": 21.392
+      },
+      {
+        "word": "milliseconds.",
+        "start": 21.45,
+        "end": 21.778
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 21.816,
+    "end": 23.323,
+    "words": [
+      {
+        "word": "Retail",
+        "start": 21.836,
+        "end": 22.164
+      },
+      {
+        "word": "absorbs",
+        "start": 22.223,
+        "end": 22.551
+      },
+      {
+        "word": "the",
+        "start": 22.609,
+        "end": 22.937
+      },
+      {
+        "word": "toxic",
+        "start": 22.995,
+        "end": 23.323
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 23.362,
+    "end": 24.869,
+    "words": [
+      {
+        "word": "flow",
+        "start": 23.382,
+        "end": 23.71
+      },
+      {
+        "word": "while",
+        "start": 23.768,
+        "end": 24.096
+      },
+      {
+        "word": "market",
+        "start": 24.155,
+        "end": 24.483
+      },
+      {
+        "word": "makers",
+        "start": 24.541,
+        "end": 24.869
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 24.907,
+    "end": 26.414,
+    "words": [
+      {
+        "word": "hedge",
+        "start": 24.927,
+        "end": 25.255
+      },
+      {
+        "word": "delta",
+        "start": 25.314,
+        "end": 25.642
+      },
+      {
+        "word": "neutral",
+        "start": 25.7,
+        "end": 26.028
+      },
+      {
+        "word": "positions.",
+        "start": 26.086,
+        "end": 26.414
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 26.453,
+    "end": 27.96,
+    "words": [
+      {
+        "word": "Here",
+        "start": 26.473,
+        "end": 26.801
+      },
+      {
+        "word": "is",
+        "start": 26.859,
+        "end": 27.187
+      },
+      {
+        "word": "the",
+        "start": 27.245,
+        "end": 27.573
+      },
+      {
+        "word": "undeniable",
+        "start": 27.632,
+        "end": 27.96
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 27.998,
+    "end": 29.505,
+    "words": [
+      {
+        "word": "algorithmic",
+        "start": 28.018,
+        "end": 28.346
+      },
+      {
+        "word": "reality:",
+        "start": 28.405,
+        "end": 28.733
+      },
+      {
+        "word": "liquidity",
+        "start": 28.791,
+        "end": 29.119
+      },
+      {
+        "word": "pools",
+        "start": 29.177,
+        "end": 29.505
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 29.544,
+    "end": 31.051,
+    "words": [
+      {
+        "word": "always",
+        "start": 29.564,
+        "end": 29.892
+      },
+      {
+        "word": "dictate",
+        "start": 29.95,
+        "end": 30.278
+      },
+      {
+        "word": "asset",
+        "start": 30.336,
+        "end": 30.664
+      },
+      {
+        "word": "price",
+        "start": 30.723,
+        "end": 31.051
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 31.089,
+    "end": 32.596,
+    "words": [
+      {
+        "word": "direction",
+        "start": 31.109,
+        "end": 31.437
+      },
+      {
+        "word": "regardless",
+        "start": 31.495,
+        "end": 31.823
+      },
+      {
+        "word": "of",
+        "start": 31.882,
+        "end": 32.21
+      },
+      {
+        "word": "sentiment.",
+        "start": 32.268,
+        "end": 32.596
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 32.635,
+    "end": 34.142,
+    "words": [
+      {
+        "word": "Trust",
+        "start": 32.655,
+        "end": 32.983
+      },
+      {
+        "word": "pure",
+        "start": 33.041,
+        "end": 33.369
+      },
+      {
+        "word": "math",
+        "start": 33.427,
+        "end": 33.755
+      },
+      {
+        "word": "only.",
+        "start": 33.814,
+        "end": 34.142
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "check": "popups_manifest",
+      "status": "PASS",
+      "msg": "Pop-ups contract verified cleanly."
+    }
+  ],
+  "summary": "Layout QA: PASS (0 failures)"
+}

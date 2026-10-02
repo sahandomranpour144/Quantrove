@@ -1,0 +1,43 @@
+{
+  "type": "native",
+  "slug": "ep06_short_microsecond_200_meters",
+  "title": "One Microsecond Is 200 Meters",
+  "duration_s": 34.0,
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "IDEA",
+      "start_s": 0.0,
+      "end_s": 4.4,
+      "motion_tag": "manim_draw",
+      "type": "native"
+    },
+    {
+      "id": 2,
+      "beat": "SIMPLE_WRONG",
+      "start_s": 4.4,
+      "end_s": 12.0,
+      "motion_tag": "manim_transform",
+      "type": "native"
+    },
+    {
+      "id": 3,
+      "beat": "COMPLEX_WRONG",
+      "start_s": 12.0,
+      "end_s": 23.5,
+      "motion_tag": "camera_push",
+      "type": "native",
+      "camera_push_scale": 1.05,
+      "motion_purpose": "Zoom into glass fiber refractive index slowdown"
+    },
+    {
+      "id": 4,
+      "beat": "INSIGHT",
+      "start_s": 23.5,
+      "end_s": 33.6,
+      "motion_tag": "manim_draw",
+      "type": "native",
+      "badge": "SPEED OF LIGHT"
+    }
+  ]
+}

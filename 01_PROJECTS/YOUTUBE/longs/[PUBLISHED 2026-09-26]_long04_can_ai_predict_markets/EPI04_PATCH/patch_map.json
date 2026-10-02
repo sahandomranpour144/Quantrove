@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Intro Hook & Pace Line",
+    "old_start": 0.0,
+    "old_end": 34.86,
+    "old_duration": 34.86,
+    "new_duration": 34.85,
+    "diff_s": -0.01
+  },
+  {
+    "id": 2,
+    "name": "Reflexivity Edge Correction",
+    "old_start": 77.8,
+    "old_end": 87.62,
+    "old_duration": 9.82,
+    "new_duration": 9.833,
+    "diff_s": 0.013
+  },
+  {
+    "id": 3,
+    "name": "Noise Metric Correction",
+    "old_start": 229.6,
+    "old_end": 233.56,
+    "old_duration": 3.96,
+    "new_duration": 3.949,
+    "diff_s": -0.011
+  },
+  {
+    "id": 4,
+    "name": "Disciplined Exit & CTA",
+    "old_start": 405.02,
+    "old_end": 425.26,
+    "old_duration": 20.24,
+    "new_duration": 19.985,
+    "diff_s": -0.255
+  }
+]

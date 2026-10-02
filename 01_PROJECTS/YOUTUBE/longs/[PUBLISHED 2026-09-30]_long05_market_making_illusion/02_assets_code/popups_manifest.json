@@ -1,0 +1,482 @@
+[
+  {
+    "word": "FREE TRADING ISN'T FREE",
+    "start": 6.0,
+    "end": 8.5,
+    "slot": "TL",
+    "bbox": [
+      96,
+      86,
+      633,
+      146
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "01_00m00s_to_00m20s_hook_buy_button_shatter.mp4"
+  },
+  {
+    "word": "YOU ARE THE PRODUCT",
+    "start": 11.8,
+    "end": 14.2,
+    "slot": "TC",
+    "bbox": [
+      693,
+      85,
+      1227,
+      147
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "01_00m00s_to_00m20s_hook_buy_button_shatter.mp4"
+  },
+  {
+    "word": "WHO'S BUYING YOU",
+    "start": 16.5,
+    "end": 18.8,
+    "slot": "TR",
+    "bbox": [
+      1317,
+      84,
+      1824,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "01_00m00s_to_00m20s_hook_buy_button_shatter.mp4"
+  },
+  {
+    "word": "FAST VERSION",
+    "start": 20.2,
+    "end": 22.5,
+    "slot": "TL",
+    "bbox": [
+      96,
+      84,
+      471,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "02_00m20s_to_00m38s_pace_statement_progress_bar.mp4"
+  },
+  {
+    "word": "BILLIONS IN ORDER FLOW",
+    "start": 27.5,
+    "end": 30.5,
+    "slot": "TC",
+    "bbox": [
+      697,
+      87,
+      1224,
+      146
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "02_00m20s_to_00m38s_pace_statement_progress_bar.mp4"
+  },
+  {
+    "word": "SEC PENALTY",
+    "start": 32.0,
+    "end": 34.5,
+    "slot": "TR",
+    "bbox": [
+      1477,
+      84,
+      1824,
+      149
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "02_00m20s_to_00m38s_pace_statement_progress_bar.mp4"
+  },
+  {
+    "word": "$19.95 PER TRADE",
+    "start": 41.0,
+    "end": 44.0,
+    "slot": "TL",
+    "bbox": [
+      96,
+      79,
+      549,
+      153
+    ],
+    "color": "#E6EDF3",
+    "scene_type": "manim",
+    "clip": "03_00m38s_to_01m03s_illusion_ticket_to_zero_loupe.mp4"
+  },
+  {
+    "word": "NOT GENEROUS",
+    "start": 54.5,
+    "end": 57.0,
+    "slot": "TC",
+    "bbox": [
+      756,
+      84,
+      1164,
+      149
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "03_00m38s_to_01m03s_illusion_ticket_to_zero_loupe.mp4"
+  },
+  {
+    "word": "$0 \u2260 FREE",
+    "start": 60.0,
+    "end": 63.0,
+    "slot": "TR",
+    "bbox": [
+      1555,
+      79,
+      1824,
+      153
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "03_00m38s_to_01m03s_illusion_ticket_to_zero_loupe.mp4"
+  },
+  {
+    "word": "NOT THE NYSE",
+    "start": 82.5,
+    "end": 85.5,
+    "slot": "TL",
+    "bbox": [
+      96,
+      84,
+      476,
+      149
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "04_01m07s_to_01m36s_order_routing_citadel_virtu.mp4"
+  },
+  {
+    "word": "CITADEL & VIRTU",
+    "start": 88.5,
+    "end": 92.0,
+    "slot": "TC",
+    "bbox": [
+      739,
+      84,
+      1181,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "04_01m07s_to_01m36s_order_routing_citadel_virtu.mp4"
+  },
+  {
+    "word": "WHOLESALE INTERNALIZERS",
+    "start": 98.0,
+    "end": 101.5,
+    "slot": "TR",
+    "bbox": [
+      1303,
+      88,
+      1824,
+      144
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "05_01m36s_to_02m11s_bid_ask_spread_order_book.mp4"
+  },
+  {
+    "word": "AIRPORT BOOTH MODEL",
+    "start": 105.0,
+    "end": 108.5,
+    "slot": "TL",
+    "bbox": [
+      96,
+      86,
+      636,
+      147
+    ],
+    "color": "#E6EDF3",
+    "scene_type": "manim",
+    "clip": "05_01m36s_to_02m11s_bid_ask_spread_order_book.mp4"
+  },
+  {
+    "word": "THE BID-ASK SPREAD",
+    "start": 117.0,
+    "end": 120.5,
+    "slot": "TC",
+    "bbox": [
+      697,
+      84,
+      1224,
+      149
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "05_01m36s_to_02m11s_bid_ask_spread_order_book.mp4"
+  },
+  {
+    "word": "RISK-FREE PROFIT",
+    "start": 127.5,
+    "end": 131.0,
+    "slot": "TR",
+    "bbox": [
+      1374,
+      84,
+      1824,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "05_01m36s_to_02m11s_bid_ask_spread_order_book.mp4"
+  },
+  {
+    "word": "RETAIL FLOW IS SAFE",
+    "start": 138.5,
+    "end": 142.0,
+    "slot": "TL",
+    "bbox": [
+      96,
+      84,
+      619,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "06_02m11s_to_02m47s_pfof_kickback_revenue_chart.mp4"
+  },
+  {
+    "word": "PFOF KICKBACK",
+    "start": 149.0,
+    "end": 152.5,
+    "slot": "TC",
+    "bbox": [
+      758,
+      84,
+      1163,
+      149
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "06_02m11s_to_02m47s_pfof_kickback_revenue_chart.mp4"
+  },
+  {
+    "word": "$200,000,000+ / QUARTER",
+    "start": 159.0,
+    "end": 163.0,
+    "slot": "TR",
+    "bbox": [
+      1288,
+      83,
+      1824,
+      150
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "06_02m11s_to_02m47s_pfof_kickback_revenue_chart.mp4"
+  },
+  {
+    "word": "$65,000,000 FINE",
+    "start": 172.0,
+    "end": 176.0,
+    "slot": "TL",
+    "bbox": [
+      96,
+      79,
+      522,
+      154
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "07_02m50s_to_03m20s_sec_65m_penalty_settlement.mp4"
+  },
+  {
+    "word": "WORSE EXECUTION",
+    "start": 185.0,
+    "end": 188.5,
+    "slot": "TC",
+    "bbox": [
+      719,
+      84,
+      1202,
+      149
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "07_02m50s_to_03m20s_sec_65m_penalty_settlement.mp4"
+  },
+  {
+    "word": "THE HIDDEN INVOICE",
+    "start": 194.5,
+    "end": 198.0,
+    "slot": "TR",
+    "bbox": [
+      1293,
+      84,
+      1824,
+      149
+    ],
+    "color": "#E6EDF3",
+    "scene_type": "manim",
+    "clip": "07_02m50s_to_03m20s_sec_65m_penalty_settlement.mp4"
+  },
+  {
+    "word": "THE REAL MATH",
+    "start": 207.5,
+    "end": 210.5,
+    "slot": "TL",
+    "bbox": [
+      96,
+      84,
+      512,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "08_03m20s_to_03m53s_compounding_penny_500_trade_grid.mp4"
+  },
+  {
+    "word": "-$2.00 PER 100 SHARES",
+    "start": 217.0,
+    "end": 221.0,
+    "slot": "TC",
+    "bbox": [
+      693,
+      81,
+      1228,
+      152
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "08_03m20s_to_03m53s_compounding_penny_500_trade_grid.mp4"
+  },
+  {
+    "word": "SILENT COMPOUNDING",
+    "start": 227.0,
+    "end": 231.0,
+    "slot": "TR",
+    "bbox": [
+      1292,
+      85,
+      1824,
+      147
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "08_03m20s_to_03m53s_compounding_penny_500_trade_grid.mp4"
+  },
+  {
+    "word": "NBBO BENCHMARK",
+    "start": 242.0,
+    "end": 245.5,
+    "slot": "TL",
+    "bbox": [
+      96,
+      84,
+      584,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "09_03m53s_to_04m23s_nbbo_vs_pfof_price_ladder.mp4"
+  },
+  {
+    "word": "LOST PRICE IMPROVEMENT",
+    "start": 254.0,
+    "end": 258.0,
+    "slot": "TC",
+    "bbox": [
+      699,
+      87,
+      1222,
+      145
+    ],
+    "color": "#FD802E",
+    "scene_type": "manim",
+    "clip": "09_03m53s_to_04m23s_nbbo_vs_pfof_price_ladder.mp4"
+  },
+  {
+    "word": "1. LIMIT ORDERS ONLY",
+    "start": 277.5,
+    "end": 281.5,
+    "slot": "TR",
+    "bbox": [
+      1287,
+      85,
+      1824,
+      148
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "10_04m23s_to_04m59s_three_defense_steps_limit_orders.mp4"
+  },
+  {
+    "word": "2. AUDIT YOUR NBBO",
+    "start": 284.5,
+    "end": 288.5,
+    "slot": "TL",
+    "bbox": [
+      96,
+      84,
+      625,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "10_04m23s_to_04m59s_three_defense_steps_limit_orders.mp4"
+  },
+  {
+    "word": "3. DIRECT ROUTING",
+    "start": 293.0,
+    "end": 297.0,
+    "slot": "TC",
+    "bbox": [
+      716,
+      84,
+      1204,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "10_04m23s_to_04m59s_three_defense_steps_limit_orders.mp4"
+  },
+  {
+    "word": "4 LOOPS RESOLVED",
+    "start": 312.0,
+    "end": 315.5,
+    "slot": "TR",
+    "bbox": [
+      1340,
+      84,
+      1824,
+      149
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "11_04m59s_to_05m16s_loop_ledger_four_checkmarks.mp4"
+  },
+  {
+    "word": "CHECK YOUR CONFIRMATION",
+    "start": 320.0,
+    "end": 324.0,
+    "slot": "ML",
+    "bbox": [
+      96,
+      512,
+      623,
+      568
+    ],
+    "color": "#C3D809",
+    "scene_type": "flow",
+    "clip": "12_05m16s_to_05m20s_flow_macro_phone_trade_confirmation.mp4"
+  },
+  {
+    "word": "SUBSCRIBE // EPISODE 06",
+    "start": 332.0,
+    "end": 336.5,
+    "slot": "TL",
+    "bbox": [
+      96,
+      84,
+      626,
+      148
+    ],
+    "color": "#C3D809",
+    "scene_type": "manim",
+    "clip": "12b_05m20s_to_05m37s_cta_end_card_clear_zones.mp4"
+  }
+]

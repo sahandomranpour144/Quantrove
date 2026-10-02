@@ -1,0 +1,43 @@
+{
+  "type": "native",
+  "slug": "ep06_short_why_spread_exists",
+  "title": "Why Does a Spread Exist?",
+  "duration_s": 36.8,
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "IDEA",
+      "start_s": 0.0,
+      "end_s": 4.8,
+      "motion_tag": "manim_draw",
+      "type": "native"
+    },
+    {
+      "id": 2,
+      "beat": "SIMPLE_WRONG",
+      "start_s": 4.8,
+      "end_s": 12.8,
+      "motion_tag": "manim_transform",
+      "type": "native"
+    },
+    {
+      "id": 3,
+      "beat": "COMPLEX_WRONG",
+      "start_s": 12.8,
+      "end_s": 25.3,
+      "motion_tag": "camera_push",
+      "type": "native",
+      "camera_push_scale": 1.05,
+      "motion_purpose": "Zoom into asymmetric information split"
+    },
+    {
+      "id": 4,
+      "beat": "INSIGHT",
+      "start_s": 25.3,
+      "end_s": 36.4,
+      "motion_tag": "manim_draw",
+      "type": "native",
+      "badge": "ADVERSE SELECTION"
+    }
+  ]
+}

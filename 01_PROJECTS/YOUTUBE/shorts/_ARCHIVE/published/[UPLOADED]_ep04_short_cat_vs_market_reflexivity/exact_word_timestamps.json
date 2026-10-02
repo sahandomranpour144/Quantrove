@@ -1,0 +1,430 @@
+{
+  "words": [
+    {
+      "word": "If",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "a",
+      "start": 0.42,
+      "end": 0.52
+    },
+    {
+      "word": "neural",
+      "start": 0.52,
+      "end": 0.78
+    },
+    {
+      "word": "network",
+      "start": 0.78,
+      "end": 1.24
+    },
+    {
+      "word": "learns",
+      "start": 1.24,
+      "end": 1.72
+    },
+    {
+      "word": "to",
+      "start": 1.72,
+      "end": 1.94
+    },
+    {
+      "word": "identify",
+      "start": 1.94,
+      "end": 2.4
+    },
+    {
+      "word": "a",
+      "start": 2.4,
+      "end": 2.66
+    },
+    {
+      "word": "cat,",
+      "start": 2.66,
+      "end": 2.92
+    },
+    {
+      "word": "the",
+      "start": 3.38,
+      "end": 3.54
+    },
+    {
+      "word": "cat",
+      "start": 3.54,
+      "end": 3.76
+    },
+    {
+      "word": "does",
+      "start": 3.76,
+      "end": 3.94
+    },
+    {
+      "word": "not",
+      "start": 3.94,
+      "end": 4.1
+    },
+    {
+      "word": "change",
+      "start": 4.1,
+      "end": 4.48
+    },
+    {
+      "word": "its",
+      "start": 4.48,
+      "end": 4.68
+    },
+    {
+      "word": "shape",
+      "start": 4.68,
+      "end": 5.02
+    },
+    {
+      "word": "because",
+      "start": 5.02,
+      "end": 5.46
+    },
+    {
+      "word": "the",
+      "start": 5.46,
+      "end": 5.64
+    },
+    {
+      "word": "computer",
+      "start": 5.64,
+      "end": 6.06
+    },
+    {
+      "word": "got",
+      "start": 6.06,
+      "end": 6.26
+    },
+    {
+      "word": "good",
+      "start": 6.26,
+      "end": 6.46
+    },
+    {
+      "word": "at",
+      "start": 6.46,
+      "end": 6.58
+    },
+    {
+      "word": "recognizing",
+      "start": 6.58,
+      "end": 7.02
+    },
+    {
+      "word": "it.",
+      "start": 7.02,
+      "end": 7.36
+    },
+    {
+      "word": "But",
+      "start": 7.8,
+      "end": 8.04
+    },
+    {
+      "word": "the",
+      "start": 8.04,
+      "end": 8.16
+    },
+    {
+      "word": "financial",
+      "start": 8.16,
+      "end": 8.66
+    },
+    {
+      "word": "market",
+      "start": 8.66,
+      "end": 9.08
+    },
+    {
+      "word": "is",
+      "start": 9.08,
+      "end": 9.32
+    },
+    {
+      "word": "a",
+      "start": 9.32,
+      "end": 9.42
+    },
+    {
+      "word": "competitive",
+      "start": 9.42,
+      "end": 9.88
+    },
+    {
+      "word": "zero",
+      "start": 9.88,
+      "end": 10.3
+    },
+    {
+      "word": "-sum",
+      "start": 10.3,
+      "end": 10.64
+    },
+    {
+      "word": "game",
+      "start": 10.64,
+      "end": 11.04
+    },
+    {
+      "word": "of",
+      "start": 11.04,
+      "end": 11.4
+    },
+    {
+      "word": "human",
+      "start": 11.4,
+      "end": 11.74
+    },
+    {
+      "word": "and",
+      "start": 11.74,
+      "end": 12.06
+    },
+    {
+      "word": "algorithmic",
+      "start": 12.06,
+      "end": 12.72
+    },
+    {
+      "word": "participants.",
+      "start": 12.72,
+      "end": 13.3
+    },
+    {
+      "word": "If",
+      "start": 13.82,
+      "end": 14.2
+    },
+    {
+      "word": "an",
+      "start": 14.2,
+      "end": 14.32
+    },
+    {
+      "word": "AI",
+      "start": 14.32,
+      "end": 14.56
+    },
+    {
+      "word": "discovers",
+      "start": 14.56,
+      "end": 15.16
+    },
+    {
+      "word": "a",
+      "start": 15.16,
+      "end": 15.42
+    },
+    {
+      "word": "genuine",
+      "start": 15.42,
+      "end": 15.84
+    },
+    {
+      "word": "profitable",
+      "start": 15.84,
+      "end": 16.36
+    },
+    {
+      "word": "pattern",
+      "start": 16.36,
+      "end": 16.9
+    },
+    {
+      "word": "that",
+      "start": 16.9,
+      "end": 17.46
+    },
+    {
+      "word": "says",
+      "start": 17.46,
+      "end": 17.76
+    },
+    {
+      "word": "Apple",
+      "start": 17.76,
+      "end": 18.24
+    },
+    {
+      "word": "will",
+      "start": 18.24,
+      "end": 18.46
+    },
+    {
+      "word": "rise",
+      "start": 18.46,
+      "end": 18.76
+    },
+    {
+      "word": "tomorrow",
+      "start": 18.76,
+      "end": 19.2
+    },
+    {
+      "word": "and",
+      "start": 19.2,
+      "end": 19.82
+    },
+    {
+      "word": "traders",
+      "start": 19.82,
+      "end": 20.16
+    },
+    {
+      "word": "deploy",
+      "start": 20.16,
+      "end": 20.52
+    },
+    {
+      "word": "capital",
+      "start": 20.52,
+      "end": 20.96
+    },
+    {
+      "word": "on",
+      "start": 20.96,
+      "end": 21.22
+    },
+    {
+      "word": "that",
+      "start": 21.22,
+      "end": 21.34
+    },
+    {
+      "word": "signal,",
+      "start": 21.34,
+      "end": 21.74
+    },
+    {
+      "word": "their",
+      "start": 22.24,
+      "end": 22.46
+    },
+    {
+      "word": "own",
+      "start": 22.46,
+      "end": 22.66
+    },
+    {
+      "word": "buying",
+      "start": 22.66,
+      "end": 22.96
+    },
+    {
+      "word": "pressure",
+      "start": 22.96,
+      "end": 23.38
+    },
+    {
+      "word": "instantly",
+      "start": 23.38,
+      "end": 23.98
+    },
+    {
+      "word": "drives",
+      "start": 23.98,
+      "end": 24.4
+    },
+    {
+      "word": "the",
+      "start": 24.4,
+      "end": 24.62
+    },
+    {
+      "word": "price",
+      "start": 24.62,
+      "end": 24.86
+    },
+    {
+      "word": "up",
+      "start": 24.86,
+      "end": 25.04
+    },
+    {
+      "word": "today.",
+      "start": 25.04,
+      "end": 25.3
+    },
+    {
+      "word": "The",
+      "start": 25.92,
+      "end": 26.08
+    },
+    {
+      "word": "prediction",
+      "start": 26.08,
+      "end": 26.5
+    },
+    {
+      "word": "itself",
+      "start": 26.5,
+      "end": 26.94
+    },
+    {
+      "word": "erases",
+      "start": 26.94,
+      "end": 27.64
+    },
+    {
+      "word": "the",
+      "start": 27.64,
+      "end": 27.86
+    },
+    {
+      "word": "pattern.",
+      "start": 27.86,
+      "end": 28.16
+    },
+    {
+      "word": "The",
+      "start": 28.16,
+      "end": 28.88
+    },
+    {
+      "word": "moment",
+      "start": 28.88,
+      "end": 29.22
+    },
+    {
+      "word": "an",
+      "start": 29.22,
+      "end": 29.48
+    },
+    {
+      "word": "edge",
+      "start": 29.48,
+      "end": 29.68
+    },
+    {
+      "word": "becomes",
+      "start": 29.68,
+      "end": 30.02
+    },
+    {
+      "word": "predictable,",
+      "start": 30.02,
+      "end": 30.58
+    },
+    {
+      "word": "it",
+      "start": 31.08,
+      "end": 31.18
+    },
+    {
+      "word": "self",
+      "start": 31.18,
+      "end": 31.48
+    },
+    {
+      "word": "-destructs.",
+      "start": 31.48,
+      "end": 32.12
+    }
+  ],
+  "total_words": 85
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QuantroveShortsShotlistTemplate",
+  "description": "Standard shot list template for Quantrove YouTube Shorts. Aligned with rules R1-R10 and shorts_style.json.",
+  "type": "native",
+  "total_runtime_s": 38.5,
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "IDEA",
+      "start_s": 0.0,
+      "end_s": 8.5,
+      "motion_tag": "manim_draw",
+      "motion_purpose": null,
+      "type": "native",
+      "on_screen_text": {
+        "text": "The Market Lie",
+        "word_count": 3
+      },
+      "hold_tag": null
+    },
+    {
+      "id": 2,
+      "beat": "SIMPLE_WRONG",
+      "start_s": 8.5,
+      "end_s": 17.0,
+      "motion_tag": "camera_push",
+      "camera_push_scale": 1.06,
+      "motion_purpose": "Draw eye to false breakout level before liquidation",
+      "type": "native",
+      "on_screen_text": {
+        "text": "Retail Always Buys Here",
+        "word_count": 4
+      },
+      "hold_tag": null
+    },
+    {
+      "id": 3,
+      "beat": "COMPLEX_WRONG",
+      "start_s": 17.0,
+      "end_s": 26.5,
+      "motion_tag": "manim_transform",
+      "motion_purpose": null,
+      "type": "native",
+      "on_screen_text": {
+        "text": "Even Algorithms Failed",
+        "word_count": 3
+      },
+      "hold_tag": "HOLD_FOR_UNDERSTANDING"
+    },
+    {
+      "id": 4,
+      "beat": "INSIGHT",
+      "start_s": 26.5,
+      "end_s": 38.5,
+      "motion_tag": "manim_draw",
+      "motion_purpose": null,
+      "type": "native",
+      "badge": "THE REAL PATTERN",
+      "on_screen_text": {
+        "text": "Liquidity Dictates Everything",
+        "word_count": 3
+      },
+      "hold_tag": null
+    }
+  ]
+}

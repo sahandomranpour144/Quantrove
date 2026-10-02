@@ -1,0 +1,548 @@
+[
+  {
+    "start": 0.05,
+    "end": 1.44,
+    "words": [
+      {
+        "word": "Creators",
+        "start": 0.3,
+        "end": 0.84
+      },
+      {
+        "word": "learned",
+        "start": 0.84,
+        "end": 1.2
+      },
+      {
+        "word": "that",
+        "start": 1.2,
+        "end": 1.46
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "creators",
+    "risk_word": null
+  },
+  {
+    "start": 1.44,
+    "end": 3.84,
+    "words": [
+      {
+        "word": "outrageous",
+        "start": 1.46,
+        "end": 2.2
+      },
+      {
+        "word": "misleading",
+        "start": 2.2,
+        "end": 3.18
+      },
+      {
+        "word": "thumbnails",
+        "start": 3.18,
+        "end": 3.86
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "misleading"
+  },
+  {
+    "start": 3.84,
+    "end": 5.4,
+    "words": [
+      {
+        "word": "and",
+        "start": 3.86,
+        "end": 4.18
+      },
+      {
+        "word": "titles",
+        "start": 4.18,
+        "end": 4.62
+      },
+      {
+        "word": "got",
+        "start": 4.62,
+        "end": 5.08
+      },
+      {
+        "word": "clicked",
+        "start": 5.08,
+        "end": 5.42
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 5.4,
+    "end": 6.94,
+    "words": [
+      {
+        "word": "more",
+        "start": 5.42,
+        "end": 5.84
+      },
+      {
+        "word": "even",
+        "start": 5.84,
+        "end": 6.74
+      },
+      {
+        "word": "when",
+        "start": 6.74,
+        "end": 6.96
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 6.94,
+    "end": 8.04,
+    "words": [
+      {
+        "word": "the",
+        "start": 6.96,
+        "end": 7.1
+      },
+      {
+        "word": "actual",
+        "start": 7.1,
+        "end": 7.56
+      },
+      {
+        "word": "video",
+        "start": 7.56,
+        "end": 8.06
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 8.04,
+    "end": 9.32,
+    "words": [
+      {
+        "word": "disappointed",
+        "start": 8.06,
+        "end": 8.78
+      },
+      {
+        "word": "viewers.",
+        "start": 8.78,
+        "end": 9.32
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": "disappointed"
+  },
+  {
+    "start": 9.96,
+    "end": 11.92,
+    "words": [
+      {
+        "word": "So",
+        "start": 9.98,
+        "end": 10.6
+      },
+      {
+        "word": "platforms",
+        "start": 10.6,
+        "end": 11.24
+      },
+      {
+        "word": "changed",
+        "start": 11.24,
+        "end": 11.92
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 11.92,
+    "end": 12.64,
+    "words": [
+      {
+        "word": "the",
+        "start": 11.92,
+        "end": 12.18
+      },
+      {
+        "word": "target,",
+        "start": 12.18,
+        "end": 12.56
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "target",
+    "risk_word": null
+  },
+  {
+    "start": 12.88,
+    "end": 13.86,
+    "words": [
+      {
+        "word": "not",
+        "start": 12.9,
+        "end": 13.36
+      },
+      {
+        "word": "clicks",
+        "start": 13.36,
+        "end": 13.88
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "clicks",
+    "risk_word": null
+  },
+  {
+    "start": 13.86,
+    "end": 15.22,
+    "words": [
+      {
+        "word": "watch",
+        "start": 13.88,
+        "end": 14.74
+      },
+      {
+        "word": "time.",
+        "start": 14.74,
+        "end": 15.22
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "watch",
+    "risk_word": null
+  },
+  {
+    "start": 16.0,
+    "end": 17.48,
+    "words": [
+      {
+        "word": "The",
+        "start": 16.02,
+        "end": 16.26
+      },
+      {
+        "word": "system",
+        "start": 16.26,
+        "end": 16.58
+      },
+      {
+        "word": "stopped",
+        "start": 16.58,
+        "end": 16.96
+      },
+      {
+        "word": "asking",
+        "start": 16.96,
+        "end": 17.5
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "system",
+    "risk_word": null
+  },
+  {
+    "start": 17.48,
+    "end": 18.86,
+    "words": [
+      {
+        "word": "what",
+        "start": 17.5,
+        "end": 18.0
+      },
+      {
+        "word": "will",
+        "start": 18.0,
+        "end": 18.22
+      },
+      {
+        "word": "get",
+        "start": 18.22,
+        "end": 18.4
+      },
+      {
+        "word": "clicked",
+        "start": 18.4,
+        "end": 18.88
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 18.86,
+    "end": 20.22,
+    "words": [
+      {
+        "word": "and",
+        "start": 18.88,
+        "end": 19.48
+      },
+      {
+        "word": "started",
+        "start": 19.48,
+        "end": 19.8
+      },
+      {
+        "word": "asking",
+        "start": 19.8,
+        "end": 20.24
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 20.22,
+    "end": 21.38,
+    "words": [
+      {
+        "word": "what",
+        "start": 20.24,
+        "end": 20.86
+      },
+      {
+        "word": "will",
+        "start": 20.86,
+        "end": 21.08
+      },
+      {
+        "word": "this",
+        "start": 21.08,
+        "end": 21.4
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 21.38,
+    "end": 23.38,
+    "words": [
+      {
+        "word": "specific",
+        "start": 21.4,
+        "end": 22.12
+      },
+      {
+        "word": "person",
+        "start": 22.12,
+        "end": 22.68
+      },
+      {
+        "word": "actually",
+        "start": 22.68,
+        "end": 23.4
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 23.38,
+    "end": 24.4,
+    "words": [
+      {
+        "word": "keep",
+        "start": 23.4,
+        "end": 23.9
+      },
+      {
+        "word": "watching.",
+        "start": 23.9,
+        "end": 24.4
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "watching",
+    "risk_word": null
+  },
+  {
+    "start": 25.12,
+    "end": 27.02,
+    "words": [
+      {
+        "word": "That",
+        "start": 25.14,
+        "end": 25.78
+      },
+      {
+        "word": "single",
+        "start": 25.78,
+        "end": 26.26
+      },
+      {
+        "word": "change",
+        "start": 26.26,
+        "end": 26.66
+      },
+      {
+        "word": "is",
+        "start": 26.66,
+        "end": 27.04
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 27.02,
+    "end": 28.44,
+    "words": [
+      {
+        "word": "the",
+        "start": 27.04,
+        "end": 27.22
+      },
+      {
+        "word": "most",
+        "start": 27.22,
+        "end": 27.5
+      },
+      {
+        "word": "important",
+        "start": 27.5,
+        "end": 28.2
+      },
+      {
+        "word": "thing",
+        "start": 28.2,
+        "end": 28.46
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 28.44,
+    "end": 29.52,
+    "words": [
+      {
+        "word": "to",
+        "start": 28.46,
+        "end": 28.62
+      },
+      {
+        "word": "understand",
+        "start": 28.62,
+        "end": 29.16
+      },
+      {
+        "word": "about",
+        "start": 29.16,
+        "end": 29.54
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": null,
+    "risk_word": null
+  },
+  {
+    "start": 29.52,
+    "end": 30.42,
+    "words": [
+      {
+        "word": "how",
+        "start": 29.54,
+        "end": 29.88
+      },
+      {
+        "word": "your",
+        "start": 29.88,
+        "end": 30.16
+      },
+      {
+        "word": "feed",
+        "start": 30.16,
+        "end": 30.44
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "feed",
+    "risk_word": null
+  },
+  {
+    "start": 30.42,
+    "end": 31.44,
+    "words": [
+      {
+        "word": "is",
+        "start": 30.44,
+        "end": 30.74
+      },
+      {
+        "word": "built",
+        "start": 30.74,
+        "end": 31.0
+      },
+      {
+        "word": "today.",
+        "start": 31.0,
+        "end": 31.44
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "emphasis_word": "built",
+    "risk_word": null
+  }
+]

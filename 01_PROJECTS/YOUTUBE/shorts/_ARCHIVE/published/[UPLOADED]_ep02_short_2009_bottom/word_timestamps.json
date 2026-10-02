@@ -1,0 +1,344 @@
+{
+  "words": [
+    {
+      "word": "In",
+      "start": 0.045,
+      "end": 0.175
+    },
+    {
+      "word": "2009,",
+      "start": 0.585,
+      "end": 1.205
+    },
+    {
+      "word": "the",
+      "start": 1.345,
+      "end": 1.495
+    },
+    {
+      "word": "S&P",
+      "start": 1.835,
+      "end": 2.215
+    },
+    {
+      "word": "500",
+      "start": 2.605,
+      "end": 2.945
+    },
+    {
+      "word": "hit",
+      "start": 3.125,
+      "end": 3.285
+    },
+    {
+      "word": "its",
+      "start": 3.425,
+      "end": 3.595
+    },
+    {
+      "word": "generational",
+      "start": 4.195,
+      "end": 4.675
+    },
+    {
+      "word": "bottom",
+      "start": 5.095,
+      "end": 5.485
+    },
+    {
+      "word": "on",
+      "start": 5.615,
+      "end": 5.795
+    },
+    {
+      "word": "March",
+      "start": 6.105,
+      "end": 6.435
+    },
+    {
+      "word": "9th.",
+      "start": 6.785,
+      "end": 7.155
+    },
+    {
+      "word": "On",
+      "start": 7.545,
+      "end": 7.745
+    },
+    {
+      "word": "that",
+      "start": 7.925,
+      "end": 8.165
+    },
+    {
+      "word": "exact",
+      "start": 8.605,
+      "end": 8.985
+    },
+    {
+      "word": "day,",
+      "start": 9.295,
+      "end": 9.615
+    },
+    {
+      "word": "unemployment",
+      "start": 10.025,
+      "end": 10.575
+    },
+    {
+      "word": "was",
+      "start": 10.685,
+      "end": 10.895
+    },
+    {
+      "word": "still",
+      "start": 11.165,
+      "end": 11.455
+    },
+    {
+      "word": "skyrocketing,",
+      "start": 12.085,
+      "end": 12.875
+    },
+    {
+      "word": "banks",
+      "start": 13.315,
+      "end": 13.565
+    },
+    {
+      "word": "were",
+      "start": 13.685,
+      "end": 13.825
+    },
+    {
+      "word": "still",
+      "start": 14.075,
+      "end": 14.365
+    },
+    {
+      "word": "teetering,",
+      "start": 14.865,
+      "end": 15.355
+    },
+    {
+      "word": "and",
+      "start": 15.655,
+      "end": 15.825
+    },
+    {
+      "word": "the",
+      "start": 15.895,
+      "end": 16.035
+    },
+    {
+      "word": "headlines",
+      "start": 16.595,
+      "end": 17.065
+    },
+    {
+      "word": "were",
+      "start": 17.155,
+      "end": 17.325
+    },
+    {
+      "word": "pure",
+      "start": 17.785,
+      "end": 18.065
+    },
+    {
+      "word": "doom.",
+      "start": 18.665,
+      "end": 19.045
+    },
+    {
+      "word": "Yet",
+      "start": 19.865,
+      "end": 20.335
+    },
+    {
+      "word": "over",
+      "start": 20.525,
+      "end": 20.735
+    },
+    {
+      "word": "the",
+      "start": 20.805,
+      "end": 20.935
+    },
+    {
+      "word": "following",
+      "start": 21.325,
+      "end": 21.725
+    },
+    {
+      "word": "twelve",
+      "start": 22.065,
+      "end": 22.385
+    },
+    {
+      "word": "months,",
+      "start": 22.755,
+      "end": 23.145
+    },
+    {
+      "word": "the",
+      "start": 23.375,
+      "end": 23.515
+    },
+    {
+      "word": "stock",
+      "start": 23.835,
+      "end": 24.125
+    },
+    {
+      "word": "market",
+      "start": 24.475,
+      "end": 24.785
+    },
+    {
+      "word": "surged",
+      "start": 25.135,
+      "end": 25.545
+    },
+    {
+      "word": "over",
+      "start": 25.755,
+      "end": 25.995
+    },
+    {
+      "word": "sixty",
+      "start": 26.465,
+      "end": 26.835
+    },
+    {
+      "word": "percent.",
+      "start": 27.275,
+      "end": 27.795
+    },
+    {
+      "word": "If",
+      "start": 28.485,
+      "end": 28.755
+    },
+    {
+      "word": "an",
+      "start": 28.875,
+      "end": 29.025
+    },
+    {
+      "word": "investor",
+      "start": 29.355,
+      "end": 29.745
+    },
+    {
+      "word": "waited",
+      "start": 30.135,
+      "end": 30.505
+    },
+    {
+      "word": "for",
+      "start": 30.655,
+      "end": 30.835
+    },
+    {
+      "word": "the",
+      "start": 30.935,
+      "end": 31.055
+    },
+    {
+      "word": "news",
+      "start": 31.335,
+      "end": 31.575
+    },
+    {
+      "word": "to",
+      "start": 31.695,
+      "end": 31.815
+    },
+    {
+      "word": "report",
+      "start": 32.145,
+      "end": 32.485
+    },
+    {
+      "word": "that",
+      "start": 32.585,
+      "end": 32.745
+    },
+    {
+      "word": "the",
+      "start": 32.845,
+      "end": 32.965
+    },
+    {
+      "word": "economy",
+      "start": 33.395,
+      "end": 33.745
+    },
+    {
+      "word": "was",
+      "start": 33.895,
+      "end": 34.085
+    },
+    {
+      "word": "safe,",
+      "start": 34.585,
+      "end": 34.985
+    },
+    {
+      "word": "they",
+      "start": 35.395,
+      "end": 35.635
+    },
+    {
+      "word": "missed",
+      "start": 36.035,
+      "end": 36.435
+    },
+    {
+      "word": "the",
+      "start": 36.525,
+      "end": 36.655
+    },
+    {
+      "word": "most",
+      "start": 36.935,
+      "end": 37.215
+    },
+    {
+      "word": "profitable",
+      "start": 37.745,
+      "end": 38.255
+    },
+    {
+      "word": "part",
+      "start": 38.565,
+      "end": 38.835
+    },
+    {
+      "word": "of",
+      "start": 38.995,
+      "end": 39.115
+    },
+    {
+      "word": "the",
+      "start": 39.225,
+      "end": 39.345
+    },
+    {
+      "word": "entire",
+      "start": 39.735,
+      "end": 40.115
+    },
+    {
+      "word": "economic",
+      "start": 40.545,
+      "end": 40.945
+    },
+    {
+      "word": "cycle.",
+      "start": 41.345,
+      "end": 41.745
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LoopLedgerSchema",
+  "description": "Schema for Quantrove Long-Form Narrative Loop Ledger (loop_ledger.json). Enforces 4-5 loops, overlapping retention mechanics, and 100% payoff fidelity.",
+  "type": "array",
+  "minItems": 4,
+  "maxItems": 5,
+  "items": {
+    "type": "object",
+    "required": ["id", "question", "planted_at_s", "paid_at_s", "payoff_type"],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "description": "Unique 1-based index of the open loop"
+      },
+      "question": {
+        "type": "string",
+        "description": "Specific narrative or technical question planted in the viewer's mind"
+      },
+      "planted_at_s": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Timestamp in seconds where the loop is introduced"
+      },
+      "paid_at_s": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Timestamp in seconds where the loop is resolved with proof"
+      },
+      "partial_payoff_at_s": {
+        "type": "number",
+        "minimum": 0,
+        "description": "Optional timestamp in seconds where an intermediate partial payoff occurs before final resolution"
+      },
+      "payoff_type": {
+        "type": "string",
+        "enum": ["primary_insight", "empirical_proof", "mechanism_reveal", "strategic_resolution", "historical_context"],
+        "description": "Categorization of the payoff delivered to the viewer"
+      }
+    },
+    "additionalProperties": false
+  }
+}

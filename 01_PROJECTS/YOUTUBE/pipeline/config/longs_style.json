@@ -1,0 +1,16 @@
+{
+ "brand_tokens": "brand/brand_tokens.json",
+ "packaging":{"research_refs":[5,8],"thumbnail_concepts_min":3,"thumbnail_text_max_words":3,"reuse_competitor_assets":false,"lock_title_and_thumb_before_script":true},
+ "hook":{"window_s":5,"must_state_click_reason":true,"title_keywords_in_window_min":2},
+ "pace":{"statement_window_s":[5,20],"runtime_promise_tolerance_min":1,
+   "modes":{"relaxed":{"wpm":[130,145],"phrase_example":"Get comfortable, this one is worth going slowly."},
+            "focused":{"wpm":[150,165],"phrase_example":"In the next {N} minutes, I will show you exactly {promise}."}}},
+ "loops":{"count":[4,5],"min_open_between_pct":[10,80],"min_open_count":2,"all_paid_by_end":true,"final_payoff_window_pct":[80,95],"first_payoff_max_s":90},
+ "structure":{"intro_max_s":35,"chapters":[3,5],"pattern_interrupt_max_s":40,"chapter_needs":["mini_hook","partial_payoff","new_loop"]},
+ "cta":{"window_from_end_s":[45,20],"max_s":25,"count":1,"must_include":["action","reason","next_video"],"no_ask_before_first_payoff":true},
+ "visual":{"static":{"max_freeze_s":3.5,"hold_tag":"HOLD_FOR_UNDERSTANDING","hold_max_s":5.0},
+   "audio":{"voice_lufs":-14,"voice_tol":1.5,"music_below_voice_db_min":16,"music_ducks_under_voice":true,"music_lyrics":false},
+   "text":{"font":"Nohemi","font_fallback":"Inter","colors":["#E6EDF3","#C3D809","#FD802E"],"bg":"#202322","ui_structure":"#233D4C","contrast_min":7,"max_words_per_event":6,"safe_margin_pct":5},
+   "motion":{"camera_push_max_scale":1.08,"camera_push_needs_purpose":true},
+   "end_screen_clear_s":20}
+}

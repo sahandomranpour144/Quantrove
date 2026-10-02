@@ -1,0 +1,131 @@
+{
+  "total_words": 21,
+  "words": [
+    {
+      "word": "In",
+      "start": 0.0,
+      "end": 0.36,
+      "probability": 0.882
+    },
+    {
+      "word": "reality,",
+      "start": 0.36,
+      "end": 0.92,
+      "probability": 0.984
+    },
+    {
+      "word": "Renaissance",
+      "start": 1.4,
+      "end": 1.7,
+      "probability": 0.937
+    },
+    {
+      "word": "co",
+      "start": 1.7,
+      "end": 2.18,
+      "probability": 0.847
+    },
+    {
+      "word": "-CEO",
+      "start": 2.18,
+      "end": 2.94,
+      "probability": 0.974
+    },
+    {
+      "word": "Robert",
+      "start": 2.94,
+      "end": 3.36,
+      "probability": 0.829
+    },
+    {
+      "word": "Mercer",
+      "start": 3.36,
+      "end": 3.84,
+      "probability": 0.937
+    },
+    {
+      "word": "reportedly",
+      "start": 3.84,
+      "end": 4.58,
+      "probability": 0.975
+    },
+    {
+      "word": "said",
+      "start": 4.58,
+      "end": 5.06,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 5.06,
+      "end": 5.24,
+      "probability": 0.923
+    },
+    {
+      "word": "fund",
+      "start": 5.24,
+      "end": 5.5,
+      "probability": 0.938
+    },
+    {
+      "word": "was",
+      "start": 5.5,
+      "end": 5.78,
+      "probability": 0.997
+    },
+    {
+      "word": "right",
+      "start": 5.78,
+      "end": 6.04,
+      "probability": 0.922
+    },
+    {
+      "word": "only",
+      "start": 6.04,
+      "end": 6.52,
+      "probability": 0.752
+    },
+    {
+      "word": "about",
+      "start": 6.52,
+      "end": 6.88,
+      "probability": 0.989
+    },
+    {
+      "word": "50",
+      "start": 6.88,
+      "end": 7.36,
+      "probability": 0.944
+    },
+    {
+      "word": ".75",
+      "start": 7.36,
+      "end": 8.3,
+      "probability": 0.995
+    },
+    {
+      "word": "%",
+      "start": 8.3,
+      "end": 8.82,
+      "probability": 0.829
+    },
+    {
+      "word": "of",
+      "start": 8.82,
+      "end": 9.14,
+      "probability": 0.996
+    },
+    {
+      "word": "the",
+      "start": 9.14,
+      "end": 9.28,
+      "probability": 0.995
+    },
+    {
+      "word": "time.",
+      "start": 9.28,
+      "end": 9.62,
+      "probability": 0.999
+    }
+  ]
+}

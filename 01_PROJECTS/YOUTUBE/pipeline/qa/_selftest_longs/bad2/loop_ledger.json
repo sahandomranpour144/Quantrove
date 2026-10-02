@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "question": "How do algorithms exploit retail liquidity?",
+    "planted_at_s": 5.0,
+    "paid_at_s": 105.0,
+    "payoff_type": "primary_insight"
+  },
+  {
+    "id": 2,
+    "question": "Why does standard deviation understate extreme tail risk?",
+    "planted_at_s": 8.0,
+    "paid_at_s": 60.0,
+    "payoff_type": "empirical_proof"
+  },
+  {
+    "id": 3,
+    "question": "What happens when limit order queues are deliberately stuffed?",
+    "planted_at_s": 40.0,
+    "paid_at_s": 85.0,
+    "payoff_type": "mechanism_reveal"
+  },
+  {
+    "id": 4,
+    "question": "How can quantitative traders detect the institutional footprint?",
+    "planted_at_s": 70.0,
+    "paid_at_s": 112.0,
+    "payoff_type": "strategic_resolution"
+  }
+]

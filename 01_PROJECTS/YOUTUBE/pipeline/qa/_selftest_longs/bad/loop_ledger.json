@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "question": "General curiosity question",
+    "planted_at_s": 10.0,
+    "paid_at_s": 9999.0,
+    "payoff_type": "primary_insight"
+  }
+]

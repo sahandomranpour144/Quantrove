@@ -1,0 +1,38 @@
+# Quantrove workspace: TEXT-ONLY repo (docs + code). Media never goes to GitHub.
+# Step 1: ignore everything...
+*
+# Step 2: ...then allow folders and text/code file types only
+!*/
+!.gitignore
+!*.md
+!*.py
+!*.json
+!*.ts
+!*.tsx
+!*.js
+!*.mjs
+!*.css
+!*.html
+!*.ps1
+!*.bat
+!*.code-workspace
+
+# Never commit (even if the type is allowed)
+node_modules/
+__pycache__/
+out/
+99_ARCHIVE/
+**/TIMELINE_MEDIA/
+**/pipeline/_legacy/
+package-lock.json
+.claude/settings.local.json
+.claude/hooks/gate_log.jsonl
+.claude/_disabled_tasks/
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+client_secret*.json
+**/sample-data/

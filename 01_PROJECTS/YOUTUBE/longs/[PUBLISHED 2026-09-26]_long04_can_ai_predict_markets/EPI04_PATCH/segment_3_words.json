@@ -1,0 +1,59 @@
+{
+  "total_words": 9,
+  "words": [
+    {
+      "word": "Most",
+      "start": 0.0,
+      "end": 0.6,
+      "probability": 0.845
+    },
+    {
+      "word": "of",
+      "start": 0.6,
+      "end": 0.84,
+      "probability": 0.994
+    },
+    {
+      "word": "any",
+      "start": 0.84,
+      "end": 1.1,
+      "probability": 0.894
+    },
+    {
+      "word": "day's",
+      "start": 1.1,
+      "end": 1.54,
+      "probability": 0.965
+    },
+    {
+      "word": "price",
+      "start": 1.54,
+      "end": 1.8,
+      "probability": 0.994
+    },
+    {
+      "word": "movement",
+      "start": 1.8,
+      "end": 2.16,
+      "probability": 0.988
+    },
+    {
+      "word": "is",
+      "start": 2.16,
+      "end": 2.68,
+      "probability": 0.989
+    },
+    {
+      "word": "pure",
+      "start": 2.68,
+      "end": 3.06,
+      "probability": 0.991
+    },
+    {
+      "word": "noise.",
+      "start": 3.06,
+      "end": 3.5,
+      "probability": 0.995
+    }
+  ]
+}

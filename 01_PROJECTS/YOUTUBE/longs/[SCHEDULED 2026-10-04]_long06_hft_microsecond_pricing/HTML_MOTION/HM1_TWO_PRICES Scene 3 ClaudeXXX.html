@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Order Flow Microstructure — Data Kinetic Loop</title>
+<style>
+  :root {
+    --bg: #202322;
+    --grid: #233D4C;
+    --lime: #C3D809;
+    --orange: #FD802E;
+    --text: #E6EDF3;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: var(--bg);
+  }
+  body {
+    display: grid;
+    place-items: center;
+    font-family: Inter, Nohemi, system-ui, -apple-system, sans-serif;
+    color: var(--text);
+  }
+  #wrap {
+    width: min(100vw, calc(100vh * 16 / 9));
+    height: min(100vh, calc(100vw * 9 / 16));
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background: var(--bg);
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    image-rendering: auto;
+  }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="stage" width="1920" height="1080" aria-label="Animated order flow microstructure visualization"></canvas>
+</div>
+<script>
+(() => {
+  'use strict';
+
+  const canvas = document.getElementById('stage');
+  const ctx = canvas.getContext('2d', { alpha: false, desynchronized: true });
+  const W = 1920, H = 1080;
+  const TAU = Math.PI * 2;
+  const DURATION = 8000;
+
+  const C = {
+    bg: '#202322',
+    grid: '#233D4C',
+    lime: '#C3D809',
+    orange: '#FD802E',
+    text: '#E6EDF3'
+  };
+
+  const alpha = (color, a) => color + a.toString(16).padStart(2, '0');
+  const clamp = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+  const mix = (a, b, t) => a + (b - a) * t;
+  const smooth = (x) => {
+    x = clamp(x, 0, 1);
+    return x * x * (3 - 2 * x);
+  };
+  const smoother = (x) => {
+    x = clamp(x, 0, 1);
+    return x * x * x * (x * (x * 6 - 15) + 10);
+  };
+  const pulse = (phase, center, width) => {
+    // Periodic Gaussian-like pulse; exact equality at phase 0 and 1.
+    let d = Math.abs(phase - center);
+    d = Math.min(d, 1 - d);
+    return Math.exp(-Math.pow(d / width, 2));
+  };
+  const periodicSine = (phase, cycles, phaseShift = 0) =>
+    0.5 + 0.5 * Math.sin(TAU * (phase * cycles + phaseShift));
+  const periodicCos = (phase, cycles, phaseShift = 0) =>
+    0.5 + 0.5 * Math.cos(TAU * (phase * cycles + phaseShift));
+
+  let manualTime = null;
+  let rafId = 0;
+  let dpr = 1;
+  let startTime = performance.now();
+
+  // Fixed deterministic base timestamp; the displayed time advances through one 8 s cycle.
+  const BASE_MS = Date.UTC(2026, 0, 15, 14, 32, 10, 0);
+  const pad = (n, len = 2) => String(Math.floor(n)).padStart(len, '0');
+  function formatTime(ms) {
+    const d = new Date(ms);
+    return `${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}:${pad(d.getUTCSeconds())}.${pad(d.getUTCMilliseconds(), 3)}`;
+  }
+
+  function setFont(size, weight = 400) {
+    ctx.font = `${weight} ${size}px Inter, Nohemi, system-ui, -apple-system, sans-serif`;
+    ctx.fontVariantNumeric = 'tabular-nums';
+    ctx.textBaseline = 'middle';
+  }
+
+  function text(txt, x, y, size, color, align = 'left', weight = 400) {
+    setFont(size, weight);
+    ctx.textAlign = align;
+    ctx.fillStyle = color;
+    ctx.fillText(txt, x, y);
+  }
+
+  function line(x1, y1, x2, y2, color, width = 1) {
+    ctx.beginPath();
+    ctx.moveTo(x1, y1);
+    ctx.lineTo(x2, y2);
+    ctx.strokeStyle = color;
+    ctx.lineWidth = width;
+    ctx.stroke();
+  }
+
+  function rect(x, y, w, h, fill, stroke = null, sw = 1) {
+    if (fill) {
+      ctx.fillStyle = fill;
+      ctx.fillRect(x, y, w, h);
+    }
+    if (stroke) {
+      ctx.strokeStyle = stroke;
+      ctx.lineWidth = sw;
+      ctx.strokeRect(x + sw * 0.5, y + sw * 0.5, w - sw, h - sw);
+    }
+  }
+
+  function drawGrid(x, y, w, h, cols, rows, opacity = 0.55) {
+    ctx.strokeStyle = alpha(C.grid, Math.round(255 * opacity).toString(16).padStart(2, '0'));
+    ctx.lineWidth = 1;
+    const cw = w / cols;
+    const rh = h / rows;
+    for (let i = 0; i <= cols; i++) {
+      const xx = Math.round(x + i * cw) + 0.5;
+      line(xx, y, xx, y + h, ctx.strokeStyle, 1);
+    }
+    for (let j = 0; j <= rows; j++) {
+      const yy = Math.round(y + j * rh) + 0.5;
+      line(x, yy, x + w, yy, ctx.strokeStyle, 1);
+    }
+  }
+
+  function clear() {
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.fillStyle = C.bg;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  function drawHeader(p) {
+    const top = 34;
+    const left = 56;
+    const right = W - 56;
+
+    text('L2 MICROSTRUCTURE / INSTITUTIONAL FLOW', left, top + 8, 18, alpha(C.text, 'b3'), 'left', 600);
+    text('SIMULATED • DETERMINISTIC • REAL-TIME', left, top + 34, 12, alpha(C.text, '66'), 'left', 400);
+
+    const metrics = [
+      ['VWAP SPREAD', `${(1.14 + 0.92 * periodicSine(p, 1, 0.11)).toFixed(2)} bp`],
+      ['BOOK DEPTH RATIO', `${(1.18 + 0.36 * Math.sin(TAU * (p + 0.19))).toFixed(2)}x`],
+      ['MICRO-IMBALANCE [L2]', `${(4.2 + 8.4 * Math.sin(TAU * (p - 0.07))).toFixed(1)}%`]
+    ];
+    const colW = 286;
+    metrics.forEach((m, i) => {
+      const x = 1050 + i * (colW + 18);
+      text(m[0], x, top + 8, 11, alpha(C.text, '66'), 'left', 600);
+      text(m[1], x, top + 31, 20, i === 1 ? C.text : (i === 2 ? C.orange : C.lime), 'left', 650);
+    });
+
+    text('UTC', right - 110, top + 8, 10, alpha(C.text, '66'), 'left', 600);
+    text(formatTime(BASE_MS + p * DURATION), right, top + 31, 17, C.text, 'right', 600);
+    line(left, 84.5, right, 84.5, alpha(C.grid, 'cc'), 1);
+  }
+
+  function drawBookPanel({x, y, w, h, side, p}) {
+    const isBid = side === 'bid';
+    const headerY = y + 22;
+    const rowTop = y + 60;
+    const rowH = 41;
+    const rows = 8;
+    const priceX = isBid ? x + 18 : x + w - 160;
+    const sizeX = isBid ? x + 152 : x + w - 18;
+    const barX = isBid ? x + 206 : x + 18;
+    const barW = w - 242;
+
+    rect(x, y, w, h, null, alpha(C.grid, 'cc'), 1);
+    text(isBid ? 'BID DEPTH' : 'ASK DEPTH', x + 18, headerY, 13, isBid ? C.lime : C.orange, 'left', 650);
+    text('PRICE', priceX, headerY + 28, 10, alpha(C.text, '66'), isBid ? 'left' : 'right', 600);
+    text('SIZE', sizeX, headerY + 28, 10, alpha(C.text, '66'), isBid ? 'left' : 'right', 600);
+
+    const event = pulse(p, 0.365, 0.095);
+    const widen = pulse(p, 0.625, 0.13);
+    const conv = pulse(p, 0.86, 0.15);
+    const replenishment = periodicSine(p, 2, isBid ? 0.08 : 0.21);
+
+    const baseTop = 101.325;
+    const spreadBps = 1.0 + 1.0 * periodicSine(p, 1, 0.25) + 1.25 * event + 0.8 * widen;
+    const mid = 101.820 + 0.020 * Math.sin(TAU * p - 0.75) + 0.014 * Math.sin(TAU * 2 * p + 0.3);
+
+    for (let i = 0; i < rows; i++) {
+      const yRow = rowTop + i * rowH;
+      const depthPulse = 0.68 + 0.22 * Math.sin(TAU * (p * (1.3 + i * 0.08) + i * 0.07));
+      const imbalance = Math.sin(TAU * (p * 1.8 + i * 0.11 + (isBid ? 0.0 : 0.43)));
+      const absorption = isBid ? event * (0.30 - i * 0.025) : event * (0.82 - i * 0.06);
+      const widenShift = widen * (0.14 + 0.035 * i);
+      const rebal = conv * Math.sin(TAU * (p * 0.9 + i * 0.09));
+
+      let qty = 72 + i * 11 + 31 * depthPulse + 16 * imbalance + 34 * (isBid ? replenishment : (1 - replenishment));
+      qty *= 1 - absorption + 0.12 * widenShift + 0.06 * rebal;
+      qty = Math.max(18, qty);
+      if (!isBid) qty *= 0.92 + 0.12 * Math.sin(TAU * p + 0.5);
+
+      const levelOffset = (i + 1) * 0.0068 + spreadBps * 0.00025;
+      const price = isBid ? mid - levelOffset : mid + levelOffset;
+      const sizeLabel = Math.round(qty).toLocaleString('en-US').padStart(3, ' ');
+      const priceLabel = price.toFixed(4);
+
+      const maxQty = 175;
+      const bw = barW * clamp(qty / maxQty, 0.06, 1.0);
+      const barY = yRow + 8;
+
+      if (isBid) {
+        rect(barX, barY, bw, 24, alpha(C.lime, '45'));
+        rect(barX, barY, Math.max(2, bw * 0.13), 24, C.lime);
+        text(priceLabel, priceX, yRow + 20, 16, C.text, 'left', 500);
+        text(sizeLabel, sizeX, yRow + 20, 16, alpha(C.text, 'cc'), 'left', 550);
+      } else {
+        rect(barX + barW - bw, barY, bw, 24, alpha(C.orange, '43'));
+        rect(barX + barW - Math.max(2, bw * 0.13), barY, Math.max(2, bw * 0.13), 24, C.orange);
+        text(priceLabel, priceX, yRow + 20, 16, C.text, 'right', 500);
+        text(sizeLabel, sizeX, yRow + 20, 16, alpha(C.text, 'cc'), 'right', 550);
+      }
+
+      if (i < rows - 1) line(x + 14, yRow + rowH - 1.5, x + w - 14, yRow + rowH - 1.5, alpha(C.grid, '4f'), 1);
+    }
+
+    // Spread axis marker
+    const axisY = rowTop + 8 * rowH + 10;
+    line(x + 18, axisY, x + w - 18, axisY, alpha(C.grid, '80'), 1);
+    text('L2', x + w - 18, axisY + 15, 9, alpha(C.text, '40'), 'right', 600);
+  }
+
+  function drawSpreadCorridor(p) {
+    const x = 770, y = 126, w = 380, h = 456;
+    rect(x, y, w, h, alpha(C.bg, 'ff'), alpha(C.grid, 'cc'), 1);
+
+    text('SPREAD DYNAMICS', x + 20, y + 24, 13, alpha(C.text, 'b3'), 'left', 650);
+    text('MID-PRICE', x + 20, y + 52, 10, alpha(C.text, '66'), 'left', 600);
+
+    const event = pulse(p, 0.365, 0.09);
+    const widen = pulse(p, 0.625, 0.12);
+    const spread = 1.00 + 0.82 * periodicSine(p, 1, 0.25) + 1.05 * event + 1.55 * widen;
+    const tickDelta = 1.0 + 2.2 * Math.sin(TAU * (p - 0.09)) + 0.8 * event - 0.7 * widen;
+    const mid = 101.820 + 0.016 * Math.sin(TAU * p - 0.5) + 0.010 * Math.sin(TAU * 2 * p + 0.15);
+
+    text(mid.toFixed(4), x + 20, y + 100, 46, C.text, 'left', 650);
+    text('BID', x + 20, y + 134, 10, alpha(C.text, '66'), 'left', 650);
+    text((mid - spread * 0.00025).toFixed(4), x + 110, y + 134, 14, C.lime, 'left', 550);
+    text('ASK', x + 205, y + 134, 10, alpha(C.text, '66'), 'left', 650);
+    text((mid + spread * 0.00025).toFixed(4), x + 286, y + 134, 14, C.orange, 'left', 550);
+
+    line(x + 20, y + 168.5, x + w - 20, y + 168.5, alpha(C.grid, 'cc'), 1);
+
+    text('BID / ASK', x + 20, y + 198, 10, alpha(C.text, '66'), 'left', 600);
+    text(`${spread.toFixed(2)} bp`, x + 20, y + 232, 30, spread > 2.0 ? C.orange : C.lime, 'left', 650);
+
+    text('TICK Δ', x + 20, y + 280, 10, alpha(C.text, '66'), 'left', 600);
+    text(`${tickDelta >= 0 ? '+' : ''}${tickDelta.toFixed(2)}`, x + 20, y + 313, 27, tickDelta >= 0 ? C.lime : C.orange, 'left', 600);
+
+    text('MATCH STATE', x + 205, y + 280, 10, alpha(C.text, '66'), 'left', 600);
+    const match = event > 0.45 ? 'ASK SWEEP' : (widen > 0.42 ? 'QUOTE RESET' : 'PASSIVE FILL');
+    text(match, x + 205, y + 313, 16, event > 0.45 ? C.orange : C.lime, 'left', 650);
+
+    line(x + 20, y + 346.5, x + w - 20, y + 346.5, alpha(C.grid, 'cc'), 1);
+    text('MILLISECONDS', x + 20, y + 375, 10, alpha(C.text, '66'), 'left', 600);
+    text(`${Math.round((p * 8000) % 1000).toString().padStart(3, '0')} ms`, x + 20, y + 410, 26, C.text, 'left', 600);
+    text('CYCLE PHASE', x + 205, y + 375, 10, alpha(C.text, '66'), 'left', 600);
+    text(`${(p * 100).toFixed(2)}%`, x + 205, y + 410, 26, C.text, 'left', 600);
+  }
+
+  function drawExecutionTape(p) {
+    const x = 770, y = 604, w = 380, h = 224;
+    rect(x, y, w, h, null, alpha(C.grid, 'cc'), 1);
+    text('EXECUTION TAPE', x + 18, y + 22, 13, alpha(C.text, 'b3'), 'left', 650);
+    text('TIME', x + 18, y + 49, 10, alpha(C.text, '66'), 'left', 600);
+    text('SIDE', x + 98, y + 49, 10, alpha(C.text, '66'), 'left', 600);
+    text('PRICE', x + 170, y + 49, 10, alpha(C.text, '66'), 'left', 600);
+    text('QTY', x + 284, y + 49, 10, alpha(C.text, '66'), 'right', 600);
+
+    const event = pulse(p, 0.365, 0.085);
+    const widen = pulse(p, 0.625, 0.10);
+    const rows = 6;
+    const base = 100.0;
+    for (let i = 0; i < rows; i++) {
+      const local = (p * 5.2 + i * 0.18) % 1;
+      const yy = y + 74 + i * 23;
+      const sideBid = Math.sin(TAU * (p * 1.8 + i * 0.37)) >= 0;
+      const rowEvent = pulse(p, (0.33 + i * 0.055) % 1, 0.035);
+      const sweepBoost = event * (i === 0 ? 1 : 0.35);
+      const qty = Math.round(120 + 80 * periodicSine(p, 1.2 + i * 0.08, i * 0.09) + 260 * rowEvent + 170 * sweepBoost);
+      const price = 101.82 + (sideBid ? -1 : 1) * (0.0005 + 0.0011 * i) + 0.008 * Math.sin(TAU * p);
+      const latency = Math.round(100 + ((p * 8000 + i * 37) % 240));
+      const side = sideBid ? 'BID' : 'ASK';
+      const sideColor = sideBid ? C.lime : C.orange;
+
+      text(`.${String((base + i * 0.017 + latency / 100000).toFixed(3)).slice(-3)}`, x + 18, yy, 11, alpha(C.text, '66'), 'left', 500);
+      text(side, x + 98, yy, 12, sideColor, 'left', 650);
+      text(price.toFixed(4), x + 170, yy, 13, C.text, 'left', 550);
+      text(String(qty).padStart(3, ' '), x + 284, yy, 13, C.text, 'right', 550);
+      line(x + 18, yy + 11, x + w - 18, yy + 11, alpha(C.grid, '3f'), 1);
+    }
+
+    // Kinetic matching markers along the central axis.
+    const axisX = x + w / 2;
+    const flow = (p * 6) % 1;
+    for (let i = 0; i < 7; i++) {
+      const fp = (flow + i / 7) % 1;
+      const yy = y + 62 + fp * (h - 76);
+      const sweep = pulse(p, 0.365, 0.07) * pulse(fp, 0.53, 0.12);
+      const passive = 0.5 + 0.5 * Math.sin(TAU * (p * 2.7 + i * 0.8));
+      const fillColor = passive > 0.45 ? C.lime : C.orange;
+      const r = 3 + 3 * sweep;
+      ctx.beginPath();
+      ctx.arc(axisX, yy, r, 0, TAU);
+      ctx.fillStyle = fillColor;
+      ctx.fill();
+      line(axisX - 25, yy, axisX + 25, yy, alpha(fillColor, sweep > 0.3 ? 'cc' : '70'), sweep > 0.3 ? 2 : 1);
+    }
+
+    if (event > 0.28) {
+      line(axisX, y + 60, axisX, y + h - 16, alpha(C.orange, Math.round(180 * event).toString(16).padStart(2, '0')), 2);
+      text('LIQUIDITY ABSORPTION', axisX + 12, y + h - 27, 10, alpha(C.orange, 'cc'), 'left', 650);
+    } else if (widen > 0.34) {
+      text('QUOTE READJUSTMENT', axisX + 12, y + h - 27, 10, alpha(C.orange, 'aa'), 'left', 650);
+    }
+  }
+
+  function drawVolatilityHistogram(p) {
+    const x = 56, y = 602, w = 674, h = 226;
+    rect(x, y, w, h, null, alpha(C.grid, 'cc'), 1);
+    text('MICRO-VOLATILITY / SUB-SECOND LIQUIDITY VARIANCE', x + 18, y + 22, 13, alpha(C.text, 'b3'), 'left', 650);
+
+    const padX = 18, padY = 54;
+    const ix = x + padX, iy = y + padY, iw = w - padX * 2, ih = h - padY - 16;
+    drawGrid(ix, iy, iw, ih, 16, 5, 0.48);
+    line(ix, iy + ih * 0.50 + 0.5, ix + iw, iy + ih * 0.50 + 0.5, alpha(C.text, '25'), 1);
+
+    const event = pulse(p, 0.365, 0.08);
+    const widen = pulse(p, 0.625, 0.11);
+    const bars = 54;
+    const bw = iw / bars;
+    for (let i = 0; i < bars; i++) {
+      const u = i / (bars - 1);
+      const wave = 0.16 + 0.52 * (0.5 + 0.5 * Math.sin(TAU * (u * 1.35 + p * 2.0)));
+      const fine = 0.18 * (0.5 + 0.5 * Math.sin(TAU * (u * 5.2 - p * 3.3)));
+      const eventMask = Math.exp(-Math.pow((u - (0.50 + 0.24 * Math.sin(TAU * p))) / 0.12, 2));
+      const val = clamp(0.10 + wave * 0.53 + fine * 0.26 + event * eventMask * 0.9 + widen * (0.25 + 0.18 * Math.sin(TAU * u)), 0.04, 1.0);
+      const bh = val * ih * 0.86;
+      const bx = ix + i * bw + 2;
+      const by = iy + ih - bh;
+      const c = (eventMask * event > 0.26 || (widen > 0.34 && u > 0.55)) ? C.orange : C.lime;
+      rect(bx, by, Math.max(2, bw - 4), bh, alpha(c, '9a'));
+      rect(bx, by, Math.max(2, bw - 4), 2, c);
+    }
+
+    text('0.0', ix, y + h - 16, 9, alpha(C.text, '45'), 'left', 500);
+    text('4.0 s', ix + iw / 2, y + h - 16, 9, alpha(C.text, '45'), 'center', 500);
+    text('8.0 s', ix + iw, y + h - 16, 9, alpha(C.text, '45'), 'right', 500);
+  }
+
+  function drawStatsRail(p) {
+    const x = 1172, y = 602, w = 692, h = 226;
+    rect(x, y, w, h, null, alpha(C.grid, 'cc'), 1);
+    text('LIQUIDITY STATE / CONTROL RAIL', x + 18, y + 22, 13, alpha(C.text, 'b3'), 'left', 650);
+
+    const cols = [
+      { label: 'BID QUEUE', value: 810 + 95 * Math.sin(TAU * p - 0.3), unit: 'sh', c: C.lime },
+      { label: 'ASK QUEUE', value: 690 + 140 * Math.sin(TAU * p + 1.1), unit: 'sh', c: C.orange },
+      { label: 'FILL VELOCITY', value: 3.1 + 1.7 * periodicSine(p, 1, 0.18) + 2.0 * pulse(p, 0.365, 0.07), unit: 'ms', c: C.text },
+      { label: 'DEPTH / MID', value: 1.00 + 0.20 * Math.sin(TAU * (p + 0.12)), unit: 'x', c: C.text }
+    ];
+
+    cols.forEach((d, i) => {
+      const cx = x + 20 + i * 166;
+      text(d.label, cx, y + 59, 10, alpha(C.text, '66'), 'left', 600);
+      const v = i < 2 ? Math.round(d.value).toString() : d.value.toFixed(i === 2 ? 2 : 3);
+      text(`${v} ${d.unit}`, cx, y + 91, 20, d.c, 'left', 650);
+      const meterX = cx, meterY = y + 117, meterW = 142, meterH = 5;
+      rect(meterX, meterY, meterW, meterH, alpha(C.grid, 'a0'));
+      const norm = i === 0 ? (d.value - 700) / 300 : i === 1 ? (d.value - 560) / 350 : i === 2 ? (d.value - 2.0) / 6.0 : (d.value - 0.8) / 0.4;
+      rect(meterX, meterY, meterW * clamp(norm, 0, 1), meterH, d.c);
+    });
+
+    line(x + 18, y + 146.5, x + w - 18, y + 146.5, alpha(C.grid, '99'), 1);
+    text('SYSTEM NOTE', x + 18, y + 172, 9, alpha(C.text, '50'), 'left', 650);
+    const note = pulse(p, 0.365, 0.07) > 0.25
+      ? 'ASK LIQUIDITY ABSORBED — EXECUTIONS ACCELERATE'
+      : pulse(p, 0.625, 0.10) > 0.30
+        ? 'MARKET MAKERS WIDEN — QUOTES RE-ANCHOR'
+        : 'PASSIVE QUEUE REPLENISHMENT — SPREAD COMPRESSING';
+    text(note, x + 18, y + 198, 12, C.text, 'left', 550);
+  }
+
+  function drawTopSpreadAxis(p) {
+    const x1 = 56, x2 = 1864, y = 568;
+    line(x1, y + 0.5, x2, y + 0.5, alpha(C.grid, 'cc'), 1);
+
+    const widen = pulse(p, 0.625, 0.12);
+    const event = pulse(p, 0.365, 0.09);
+    const t = p;
+    // Central price path: deterministic periodic spline-like wave.
+    const points = 80;
+    ctx.beginPath();
+    for (let i = 0; i < points; i++) {
+      const u = i / (points - 1);
+      const yy = y - 11
+        - 4.5 * Math.sin(TAU * (u * 1.2 + t * 1.0))
+        - 3.0 * Math.sin(TAU * (u * 4.3 - t * 1.8))
+        - 11 * event * Math.exp(-Math.pow((u - 0.56) / 0.11, 2))
+        + 9 * widen * Math.exp(-Math.pow((u - 0.71) / 0.10, 2));
+      const xx = x1 + u * (x2 - x1);
+      if (i === 0) ctx.moveTo(xx, yy); else ctx.lineTo(xx, yy);
+    }
+    ctx.strokeStyle = alpha(C.lime, 'cc');
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Active sweep marker travels on a periodic path.
+    const sx = x1 + ((p * 1.14 + 0.17) % 1) * (x2 - x1);
+    const sy = y - 11 - 4.5 * Math.sin(TAU * (((sx - x1) / (x2 - x1)) * 1.2 + p));
+    const markerColor = event > 0.32 ? C.orange : C.lime;
+    ctx.beginPath();
+    ctx.arc(sx, sy, 4, 0, TAU);
+    ctx.fillStyle = markerColor;
+    ctx.fill();
+
+    text('SPREAD / MIDPRICE TRACE', x1, y + 17, 9, alpha(C.text, '45'), 'left', 600);
+    text(`${(1.0 + 0.82 * periodicSine(p, 1, 0.25) + 1.05 * event + 1.55 * widen).toFixed(2)} bp`, x2, y + 17, 10, event > 0.32 ? C.orange : C.lime, 'right', 650);
+  }
+
+  function drawFooter(p) {
+    const y = 858;
+    line(56, y + 0.5, 1864, y + 0.5, alpha(C.grid, 'cc'), 1);
+
+    text('MARKET MICROSTRUCTURE MONITOR', 56, y + 25, 10, alpha(C.text, '66'), 'left', 650);
+    text('L2 DEPTH × EXECUTION TAPE × MICRO-VOL', 56, y + 47, 9, alpha(C.text, '45'), 'left', 500);
+
+    const legend = [
+      [C.lime, 'PASSIVE / BID'],
+      [C.orange, 'ACTIVE / ASK'],
+      [C.grid, 'STRUCTURAL GRID']
+    ];
+    legend.forEach((d, i) => {
+      const lx = 1310 + i * 175;
+      rect(lx, y + 19, 10, 10, d[0]);
+      text(d[1], lx + 18, y + 24, 9, alpha(C.text, '66'), 'left', 550);
+    });
+
+    text('CYCLE 8.000 S  •  NO AUDIO  •  PURE RENDER(t)', 1864, y + 47, 9, alpha(C.text, '45'), 'right', 500);
+  }
+
+  function render(p) {
+    // p is always normalized to [0,1). At p=0 all deterministic functions hit the same values as p=1.
+    clear();
+    drawHeader(p);
+    drawBookPanel({ x: 56,  y: 126, w: 660, h: 456, side: 'bid', p });
+    drawSpreadCorridor(p);
+    drawBookPanel({ x: 1204, y: 126, w: 660, h: 456, side: 'ask', p });
+    drawTopSpreadAxis(p);
+    drawVolatilityHistogram(p);
+    drawExecutionTape(p);
+    drawStatsRail(p);
+    drawFooter(p);
+  }
+
+  function getTimeMs() {
+    if (manualTime !== null) return manualTime;
+    return performance.now();
+  }
+
+  function frame(now) {
+    // Exact 8.0 s repeating cycle. No accumulated animation state exists.
+    const raw = manualTime !== null ? manualTime : (now - startTime);
+    const t = ((raw % DURATION) + DURATION) % DURATION;
+    const p = t / DURATION;
+    render(p);
+    rafId = requestAnimationFrame(frame);
+  }
+
+  // External control for deterministic capture/export/testing.
+  window.setTime = (t) => {
+    const seconds = Number(t);
+    if (!Number.isFinite(seconds)) return;
+    manualTime = ((seconds * 1000) % DURATION + DURATION) % DURATION;
+    render(manualTime / DURATION);
+  };
+
+  window.clearManualTime = () => {
+    manualTime = null;
+  };
+
+  // Handle HiDPI displays while preserving an exact 1920x1080 logical stage.
+  function fitCanvas() {
+    dpr = Math.max(1, Math.min(2, window.devicePixelRatio || 1));
+    canvas.width = Math.round(W * dpr);
+    canvas.height = Math.round(H * dpr);
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    render(0);
+  }
+
+  window.addEventListener('resize', fitCanvas, { passive: true });
+  fitCanvas();
+  rafId = requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

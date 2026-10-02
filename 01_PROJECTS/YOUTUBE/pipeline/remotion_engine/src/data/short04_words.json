@@ -1,0 +1,818 @@
+[
+  {
+    "word": "Virtue",
+    "start": 0.0,
+    "end": 0.44,
+    "probability": 0.824
+  },
+  {
+    "word": "reported",
+    "start": 0.44,
+    "end": 0.86,
+    "probability": 0.985
+  },
+  {
+    "word": "1",
+    "start": 0.86,
+    "end": 1.34,
+    "probability": 0.715
+  },
+  {
+    "word": ",238",
+    "start": 1.34,
+    "end": 2.9,
+    "probability": 0.962
+  },
+  {
+    "word": "trading",
+    "start": 2.9,
+    "end": 3.3,
+    "probability": 0.978
+  },
+  {
+    "word": "days",
+    "start": 3.3,
+    "end": 3.62,
+    "probability": 0.987
+  },
+  {
+    "word": "with",
+    "start": 3.62,
+    "end": 3.82,
+    "probability": 0.939
+  },
+  {
+    "word": "only",
+    "start": 3.82,
+    "end": 4.2,
+    "probability": 0.992
+  },
+  {
+    "word": "one",
+    "start": 4.2,
+    "end": 4.66,
+    "probability": 0.905
+  },
+  {
+    "word": "losing",
+    "start": 4.66,
+    "end": 5.08,
+    "probability": 0.954
+  },
+  {
+    "word": "day.",
+    "start": 5.08,
+    "end": 5.42,
+    "probability": 0.996
+  },
+  {
+    "word": "How",
+    "start": 6.04,
+    "end": 6.34,
+    "probability": 0.955
+  },
+  {
+    "word": "does",
+    "start": 6.34,
+    "end": 6.5,
+    "probability": 0.997
+  },
+  {
+    "word": "a",
+    "start": 6.5,
+    "end": 6.6,
+    "probability": 0.989
+  },
+  {
+    "word": "record",
+    "start": 6.6,
+    "end": 6.86,
+    "probability": 0.998
+  },
+  {
+    "word": "like",
+    "start": 6.86,
+    "end": 7.06,
+    "probability": 0.994
+  },
+  {
+    "word": "that",
+    "start": 7.06,
+    "end": 7.26,
+    "probability": 0.99
+  },
+  {
+    "word": "happen?",
+    "start": 7.26,
+    "end": 7.74,
+    "probability": 0.99
+  },
+  {
+    "word": "The",
+    "start": 8.4,
+    "end": 8.62,
+    "probability": 0.973
+  },
+  {
+    "word": "basic",
+    "start": 8.62,
+    "end": 8.92,
+    "probability": 0.994
+  },
+  {
+    "word": "idea",
+    "start": 8.92,
+    "end": 9.34,
+    "probability": 0.999
+  },
+  {
+    "word": "is",
+    "start": 9.34,
+    "end": 9.7,
+    "probability": 0.996
+  },
+  {
+    "word": "to",
+    "start": 9.7,
+    "end": 9.82,
+    "probability": 0.99
+  },
+  {
+    "word": "make",
+    "start": 9.82,
+    "end": 9.96,
+    "probability": 0.996
+  },
+  {
+    "word": "a",
+    "start": 9.96,
+    "end": 10.1,
+    "probability": 0.991
+  },
+  {
+    "word": "very",
+    "start": 10.1,
+    "end": 10.48,
+    "probability": 0.983
+  },
+  {
+    "word": "small",
+    "start": 10.48,
+    "end": 10.82,
+    "probability": 0.998
+  },
+  {
+    "word": "amount",
+    "start": 10.82,
+    "end": 11.14,
+    "probability": 0.998
+  },
+  {
+    "word": "on",
+    "start": 11.14,
+    "end": 11.38,
+    "probability": 0.995
+  },
+  {
+    "word": "each",
+    "start": 11.38,
+    "end": 11.64,
+    "probability": 0.998
+  },
+  {
+    "word": "trade,",
+    "start": 11.64,
+    "end": 12.02,
+    "probability": 0.993
+  },
+  {
+    "word": "then",
+    "start": 12.38,
+    "end": 12.58,
+    "probability": 0.98
+  },
+  {
+    "word": "hedge",
+    "start": 12.58,
+    "end": 12.9,
+    "probability": 0.962
+  },
+  {
+    "word": "the",
+    "start": 12.9,
+    "end": 13.08,
+    "probability": 0.996
+  },
+  {
+    "word": "position",
+    "start": 13.08,
+    "end": 13.48,
+    "probability": 0.997
+  },
+  {
+    "word": "almost",
+    "start": 13.48,
+    "end": 13.9,
+    "probability": 0.974
+  },
+  {
+    "word": "immediately.",
+    "start": 13.9,
+    "end": 14.56,
+    "probability": 0.993
+  },
+  {
+    "word": "Do",
+    "start": 15.3,
+    "end": 15.4,
+    "probability": 0.99
+  },
+  {
+    "word": "it",
+    "start": 15.4,
+    "end": 15.52,
+    "probability": 0.999
+  },
+  {
+    "word": "again,",
+    "start": 15.52,
+    "end": 15.76,
+    "probability": 0.998
+  },
+  {
+    "word": "and",
+    "start": 16.16,
+    "end": 16.62,
+    "probability": 0.984
+  },
+  {
+    "word": "again,",
+    "start": 16.62,
+    "end": 16.9,
+    "probability": 0.992
+  },
+  {
+    "word": "and",
+    "start": 17.48,
+    "end": 17.78,
+    "probability": 0.975
+  },
+  {
+    "word": "again.",
+    "start": 17.78,
+    "end": 18.12,
+    "probability": 0.997
+  },
+  {
+    "word": "The",
+    "start": 18.76,
+    "end": 18.92,
+    "probability": 0.983
+  },
+  {
+    "word": "individual",
+    "start": 18.92,
+    "end": 19.36,
+    "probability": 0.997
+  },
+  {
+    "word": "trade",
+    "start": 19.36,
+    "end": 19.78,
+    "probability": 0.995
+  },
+  {
+    "word": "doesn't",
+    "start": 19.78,
+    "end": 20.16,
+    "probability": 0.997
+  },
+  {
+    "word": "have",
+    "start": 20.16,
+    "end": 20.32,
+    "probability": 0.998
+  },
+  {
+    "word": "to",
+    "start": 20.32,
+    "end": 20.48,
+    "probability": 0.999
+  },
+  {
+    "word": "be",
+    "start": 20.48,
+    "end": 20.58,
+    "probability": 0.999
+  },
+  {
+    "word": "spectacular.",
+    "start": 20.58,
+    "end": 21.2,
+    "probability": 0.994
+  },
+  {
+    "word": "The",
+    "start": 21.74,
+    "end": 21.86,
+    "probability": 0.996
+  },
+  {
+    "word": "edge",
+    "start": 21.86,
+    "end": 22.22,
+    "probability": 0.991
+  },
+  {
+    "word": "can",
+    "start": 22.22,
+    "end": 22.38,
+    "probability": 0.998
+  },
+  {
+    "word": "be",
+    "start": 22.38,
+    "end": 22.54,
+    "probability": 0.998
+  },
+  {
+    "word": "tiny.",
+    "start": 22.54,
+    "end": 23.0,
+    "probability": 0.998
+  },
+  {
+    "word": "What",
+    "start": 23.52,
+    "end": 23.7,
+    "probability": 0.993
+  },
+  {
+    "word": "matters",
+    "start": 23.7,
+    "end": 24.06,
+    "probability": 1.0
+  },
+  {
+    "word": "is",
+    "start": 24.06,
+    "end": 24.38,
+    "probability": 0.989
+  },
+  {
+    "word": "repeating",
+    "start": 24.38,
+    "end": 24.82,
+    "probability": 0.994
+  },
+  {
+    "word": "it",
+    "start": 24.82,
+    "end": 25.06,
+    "probability": 0.997
+  },
+  {
+    "word": "across",
+    "start": 25.06,
+    "end": 25.3,
+    "probability": 0.992
+  },
+  {
+    "word": "a",
+    "start": 25.3,
+    "end": 25.52,
+    "probability": 0.994
+  },
+  {
+    "word": "very",
+    "start": 25.52,
+    "end": 25.86,
+    "probability": 0.986
+  },
+  {
+    "word": "large",
+    "start": 25.86,
+    "end": 26.26,
+    "probability": 0.999
+  },
+  {
+    "word": "number",
+    "start": 26.26,
+    "end": 26.52,
+    "probability": 0.999
+  },
+  {
+    "word": "of",
+    "start": 26.52,
+    "end": 26.7,
+    "probability": 0.998
+  },
+  {
+    "word": "trades",
+    "start": 26.7,
+    "end": 27.1,
+    "probability": 0.995
+  },
+  {
+    "word": "while",
+    "start": 27.1,
+    "end": 27.38,
+    "probability": 0.806
+  },
+  {
+    "word": "keeping",
+    "start": 27.38,
+    "end": 27.66,
+    "probability": 0.999
+  },
+  {
+    "word": "the",
+    "start": 27.66,
+    "end": 27.92,
+    "probability": 0.999
+  },
+  {
+    "word": "risk",
+    "start": 27.92,
+    "end": 28.1,
+    "probability": 0.837
+  },
+  {
+    "word": "controlled.",
+    "start": 28.1,
+    "end": 28.78,
+    "probability": 0.981
+  },
+  {
+    "word": "Over",
+    "start": 29.14,
+    "end": 29.46,
+    "probability": 0.449
+  },
+  {
+    "word": "a",
+    "start": 29.46,
+    "end": 29.68,
+    "probability": 0.998
+  },
+  {
+    "word": "huge",
+    "start": 29.68,
+    "end": 30.02,
+    "probability": 0.993
+  },
+  {
+    "word": "sample,",
+    "start": 30.02,
+    "end": 30.42,
+    "probability": 0.993
+  },
+  {
+    "word": "the",
+    "start": 30.76,
+    "end": 30.84,
+    "probability": 0.986
+  },
+  {
+    "word": "individual",
+    "start": 30.84,
+    "end": 31.32,
+    "probability": 0.995
+  },
+  {
+    "word": "wins",
+    "start": 31.32,
+    "end": 31.6,
+    "probability": 0.892
+  },
+  {
+    "word": "and",
+    "start": 31.6,
+    "end": 31.82,
+    "probability": 0.981
+  },
+  {
+    "word": "losses",
+    "start": 31.82,
+    "end": 32.14,
+    "probability": 0.967
+  },
+  {
+    "word": "start",
+    "start": 32.14,
+    "end": 32.5,
+    "probability": 0.983
+  },
+  {
+    "word": "to",
+    "start": 32.5,
+    "end": 32.7,
+    "probability": 0.999
+  },
+  {
+    "word": "average",
+    "start": 32.7,
+    "end": 32.96,
+    "probability": 0.987
+  },
+  {
+    "word": "out.",
+    "start": 32.96,
+    "end": 33.28,
+    "probability": 0.995
+  },
+  {
+    "word": "But,",
+    "start": 33.98,
+    "end": 34.62,
+    "probability": 0.951
+  },
+  {
+    "word": "the",
+    "start": 34.62,
+    "end": 34.92,
+    "probability": 0.976
+  },
+  {
+    "word": "same",
+    "start": 34.92,
+    "end": 35.14,
+    "probability": 0.995
+  },
+  {
+    "word": "system",
+    "start": 35.14,
+    "end": 35.62,
+    "probability": 0.996
+  },
+  {
+    "word": "has",
+    "start": 35.62,
+    "end": 35.84,
+    "probability": 0.979
+  },
+  {
+    "word": "another",
+    "start": 35.84,
+    "end": 36.12,
+    "probability": 0.996
+  },
+  {
+    "word": "side.",
+    "start": 36.12,
+    "end": 36.6,
+    "probability": 0.998
+  },
+  {
+    "word": "If",
+    "start": 37.12,
+    "end": 37.22,
+    "probability": 0.997
+  },
+  {
+    "word": "the",
+    "start": 37.22,
+    "end": 37.34,
+    "probability": 0.993
+  },
+  {
+    "word": "technology",
+    "start": 37.34,
+    "end": 37.8,
+    "probability": 0.995
+  },
+  {
+    "word": "fails",
+    "start": 37.8,
+    "end": 38.34,
+    "probability": 0.998
+  },
+  {
+    "word": "while",
+    "start": 38.34,
+    "end": 38.62,
+    "probability": 0.843
+  },
+  {
+    "word": "thousands",
+    "start": 38.62,
+    "end": 39.12,
+    "probability": 0.989
+  },
+  {
+    "word": "of",
+    "start": 39.12,
+    "end": 39.32,
+    "probability": 0.997
+  },
+  {
+    "word": "positions",
+    "start": 39.32,
+    "end": 39.68,
+    "probability": 0.987
+  },
+  {
+    "word": "are",
+    "start": 39.68,
+    "end": 39.92,
+    "probability": 0.997
+  },
+  {
+    "word": "moving,",
+    "start": 39.92,
+    "end": 40.26,
+    "probability": 0.999
+  },
+  {
+    "word": "the",
+    "start": 40.68,
+    "end": 40.78,
+    "probability": 0.996
+  },
+  {
+    "word": "losses",
+    "start": 40.78,
+    "end": 41.1,
+    "probability": 0.995
+  },
+  {
+    "word": "can",
+    "start": 41.1,
+    "end": 41.36,
+    "probability": 0.996
+  },
+  {
+    "word": "pile",
+    "start": 41.36,
+    "end": 41.66,
+    "probability": 0.998
+  },
+  {
+    "word": "up",
+    "start": 41.66,
+    "end": 41.9,
+    "probability": 0.995
+  },
+  {
+    "word": "just",
+    "start": 41.9,
+    "end": 42.2,
+    "probability": 0.972
+  },
+  {
+    "word": "as",
+    "start": 42.2,
+    "end": 42.44,
+    "probability": 0.999
+  },
+  {
+    "word": "quickly.",
+    "start": 42.44,
+    "end": 42.82,
+    "probability": 0.996
+  },
+  {
+    "word": "That's",
+    "start": 43.3,
+    "end": 43.54,
+    "probability": 0.99
+  },
+  {
+    "word": "what",
+    "start": 43.54,
+    "end": 43.62,
+    "probability": 0.997
+  },
+  {
+    "word": "happened",
+    "start": 43.62,
+    "end": 43.96,
+    "probability": 0.997
+  },
+  {
+    "word": "at",
+    "start": 43.96,
+    "end": 44.14,
+    "probability": 0.997
+  },
+  {
+    "word": "night",
+    "start": 44.14,
+    "end": 44.3,
+    "probability": 0.61
+  },
+  {
+    "word": "capital",
+    "start": 44.3,
+    "end": 44.74,
+    "probability": 0.554
+  },
+  {
+    "word": "in",
+    "start": 44.74,
+    "end": 45.02,
+    "probability": 0.99
+  },
+  {
+    "word": "August",
+    "start": 45.02,
+    "end": 45.24,
+    "probability": 0.976
+  },
+  {
+    "word": "2012.",
+    "start": 45.24,
+    "end": 45.88,
+    "probability": 0.98
+  },
+  {
+    "word": "The",
+    "start": 46.5,
+    "end": 46.62,
+    "probability": 0.996
+  },
+  {
+    "word": "firm",
+    "start": 46.62,
+    "end": 46.88,
+    "probability": 0.996
+  },
+  {
+    "word": "lost",
+    "start": 46.88,
+    "end": 47.12,
+    "probability": 0.992
+  },
+  {
+    "word": "about",
+    "start": 47.12,
+    "end": 47.44,
+    "probability": 0.984
+  },
+  {
+    "word": "$460",
+    "start": 47.44,
+    "end": 48.6,
+    "probability": 0.95
+  },
+  {
+    "word": "million",
+    "start": 48.6,
+    "end": 49.14,
+    "probability": 0.951
+  },
+  {
+    "word": "in",
+    "start": 49.14,
+    "end": 49.84,
+    "probability": 0.701
+  },
+  {
+    "word": "a",
+    "start": 49.84,
+    "end": 49.96,
+    "probability": 0.999
+  },
+  {
+    "word": "single",
+    "start": 49.96,
+    "end": 50.34,
+    "probability": 0.996
+  },
+  {
+    "word": "trading",
+    "start": 50.34,
+    "end": 50.82,
+    "probability": 0.977
+  },
+  {
+    "word": "day",
+    "start": 50.82,
+    "end": 51.1,
+    "probability": 0.994
+  },
+  {
+    "word": "after",
+    "start": 51.1,
+    "end": 51.44,
+    "probability": 0.99
+  },
+  {
+    "word": "a",
+    "start": 51.44,
+    "end": 51.56,
+    "probability": 0.979
+  },
+  {
+    "word": "technology",
+    "start": 51.56,
+    "end": 52.08,
+    "probability": 0.995
+  },
+  {
+    "word": "failure.",
+    "start": 52.08,
+    "end": 52.54,
+    "probability": 0.999
+  }
+]

@@ -1,0 +1,502 @@
+{
+  "words": [
+    {
+      "word": "If",
+      "start": 0.0,
+      "end": 0.36,
+      "prob": 0.858
+    },
+    {
+      "word": "a",
+      "start": 0.36,
+      "end": 0.62,
+      "prob": 0.992
+    },
+    {
+      "word": "zero",
+      "start": 0.62,
+      "end": 0.9,
+      "prob": 0.75
+    },
+    {
+      "word": "-commission",
+      "start": 0.9,
+      "end": 1.32,
+      "prob": 0.847
+    },
+    {
+      "word": "broker",
+      "start": 1.32,
+      "end": 1.8,
+      "prob": 0.495
+    },
+    {
+      "word": "fills",
+      "start": 1.8,
+      "end": 2.14,
+      "prob": 0.976
+    },
+    {
+      "word": "your",
+      "start": 2.14,
+      "end": 2.5,
+      "prob": 0.996
+    },
+    {
+      "word": "stock",
+      "start": 2.5,
+      "end": 2.76,
+      "prob": 0.983
+    },
+    {
+      "word": "order",
+      "start": 2.76,
+      "end": 3.08,
+      "prob": 0.987
+    },
+    {
+      "word": "just",
+      "start": 3.08,
+      "end": 3.42,
+      "prob": 0.648
+    },
+    {
+      "word": "two",
+      "start": 3.42,
+      "end": 3.8,
+      "prob": 0.553
+    },
+    {
+      "word": "cents",
+      "start": 3.8,
+      "end": 4.02,
+      "prob": 0.687
+    },
+    {
+      "word": "worse",
+      "start": 4.02,
+      "end": 4.46,
+      "prob": 0.982
+    },
+    {
+      "word": "than",
+      "start": 4.46,
+      "end": 4.72,
+      "prob": 0.984
+    },
+    {
+      "word": "the",
+      "start": 4.72,
+      "end": 4.8,
+      "prob": 0.994
+    },
+    {
+      "word": "public",
+      "start": 4.8,
+      "end": 5.1,
+      "prob": 0.964
+    },
+    {
+      "word": "exchange,",
+      "start": 5.1,
+      "end": 5.7,
+      "prob": 0.996
+    },
+    {
+      "word": "does",
+      "start": 5.94,
+      "end": 6.06,
+      "prob": 0.86
+    },
+    {
+      "word": "it",
+      "start": 6.06,
+      "end": 6.22,
+      "prob": 0.998
+    },
+    {
+      "word": "matter?",
+      "start": 6.22,
+      "end": 6.52,
+      "prob": 1.0
+    },
+    {
+      "word": "Most",
+      "start": 7.02,
+      "end": 7.28,
+      "prob": 0.965
+    },
+    {
+      "word": "traders",
+      "start": 7.28,
+      "end": 7.54,
+      "prob": 0.987
+    },
+    {
+      "word": "say",
+      "start": 7.54,
+      "end": 7.94,
+      "prob": 0.991
+    },
+    {
+      "word": "two",
+      "start": 7.94,
+      "end": 8.26,
+      "prob": 0.829
+    },
+    {
+      "word": "cents",
+      "start": 8.26,
+      "end": 8.46,
+      "prob": 0.994
+    },
+    {
+      "word": "is",
+      "start": 8.46,
+      "end": 8.7,
+      "prob": 0.982
+    },
+    {
+      "word": "nothing.",
+      "start": 8.7,
+      "end": 9.02,
+      "prob": 0.995
+    },
+    {
+      "word": "Two",
+      "start": 9.44,
+      "end": 9.66,
+      "prob": 0.952
+    },
+    {
+      "word": "cents",
+      "start": 9.66,
+      "end": 9.98,
+      "prob": 0.996
+    },
+    {
+      "word": "times",
+      "start": 9.98,
+      "end": 10.28,
+      "prob": 0.976
+    },
+    {
+      "word": "100",
+      "start": 10.28,
+      "end": 10.66,
+      "prob": 0.809
+    },
+    {
+      "word": "shares",
+      "start": 10.66,
+      "end": 11.18,
+      "prob": 0.992
+    },
+    {
+      "word": "is",
+      "start": 11.18,
+      "end": 11.5,
+      "prob": 0.985
+    },
+    {
+      "word": "only",
+      "start": 11.5,
+      "end": 11.72,
+      "prob": 0.997
+    },
+    {
+      "word": "two",
+      "start": 11.72,
+      "end": 11.98,
+      "prob": 0.357
+    },
+    {
+      "word": "dollars,",
+      "start": 11.98,
+      "end": 12.38,
+      "prob": 0.978
+    },
+    {
+      "word": "basically,",
+      "start": 12.78,
+      "end": 13.06,
+      "prob": 0.995
+    },
+    {
+      "word": "completely",
+      "start": 13.38,
+      "end": 13.7,
+      "prob": 0.984
+    },
+    {
+      "word": "free.",
+      "start": 13.7,
+      "end": 14.2,
+      "prob": 0.993
+    },
+    {
+      "word": "Even",
+      "start": 14.74,
+      "end": 14.96,
+      "prob": 0.992
+    },
+    {
+      "word": "active",
+      "start": 14.96,
+      "end": 15.36,
+      "prob": 0.955
+    },
+    {
+      "word": "investors",
+      "start": 15.36,
+      "end": 15.78,
+      "prob": 0.996
+    },
+    {
+      "word": "assume",
+      "start": 15.78,
+      "end": 16.38,
+      "prob": 0.842
+    },
+    {
+      "word": "zero",
+      "start": 16.38,
+      "end": 16.82,
+      "prob": 0.992
+    },
+    {
+      "word": "-commission",
+      "start": 16.82,
+      "end": 17.2,
+      "prob": 0.96
+    },
+    {
+      "word": "trading",
+      "start": 17.2,
+      "end": 17.58,
+      "prob": 0.99
+    },
+    {
+      "word": "saves",
+      "start": 17.58,
+      "end": 17.98,
+      "prob": 0.989
+    },
+    {
+      "word": "the",
+      "start": 17.98,
+      "end": 18.18,
+      "prob": 0.991
+    },
+    {
+      "word": "money,",
+      "start": 18.18,
+      "end": 18.58,
+      "prob": 0.999
+    },
+    {
+      "word": "compared",
+      "start": 18.86,
+      "end": 18.98,
+      "prob": 0.998
+    },
+    {
+      "word": "to",
+      "start": 18.98,
+      "end": 19.26,
+      "prob": 0.999
+    },
+    {
+      "word": "old",
+      "start": 19.26,
+      "end": 19.5,
+      "prob": 0.986
+    },
+    {
+      "word": "brokerage",
+      "start": 19.5,
+      "end": 19.98,
+      "prob": 0.963
+    },
+    {
+      "word": "tickets.",
+      "start": 19.98,
+      "end": 20.3,
+      "prob": 0.989
+    },
+    {
+      "word": "Here",
+      "start": 20.9,
+      "end": 21.02,
+      "prob": 0.995
+    },
+    {
+      "word": "is",
+      "start": 21.02,
+      "end": 21.22,
+      "prob": 0.945
+    },
+    {
+      "word": "the",
+      "start": 21.22,
+      "end": 21.38,
+      "prob": 0.997
+    },
+    {
+      "word": "math.",
+      "start": 21.38,
+      "end": 21.68,
+      "prob": 0.965
+    },
+    {
+      "word": "In",
+      "start": 22.22,
+      "end": 22.36,
+      "prob": 0.991
+    },
+    {
+      "word": "this",
+      "start": 22.36,
+      "end": 22.56,
+      "prob": 0.995
+    },
+    {
+      "word": "scenario,",
+      "start": 22.56,
+      "end": 22.96,
+      "prob": 0.999
+    },
+    {
+      "word": "two",
+      "start": 23.36,
+      "end": 23.6,
+      "prob": 0.969
+    },
+    {
+      "word": "trades",
+      "start": 23.6,
+      "end": 23.86,
+      "prob": 0.994
+    },
+    {
+      "word": "a",
+      "start": 23.86,
+      "end": 24.16,
+      "prob": 0.996
+    },
+    {
+      "word": "week,",
+      "start": 24.16,
+      "end": 24.36,
+      "prob": 0.996
+    },
+    {
+      "word": "across",
+      "start": 24.64,
+      "end": 24.84,
+      "prob": 0.993
+    },
+    {
+      "word": "500",
+      "start": 24.84,
+      "end": 25.4,
+      "prob": 0.872
+    },
+    {
+      "word": "trades,",
+      "start": 25.4,
+      "end": 26.06,
+      "prob": 0.997
+    },
+    {
+      "word": "quietly",
+      "start": 26.5,
+      "end": 26.78,
+      "prob": 0.706
+    },
+    {
+      "word": "ciphons",
+      "start": 26.78,
+      "end": 27.5,
+      "prob": 0.77
+    },
+    {
+      "word": "$1",
+      "start": 27.5,
+      "end": 27.9,
+      "prob": 0.716
+    },
+    {
+      "word": ",000",
+      "start": 27.9,
+      "end": 28.5,
+      "prob": 0.985
+    },
+    {
+      "word": "from",
+      "start": 28.5,
+      "end": 28.86,
+      "prob": 0.971
+    },
+    {
+      "word": "your",
+      "start": 28.86,
+      "end": 29.02,
+      "prob": 0.997
+    },
+    {
+      "word": "account.",
+      "start": 29.02,
+      "end": 29.38,
+      "prob": 0.997
+    },
+    {
+      "word": "The",
+      "start": 29.38,
+      "end": 30.08,
+      "prob": 0.738
+    },
+    {
+      "word": "fee",
+      "start": 30.08,
+      "end": 30.46,
+      "prob": 0.528
+    },
+    {
+      "word": "never",
+      "start": 30.46,
+      "end": 30.8,
+      "prob": 0.972
+    },
+    {
+      "word": "disappeared.",
+      "start": 30.8,
+      "end": 31.24,
+      "prob": 0.993
+    },
+    {
+      "word": "It",
+      "start": 31.74,
+      "end": 32.02,
+      "prob": 0.983
+    },
+    {
+      "word": "compounded",
+      "start": 32.02,
+      "end": 32.74,
+      "prob": 0.996
+    },
+    {
+      "word": "in",
+      "start": 32.74,
+      "end": 32.9,
+      "prob": 0.985
+    },
+    {
+      "word": "silence.",
+      "start": 32.9,
+      "end": 33.22,
+      "prob": 0.995
+    }
+  ]
+}

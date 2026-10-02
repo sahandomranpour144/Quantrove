@@ -1,0 +1,548 @@
+[
+  {
+    "chunk_id": 1,
+    "start": 0.0,
+    "end": 2.9,
+    "text": "Virtue reported 1 ,238",
+    "words": [
+      "Virtue",
+      "reported",
+      "1",
+      ",238"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 2,
+    "start": 2.9,
+    "end": 4.2,
+    "text": "trading days with only",
+    "words": [
+      "trading",
+      "days",
+      "with",
+      "only"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 3,
+    "start": 4.2,
+    "end": 5.42,
+    "text": "one losing day.",
+    "words": [
+      "one",
+      "losing",
+      "day."
+    ],
+    "highlightWord": "losing",
+    "highlightColor": "#FD802E"
+  },
+  {
+    "chunk_id": 4,
+    "start": 6.04,
+    "end": 6.86,
+    "text": "How does a record",
+    "words": [
+      "How",
+      "does",
+      "a",
+      "record"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 5,
+    "start": 6.86,
+    "end": 7.74,
+    "text": "like that happen?",
+    "words": [
+      "like",
+      "that",
+      "happen?"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 6,
+    "start": 8.4,
+    "end": 9.7,
+    "text": "The basic idea is",
+    "words": [
+      "The",
+      "basic",
+      "idea",
+      "is"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 7,
+    "start": 9.7,
+    "end": 10.48,
+    "text": "to make a very",
+    "words": [
+      "to",
+      "make",
+      "a",
+      "very"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 8,
+    "start": 10.48,
+    "end": 11.64,
+    "text": "small amount on each",
+    "words": [
+      "small",
+      "amount",
+      "on",
+      "each"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 9,
+    "start": 11.64,
+    "end": 12.02,
+    "text": "trade,",
+    "words": [
+      "trade,"
+    ],
+    "highlightWord": "trade,",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 10,
+    "start": 12.38,
+    "end": 13.48,
+    "text": "then hedge the position",
+    "words": [
+      "then",
+      "hedge",
+      "the",
+      "position"
+    ],
+    "highlightWord": "hedge",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 11,
+    "start": 13.48,
+    "end": 14.56,
+    "text": "almost immediately.",
+    "words": [
+      "almost",
+      "immediately."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 12,
+    "start": 15.3,
+    "end": 15.76,
+    "text": "Do it again,",
+    "words": [
+      "Do",
+      "it",
+      "again,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 13,
+    "start": 16.16,
+    "end": 16.9,
+    "text": "and again,",
+    "words": [
+      "and",
+      "again,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 14,
+    "start": 17.48,
+    "end": 18.12,
+    "text": "and again.",
+    "words": [
+      "and",
+      "again."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 15,
+    "start": 18.76,
+    "end": 20.16,
+    "text": "The individual trade doesn't",
+    "words": [
+      "The",
+      "individual",
+      "trade",
+      "doesn't"
+    ],
+    "highlightWord": "trade",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 16,
+    "start": 20.16,
+    "end": 21.2,
+    "text": "have to be spectacular.",
+    "words": [
+      "have",
+      "to",
+      "be",
+      "spectacular."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 17,
+    "start": 21.74,
+    "end": 22.54,
+    "text": "The edge can be",
+    "words": [
+      "The",
+      "edge",
+      "can",
+      "be"
+    ],
+    "highlightWord": "edge",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 18,
+    "start": 22.54,
+    "end": 23.0,
+    "text": "tiny.",
+    "words": [
+      "tiny."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 19,
+    "start": 23.52,
+    "end": 24.82,
+    "text": "What matters is repeating",
+    "words": [
+      "What",
+      "matters",
+      "is",
+      "repeating"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 20,
+    "start": 24.82,
+    "end": 25.86,
+    "text": "it across a very",
+    "words": [
+      "it",
+      "across",
+      "a",
+      "very"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 21,
+    "start": 25.86,
+    "end": 27.1,
+    "text": "large number of trades",
+    "words": [
+      "large",
+      "number",
+      "of",
+      "trades"
+    ],
+    "highlightWord": "trades",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 22,
+    "start": 27.1,
+    "end": 28.1,
+    "text": "while keeping the risk",
+    "words": [
+      "while",
+      "keeping",
+      "the",
+      "risk"
+    ],
+    "highlightWord": "risk",
+    "highlightColor": "#FD802E"
+  },
+  {
+    "chunk_id": 23,
+    "start": 28.1,
+    "end": 28.78,
+    "text": "controlled.",
+    "words": [
+      "controlled."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 24,
+    "start": 29.14,
+    "end": 30.42,
+    "text": "Over a huge sample,",
+    "words": [
+      "Over",
+      "a",
+      "huge",
+      "sample,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 25,
+    "start": 30.76,
+    "end": 31.82,
+    "text": "the individual wins and",
+    "words": [
+      "the",
+      "individual",
+      "wins",
+      "and"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 26,
+    "start": 31.82,
+    "end": 32.96,
+    "text": "losses start to average",
+    "words": [
+      "losses",
+      "start",
+      "to",
+      "average"
+    ],
+    "highlightWord": "losses",
+    "highlightColor": "#FD802E"
+  },
+  {
+    "chunk_id": 27,
+    "start": 32.96,
+    "end": 33.28,
+    "text": "out.",
+    "words": [
+      "out."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 28,
+    "start": 33.98,
+    "end": 35.62,
+    "text": "But, the same system",
+    "words": [
+      "But,",
+      "the",
+      "same",
+      "system"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 29,
+    "start": 35.62,
+    "end": 36.6,
+    "text": "has another side.",
+    "words": [
+      "has",
+      "another",
+      "side."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 30,
+    "start": 37.12,
+    "end": 38.34,
+    "text": "If the technology fails",
+    "words": [
+      "If",
+      "the",
+      "technology",
+      "fails"
+    ],
+    "highlightWord": "fails",
+    "highlightColor": "#FD802E"
+  },
+  {
+    "chunk_id": 31,
+    "start": 38.34,
+    "end": 39.68,
+    "text": "while thousands of positions",
+    "words": [
+      "while",
+      "thousands",
+      "of",
+      "positions"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 32,
+    "start": 39.68,
+    "end": 40.26,
+    "text": "are moving,",
+    "words": [
+      "are",
+      "moving,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 33,
+    "start": 40.68,
+    "end": 41.66,
+    "text": "the losses can pile",
+    "words": [
+      "the",
+      "losses",
+      "can",
+      "pile"
+    ],
+    "highlightWord": "losses",
+    "highlightColor": "#FD802E"
+  },
+  {
+    "chunk_id": 34,
+    "start": 41.66,
+    "end": 42.82,
+    "text": "up just as quickly.",
+    "words": [
+      "up",
+      "just",
+      "as",
+      "quickly."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 35,
+    "start": 43.3,
+    "end": 44.14,
+    "text": "That's what happened at",
+    "words": [
+      "That's",
+      "what",
+      "happened",
+      "at"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 36,
+    "start": 44.14,
+    "end": 45.24,
+    "text": "night capital in August",
+    "words": [
+      "night",
+      "capital",
+      "in",
+      "August"
+    ],
+    "highlightWord": "night",
+    "highlightColor": "#FD802E"
+  },
+  {
+    "chunk_id": 37,
+    "start": 45.24,
+    "end": 45.88,
+    "text": "2012.",
+    "words": [
+      "2012."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 38,
+    "start": 46.5,
+    "end": 47.44,
+    "text": "The firm lost about",
+    "words": [
+      "The",
+      "firm",
+      "lost",
+      "about"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 39,
+    "start": 47.44,
+    "end": 49.96,
+    "text": "$460 million in a",
+    "words": [
+      "$460",
+      "million",
+      "in",
+      "a"
+    ],
+    "highlightWord": "$460",
+    "highlightColor": "#FD802E"
+  },
+  {
+    "chunk_id": 40,
+    "start": 49.96,
+    "end": 51.44,
+    "text": "single trading day after",
+    "words": [
+      "single",
+      "trading",
+      "day",
+      "after"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 41,
+    "start": 51.44,
+    "end": 52.54,
+    "text": "a technology failure.",
+    "words": [
+      "a",
+      "technology",
+      "failure."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  }
+]

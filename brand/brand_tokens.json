@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "brand": "Quantrove",
+  "version": "2.0.0",
+  "aesthetic": {
+    "name": "Institutional Data Intelligence",
+    "tone": "Bloomberg-terminal precision",
+    "description": "High data density, clean UI wireframes, statistical rigor, clear hierarchy. No decorative flair, no generic stock imagery."
+  },
+  "palette": {
+    "BACKGROUND": "#202322",
+    "CARD_FILL": "#222022",
+    "UI_STRUCTURE": "#233D4C",
+    "SUCCESS": "#C3D809",
+    "RISK": "#FD802E",
+    "NEGATIVE": "#EF6448",
+    "TEXT": "#E6EDF3",
+    "WHITE": "#FFFFFF"
+  },
+  "roles": {
+    "background": {
+      "hex": "#202322",
+      "usage": "background canvas & dark surfaces"
+    },
+    "pill_card_fill": {
+      "hex": "#222022",
+      "opacity": 0.80,
+      "usage": "pill/card fill (never text)"
+    },
+    "chrome": {
+      "hex": "#233D4C",
+      "usage": "chrome only (grid, dividers, borders, or fill behind light text; NEVER text on dark bg)"
+    },
+    "primary_text": {
+      "hexes": ["#E6EDF3", "#FFFFFF"],
+      "usage": "primary text"
+    },
+    "secondary_text": {
+      "hex": "#E6EDF3",
+      "min_opacity": 0.60,
+      "usage": "secondary text = #E6EDF3 at opacity >= 0.60"
+    },
+    "accent_success": {
+      "hex": "#C3D809",
+      "usage": "accent: success/accuracy"
+    },
+    "accent_risk": {
+      "hex": "#FD802E",
+      "usage": "accent: risk/anomaly/target"
+    },
+    "accent_loss": {
+      "hex": "#EF6448",
+      "usage": "accent: loss/negative/danger"
+    }
+  },
+  "semantic_colors": {
+    "canvas_bg": "#202322",
+    "grid_lines": "#233D4C",
+    "panel_dividers": "#233D4C",
+    "interface_chrome": "#233D4C",
+    "tags_chrome": "#233D4C",
+    "positive_validation": "#C3D809",
+    "active_prediction": "#C3D809",
+    "upward_move": "#C3D809",
+    "convergence_line": "#C3D809",
+    "candle_up": "#C3D809",
+    "keyword_emphasis": "#C3D809",
+    "anomaly": "#FD802E",
+    "outlier": "#FD802E",
+    "target": "#FD802E",
+    "high_risk": "#FD802E",
+    "downward_move": "#FD802E",
+    "candle_down": "#FD802E",
+    "risk_keyword": "#FD802E",
+    "text_primary": "#E6EDF3",
+    "wordmark": "#E6EDF3"
+  },
+  "rules": {
+    "palette_hex_only": [
+      "#202322",
+      "#222022",
+      "#233D4C",
+      "#C3D809",
+      "#FD802E",
+      "#EF6448",
+      "#E6EDF3",
+      "#FFFFFF"
+    ],
+    "allowed_text_colors": [
+      "#E6EDF3",
+      "#FFFFFF",
+      "#C3D809",
+      "#FD802E",
+      "#EF6448"
+    ],
+    "secondary_text_min_opacity": 0.60,
+    "contrast_minimum": 4.5,
+    "contrast_large_bold_minimum": 3.0,
+    "contrast_large_bold_min_font_px": 48,
+    "no_generic_red_green": true,
+    "direction_mapping": {
+      "up": "#C3D809",
+      "down": "#FD802E",
+      "success": "#C3D809",
+      "risk": "#FD802E"
+    },
+    "ui_structure_restriction": "Charcoal Slate (#233D4C) is for lines and chrome ONLY, never text (low contrast)."
+  },
+  "typography": {
+    "primary_font": "Nohemi",
+    "fallback_font": "Inter",
+    "weights": {
+      "bold": 700,
+      "medium": 500
+    },
+    "tier_rules": {
+      "titles": {
+        "font": "Nohemi",
+        "weight": 700,
+        "color": "#E6EDF3"
+      },
+      "numbers": {
+        "font": "Nohemi",
+        "weight": 700,
+        "color": "#E6EDF3"
+      },
+      "key_terms": {
+        "font": "Nohemi",
+        "weight": 700,
+        "color": "#C3D809"
+      },
+      "supporting_text": {
+        "font": "Nohemi",
+        "weight": 500,
+        "color": "#E6EDF3"
+      },
+      "risk_anomaly": {
+        "font": "Nohemi",
+        "weight": 700,
+        "color": "#FD802E"
+      }
+    }
+  },
+  "text_color_scheme": {
+    "text": "#E6EDF3",
+    "emphasis": "#C3D809",
+    "risk": "#FD802E",
+    "dim_opacity": 0.4
+  }
+}

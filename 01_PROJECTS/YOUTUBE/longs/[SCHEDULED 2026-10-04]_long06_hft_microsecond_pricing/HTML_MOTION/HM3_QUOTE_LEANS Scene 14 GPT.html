@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Avellaneda–Stoikov Inventory Dynamics</title>
+<style>
+  html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #202322;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    display: block;
+    width: min(100vw, 177.7777778vh);
+    height: min(56.25vw, 100vh);
+    background: #202322;
+    font-variant-numeric: tabular-nums;
+  }
+</style>
+</head>
+<body>
+<canvas id="stage" width="1920" height="1080" aria-label="Illustrative Avellaneda Stoikov inventory animation"></canvas>
+<script>
+(() => {
+  'use strict';
+
+  const W = 1920, H = 1080;
+  const canvas = document.getElementById('stage');
+  const ctx = canvas.getContext('2d', { alpha: false, desynchronized: true });
+
+  const C = {
+    bg: '#202322',
+    grid: '#233D4C',
+    lime: '#C3D809',
+    orange: '#FD802E',
+    text: '#E6EDF3'
+  };
+
+  const PLOT = { x0: 210, x1: 1290, y0: 290, y1: 820 };
+  const X_MARKER = 1250;
+  const X_BRACKET = 1330;
+  const X_RIGHT = 1824;
+  const PRICE_TOP = 101.00;
+  const PRICE_BOTTOM = 97.50;
+  const Y_PER_PRICE = (PLOT.y1 - PLOT.y0) / (PRICE_TOP - PRICE_BOTTOM);
+
+  // Exact textbook values supplied by the specification. No recalculation of model parameters.
+  const ROWS = [
+    { q: 0, reservation: 100.00, bid: 99.16, ask: 100.85 },
+    { q: 1, reservation: 99.60, bid: 98.76, ask: 100.45 },
+    { q: 2, reservation: 99.20, bid: 98.36, ask: 100.05 },
+    { q: 3, reservation: 98.80, bid: 97.96, ask: 99.65 }
+  ];
+
+  const GRID = [
+    { p: 101.00, y: 290 },
+    { p: 100.00, y: 441 },
+    { p: 99.00,  y: 593 },
+    { p: 98.00,  y: 744 }
+  ];
+
+  const FONT = 'Nohemi, Inter, system-ui, -apple-system, sans-serif';
+
+  function seededRandom(seed) {
+    let s = seed >>> 0;
+    return () => {
+      s = (1664525 * s + 1013904223) >>> 0;
+      return s / 4294967296;
+    };
+  }
+  // Seeded PRNG is instantiated for deterministic construction metadata only.
+  const rng = seededRandom(0xA5A5A5A5);
+  const DETERMINISTIC_SEED = Math.floor(rng() * 0xFFFFFFFF) >>> 0;
+
+  function clamp01(x) { return Math.max(0, Math.min(1, x)); }
+  function lerp(a, b, u) { return a + (b - a) * u; }
+  function easeInOut(u) {
+    u = clamp01(u);
+    return u * u * (3 - 2 * u);
+  }
+  function fadeIn(t, a, b) {
+    if (t <= a) return 0;
+    if (t >= b) return 1;
+    return easeInOut((t - a) / (b - a));
+  }
+  function priceY(price) {
+    return PLOT.y0 + (PRICE_TOP - price) * Y_PER_PRICE;
+  }
+  function yForRow(row, key) {
+    return priceY(ROWS[row][key]);
+  }
+  function fmt(v) { return v.toFixed(2); }
+
+  // q state is piecewise: a buy happens at each marker; the quote lines transition for 0.5s.
+  function stateAt(t) {
+    let q = 0;
+    if (t >= 3.80) q = 3;
+    else if (t >= 2.60) q = 2;
+    else if (t >= 1.40) q = 1;
+
+    let segmentStart = 0;
+    let from = 0;
+    if (q === 1) { segmentStart = 1.40; from = 0; }
+    if (q === 2) { segmentStart = 2.60; from = 1; }
+    if (q === 3) { segmentStart = 3.80; from = 2; }
+
+    const u = q === 0 ? 0 : easeInOut(clamp01((t - segmentStart) / 0.50));
+    const a = ROWS[from];
+    const b = ROWS[q];
+
+    return {
+      q,
+      u,
+      reservation: lerp(a.reservation, b.reservation, u),
+      bid: lerp(a.bid, b.bid, u),
+      ask: lerp(a.ask, b.ask, u),
+      reservationY: lerp(priceY(a.reservation), priceY(b.reservation), u),
+      bidY: lerp(priceY(a.bid), priceY(b.bid), u),
+      askY: lerp(priceY(a.ask), priceY(b.ask), u)
+    };
+  }
+
+  function drawText(text, x, y, size, alpha = 1, weight = 400, align = 'left') {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = C.text;
+    ctx.font = `${weight} ${size}px ${FONT}`;
+    ctx.textAlign = align;
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText(text, x, y);
+    ctx.restore();
+  }
+
+  function drawRect(x, y, w, h, color, alpha = 1) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, w, h);
+    ctx.restore();
+  }
+
+  function drawLine(x0, y0, x1, y1, color, alpha = 1, width = 1, dash = []) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = width;
+    ctx.setLineDash(dash);
+    ctx.beginPath();
+    ctx.moveTo(x0, y0);
+    ctx.lineTo(x1, y1);
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  function drawPathReveal(yFn, endX, color, alpha, width = 3) {
+    const x0 = PLOT.x0;
+    const x1 = Math.max(x0, Math.min(PLOT.x1, endX));
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.strokeStyle = color;
+    ctx.lineWidth = width;
+    ctx.lineCap = 'butt';
+    ctx.lineJoin = 'miter';
+    ctx.beginPath();
+    ctx.moveTo(x0, yFn(x0));
+    ctx.lineTo(x1, yFn(x1));
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  function drawFullHorizontal(y, color, alpha, width = 3) {
+    drawLine(PLOT.x0, y, PLOT.x1, y, color, alpha, width);
+  }
+
+  function readout(label, value, y, valueColor = C.text, valueSize = 72, alpha = 1) {
+    drawText(label, 1380, y, 28, 0.70 * alpha, 400, 'left');
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = valueColor;
+    ctx.font = `700 ${valueSize}px ${FONT}`;
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText(value, 1380, y + 76);
+    ctx.restore();
+  }
+
+  function drawGridAndAxis(t) {
+    const a = fadeIn(t, 0.00, 0.60);
+    ctx.save();
+    ctx.globalAlpha = a;
+    GRID.forEach(g => drawLine(PLOT.x0, g.y, PLOT.x1, g.y, C.grid, 1, 1));
+    GRID.forEach(g => drawText(fmt(g.p), 200, g.y + 9, 28, 0.70, 400, 'right'));
+    // Reference line at 100.00 is independently phased into the opening.
+    drawLine(PLOT.x0, 441, PLOT.x1, 441, C.text, 0.40, 1, [8, 8]);
+    drawText('MID 100.00', 1100, 405, 28, 0.55, 400, 'left');
+    ctx.restore();
+  }
+
+  function drawQuoteReveal(t) {
+    const lines = [
+      { start: 0.60, color: C.lime, width: 3, y: priceY(100.00) },
+      { start: 0.70, color: C.text, width: 2, y: priceY(99.16) },
+      { start: 0.80, color: C.text, width: 2, y: priceY(100.85) }
+    ];
+    lines.forEach((line, i) => {
+      const u = easeInOut(clamp01((t - line.start) / 0.40));
+      drawPathReveal(() => line.y, PLOT.x0 + (PLOT.x1 - PLOT.x0) * u, line.color, i === 0 ? 1 : 0.85, line.width);
+    });
+  }
+
+  function drawCurrentState(t) {
+    const st = stateAt(t);
+    const chartVisible = fadeIn(t, 0.60, 1.20);
+    const lineX0 = PLOT.x0;
+    const lineX1 = PLOT.x1;
+    if (t < 1.20) {
+      drawQuoteReveal(t);
+    } else {
+      let reservationY = st.reservationY;
+      let bidY = st.bidY;
+      let askY = st.askY;
+
+      // Temporary quote readjustment requested at 5.2s, then a deterministic return to the q=3 table row.
+      if (t >= 5.20 && t < 5.80) {
+        const u = easeInOut((t - 5.20) / 0.50);
+        bidY = lerp(priceY(97.96), priceY(100.10), u);
+        askY = lerp(priceY(99.65), priceY(100.11), u);
+      } else if (t >= 5.80 && t < 6.30) {
+        const u = easeInOut((t - 5.80) / 0.50);
+        bidY = lerp(priceY(100.10), priceY(97.96), u);
+        askY = lerp(priceY(100.11), priceY(99.65), u);
+      }
+
+      drawFullHorizontal(reservationY, C.lime, chartVisible, 3);
+      drawFullHorizontal(bidY, C.text, 0.85 * chartVisible, 2);
+      const askColor = (t >= 3.80 && t < 4.60) ? C.orange : C.text;
+      drawFullHorizontal(askY, askColor, (askColor === C.orange ? 1 : 0.85) * chartVisible, 2);
+    }
+
+    // Labels sit inside the plot and follow the exact active quote values.
+    if (t >= 1.20) {
+      const askLabelY = Math.max(PLOT.y0 + 28, st.askY - 40);
+      drawText('RESERVATION', 230, st.reservationY - 40, 28, 1, 600, 'left');
+      drawText('ASK', 230, askLabelY, 28, 0.90, 600, 'left');
+      drawText('BID', 230, st.bidY + 40, 28, 0.90, 600, 'left');
+    }
+
+    // Initial quote state labels are visible once the line reveal begins.
+    if (t >= 0.60 && t < 1.20) {
+      const a = fadeIn(t, 0.60, 1.00);
+      drawText('RESERVATION', 230, priceY(100.00) - 40, 28, a, 600, 'left');
+      drawText('BID', 230, priceY(99.16) + 40, 28, a * 0.90, 600, 'left');
+      drawText('ASK', 230, Math.max(PLOT.y0 + 28, priceY(100.85) - 40), 28, a * 0.90, 600, 'left');
+    }
+
+    // Exactly three readout slots. Specified event readouts temporarily crossfade into the same slots.
+    const invA = fadeIn(t, 0.80, 1.20);
+    const resA = fadeIn(t, 1.00, 1.40);
+    const sprA = fadeIn(t, 1.20, 1.60);
+
+    function slotCrossfade(y, baseLabel, baseValue, baseColor, eventLabel, eventValue, eventColor, eventStart, eventEnd, alpha) {
+      const inA = fadeIn(t, eventStart, eventStart + 0.20);
+      const outA = fadeIn(t, eventEnd, eventEnd + 0.20);
+      const eventA = eventStart <= t && t < eventEnd ? 1 : 0;
+      const holdA = eventStart <= t ? (t < eventEnd ? 1 : 1 - outA) : 0;
+      const baseOpacity = eventStart <= t ? (t < eventEnd ? 0 : outA) : 1;
+      const eventOpacity = eventStart <= t ? (t < eventEnd ? 1 : 1 - outA) : inA;
+      if (eventStart <= t) {
+        drawText(eventLabel, 1380, y, 28, 0.70 * alpha * eventOpacity, 400, 'left');
+        ctx.save();
+        ctx.globalAlpha = alpha * eventOpacity;
+        ctx.fillStyle = eventColor;
+        ctx.font = `700 72px ${FONT}`;
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'alphabetic';
+        ctx.fillText(eventValue, 1380, y + 76);
+        ctx.restore();
+      }
+      if (baseOpacity > 0) {
+        drawText(baseLabel, 1380, y, 28, 0.70 * alpha * baseOpacity, 400, 'left');
+        ctx.save();
+        ctx.globalAlpha = alpha * baseOpacity;
+        ctx.fillStyle = baseColor;
+        ctx.font = `700 72px ${FONT}`;
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'alphabetic';
+        ctx.fillText(baseValue, 1380, y + 76);
+        ctx.restore();
+      }
+    }
+
+    slotCrossfade(300, 'INVENTORY', `q = ${st.q}`, C.text, 'SOLD AT', '100.01', C.text, 3.00, 3.60, invA);
+    slotCrossfade(470, 'RESERVATION', fmt(st.reservation), C.lime, 'PRICE NOW', '100.11', C.text, 3.40, 4.20, resA);
+    slotCrossfade(640, 'SPREAD', '1.69', C.text, 'LOSS', '-0.10', C.orange, 3.80, 6.20, sprA);
+  }
+
+  function drawBuyMarker(t, time) {
+    const u = (t - time) / 0.25;
+    if (u < 0 || u > 1) return;
+    const alpha = Math.sin(Math.PI * clamp01(u));
+    const row = time === 1.40 ? 0 : (time === 2.60 ? 1 : 2);
+    const y = priceY(ROWS[row].bid);
+    drawRect(X_MARKER - 8, y - 8, 16, 16, C.lime, alpha);
+  }
+
+  function drawSoldEvent(t) {
+    if (t < 3.00) return;
+    const labelA = fadeIn(t, 3.00, 3.20);
+    const markerPulse = t <= 3.25 ? Math.sin(Math.PI * clamp01((t - 3.00) / 0.25)) : 0;
+    const y = priceY(ROWS[0].ask);
+    drawRect(X_MARKER - 7, y - 7, 14, 14, C.text, markerPulse);
+    if (labelA > 0) {
+      drawText('SOLD @ 100.01', X_MARKER - 24, y - 28, 28, labelA, 600, 'right');
+    }
+  }
+
+  function drawBracket(t) {
+    if (t < 4.80 || t > 5.20) return;
+    const a = easeInOut(clamp01((t - 4.80) / 0.40));
+    const b = easeInOut(clamp01((5.20 - t) / 0.40));
+    const alpha = Math.min(a, b);
+    const yTop = 441;
+    const yBottom = 623;
+    const midY = (yTop + yBottom) / 2;
+    drawLine(X_BRACKET, yTop, X_BRACKET, yBottom, C.orange, alpha, 3);
+    drawLine(X_BRACKET - 12, yTop, X_BRACKET + 12, yTop, C.orange, alpha, 3);
+    drawLine(X_BRACKET - 12, yBottom, X_BRACKET + 12, yBottom, C.orange, alpha, 3);
+    drawRect(X_BRACKET + 20, midY - 24, 92, 48, C.bg, alpha);
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = C.orange;
+    ctx.font = `700 36px ${FONT}`;
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText('-1.20', X_BRACKET + 24, midY + 12);
+    ctx.restore();
+  }
+
+  function drawTimelineLabels(t) {
+    // No narration/caption text is placed in the scene; only specification-defined labels are drawn.
+    if (t >= 5.20) {
+      const a = fadeIn(t, 5.20, 5.60);
+      drawText('REPRICED', 1100, 470, 28, a, 600, 'left');
+    }
+  }
+
+  function drawAll(t) {
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = C.bg;
+    ctx.fillRect(0, 0, W, H);
+
+    // Corner metadata. This is the sole provenance tag for the illustrative numerical data.
+    drawText('ILLUSTRATIVE DATA', X_RIGHT, 215, 28, 0.60, 400, 'right');
+    drawText('TEXTBOOK PARAMETERS', X_RIGHT, 255, 28, 0.60, 400, 'right');
+
+    drawGridAndAxis(t);
+    drawCurrentState(t);
+
+    // Buy markers are instantaneous event highlights on the bid ladder.
+    drawBuyMarker(t, 1.40);
+    drawBuyMarker(t, 2.60);
+    drawBuyMarker(t, 3.80);
+
+    drawSoldEvent(t);
+    drawBracket(t);
+    drawTimelineLabels(t);
+    if (t >= 3.80 && t <= 4.60) {
+      const a = fadeIn(t, 3.80, 4.20);
+      drawText('STALE ASK', 850, 560, 28, a, 600, 'left');
+    }
+
+    // The animation must settle completely by 6.5s; final frame at 8.0s is held.
+  }
+
+  let manualMode = false;
+  let manualTime = 0;
+
+  window.setTime = function(t) {
+    const x = Number.isFinite(Number(t)) ? Number(t) : 0;
+    manualMode = true;
+    manualTime = Math.max(0, Math.min(8, x));
+    drawAll(manualTime);
+  };
+
+  function selfCheck() {
+    const a = stateAt(0.9);
+    const b = stateAt(4.4);
+    const c = stateAt(8.0);
+    const tol = 1e-12;
+    const checks = [
+      Math.abs(a.reservation - 100.00) < tol && Math.abs(a.bid - 99.16) < tol && Math.abs(a.ask - 100.85) < tol,
+      Math.abs(b.reservation - 98.80) < tol && Math.abs(b.bid - 97.96) < tol && Math.abs(b.ask - 99.65) < tol,
+      Math.abs(c.reservation - 98.80) < tol && Math.abs(c.bid - 97.96) < tol && Math.abs(c.ask - 99.65) < tol
+    ];
+    window.__sceneSelfCheck = { seed: DETERMINISTIC_SEED, checks, pass: checks.every(Boolean) };
+  }
+
+  // Required checkpoint calls. setTime is the same public renderer used for manual export checks.
+  selfCheck();
+  window.setTime(0.9);
+  window.setTime(4.4);
+  window.setTime(8.0);
+  manualMode = false;
+  drawAll(0);
+
+  const startMs = performance.now();
+  function frame(nowMs) {
+    if (!manualMode) {
+      const elapsed = (nowMs - startMs) / 1000;
+      const t = Math.max(0, Math.min(8, elapsed));
+      drawAll(t);
+      if (elapsed < 8) requestAnimationFrame(frame);
+      else drawAll(8);
+    }
+  }
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

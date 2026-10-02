@@ -1,0 +1,478 @@
+[
+  {
+    "chunk_id": 1,
+    "start": 0.0,
+    "end": 1.24,
+    "text": "Imagine the same stock",
+    "words": [
+      "Imagine",
+      "the",
+      "same",
+      "stock"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 2,
+    "start": 1.24,
+    "end": 2.72,
+    "text": "trading on two exchanges.",
+    "words": [
+      "trading",
+      "on",
+      "two",
+      "exchanges."
+    ],
+    "highlightWord": "exchanges.",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 3,
+    "start": 3.42,
+    "end": 4.64,
+    "text": "Both are showing roughly",
+    "words": [
+      "Both",
+      "are",
+      "showing",
+      "roughly"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 4,
+    "start": 4.64,
+    "end": 5.34,
+    "text": "the same price.",
+    "words": [
+      "the",
+      "same",
+      "price."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 5,
+    "start": 6.06,
+    "end": 6.36,
+    "text": "Then,",
+    "words": [
+      "Then,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 6,
+    "start": 6.66,
+    "end": 7.68,
+    "text": "the price moves on",
+    "words": [
+      "the",
+      "price",
+      "moves",
+      "on"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 7,
+    "start": 7.68,
+    "end": 8.26,
+    "text": "one exchange.",
+    "words": [
+      "one",
+      "exchange."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 8,
+    "start": 8.94,
+    "end": 10.14,
+    "text": "For a tiny fraction",
+    "words": [
+      "For",
+      "a",
+      "tiny",
+      "fraction"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 9,
+    "start": 10.14,
+    "end": 10.8,
+    "text": "of a second,",
+    "words": [
+      "of",
+      "a",
+      "second,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 10,
+    "start": 11.16,
+    "end": 12.28,
+    "text": "the other exchange can",
+    "words": [
+      "the",
+      "other",
+      "exchange",
+      "can"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 11,
+    "start": 12.28,
+    "end": 13.3,
+    "text": "still be showing the",
+    "words": [
+      "still",
+      "be",
+      "showing",
+      "the"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 12,
+    "start": 13.3,
+    "end": 13.94,
+    "text": "old price.",
+    "words": [
+      "old",
+      "price."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 13,
+    "start": 14.56,
+    "end": 16.1,
+    "text": "That's where speed matters.",
+    "words": [
+      "That's",
+      "where",
+      "speed",
+      "matters."
+    ],
+    "highlightWord": "speed",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 14,
+    "start": 16.72,
+    "end": 17.92,
+    "text": "A faster machine can",
+    "words": [
+      "A",
+      "faster",
+      "machine",
+      "can"
+    ],
+    "highlightWord": "faster",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 15,
+    "start": 17.92,
+    "end": 18.64,
+    "text": "see the move,",
+    "words": [
+      "see",
+      "the",
+      "move,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 16,
+    "start": 19.06,
+    "end": 20.0,
+    "text": "reach the other venue,",
+    "words": [
+      "reach",
+      "the",
+      "other",
+      "venue,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 17,
+    "start": 20.28,
+    "end": 21.38,
+    "text": "and trade against the",
+    "words": [
+      "and",
+      "trade",
+      "against",
+      "the"
+    ],
+    "highlightWord": "trade",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 18,
+    "start": 21.38,
+    "end": 22.66,
+    "text": "stale quote before it",
+    "words": [
+      "stale",
+      "quote",
+      "before",
+      "it"
+    ],
+    "highlightWord": "stale",
+    "highlightColor": "#FD802E"
+  },
+  {
+    "chunk_id": 19,
+    "start": 22.66,
+    "end": 23.14,
+    "text": "disappears.",
+    "words": [
+      "disappears."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 20,
+    "start": 24.12,
+    "end": 25.18,
+    "text": "And there's another race",
+    "words": [
+      "And",
+      "there's",
+      "another",
+      "race"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 21,
+    "start": 25.18,
+    "end": 26.1,
+    "text": "happening at the same",
+    "words": [
+      "happening",
+      "at",
+      "the",
+      "same"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 22,
+    "start": 26.1,
+    "end": 26.54,
+    "text": "time.",
+    "words": [
+      "time."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 23,
+    "start": 27.09,
+    "end": 28.64,
+    "text": "Suppose ten machines are",
+    "words": [
+      "Suppose",
+      "ten",
+      "machines",
+      "are"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 24,
+    "start": 28.64,
+    "end": 29.8,
+    "text": "all offering the same",
+    "words": [
+      "all",
+      "offering",
+      "the",
+      "same"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 25,
+    "start": 29.8,
+    "end": 30.14,
+    "text": "price.",
+    "words": [
+      "price."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 26,
+    "start": 30.68,
+    "end": 31.66,
+    "text": "They can't improve the",
+    "words": [
+      "They",
+      "can't",
+      "improve",
+      "the"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 27,
+    "start": 31.66,
+    "end": 32.5,
+    "text": "price any further.",
+    "words": [
+      "price",
+      "any",
+      "further."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 28,
+    "start": 33.04,
+    "end": 34.14,
+    "text": "So the order book",
+    "words": [
+      "So",
+      "the",
+      "order",
+      "book"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 29,
+    "start": 34.14,
+    "end": 34.94,
+    "text": "becomes a queue.",
+    "words": [
+      "becomes",
+      "a",
+      "queue."
+    ],
+    "highlightWord": "queue.",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 30,
+    "start": 35.6,
+    "end": 36.44,
+    "text": "The machine that arrived",
+    "words": [
+      "The",
+      "machine",
+      "that",
+      "arrived"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 31,
+    "start": 36.44,
+    "end": 37.86,
+    "text": "first gets the first",
+    "words": [
+      "first",
+      "gets",
+      "the",
+      "first"
+    ],
+    "highlightWord": "first",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 32,
+    "start": 37.86,
+    "end": 38.1,
+    "text": "fill.",
+    "words": [
+      "fill."
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 33,
+    "start": 38.76,
+    "end": 39.5,
+    "text": "At that point,",
+    "words": [
+      "At",
+      "that",
+      "point,"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 34,
+    "start": 39.86,
+    "end": 41.64,
+    "text": "another few microseconds can",
+    "words": [
+      "another",
+      "few",
+      "microseconds",
+      "can"
+    ],
+    "highlightWord": "microseconds",
+    "highlightColor": "#C3D809"
+  },
+  {
+    "chunk_id": 35,
+    "start": 41.64,
+    "end": 42.9,
+    "text": "change who gets the",
+    "words": [
+      "change",
+      "who",
+      "gets",
+      "the"
+    ],
+    "highlightWord": null,
+    "highlightColor": null
+  },
+  {
+    "chunk_id": 36,
+    "start": 42.9,
+    "end": 43.24,
+    "text": "trade.",
+    "words": [
+      "trade."
+    ],
+    "highlightWord": "trade.",
+    "highlightColor": "#C3D809"
+  }
+]

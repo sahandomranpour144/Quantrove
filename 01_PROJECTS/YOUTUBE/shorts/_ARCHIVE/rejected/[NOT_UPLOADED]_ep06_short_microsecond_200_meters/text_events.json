@@ -1,0 +1,664 @@
+[
+  {
+    "start": 0.05,
+    "end": 1.632,
+    "words": [
+      {
+        "word": "In",
+        "start": 0.05,
+        "end": 0.445
+      },
+      {
+        "word": "one",
+        "start": 0.445,
+        "end": 0.841
+      },
+      {
+        "word": "microsecond,",
+        "start": 0.841,
+        "end": 1.236
+      },
+      {
+        "word": "light",
+        "start": 1.236,
+        "end": 1.632
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "microsecond,"
+  },
+  {
+    "start": 1.632,
+    "end": 3.214,
+    "words": [
+      {
+        "word": "travels",
+        "start": 1.632,
+        "end": 2.027
+      },
+      {
+        "word": "about",
+        "start": 2.027,
+        "end": 2.423
+      },
+      {
+        "word": "two",
+        "start": 2.423,
+        "end": 2.818
+      },
+      {
+        "word": "hundred",
+        "start": 2.818,
+        "end": 3.214
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 3.214,
+    "end": 4.4,
+    "words": [
+      {
+        "word": "meters",
+        "start": 3.214,
+        "end": 3.609
+      },
+      {
+        "word": "through",
+        "start": 3.609,
+        "end": 4.005
+      },
+      {
+        "word": "fiber.",
+        "start": 4.005,
+        "end": 4.4
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "meters"
+  },
+  {
+    "start": 4.4,
+    "end": 6.0,
+    "words": [
+      {
+        "word": "A",
+        "start": 4.4,
+        "end": 4.8
+      },
+      {
+        "word": "microsecond",
+        "start": 4.8,
+        "end": 5.2
+      },
+      {
+        "word": "sounds",
+        "start": 5.2,
+        "end": 5.6
+      },
+      {
+        "word": "impossibly",
+        "start": 5.6,
+        "end": 6.0
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "microsecond"
+  },
+  {
+    "start": 6.0,
+    "end": 7.6,
+    "words": [
+      {
+        "word": "small.",
+        "start": 6.0,
+        "end": 6.4
+      },
+      {
+        "word": "In",
+        "start": 6.4,
+        "end": 6.8
+      },
+      {
+        "word": "human",
+        "start": 6.8,
+        "end": 7.2
+      },
+      {
+        "word": "biology,",
+        "start": 7.2,
+        "end": 7.6
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 7.6,
+    "end": 9.2,
+    "words": [
+      {
+        "word": "a",
+        "start": 7.6,
+        "end": 8.0
+      },
+      {
+        "word": "single",
+        "start": 8.0,
+        "end": 8.4
+      },
+      {
+        "word": "eye",
+        "start": 8.4,
+        "end": 8.8
+      },
+      {
+        "word": "blink",
+        "start": 8.8,
+        "end": 9.2
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 9.2,
+    "end": 10.8,
+    "words": [
+      {
+        "word": "takes",
+        "start": 9.2,
+        "end": 9.6
+      },
+      {
+        "word": "over",
+        "start": 9.6,
+        "end": 10.0
+      },
+      {
+        "word": "three",
+        "start": 10.0,
+        "end": 10.4
+      },
+      {
+        "word": "hundred",
+        "start": 10.4,
+        "end": 10.8
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 10.8,
+    "end": 12.0,
+    "words": [
+      {
+        "word": "thousand",
+        "start": 10.8,
+        "end": 11.2
+      },
+      {
+        "word": "of",
+        "start": 11.2,
+        "end": 11.6
+      },
+      {
+        "word": "them.",
+        "start": 11.6,
+        "end": 12.0
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 12.0,
+    "end": 13.643,
+    "words": [
+      {
+        "word": "Light",
+        "start": 12.0,
+        "end": 12.411
+      },
+      {
+        "word": "travels",
+        "start": 12.411,
+        "end": 12.821
+      },
+      {
+        "word": "300",
+        "start": 12.821,
+        "end": 13.232
+      },
+      {
+        "word": "meters",
+        "start": 13.232,
+        "end": 13.643
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "Light"
+  },
+  {
+    "start": 13.643,
+    "end": 15.286,
+    "words": [
+      {
+        "word": "per",
+        "start": 13.643,
+        "end": 14.054
+      },
+      {
+        "word": "microsecond",
+        "start": 14.054,
+        "end": 14.464
+      },
+      {
+        "word": "in",
+        "start": 14.464,
+        "end": 14.875
+      },
+      {
+        "word": "a",
+        "start": 14.875,
+        "end": 15.286
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "microsecond"
+  },
+  {
+    "start": 15.286,
+    "end": 16.929,
+    "words": [
+      {
+        "word": "vacuum,",
+        "start": 15.286,
+        "end": 15.696
+      },
+      {
+        "word": "but",
+        "start": 15.696,
+        "end": 16.107
+      },
+      {
+        "word": "slows",
+        "start": 16.107,
+        "end": 16.518
+      },
+      {
+        "word": "to",
+        "start": 16.518,
+        "end": 16.929
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "slows"
+  },
+  {
+    "start": 16.929,
+    "end": 18.571,
+    "words": [
+      {
+        "word": "200",
+        "start": 16.929,
+        "end": 17.339
+      },
+      {
+        "word": "meters",
+        "start": 17.339,
+        "end": 17.75
+      },
+      {
+        "word": "inside",
+        "start": 17.75,
+        "end": 18.161
+      },
+      {
+        "word": "glass",
+        "start": 18.161,
+        "end": 18.571
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "meters"
+  },
+  {
+    "start": 18.571,
+    "end": 20.214,
+    "words": [
+      {
+        "word": "optical",
+        "start": 18.571,
+        "end": 18.982
+      },
+      {
+        "word": "fiber.",
+        "start": 18.982,
+        "end": 19.393
+      },
+      {
+        "word": "Trading",
+        "start": 19.393,
+        "end": 19.804
+      },
+      {
+        "word": "servers",
+        "start": 19.804,
+        "end": 20.214
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "fiber."
+  },
+  {
+    "start": 20.214,
+    "end": 21.857,
+    "words": [
+      {
+        "word": "occupy",
+        "start": 20.214,
+        "end": 20.625
+      },
+      {
+        "word": "physical",
+        "start": 20.625,
+        "end": 21.036
+      },
+      {
+        "word": "space",
+        "start": 21.036,
+        "end": 21.446
+      },
+      {
+        "word": "across",
+        "start": 21.446,
+        "end": 21.857
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 21.857,
+    "end": 23.5,
+    "words": [
+      {
+        "word": "New",
+        "start": 21.857,
+        "end": 22.268
+      },
+      {
+        "word": "Jersey",
+        "start": 22.268,
+        "end": 22.679
+      },
+      {
+        "word": "and",
+        "start": 22.679,
+        "end": 23.089
+      },
+      {
+        "word": "Chicago.",
+        "start": 23.089,
+        "end": 23.5
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 23.5,
+    "end": 25.054,
+    "words": [
+      {
+        "word": "Two",
+        "start": 23.5,
+        "end": 23.888
+      },
+      {
+        "word": "machines",
+        "start": 23.888,
+        "end": 24.277
+      },
+      {
+        "word": "separated",
+        "start": 24.277,
+        "end": 24.665
+      },
+      {
+        "word": "by",
+        "start": 24.665,
+        "end": 25.054
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "machines"
+  },
+  {
+    "start": 25.054,
+    "end": 26.608,
+    "words": [
+      {
+        "word": "only",
+        "start": 25.054,
+        "end": 25.442
+      },
+      {
+        "word": "a",
+        "start": 25.442,
+        "end": 25.831
+      },
+      {
+        "word": "few",
+        "start": 25.831,
+        "end": 26.219
+      },
+      {
+        "word": "hundred",
+        "start": 26.219,
+        "end": 26.608
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 26.608,
+    "end": 28.162,
+    "words": [
+      {
+        "word": "meters",
+        "start": 26.608,
+        "end": 26.996
+      },
+      {
+        "word": "receive",
+        "start": 26.996,
+        "end": 27.385
+      },
+      {
+        "word": "the",
+        "start": 27.385,
+        "end": 27.773
+      },
+      {
+        "word": "same",
+        "start": 27.773,
+        "end": 28.162
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "meters"
+  },
+  {
+    "start": 28.162,
+    "end": 29.715,
+    "words": [
+      {
+        "word": "market",
+        "start": 28.162,
+        "end": 28.55
+      },
+      {
+        "word": "quote",
+        "start": 28.55,
+        "end": 28.938
+      },
+      {
+        "word": "at",
+        "start": 28.938,
+        "end": 29.327
+      },
+      {
+        "word": "different",
+        "start": 29.327,
+        "end": 29.715
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "quote"
+  },
+  {
+    "start": 29.715,
+    "end": 31.269,
+    "words": [
+      {
+        "word": "moments.",
+        "start": 29.715,
+        "end": 30.104
+      },
+      {
+        "word": "In",
+        "start": 30.104,
+        "end": 30.492
+      },
+      {
+        "word": "high-frequency",
+        "start": 30.492,
+        "end": 30.881
+      },
+      {
+        "word": "finance,",
+        "start": 30.881,
+        "end": 31.269
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null
+  },
+  {
+    "start": 31.269,
+    "end": 32.823,
+    "words": [
+      {
+        "word": "physics",
+        "start": 31.269,
+        "end": 31.658
+      },
+      {
+        "word": "is",
+        "start": 31.658,
+        "end": 32.046
+      },
+      {
+        "word": "the",
+        "start": 32.046,
+        "end": 32.435
+      },
+      {
+        "word": "ultimate",
+        "start": 32.435,
+        "end": 32.823
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "physics"
+  },
+  {
+    "start": 32.823,
+    "end": 33.6,
+    "words": [
+      {
+        "word": "speed",
+        "start": 32.823,
+        "end": 33.212
+      },
+      {
+        "word": "limit.",
+        "start": 33.212,
+        "end": 33.6
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "speed"
+  }
+]

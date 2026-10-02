@@ -1,0 +1,45 @@
+{
+  "type": "native",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "IDEA",
+      "start_s": 0.0,
+      "end_s": 10.0,
+      "motion_tag": "manim_draw",
+      "type": "native"
+    },
+    {
+      "id": 2,
+      "beat": "SIMPLE_WRONG",
+      "start_s": 10.0,
+      "end_s": 15.0,
+      "motion_tag": "manim_transform",
+      "type": "native"
+    },
+    {
+      "id": 3,
+      "beat": "COMPLEX_WRONG",
+      "start_s": 15.0,
+      "end_s": 26.0,
+      "motion_tag": "manim_draw",
+      "type": "native"
+    },
+    {
+      "id": 4,
+      "beat": "INSIGHT",
+      "start_s": 26.0,
+      "end_s": 32.0,
+      "motion_tag": "manim_draw",
+      "type": "native"
+    },
+    {
+      "id": 5,
+      "beat": "OUTRO",
+      "start_s": 32.0,
+      "end_s": 35.0,
+      "motion_tag": "manim_draw",
+      "type": "outro"
+    }
+  ]
+}

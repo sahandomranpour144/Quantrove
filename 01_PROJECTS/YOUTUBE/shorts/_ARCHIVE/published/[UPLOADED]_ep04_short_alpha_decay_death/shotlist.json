@@ -1,0 +1,16 @@
+{
+  "type": "extraction",
+  "total_duration_s": 40.3,
+  "scenes": [
+    {
+      "id": 1,
+      "scene_name": "Pattern 1: Alpha Decay Exponential Curve",
+      "start_s": 0.0,
+      "end_s": 40.3,
+      "type": "extraction",
+      "motion_tag": "manim_draw",
+      "hold_tag": "HOLD_FOR_UNDERSTANDING",
+      "font": "Nohemi"
+    }
+  ]
+}

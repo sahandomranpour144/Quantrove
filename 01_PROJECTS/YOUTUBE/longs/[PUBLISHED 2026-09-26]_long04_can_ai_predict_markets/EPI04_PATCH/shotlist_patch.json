@@ -1,0 +1,306 @@
+{
+  "total_measured_runtime_s": 445.2,
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "scene_name": "Cold Open Hook",
+      "start_s": 0.0,
+      "end_s": 12.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Can AI predict stock market?",
+        "word_count": 5
+      }
+    },
+    {
+      "id": 2,
+      "chapter": 0,
+      "scene_name": "Terminal Numbers Cascade",
+      "start_s": 12.0,
+      "end_s": 20.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": null
+    },
+    {
+      "id": 3,
+      "chapter": 0,
+      "scene_name": "Simons 21M Compounding Counter",
+      "start_s": 20.0,
+      "end_s": 35.0,
+      "motion_tag": "manim_transform",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "≈$21M by 2018",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 4,
+      "chapter": 0,
+      "scene_name": "SPIVA Benchmark Warning",
+      "start_s": 35.0,
+      "end_s": 45.0,
+      "motion_tag": "manim_transform",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Active Funds Trail Index",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 5,
+      "chapter": 0,
+      "scene_name": "Hook Title Slam",
+      "start_s": 45.0,
+      "end_s": 66.8,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Why AI Fails",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "scene_name": "Secretive Math Office & Chalkboard",
+      "start_s": 66.8,
+      "end_s": 86.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": null
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "scene_name": "The 50.75% Bell Curve",
+      "start_s": 86.0,
+      "end_s": 110.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "The 50.75% Edge",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "scene_name": "Neural Network Nodes",
+      "start_s": 110.0,
+      "end_s": 120.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": null
+    },
+    {
+      "id": 9,
+      "chapter": 1,
+      "scene_name": "The Reflexivity Trap Comparison",
+      "start_s": 120.0,
+      "end_s": 149.0,
+      "motion_tag": "manim_transform",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Reflexivity Erases Edge",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "scene_name": "Alpha Decay Exponential Curve",
+      "start_s": 149.0,
+      "end_s": 180.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Pattern 1: Alpha Decay",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "scene_name": "HFT Server Blades",
+      "start_s": 180.0,
+      "end_s": 190.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": null
+    },
+    {
+      "id": 12,
+      "chapter": 2,
+      "scene_name": "Market Adaptation Callout",
+      "start_s": 190.0,
+      "end_s": 201.0,
+      "motion_tag": "manim_transform",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Market Adapts Rapidly",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 13,
+      "chapter": 3,
+      "scene_name": "Overfitting Trap Part 1",
+      "start_s": 201.0,
+      "end_s": 230.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Pattern 2: Overfitting Trap",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 14,
+      "chapter": 3,
+      "scene_name": "Code Overfitting Divergence",
+      "start_s": 230.0,
+      "end_s": 240.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": null
+    },
+    {
+      "id": 15,
+      "chapter": 3,
+      "scene_name": "Overfitting Trap Part 2 Live Data",
+      "start_s": 240.0,
+      "end_s": 273.0,
+      "motion_tag": "manim_transform",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Overfitted to Noise",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 16,
+      "chapter": 4,
+      "scene_name": "Financial Command Bridge",
+      "start_s": 273.0,
+      "end_s": 295.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": null
+    },
+    {
+      "id": 17,
+      "chapter": 4,
+      "scene_name": "Engine 1: Extreme Risk Modeling",
+      "start_s": 295.0,
+      "end_s": 320.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Engine 1: Risk Modeling",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 18,
+      "chapter": 4,
+      "scene_name": "Engine 2: Execution & Slippage",
+      "start_s": 320.0,
+      "end_s": 340.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Engine 2: Execution Slippage",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 19,
+      "chapter": 4,
+      "scene_name": "Engine 3: Fraud Detection",
+      "start_s": 340.0,
+      "end_s": 355.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Engine 3: Fraud Detection",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 20,
+      "chapter": 4,
+      "scene_name": "Engine 4: Covariance Optimization",
+      "start_s": 355.0,
+      "end_s": 377.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Engine 4: Portfolio Covariance",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 21,
+      "chapter": 5,
+      "scene_name": "Quantitative Verdict Studio",
+      "start_s": 377.0,
+      "end_s": 405.0,
+      "motion_tag": "flow_atmosphere",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "The Quantitative Verdict",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 22,
+      "chapter": 5,
+      "scene_name": "Disciplined Spoken CTA",
+      "start_s": 405.0,
+      "end_s": 425.2,
+      "motion_tag": "manim_transform",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Watch Recommendation Algorithm Next",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 23,
+      "chapter": 5,
+      "scene_name": "End Screen YouTube Card Safe Zone",
+      "start_s": 425.2,
+      "end_s": 445.2,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": true,
+      "on_screen_text": null
+    }
+  ]
+}

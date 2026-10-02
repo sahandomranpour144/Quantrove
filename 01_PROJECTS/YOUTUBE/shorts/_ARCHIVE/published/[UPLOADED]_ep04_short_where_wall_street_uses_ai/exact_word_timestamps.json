@@ -1,0 +1,555 @@
+{
+  "words": [
+    {
+      "word": "Wall",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "Street",
+      "start": 0.54,
+      "end": 0.92
+    },
+    {
+      "word": "spends",
+      "start": 0.92,
+      "end": 1.46
+    },
+    {
+      "word": "billions",
+      "start": 1.46,
+      "end": 2.02
+    },
+    {
+      "word": "on",
+      "start": 2.02,
+      "end": 2.44
+    },
+    {
+      "word": "AI,",
+      "start": 2.44,
+      "end": 2.78
+    },
+    {
+      "word": "but",
+      "start": 3.24,
+      "end": 3.5
+    },
+    {
+      "word": "$0",
+      "start": 3.5,
+      "end": 4.0
+    },
+    {
+      "word": "trying",
+      "start": 4.0,
+      "end": 4.76
+    },
+    {
+      "word": "to",
+      "start": 4.76,
+      "end": 4.98
+    },
+    {
+      "word": "predict",
+      "start": 4.98,
+      "end": 5.38
+    },
+    {
+      "word": "stock",
+      "start": 5.38,
+      "end": 5.86
+    },
+    {
+      "word": "prices.",
+      "start": 5.86,
+      "end": 6.34
+    },
+    {
+      "word": "Retail",
+      "start": 6.96,
+      "end": 7.58
+    },
+    {
+      "word": "traders",
+      "start": 7.58,
+      "end": 8.0
+    },
+    {
+      "word": "think",
+      "start": 8.0,
+      "end": 8.34
+    },
+    {
+      "word": "AI",
+      "start": 8.34,
+      "end": 8.62
+    },
+    {
+      "word": "is",
+      "start": 8.62,
+      "end": 9.0
+    },
+    {
+      "word": "a",
+      "start": 9.0,
+      "end": 9.1
+    },
+    {
+      "word": "crystal",
+      "start": 9.1,
+      "end": 9.46
+    },
+    {
+      "word": "ball",
+      "start": 9.46,
+      "end": 9.78
+    },
+    {
+      "word": "that",
+      "start": 9.78,
+      "end": 10.06
+    },
+    {
+      "word": "tells",
+      "start": 10.06,
+      "end": 10.28
+    },
+    {
+      "word": "you",
+      "start": 10.28,
+      "end": 10.46
+    },
+    {
+      "word": "where",
+      "start": 10.46,
+      "end": 10.62
+    },
+    {
+      "word": "Tesla",
+      "start": 10.62,
+      "end": 10.96
+    },
+    {
+      "word": "trades",
+      "start": 10.96,
+      "end": 11.36
+    },
+    {
+      "word": "tomorrow.",
+      "start": 11.36,
+      "end": 11.7
+    },
+    {
+      "word": "But",
+      "start": 12.24,
+      "end": 12.46
+    },
+    {
+      "word": "markets",
+      "start": 12.46,
+      "end": 12.84
+    },
+    {
+      "word": "are",
+      "start": 12.84,
+      "end": 13.04
+    },
+    {
+      "word": "reflexive.",
+      "start": 13.04,
+      "end": 13.78
+    },
+    {
+      "word": "The",
+      "start": 14.3,
+      "end": 14.42
+    },
+    {
+      "word": "moment",
+      "start": 14.42,
+      "end": 14.82
+    },
+    {
+      "word": "in",
+      "start": 14.82,
+      "end": 15.08
+    },
+    {
+      "word": "AI",
+      "start": 15.08,
+      "end": 15.34
+    },
+    {
+      "word": "predicts",
+      "start": 15.34,
+      "end": 15.84
+    },
+    {
+      "word": "a",
+      "start": 15.84,
+      "end": 15.92
+    },
+    {
+      "word": "price,",
+      "start": 15.92,
+      "end": 16.28
+    },
+    {
+      "word": "buying",
+      "start": 16.8,
+      "end": 17.0
+    },
+    {
+      "word": "pressure",
+      "start": 17.0,
+      "end": 17.42
+    },
+    {
+      "word": "destroys",
+      "start": 17.42,
+      "end": 17.96
+    },
+    {
+      "word": "the",
+      "start": 17.96,
+      "end": 18.26
+    },
+    {
+      "word": "pattern.",
+      "start": 18.26,
+      "end": 18.58
+    },
+    {
+      "word": "So",
+      "start": 19.26,
+      "end": 19.52
+    },
+    {
+      "word": "where",
+      "start": 19.52,
+      "end": 19.8
+    },
+    {
+      "word": "do",
+      "start": 19.8,
+      "end": 19.98
+    },
+    {
+      "word": "institutional",
+      "start": 19.98,
+      "end": 20.7
+    },
+    {
+      "word": "quants",
+      "start": 20.7,
+      "end": 21.14
+    },
+    {
+      "word": "actually",
+      "start": 21.14,
+      "end": 21.6
+    },
+    {
+      "word": "use",
+      "start": 21.6,
+      "end": 21.94
+    },
+    {
+      "word": "machine",
+      "start": 21.94,
+      "end": 22.24
+    },
+    {
+      "word": "learning?",
+      "start": 22.24,
+      "end": 22.64
+    },
+    {
+      "word": "Across",
+      "start": 23.08,
+      "end": 23.6
+    },
+    {
+      "word": "four",
+      "start": 23.6,
+      "end": 24.1
+    },
+    {
+      "word": "invisible",
+      "start": 24.1,
+      "end": 24.68
+    },
+    {
+      "word": "engines,",
+      "start": 24.68,
+      "end": 25.26
+    },
+    {
+      "word": "simulating",
+      "start": 25.26,
+      "end": 26.28
+    },
+    {
+      "word": "catastrophic",
+      "start": 26.28,
+      "end": 26.96
+    },
+    {
+      "word": "liquidity",
+      "start": 26.96,
+      "end": 27.52
+    },
+    {
+      "word": "freezes,",
+      "start": 27.52,
+      "end": 28.06
+    },
+    {
+      "word": "slicing",
+      "start": 28.44,
+      "end": 28.86
+    },
+    {
+      "word": "multi",
+      "start": 28.86,
+      "end": 29.3
+    },
+    {
+      "word": "-billion",
+      "start": 29.3,
+      "end": 29.78
+    },
+    {
+      "word": "dollar",
+      "start": 29.78,
+      "end": 30.1
+    },
+    {
+      "word": "orders",
+      "start": 30.1,
+      "end": 30.48
+    },
+    {
+      "word": "into",
+      "start": 30.48,
+      "end": 30.74
+    },
+    {
+      "word": "micro",
+      "start": 30.74,
+      "end": 31.1
+    },
+    {
+      "word": "trades",
+      "start": 31.1,
+      "end": 31.42
+    },
+    {
+      "word": "to",
+      "start": 31.42,
+      "end": 31.66
+    },
+    {
+      "word": "hide",
+      "start": 31.66,
+      "end": 31.84
+    },
+    {
+      "word": "from",
+      "start": 31.84,
+      "end": 32.06
+    },
+    {
+      "word": "you,",
+      "start": 32.06,
+      "end": 32.28
+    },
+    {
+      "word": "catching",
+      "start": 32.82,
+      "end": 33.08
+    },
+    {
+      "word": "algorithmic",
+      "start": 33.08,
+      "end": 33.72
+    },
+    {
+      "word": "spoofing",
+      "start": 33.72,
+      "end": 34.18
+    },
+    {
+      "word": "in",
+      "start": 34.18,
+      "end": 34.28
+    },
+    {
+      "word": "real",
+      "start": 34.28,
+      "end": 34.46
+    },
+    {
+      "word": "time,",
+      "start": 34.46,
+      "end": 34.84
+    },
+    {
+      "word": "and",
+      "start": 35.36,
+      "end": 35.44
+    },
+    {
+      "word": "calculating",
+      "start": 35.44,
+      "end": 35.84
+    },
+    {
+      "word": "optimal",
+      "start": 35.84,
+      "end": 36.46
+    },
+    {
+      "word": "covariance",
+      "start": 36.46,
+      "end": 37.1
+    },
+    {
+      "word": "matrices",
+      "start": 37.1,
+      "end": 37.52
+    },
+    {
+      "word": "across",
+      "start": 37.52,
+      "end": 37.92
+    },
+    {
+      "word": "500",
+      "start": 37.92,
+      "end": 38.6
+    },
+    {
+      "word": "assets.",
+      "start": 38.6,
+      "end": 39.08
+    },
+    {
+      "word": "Notice",
+      "start": 39.72,
+      "end": 40.08
+    },
+    {
+      "word": "what",
+      "start": 40.08,
+      "end": 40.32
+    },
+    {
+      "word": "none",
+      "start": 40.32,
+      "end": 40.5
+    },
+    {
+      "word": "of",
+      "start": 40.5,
+      "end": 40.64
+    },
+    {
+      "word": "them",
+      "start": 40.64,
+      "end": 40.78
+    },
+    {
+      "word": "do.",
+      "start": 40.78,
+      "end": 40.94
+    },
+    {
+      "word": "They",
+      "start": 41.46,
+      "end": 41.62
+    },
+    {
+      "word": "never",
+      "start": 41.62,
+      "end": 42.0
+    },
+    {
+      "word": "predict",
+      "start": 42.0,
+      "end": 42.32
+    },
+    {
+      "word": "the",
+      "start": 42.32,
+      "end": 42.58
+    },
+    {
+      "word": "future.",
+      "start": 42.58,
+      "end": 42.88
+    },
+    {
+      "word": "Real",
+      "start": 43.54,
+      "end": 43.86
+    },
+    {
+      "word": "AI",
+      "start": 43.86,
+      "end": 44.22
+    },
+    {
+      "word": "in",
+      "start": 44.22,
+      "end": 44.42
+    },
+    {
+      "word": "finance",
+      "start": 44.42,
+      "end": 44.76
+    },
+    {
+      "word": "is",
+      "start": 44.76,
+      "end": 45.1
+    },
+    {
+      "word": "an",
+      "start": 45.1,
+      "end": 45.24
+    },
+    {
+      "word": "optimization",
+      "start": 45.24,
+      "end": 45.74
+    },
+    {
+      "word": "engine,",
+      "start": 45.74,
+      "end": 46.24
+    },
+    {
+      "word": "not",
+      "start": 46.64,
+      "end": 46.88
+    },
+    {
+      "word": "a",
+      "start": 46.88,
+      "end": 47.16
+    },
+    {
+      "word": "fortune",
+      "start": 47.16,
+      "end": 47.42
+    },
+    {
+      "word": "teller.",
+      "start": 47.42,
+      "end": 47.78
+    }
+  ],
+  "total_words": 110
+}

@@ -1,0 +1,31 @@
+{
+  "type": "native",
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "COMPLEX_WRONG",
+      "start_s": 0.0,
+      "end_s": 7.0,
+      "motion_tag": "invalid_spin_zoom",
+      "type": "native"
+    },
+    {
+      "id": 2,
+      "beat": "IDEA",
+      "start_s": 7.0,
+      "end_s": 14.0,
+      "motion_tag": "camera_push",
+      "camera_push_scale": 1.25,
+      "motion_purpose": "",
+      "type": "native"
+    },
+    {
+      "id": 3,
+      "beat": "INSIGHT",
+      "start_s": 14.0,
+      "end_s": 22.0,
+      "motion_tag": "manim_draw",
+      "type": "native"
+    }
+  ]
+}

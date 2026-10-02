@@ -1,0 +1,203 @@
+[
+  {
+    "slug": "short07_the_7_month_lag",
+    "title": "The 7-Month Referee Lag",
+    "stat_callout": "7 MONTHS LATE",
+    "script": "By the time the news officially declares a recession, it's already seventy percent over. You've probably heard the textbook rule: two quarters of negative GDP. Except in America, recessions aren't called by a formula. They're decided by a private committee of eight economists. Because economic data takes months to verify, it takes them an average of seven full months just to make the announcement. In 1980, they didn't declare the recession until it was literally over. And in 2020, they declared it months after the market had already bottomed. This creates a lethal psychological trap. By the time everyday people panic about headline news, smart money is already buying the recovery. Never trade on delayed news. Tap the related video below to see fifty years of data.",
+    "voice": "en-US-GuyNeural",
+    "scene_segments": [
+      {
+        "badge": "🚨 70% BLINDSPOT",
+        "headline": "ANNOUNCED 7 MONTHS LATE",
+        "subtext": "By the time news breaks, the downturn is almost over",
+        "accentColor": "#EF4444",
+        "type": "stat",
+        "segment_text": "By the time the news officially declares"
+      },
+      {
+        "badge": "❌ THE MYTH",
+        "headline": "2 QUARTERS OF NEGATIVE GDP?",
+        "subtext": "The textbook definition is not used in the US",
+        "accentColor": "#F59E0B",
+        "type": "concept",
+        "segment_text": "You've probably heard the textbook rule"
+      },
+      {
+        "badge": "🏛️ THE ARBITER",
+        "headline": "8 PRIVATE ECONOMISTS",
+        "subtext": "The NBER tracks payrolls, income, and spending",
+        "accentColor": "#3B82F6",
+        "type": "concept",
+        "segment_text": "Except in America recessions aren't called"
+      },
+      {
+        "badge": "⏱️ THE DELAY",
+        "headline": "7-MONTH AVERAGE LAG",
+        "subtext": "Data takes months to survey, revise, and verify",
+        "accentColor": "#EF4444",
+        "type": "stat",
+        "segment_text": "Because economic data takes months to verify"
+      },
+      {
+        "badge": "📜 HISTORICAL RECORD",
+        "headline": "1980 & 2020 BLUNDERS",
+        "subtext": "Announced after the market already bottomed",
+        "accentColor": "#8B5CF6",
+        "type": "history",
+        "segment_text": "In 1980 they didn't declare the recession"
+      },
+      {
+        "badge": "🧠 PSYCHOLOGY TRAP",
+        "headline": "SMART MONEY BUYS FIRST",
+        "subtext": "Headlines report the past, markets price the future",
+        "accentColor": "#10B981",
+        "type": "insight",
+        "segment_text": "This creates a lethal psychological trap"
+      }
+    ],
+    "cta": {
+      "badge": "📊 50-YEAR RECESSION DATA",
+      "headline": "TAP THE RELATED VIDEO BELOW",
+      "subtext": "Watch the full breakdown on Quantrove",
+      "accentColor": "#00F0FF",
+      "duration": 4.0
+    },
+    "yt_title": "The 7-Month Lie Behind Every Recession",
+    "yt_desc": "By the time news anchors scream that we are officially in a recession, the downturn is already 70% over. Watch the full breakdown in EP02!",
+    "yt_comment": "Did you know that recessions in the US are decided by just 8 private economists? Let us know below!"
+  },
+  {
+    "slug": "short08_the_lead_lag_paradox",
+    "title": "The Lead-Lag Paradox",
+    "stat_callout": "+60% AT PEAK DOOM",
+    "script": "The single best day to buy stocks in fifty years happened when the news was screaming the world was ending. Most people assume the stock market will keep falling until the economic data improves. The data proves the exact opposite. The stock market doesn't trade on today. It prices corporate profits six to nine months into the future. Across five decades of recessions, the market consistently bottoms out three to five months before the recession is even close to over. On March 9th, 2009, unemployment was skyrocketing and banks were failing. Yet that exact day was the generational bottom, surging over sixty percent in twelve months. If you wait for the news to report that the coast is clear, you miss the most profitable rally of the entire economic cycle. Stop following headline panic. Tap the related video below for the full fifty-year dataset.",
+    "voice": "en-US-GuyNeural",
+    "scene_segments": [
+      {
+        "badge": "📈 PEAK DOOM PARADOX",
+        "headline": "BEST DAY TO BUY WAS IN CHAOS",
+        "subtext": "Headlines were screaming economic collapse",
+        "accentColor": "#10B981",
+        "type": "stat",
+        "segment_text": "The single best day to buy stocks"
+      },
+      {
+        "badge": "⚠️ THE INTUITION TRAP",
+        "headline": "WAITING FOR GOOD DATA?",
+        "subtext": "Most investors wait for confirmation and miss the turn",
+        "accentColor": "#F59E0B",
+        "type": "concept",
+        "segment_text": "Most people assume the stock market will keep falling"
+      },
+      {
+        "badge": "🔮 FORWARD DISCOUNTING",
+        "headline": "PRICES 6 TO 9 MONTHS AHEAD",
+        "subtext": "Markets don't trade on today's headlines",
+        "accentColor": "#3B82F6",
+        "type": "insight",
+        "segment_text": "The data proves the exact opposite"
+      },
+      {
+        "badge": "📊 50-YEAR PROOF",
+        "headline": "BOTTOMS 3 TO 5 MONTHS EARLY",
+        "subtext": "Bull markets start inside the recession band",
+        "accentColor": "#00F0FF",
+        "type": "stat",
+        "segment_text": "Across five decades of recessions the market"
+      },
+      {
+        "badge": "💥 MARCH 9, 2009",
+        "headline": "+60% GAIN IN 12 MONTHS",
+        "subtext": "Unemployment was soaring as the market bottomed",
+        "accentColor": "#10B981",
+        "type": "history",
+        "segment_text": "On March 9th 2009 unemployment was skyrocketing"
+      },
+      {
+        "badge": "🛑 THE COST OF CERTAINTY",
+        "headline": "WAITING IS EXPENSIVE",
+        "subtext": "Waiting for 'safe' news costs the biggest gains",
+        "accentColor": "#EF4444",
+        "type": "insight",
+        "segment_text": "If you wait for the news to report"
+      }
+    ],
+    "cta": {
+      "badge": "📈 FULL DATASET INSIDE",
+      "headline": "TAP THE RELATED VIDEO BELOW",
+      "subtext": "Watch EP02 on Quantrove",
+      "accentColor": "#00F0FF",
+      "duration": 4.0
+    },
+    "yt_title": "The Best Day to Buy Stocks Was Peak Doom",
+    "yt_desc": "Across 50 years of data, the stock market consistently bottoms 3 to 5 months BEFORE a recession ends. Discover the Lead-Lag Paradox in EP02!",
+    "yt_comment": "Would you have had the courage to buy stocks on March 9, 2009? Share your thoughts below!"
+  },
+  {
+    "slug": "short09_the_jobs_trap",
+    "title": "The 5-Year Jobs Trap",
+    "stat_callout": "10 MOS VS 5 YRS",
+    "script": "The average recession lasts just ten months. But getting your job back takes five full years. When you're living through a downturn, the constant barrage of negative news makes it feel permanent. Yet fifty years of data reveals the average recession lasts just ten point four months. Economic expansions average over five years. Asset prices rebound in months. But employment behaves like an elevator on the way down, and the stairs on the way up. Mass layoffs strike in weeks. But returning to pre-recession employment levels takes an average of three to five years. That's why everyday families still feel intense pressure long after Wall Street celebrates new record highs. Understand the real rules of the economic cycle. Tap the related video below for the full episode.",
+    "voice": "en-US-GuyNeural",
+    "scene_segments": [
+      {
+        "badge": "⚡ THE ASYMMETRY",
+        "headline": "10 MONTHS VS 5 YEARS",
+        "subtext": "Recessions are short, but job scars last years",
+        "accentColor": "#EF4444",
+        "type": "stat",
+        "segment_text": "The average recession lasts just ten months"
+      },
+      {
+        "badge": "📰 THE ILLUSION",
+        "headline": "DOOM MAKES IT FEEL PERMANENT",
+        "subtext": "24/7 headlines distort the true historical timescale",
+        "accentColor": "#F59E0B",
+        "type": "concept",
+        "segment_text": "When you're living through a downturn"
+      },
+      {
+        "badge": "📈 50-YEAR REALITY",
+        "headline": "EXPANSIONS ARE 5.3 YEARS",
+        "subtext": "Growth periods dominate the historical timeline",
+        "accentColor": "#10B981",
+        "type": "stat",
+        "segment_text": "Yet fifty years of data reveals the average"
+      },
+      {
+        "badge": "🛗 THE METAPHOR",
+        "headline": "ELEVATOR DOWN, STAIRS UP",
+        "subtext": "Layoffs take weeks; rehiring takes years",
+        "accentColor": "#8B5CF6",
+        "type": "concept",
+        "segment_text": "Asset prices rebound in months"
+      },
+      {
+        "badge": "📉 THE EMPLOYMENT CURVE",
+        "headline": "3 TO 5 YEAR JOB RECOVERY",
+        "subtext": "Unemployment takes years to return to baseline",
+        "accentColor": "#EF4444",
+        "type": "history",
+        "segment_text": "Mass layoffs strike in weeks"
+      },
+      {
+        "badge": "🏙️ MAIN ST VS WALL ST",
+        "headline": "WHY YOU STILL FEEL THE SQUEEZE",
+        "subtext": "Wall Street rallies long before households recover",
+        "accentColor": "#00F0FF",
+        "type": "insight",
+        "segment_text": "That's why everyday families still feel intense"
+      }
+    ],
+    "cta": {
+      "badge": "🎓 MACRO RULES DECODED",
+      "headline": "TAP THE RELATED VIDEO BELOW",
+      "subtext": "Watch EP02: 50 Years of Recession Data",
+      "accentColor": "#00F0FF",
+      "duration": 4.0
+    },
+    "yt_title": "Why Recessions Last 10 Months But Jobs Take 5 Years",
+    "yt_desc": "Asset prices rebound in months, but employment takes the stairs. Learn why Wall Street recovers before Main Street in our full episode!",
+    "yt_comment": "Have you noticed the gap between stock market rallies and the job market? Tell us below!"
+  }
+]

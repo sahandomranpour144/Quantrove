@@ -1,0 +1,1485 @@
+{
+  "all_words": [
+    {
+      "word": "Welcome",
+      "start": 0.5,
+      "end": 1.0
+    },
+    {
+      "word": "everyone",
+      "start": 1.1,
+      "end": 1.8
+    },
+    {
+      "word": "today",
+      "start": 1.9,
+      "end": 2.3
+    },
+    {
+      "word": "we",
+      "start": 2.4,
+      "end": 2.6
+    },
+    {
+      "word": "discuss",
+      "start": 2.7,
+      "end": 3.4
+    },
+    {
+      "word": "general",
+      "start": 3.5,
+      "end": 4.1
+    },
+    {
+      "word": "topics.",
+      "start": 4.2,
+      "end": 4.8
+    },
+    {
+      "word": "We",
+      "start": 6.0,
+      "end": 6.5
+    },
+    {
+      "word": "will",
+      "start": 6.6,
+      "end": 7.0
+    },
+    {
+      "word": "look",
+      "start": 7.1,
+      "end": 7.6
+    },
+    {
+      "word": "at",
+      "start": 7.7,
+      "end": 8.0
+    },
+    {
+      "word": "some",
+      "start": 8.1,
+      "end": 8.6
+    },
+    {
+      "word": "charts",
+      "start": 8.7,
+      "end": 9.3
+    },
+    {
+      "word": "from",
+      "start": 9.4,
+      "end": 9.9
+    },
+    {
+      "word": "last",
+      "start": 10.0,
+      "end": 10.5
+    },
+    {
+      "word": "year.",
+      "start": 10.6,
+      "end": 11.2
+    },
+    {
+      "word": "analysis",
+      "start": 12.0,
+      "end": 12.303
+    },
+    {
+      "word": "analysis",
+      "start": 12.379,
+      "end": 12.681
+    },
+    {
+      "word": "analysis",
+      "start": 12.757,
+      "end": 13.06
+    },
+    {
+      "word": "analysis",
+      "start": 13.136,
+      "end": 13.439
+    },
+    {
+      "word": "analysis",
+      "start": 13.514,
+      "end": 13.817
+    },
+    {
+      "word": "analysis",
+      "start": 13.893,
+      "end": 14.196
+    },
+    {
+      "word": "analysis",
+      "start": 14.271,
+      "end": 14.574
+    },
+    {
+      "word": "analysis",
+      "start": 14.65,
+      "end": 14.953
+    },
+    {
+      "word": "analysis",
+      "start": 15.029,
+      "end": 15.331
+    },
+    {
+      "word": "analysis",
+      "start": 15.407,
+      "end": 15.71
+    },
+    {
+      "word": "analysis",
+      "start": 15.786,
+      "end": 16.089
+    },
+    {
+      "word": "analysis",
+      "start": 16.164,
+      "end": 16.467
+    },
+    {
+      "word": "analysis",
+      "start": 16.543,
+      "end": 16.846
+    },
+    {
+      "word": "analysis",
+      "start": 16.921,
+      "end": 17.224
+    },
+    {
+      "word": "analysis",
+      "start": 17.3,
+      "end": 17.603
+    },
+    {
+      "word": "analysis",
+      "start": 17.679,
+      "end": 17.981
+    },
+    {
+      "word": "analysis",
+      "start": 18.057,
+      "end": 18.36
+    },
+    {
+      "word": "analysis",
+      "start": 18.436,
+      "end": 18.739
+    },
+    {
+      "word": "analysis",
+      "start": 18.814,
+      "end": 19.117
+    },
+    {
+      "word": "analysis",
+      "start": 19.193,
+      "end": 19.496
+    },
+    {
+      "word": "analysis",
+      "start": 19.571,
+      "end": 19.874
+    },
+    {
+      "word": "analysis",
+      "start": 19.95,
+      "end": 20.253
+    },
+    {
+      "word": "analysis",
+      "start": 20.329,
+      "end": 20.631
+    },
+    {
+      "word": "analysis",
+      "start": 20.707,
+      "end": 21.01
+    },
+    {
+      "word": "analysis",
+      "start": 21.086,
+      "end": 21.389
+    },
+    {
+      "word": "analysis",
+      "start": 21.464,
+      "end": 21.767
+    },
+    {
+      "word": "analysis",
+      "start": 21.843,
+      "end": 22.146
+    },
+    {
+      "word": "analysis",
+      "start": 22.221,
+      "end": 22.524
+    },
+    {
+      "word": "analysis",
+      "start": 22.6,
+      "end": 22.903
+    },
+    {
+      "word": "analysis",
+      "start": 22.979,
+      "end": 23.281
+    },
+    {
+      "word": "analysis",
+      "start": 23.357,
+      "end": 23.66
+    },
+    {
+      "word": "analysis",
+      "start": 23.736,
+      "end": 24.039
+    },
+    {
+      "word": "analysis",
+      "start": 24.114,
+      "end": 24.417
+    },
+    {
+      "word": "analysis",
+      "start": 24.493,
+      "end": 24.796
+    },
+    {
+      "word": "analysis",
+      "start": 24.871,
+      "end": 25.174
+    },
+    {
+      "word": "analysis",
+      "start": 25.25,
+      "end": 25.553
+    },
+    {
+      "word": "analysis",
+      "start": 25.629,
+      "end": 25.931
+    },
+    {
+      "word": "analysis",
+      "start": 26.007,
+      "end": 26.31
+    },
+    {
+      "word": "analysis",
+      "start": 26.386,
+      "end": 26.689
+    },
+    {
+      "word": "analysis",
+      "start": 26.764,
+      "end": 27.067
+    },
+    {
+      "word": "analysis",
+      "start": 27.143,
+      "end": 27.446
+    },
+    {
+      "word": "analysis",
+      "start": 27.521,
+      "end": 27.824
+    },
+    {
+      "word": "analysis",
+      "start": 27.9,
+      "end": 28.203
+    },
+    {
+      "word": "analysis",
+      "start": 28.279,
+      "end": 28.581
+    },
+    {
+      "word": "analysis",
+      "start": 28.657,
+      "end": 28.96
+    },
+    {
+      "word": "analysis",
+      "start": 29.036,
+      "end": 29.339
+    },
+    {
+      "word": "analysis",
+      "start": 29.414,
+      "end": 29.717
+    },
+    {
+      "word": "analysis",
+      "start": 29.793,
+      "end": 30.096
+    },
+    {
+      "word": "analysis",
+      "start": 30.171,
+      "end": 30.474
+    },
+    {
+      "word": "analysis",
+      "start": 30.55,
+      "end": 30.853
+    },
+    {
+      "word": "analysis",
+      "start": 30.929,
+      "end": 31.231
+    },
+    {
+      "word": "analysis",
+      "start": 31.307,
+      "end": 31.61
+    },
+    {
+      "word": "analysis",
+      "start": 31.686,
+      "end": 31.989
+    },
+    {
+      "word": "analysis",
+      "start": 32.064,
+      "end": 32.367
+    },
+    {
+      "word": "analysis",
+      "start": 32.443,
+      "end": 32.746
+    },
+    {
+      "word": "analysis",
+      "start": 32.821,
+      "end": 33.124
+    },
+    {
+      "word": "analysis",
+      "start": 33.2,
+      "end": 33.503
+    },
+    {
+      "word": "analysis",
+      "start": 33.579,
+      "end": 33.881
+    },
+    {
+      "word": "analysis",
+      "start": 33.957,
+      "end": 34.26
+    },
+    {
+      "word": "analysis",
+      "start": 34.336,
+      "end": 34.639
+    },
+    {
+      "word": "analysis",
+      "start": 34.714,
+      "end": 35.017
+    },
+    {
+      "word": "analysis",
+      "start": 35.093,
+      "end": 35.396
+    },
+    {
+      "word": "analysis",
+      "start": 35.471,
+      "end": 35.774
+    },
+    {
+      "word": "analysis",
+      "start": 35.85,
+      "end": 36.153
+    },
+    {
+      "word": "analysis",
+      "start": 36.229,
+      "end": 36.531
+    },
+    {
+      "word": "analysis",
+      "start": 36.607,
+      "end": 36.91
+    },
+    {
+      "word": "analysis",
+      "start": 36.986,
+      "end": 37.289
+    },
+    {
+      "word": "analysis",
+      "start": 37.364,
+      "end": 37.667
+    },
+    {
+      "word": "analysis",
+      "start": 37.743,
+      "end": 38.046
+    },
+    {
+      "word": "analysis",
+      "start": 38.121,
+      "end": 38.424
+    },
+    {
+      "word": "analysis",
+      "start": 38.5,
+      "end": 38.803
+    },
+    {
+      "word": "analysis",
+      "start": 38.879,
+      "end": 39.181
+    },
+    {
+      "word": "analysis",
+      "start": 39.257,
+      "end": 39.56
+    },
+    {
+      "word": "analysis",
+      "start": 39.636,
+      "end": 39.939
+    },
+    {
+      "word": "analysis",
+      "start": 40.014,
+      "end": 40.317
+    },
+    {
+      "word": "analysis",
+      "start": 40.393,
+      "end": 40.696
+    },
+    {
+      "word": "analysis",
+      "start": 40.771,
+      "end": 41.074
+    },
+    {
+      "word": "analysis",
+      "start": 41.15,
+      "end": 41.453
+    },
+    {
+      "word": "analysis",
+      "start": 41.529,
+      "end": 41.831
+    },
+    {
+      "word": "analysis",
+      "start": 41.907,
+      "end": 42.21
+    },
+    {
+      "word": "analysis",
+      "start": 42.286,
+      "end": 42.589
+    },
+    {
+      "word": "analysis",
+      "start": 42.664,
+      "end": 42.967
+    },
+    {
+      "word": "analysis",
+      "start": 43.043,
+      "end": 43.346
+    },
+    {
+      "word": "analysis",
+      "start": 43.421,
+      "end": 43.724
+    },
+    {
+      "word": "analysis",
+      "start": 43.8,
+      "end": 44.103
+    },
+    {
+      "word": "analysis",
+      "start": 44.179,
+      "end": 44.481
+    },
+    {
+      "word": "analysis",
+      "start": 44.557,
+      "end": 44.86
+    },
+    {
+      "word": "analysis",
+      "start": 44.936,
+      "end": 45.239
+    },
+    {
+      "word": "analysis",
+      "start": 45.314,
+      "end": 45.617
+    },
+    {
+      "word": "analysis",
+      "start": 45.693,
+      "end": 45.996
+    },
+    {
+      "word": "analysis",
+      "start": 46.071,
+      "end": 46.374
+    },
+    {
+      "word": "analysis",
+      "start": 46.45,
+      "end": 46.753
+    },
+    {
+      "word": "analysis",
+      "start": 46.829,
+      "end": 47.131
+    },
+    {
+      "word": "analysis",
+      "start": 47.207,
+      "end": 47.51
+    },
+    {
+      "word": "analysis",
+      "start": 47.586,
+      "end": 47.889
+    },
+    {
+      "word": "analysis",
+      "start": 47.964,
+      "end": 48.267
+    },
+    {
+      "word": "analysis",
+      "start": 48.343,
+      "end": 48.646
+    },
+    {
+      "word": "analysis",
+      "start": 48.721,
+      "end": 49.024
+    },
+    {
+      "word": "analysis",
+      "start": 49.1,
+      "end": 49.403
+    },
+    {
+      "word": "analysis",
+      "start": 49.479,
+      "end": 49.781
+    },
+    {
+      "word": "analysis",
+      "start": 49.857,
+      "end": 50.16
+    },
+    {
+      "word": "analysis",
+      "start": 50.236,
+      "end": 50.539
+    },
+    {
+      "word": "analysis",
+      "start": 50.614,
+      "end": 50.917
+    },
+    {
+      "word": "analysis",
+      "start": 50.993,
+      "end": 51.296
+    },
+    {
+      "word": "analysis",
+      "start": 51.371,
+      "end": 51.674
+    },
+    {
+      "word": "analysis",
+      "start": 51.75,
+      "end": 52.053
+    },
+    {
+      "word": "analysis",
+      "start": 52.129,
+      "end": 52.431
+    },
+    {
+      "word": "analysis",
+      "start": 52.507,
+      "end": 52.81
+    },
+    {
+      "word": "analysis",
+      "start": 52.886,
+      "end": 53.189
+    },
+    {
+      "word": "analysis",
+      "start": 53.264,
+      "end": 53.567
+    },
+    {
+      "word": "analysis",
+      "start": 53.643,
+      "end": 53.946
+    },
+    {
+      "word": "analysis",
+      "start": 54.021,
+      "end": 54.324
+    },
+    {
+      "word": "analysis",
+      "start": 54.4,
+      "end": 54.703
+    },
+    {
+      "word": "analysis",
+      "start": 54.779,
+      "end": 55.081
+    },
+    {
+      "word": "analysis",
+      "start": 55.157,
+      "end": 55.46
+    },
+    {
+      "word": "analysis",
+      "start": 55.536,
+      "end": 55.839
+    },
+    {
+      "word": "analysis",
+      "start": 55.914,
+      "end": 56.217
+    },
+    {
+      "word": "analysis",
+      "start": 56.293,
+      "end": 56.596
+    },
+    {
+      "word": "analysis",
+      "start": 56.671,
+      "end": 56.974
+    },
+    {
+      "word": "analysis",
+      "start": 57.05,
+      "end": 57.353
+    },
+    {
+      "word": "analysis",
+      "start": 57.429,
+      "end": 57.731
+    },
+    {
+      "word": "analysis",
+      "start": 57.807,
+      "end": 58.11
+    },
+    {
+      "word": "analysis",
+      "start": 58.186,
+      "end": 58.489
+    },
+    {
+      "word": "analysis",
+      "start": 58.564,
+      "end": 58.867
+    },
+    {
+      "word": "analysis",
+      "start": 58.943,
+      "end": 59.246
+    },
+    {
+      "word": "analysis",
+      "start": 59.321,
+      "end": 59.624
+    },
+    {
+      "word": "analysis",
+      "start": 59.7,
+      "end": 60.003
+    },
+    {
+      "word": "analysis",
+      "start": 60.079,
+      "end": 60.381
+    },
+    {
+      "word": "analysis",
+      "start": 60.457,
+      "end": 60.76
+    },
+    {
+      "word": "analysis",
+      "start": 60.836,
+      "end": 61.139
+    },
+    {
+      "word": "analysis",
+      "start": 61.214,
+      "end": 61.517
+    },
+    {
+      "word": "analysis",
+      "start": 61.593,
+      "end": 61.896
+    },
+    {
+      "word": "analysis",
+      "start": 61.971,
+      "end": 62.274
+    },
+    {
+      "word": "analysis",
+      "start": 62.35,
+      "end": 62.653
+    },
+    {
+      "word": "analysis",
+      "start": 62.729,
+      "end": 63.031
+    },
+    {
+      "word": "analysis",
+      "start": 63.107,
+      "end": 63.41
+    },
+    {
+      "word": "analysis",
+      "start": 63.486,
+      "end": 63.789
+    },
+    {
+      "word": "analysis",
+      "start": 63.864,
+      "end": 64.167
+    },
+    {
+      "word": "analysis",
+      "start": 64.243,
+      "end": 64.546
+    },
+    {
+      "word": "analysis",
+      "start": 64.621,
+      "end": 64.924
+    },
+    {
+      "word": "analysis",
+      "start": 65.0,
+      "end": 65.303
+    },
+    {
+      "word": "analysis",
+      "start": 65.379,
+      "end": 65.681
+    },
+    {
+      "word": "analysis",
+      "start": 65.757,
+      "end": 66.06
+    },
+    {
+      "word": "analysis",
+      "start": 66.136,
+      "end": 66.439
+    },
+    {
+      "word": "analysis",
+      "start": 66.514,
+      "end": 66.817
+    },
+    {
+      "word": "analysis",
+      "start": 66.893,
+      "end": 67.196
+    },
+    {
+      "word": "analysis",
+      "start": 67.271,
+      "end": 67.574
+    },
+    {
+      "word": "analysis",
+      "start": 67.65,
+      "end": 67.953
+    },
+    {
+      "word": "analysis",
+      "start": 68.029,
+      "end": 68.331
+    },
+    {
+      "word": "analysis",
+      "start": 68.407,
+      "end": 68.71
+    },
+    {
+      "word": "analysis",
+      "start": 68.786,
+      "end": 69.089
+    },
+    {
+      "word": "analysis",
+      "start": 69.164,
+      "end": 69.467
+    },
+    {
+      "word": "analysis",
+      "start": 69.543,
+      "end": 69.846
+    },
+    {
+      "word": "analysis",
+      "start": 69.921,
+      "end": 70.224
+    },
+    {
+      "word": "analysis",
+      "start": 70.3,
+      "end": 70.603
+    },
+    {
+      "word": "analysis",
+      "start": 70.679,
+      "end": 70.981
+    },
+    {
+      "word": "analysis",
+      "start": 71.057,
+      "end": 71.36
+    },
+    {
+      "word": "analysis",
+      "start": 71.436,
+      "end": 71.739
+    },
+    {
+      "word": "analysis",
+      "start": 71.814,
+      "end": 72.117
+    },
+    {
+      "word": "analysis",
+      "start": 72.193,
+      "end": 72.496
+    },
+    {
+      "word": "analysis",
+      "start": 72.571,
+      "end": 72.874
+    },
+    {
+      "word": "analysis",
+      "start": 72.95,
+      "end": 73.253
+    },
+    {
+      "word": "analysis",
+      "start": 73.329,
+      "end": 73.631
+    },
+    {
+      "word": "analysis",
+      "start": 73.707,
+      "end": 74.01
+    },
+    {
+      "word": "analysis",
+      "start": 74.086,
+      "end": 74.389
+    },
+    {
+      "word": "analysis",
+      "start": 74.464,
+      "end": 74.767
+    },
+    {
+      "word": "analysis",
+      "start": 74.843,
+      "end": 75.146
+    },
+    {
+      "word": "analysis",
+      "start": 75.221,
+      "end": 75.524
+    },
+    {
+      "word": "analysis",
+      "start": 75.6,
+      "end": 75.903
+    },
+    {
+      "word": "analysis",
+      "start": 75.979,
+      "end": 76.281
+    },
+    {
+      "word": "analysis",
+      "start": 76.357,
+      "end": 76.66
+    },
+    {
+      "word": "analysis",
+      "start": 76.736,
+      "end": 77.039
+    },
+    {
+      "word": "analysis",
+      "start": 77.114,
+      "end": 77.417
+    },
+    {
+      "word": "analysis",
+      "start": 77.493,
+      "end": 77.796
+    },
+    {
+      "word": "analysis",
+      "start": 77.871,
+      "end": 78.174
+    },
+    {
+      "word": "analysis",
+      "start": 78.25,
+      "end": 78.553
+    },
+    {
+      "word": "analysis",
+      "start": 78.629,
+      "end": 78.931
+    },
+    {
+      "word": "analysis",
+      "start": 79.007,
+      "end": 79.31
+    },
+    {
+      "word": "analysis",
+      "start": 79.386,
+      "end": 79.689
+    },
+    {
+      "word": "analysis",
+      "start": 79.764,
+      "end": 80.067
+    },
+    {
+      "word": "analysis",
+      "start": 80.143,
+      "end": 80.446
+    },
+    {
+      "word": "analysis",
+      "start": 80.521,
+      "end": 80.824
+    },
+    {
+      "word": "analysis",
+      "start": 80.9,
+      "end": 81.203
+    },
+    {
+      "word": "analysis",
+      "start": 81.279,
+      "end": 81.581
+    },
+    {
+      "word": "analysis",
+      "start": 81.657,
+      "end": 81.96
+    },
+    {
+      "word": "analysis",
+      "start": 82.036,
+      "end": 82.339
+    },
+    {
+      "word": "analysis",
+      "start": 82.414,
+      "end": 82.717
+    },
+    {
+      "word": "analysis",
+      "start": 82.793,
+      "end": 83.096
+    },
+    {
+      "word": "analysis",
+      "start": 83.171,
+      "end": 83.474
+    },
+    {
+      "word": "analysis",
+      "start": 83.55,
+      "end": 83.853
+    },
+    {
+      "word": "analysis",
+      "start": 83.929,
+      "end": 84.231
+    },
+    {
+      "word": "analysis",
+      "start": 84.307,
+      "end": 84.61
+    },
+    {
+      "word": "analysis",
+      "start": 84.686,
+      "end": 84.989
+    },
+    {
+      "word": "analysis",
+      "start": 85.064,
+      "end": 85.367
+    },
+    {
+      "word": "analysis",
+      "start": 85.443,
+      "end": 85.746
+    },
+    {
+      "word": "analysis",
+      "start": 85.821,
+      "end": 86.124
+    },
+    {
+      "word": "analysis",
+      "start": 86.2,
+      "end": 86.503
+    },
+    {
+      "word": "analysis",
+      "start": 86.579,
+      "end": 86.881
+    },
+    {
+      "word": "analysis",
+      "start": 86.957,
+      "end": 87.26
+    },
+    {
+      "word": "analysis",
+      "start": 87.336,
+      "end": 87.639
+    },
+    {
+      "word": "analysis",
+      "start": 87.714,
+      "end": 88.017
+    },
+    {
+      "word": "analysis",
+      "start": 88.093,
+      "end": 88.396
+    },
+    {
+      "word": "analysis",
+      "start": 88.471,
+      "end": 88.774
+    },
+    {
+      "word": "analysis",
+      "start": 88.85,
+      "end": 89.153
+    },
+    {
+      "word": "analysis",
+      "start": 89.229,
+      "end": 89.531
+    },
+    {
+      "word": "analysis",
+      "start": 89.607,
+      "end": 89.91
+    },
+    {
+      "word": "analysis",
+      "start": 89.986,
+      "end": 90.289
+    },
+    {
+      "word": "analysis",
+      "start": 90.364,
+      "end": 90.667
+    },
+    {
+      "word": "analysis",
+      "start": 90.743,
+      "end": 91.046
+    },
+    {
+      "word": "analysis",
+      "start": 91.121,
+      "end": 91.424
+    },
+    {
+      "word": "analysis",
+      "start": 91.5,
+      "end": 91.803
+    },
+    {
+      "word": "analysis",
+      "start": 91.879,
+      "end": 92.181
+    },
+    {
+      "word": "analysis",
+      "start": 92.257,
+      "end": 92.56
+    },
+    {
+      "word": "analysis",
+      "start": 92.636,
+      "end": 92.939
+    },
+    {
+      "word": "analysis",
+      "start": 93.014,
+      "end": 93.317
+    },
+    {
+      "word": "analysis",
+      "start": 93.393,
+      "end": 93.696
+    },
+    {
+      "word": "analysis",
+      "start": 93.771,
+      "end": 94.074
+    },
+    {
+      "word": "analysis",
+      "start": 94.15,
+      "end": 94.453
+    },
+    {
+      "word": "analysis",
+      "start": 94.529,
+      "end": 94.831
+    },
+    {
+      "word": "analysis",
+      "start": 94.907,
+      "end": 95.21
+    },
+    {
+      "word": "analysis",
+      "start": 95.286,
+      "end": 95.589
+    },
+    {
+      "word": "analysis",
+      "start": 95.664,
+      "end": 95.967
+    },
+    {
+      "word": "analysis",
+      "start": 96.043,
+      "end": 96.346
+    },
+    {
+      "word": "analysis",
+      "start": 96.421,
+      "end": 96.724
+    },
+    {
+      "word": "analysis",
+      "start": 96.8,
+      "end": 97.103
+    },
+    {
+      "word": "analysis",
+      "start": 97.179,
+      "end": 97.481
+    },
+    {
+      "word": "analysis",
+      "start": 97.557,
+      "end": 97.86
+    },
+    {
+      "word": "analysis",
+      "start": 97.936,
+      "end": 98.239
+    },
+    {
+      "word": "analysis",
+      "start": 98.314,
+      "end": 98.617
+    },
+    {
+      "word": "analysis",
+      "start": 98.693,
+      "end": 98.996
+    },
+    {
+      "word": "analysis",
+      "start": 99.071,
+      "end": 99.374
+    },
+    {
+      "word": "analysis",
+      "start": 99.45,
+      "end": 99.753
+    },
+    {
+      "word": "analysis",
+      "start": 99.829,
+      "end": 100.131
+    },
+    {
+      "word": "analysis",
+      "start": 100.207,
+      "end": 100.51
+    },
+    {
+      "word": "analysis",
+      "start": 100.586,
+      "end": 100.889
+    },
+    {
+      "word": "analysis",
+      "start": 100.964,
+      "end": 101.267
+    },
+    {
+      "word": "analysis",
+      "start": 101.343,
+      "end": 101.646
+    },
+    {
+      "word": "analysis",
+      "start": 101.721,
+      "end": 102.024
+    },
+    {
+      "word": "analysis",
+      "start": 102.1,
+      "end": 102.403
+    },
+    {
+      "word": "analysis",
+      "start": 102.479,
+      "end": 102.781
+    },
+    {
+      "word": "analysis",
+      "start": 102.857,
+      "end": 103.16
+    },
+    {
+      "word": "analysis",
+      "start": 103.236,
+      "end": 103.539
+    },
+    {
+      "word": "analysis",
+      "start": 103.614,
+      "end": 103.917
+    },
+    {
+      "word": "analysis",
+      "start": 103.993,
+      "end": 104.296
+    },
+    {
+      "word": "analysis",
+      "start": 104.371,
+      "end": 104.674
+    },
+    {
+      "word": "analysis",
+      "start": 104.75,
+      "end": 105.053
+    },
+    {
+      "word": "analysis",
+      "start": 105.129,
+      "end": 105.431
+    },
+    {
+      "word": "analysis",
+      "start": 105.507,
+      "end": 105.81
+    },
+    {
+      "word": "analysis",
+      "start": 105.886,
+      "end": 106.189
+    },
+    {
+      "word": "analysis",
+      "start": 106.264,
+      "end": 106.567
+    },
+    {
+      "word": "analysis",
+      "start": 106.643,
+      "end": 106.946
+    },
+    {
+      "word": "analysis",
+      "start": 107.021,
+      "end": 107.324
+    },
+    {
+      "word": "analysis",
+      "start": 107.4,
+      "end": 107.703
+    },
+    {
+      "word": "analysis",
+      "start": 107.779,
+      "end": 108.081
+    },
+    {
+      "word": "analysis",
+      "start": 108.157,
+      "end": 108.46
+    },
+    {
+      "word": "analysis",
+      "start": 108.536,
+      "end": 108.839
+    },
+    {
+      "word": "analysis",
+      "start": 108.914,
+      "end": 109.217
+    },
+    {
+      "word": "analysis",
+      "start": 109.293,
+      "end": 109.596
+    },
+    {
+      "word": "analysis",
+      "start": 109.671,
+      "end": 109.974
+    },
+    {
+      "word": "analysis",
+      "start": 110.05,
+      "end": 110.353
+    },
+    {
+      "word": "analysis",
+      "start": 110.429,
+      "end": 110.731
+    },
+    {
+      "word": "analysis",
+      "start": 110.807,
+      "end": 111.11
+    },
+    {
+      "word": "analysis",
+      "start": 111.186,
+      "end": 111.489
+    },
+    {
+      "word": "analysis",
+      "start": 111.564,
+      "end": 111.867
+    },
+    {
+      "word": "analysis",
+      "start": 111.943,
+      "end": 112.246
+    },
+    {
+      "word": "analysis",
+      "start": 112.321,
+      "end": 112.624
+    },
+    {
+      "word": "analysis",
+      "start": 112.7,
+      "end": 113.003
+    },
+    {
+      "word": "analysis",
+      "start": 113.079,
+      "end": 113.381
+    },
+    {
+      "word": "analysis",
+      "start": 113.457,
+      "end": 113.76
+    },
+    {
+      "word": "analysis",
+      "start": 113.836,
+      "end": 114.139
+    },
+    {
+      "word": "analysis",
+      "start": 114.214,
+      "end": 114.517
+    },
+    {
+      "word": "analysis",
+      "start": 114.593,
+      "end": 114.896
+    },
+    {
+      "word": "analysis",
+      "start": 114.971,
+      "end": 115.274
+    },
+    {
+      "word": "analysis",
+      "start": 115.35,
+      "end": 115.653
+    },
+    {
+      "word": "analysis",
+      "start": 115.729,
+      "end": 116.031
+    },
+    {
+      "word": "analysis",
+      "start": 116.107,
+      "end": 116.41
+    },
+    {
+      "word": "analysis",
+      "start": 116.486,
+      "end": 116.789
+    },
+    {
+      "word": "analysis",
+      "start": 116.864,
+      "end": 117.167
+    },
+    {
+      "word": "analysis",
+      "start": 117.243,
+      "end": 117.546
+    },
+    {
+      "word": "analysis",
+      "start": 117.621,
+      "end": 117.924
+    }
+  ],
+  "total_words": 296
+}

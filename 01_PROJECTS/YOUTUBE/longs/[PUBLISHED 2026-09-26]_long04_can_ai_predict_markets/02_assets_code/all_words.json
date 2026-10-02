@@ -1,0 +1,6212 @@
+{
+  "total_words": 978,
+  "audio_file": "00_AUDIO_00m00s_to_07m05s_full_voiceover_ep04_master.wav",
+  "total_duration_s": 425.47,
+  "all_words": [
+    {
+      "word": "In",
+      "start": 0.0,
+      "end": 0.56,
+      "probability": 0.921
+    },
+    {
+      "word": "1988,",
+      "start": 0.56,
+      "end": 1.62,
+      "probability": 0.99
+    },
+    {
+      "word": "a",
+      "start": 2.08,
+      "end": 2.16,
+      "probability": 0.993
+    },
+    {
+      "word": "former",
+      "start": 2.16,
+      "end": 2.5,
+      "probability": 0.999
+    },
+    {
+      "word": "Cold",
+      "start": 2.5,
+      "end": 2.9,
+      "probability": 0.978
+    },
+    {
+      "word": "War",
+      "start": 2.9,
+      "end": 3.14,
+      "probability": 0.993
+    },
+    {
+      "word": "code",
+      "start": 3.14,
+      "end": 3.48,
+      "probability": 0.38
+    },
+    {
+      "word": "-breaker",
+      "start": 3.48,
+      "end": 3.8,
+      "probability": 0.589
+    },
+    {
+      "word": "and",
+      "start": 3.8,
+      "end": 4.14,
+      "probability": 0.984
+    },
+    {
+      "word": "mathematician",
+      "start": 4.14,
+      "end": 4.66,
+      "probability": 0.995
+    },
+    {
+      "word": "named",
+      "start": 4.66,
+      "end": 5.28,
+      "probability": 0.922
+    },
+    {
+      "word": "Jim",
+      "start": 5.28,
+      "end": 5.56,
+      "probability": 0.992
+    },
+    {
+      "word": "Simons",
+      "start": 5.56,
+      "end": 6.16,
+      "probability": 0.772
+    },
+    {
+      "word": "launched",
+      "start": 6.16,
+      "end": 6.82,
+      "probability": 0.93
+    },
+    {
+      "word": "a",
+      "start": 6.82,
+      "end": 7.02,
+      "probability": 0.998
+    },
+    {
+      "word": "fund",
+      "start": 7.02,
+      "end": 7.28,
+      "probability": 0.989
+    },
+    {
+      "word": "that",
+      "start": 7.28,
+      "end": 7.56,
+      "probability": 0.995
+    },
+    {
+      "word": "did",
+      "start": 7.56,
+      "end": 7.76,
+      "probability": 0.997
+    },
+    {
+      "word": "something",
+      "start": 7.76,
+      "end": 8.18,
+      "probability": 0.988
+    },
+    {
+      "word": "Wall",
+      "start": 8.18,
+      "end": 8.48,
+      "probability": 0.982
+    },
+    {
+      "word": "Street",
+      "start": 8.48,
+      "end": 8.78,
+      "probability": 0.982
+    },
+    {
+      "word": "thought",
+      "start": 8.78,
+      "end": 9.14,
+      "probability": 0.987
+    },
+    {
+      "word": "was",
+      "start": 9.14,
+      "end": 9.44,
+      "probability": 0.997
+    },
+    {
+      "word": "mathematically",
+      "start": 9.44,
+      "end": 9.96,
+      "probability": 0.994
+    },
+    {
+      "word": "impossible.",
+      "start": 9.96,
+      "end": 10.92,
+      "probability": 0.994
+    },
+    {
+      "word": "For",
+      "start": 11.68,
+      "end": 11.92,
+      "probability": 0.993
+    },
+    {
+      "word": "more",
+      "start": 11.92,
+      "end": 12.16,
+      "probability": 0.994
+    },
+    {
+      "word": "than",
+      "start": 12.16,
+      "end": 12.36,
+      "probability": 0.998
+    },
+    {
+      "word": "30",
+      "start": 12.36,
+      "end": 12.76,
+      "probability": 0.884
+    },
+    {
+      "word": "years,",
+      "start": 12.76,
+      "end": 13.18,
+      "probability": 0.996
+    },
+    {
+      "word": "his",
+      "start": 13.64,
+      "end": 13.78,
+      "probability": 0.984
+    },
+    {
+      "word": "medallion",
+      "start": 13.78,
+      "end": 14.34,
+      "probability": 0.886
+    },
+    {
+      "word": "fund",
+      "start": 14.34,
+      "end": 14.66,
+      "probability": 0.998
+    },
+    {
+      "word": "generated",
+      "start": 14.66,
+      "end": 15.3,
+      "probability": 0.995
+    },
+    {
+      "word": "an",
+      "start": 15.3,
+      "end": 15.6,
+      "probability": 0.995
+    },
+    {
+      "word": "average",
+      "start": 15.6,
+      "end": 15.98,
+      "probability": 0.999
+    },
+    {
+      "word": "return",
+      "start": 15.98,
+      "end": 16.44,
+      "probability": 0.997
+    },
+    {
+      "word": "of",
+      "start": 16.44,
+      "end": 16.8,
+      "probability": 0.995
+    },
+    {
+      "word": "66",
+      "start": 16.8,
+      "end": 17.28,
+      "probability": 0.981
+    },
+    {
+      "word": "%",
+      "start": 17.28,
+      "end": 17.98,
+      "probability": 0.6
+    },
+    {
+      "word": "a",
+      "start": 17.98,
+      "end": 18.28,
+      "probability": 0.976
+    },
+    {
+      "word": "year,",
+      "start": 18.28,
+      "end": 18.64,
+      "probability": 1.0
+    },
+    {
+      "word": "turning",
+      "start": 19.04,
+      "end": 19.42,
+      "probability": 0.938
+    },
+    {
+      "word": "$1",
+      "start": 19.42,
+      "end": 19.76,
+      "probability": 0.556
+    },
+    {
+      "word": ",000",
+      "start": 19.76,
+      "end": 20.22,
+      "probability": 0.998
+    },
+    {
+      "word": "into",
+      "start": 20.22,
+      "end": 21.08,
+      "probability": 0.982
+    },
+    {
+      "word": "more",
+      "start": 21.08,
+      "end": 21.4,
+      "probability": 0.991
+    },
+    {
+      "word": "than",
+      "start": 21.4,
+      "end": 21.6,
+      "probability": 0.991
+    },
+    {
+      "word": "$42",
+      "start": 21.6,
+      "end": 22.28,
+      "probability": 0.982
+    },
+    {
+      "word": "million,",
+      "start": 22.28,
+      "end": 22.8,
+      "probability": 0.927
+    },
+    {
+      "word": "and",
+      "start": 23.5,
+      "end": 24.1,
+      "probability": 0.991
+    },
+    {
+      "word": "they",
+      "start": 24.1,
+      "end": 24.24,
+      "probability": 0.986
+    },
+    {
+      "word": "did",
+      "start": 24.24,
+      "end": 24.46,
+      "probability": 0.998
+    },
+    {
+      "word": "it",
+      "start": 24.46,
+      "end": 24.66,
+      "probability": 0.999
+    },
+    {
+      "word": "by",
+      "start": 24.66,
+      "end": 24.9,
+      "probability": 0.992
+    },
+    {
+      "word": "enforcing",
+      "start": 24.9,
+      "end": 25.48,
+      "probability": 0.996
+    },
+    {
+      "word": "one",
+      "start": 25.48,
+      "end": 25.78,
+      "probability": 0.982
+    },
+    {
+      "word": "strict",
+      "start": 25.78,
+      "end": 26.18,
+      "probability": 0.981
+    },
+    {
+      "word": "rule.",
+      "start": 26.18,
+      "end": 26.66,
+      "probability": 0.996
+    },
+    {
+      "word": "They",
+      "start": 27.08,
+      "end": 27.42,
+      "probability": 0.281
+    },
+    {
+      "word": "completely",
+      "start": 27.42,
+      "end": 28.02,
+      "probability": 0.977
+    },
+    {
+      "word": "banned",
+      "start": 28.02,
+      "end": 28.52,
+      "probability": 0.888
+    },
+    {
+      "word": "anyone",
+      "start": 28.52,
+      "end": 29.16,
+      "probability": 0.985
+    },
+    {
+      "word": "with",
+      "start": 29.16,
+      "end": 29.44,
+      "probability": 0.995
+    },
+    {
+      "word": "a",
+      "start": 29.44,
+      "end": 29.56,
+      "probability": 0.971
+    },
+    {
+      "word": "finance",
+      "start": 29.56,
+      "end": 29.9,
+      "probability": 0.971
+    },
+    {
+      "word": "background,",
+      "start": 29.9,
+      "end": 30.58,
+      "probability": 0.997
+    },
+    {
+      "word": "hiring",
+      "start": 30.92,
+      "end": 31.32,
+      "probability": 0.997
+    },
+    {
+      "word": "only",
+      "start": 31.32,
+      "end": 31.74,
+      "probability": 0.994
+    },
+    {
+      "word": "physicists,",
+      "start": 31.74,
+      "end": 32.22,
+      "probability": 0.958
+    },
+    {
+      "word": "cryptographers,",
+      "start": 32.8,
+      "end": 33.42,
+      "probability": 0.985
+    },
+    {
+      "word": "and",
+      "start": 33.74,
+      "end": 34.04,
+      "probability": 0.995
+    },
+    {
+      "word": "mathematicians.",
+      "start": 34.04,
+      "end": 34.86,
+      "probability": 0.997
+    },
+    {
+      "word": "Yet",
+      "start": 35.3,
+      "end": 35.98,
+      "probability": 0.995
+    },
+    {
+      "word": "today,",
+      "start": 35.98,
+      "end": 36.3,
+      "probability": 0.934
+    },
+    {
+      "word": "across",
+      "start": 36.66,
+      "end": 36.88,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 36.88,
+      "end": 37.12,
+      "probability": 0.994
+    },
+    {
+      "word": "rest",
+      "start": 37.12,
+      "end": 37.28,
+      "probability": 0.984
+    },
+    {
+      "word": "of",
+      "start": 37.28,
+      "end": 37.5,
+      "probability": 0.998
+    },
+    {
+      "word": "Wall",
+      "start": 37.5,
+      "end": 37.64,
+      "probability": 0.992
+    },
+    {
+      "word": "Street,",
+      "start": 37.64,
+      "end": 37.98,
+      "probability": 0.966
+    },
+    {
+      "word": "firms",
+      "start": 38.48,
+      "end": 38.76,
+      "probability": 0.847
+    },
+    {
+      "word": "spend",
+      "start": 38.76,
+      "end": 39.2,
+      "probability": 0.958
+    },
+    {
+      "word": "billions",
+      "start": 39.2,
+      "end": 39.68,
+      "probability": 0.995
+    },
+    {
+      "word": "on",
+      "start": 39.68,
+      "end": 40.12,
+      "probability": 0.997
+    },
+    {
+      "word": "deep",
+      "start": 40.12,
+      "end": 40.4,
+      "probability": 0.99
+    },
+    {
+      "word": "neural",
+      "start": 40.4,
+      "end": 40.72,
+      "probability": 0.824
+    },
+    {
+      "word": "networks",
+      "start": 40.72,
+      "end": 41.24,
+      "probability": 0.996
+    },
+    {
+      "word": "and",
+      "start": 41.24,
+      "end": 41.52,
+      "probability": 0.986
+    },
+    {
+      "word": "supercomputers",
+      "start": 41.52,
+      "end": 42.42,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 42.42,
+      "end": 42.8,
+      "probability": 0.99
+    },
+    {
+      "word": "predict",
+      "start": 42.8,
+      "end": 43.1,
+      "probability": 0.997
+    },
+    {
+      "word": "stock",
+      "start": 43.1,
+      "end": 43.5,
+      "probability": 0.998
+    },
+    {
+      "word": "prices,",
+      "start": 43.5,
+      "end": 43.92,
+      "probability": 0.968
+    },
+    {
+      "word": "and",
+      "start": 44.38,
+      "end": 44.58,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 44.58,
+      "end": 44.7,
+      "probability": 0.994
+    },
+    {
+      "word": "vast",
+      "start": 44.7,
+      "end": 44.98,
+      "probability": 0.999
+    },
+    {
+      "word": "majority",
+      "start": 44.98,
+      "end": 45.6,
+      "probability": 0.999
+    },
+    {
+      "word": "still",
+      "start": 45.6,
+      "end": 46.16,
+      "probability": 0.992
+    },
+    {
+      "word": "fail",
+      "start": 46.16,
+      "end": 46.54,
+      "probability": 0.985
+    },
+    {
+      "word": "to",
+      "start": 46.54,
+      "end": 46.84,
+      "probability": 0.999
+    },
+    {
+      "word": "beat",
+      "start": 46.84,
+      "end": 47.08,
+      "probability": 0.994
+    },
+    {
+      "word": "a",
+      "start": 47.08,
+      "end": 47.3,
+      "probability": 0.997
+    },
+    {
+      "word": "simple",
+      "start": 47.3,
+      "end": 47.66,
+      "probability": 0.98
+    },
+    {
+      "word": "index",
+      "start": 47.66,
+      "end": 48.06,
+      "probability": 0.987
+    },
+    {
+      "word": "fund.",
+      "start": 48.06,
+      "end": 48.44,
+      "probability": 0.998
+    },
+    {
+      "word": "How",
+      "start": 49.26,
+      "end": 49.6,
+      "probability": 0.987
+    },
+    {
+      "word": "did",
+      "start": 49.6,
+      "end": 49.78,
+      "probability": 0.998
+    },
+    {
+      "word": "a",
+      "start": 49.78,
+      "end": 49.88,
+      "probability": 0.997
+    },
+    {
+      "word": "team",
+      "start": 49.88,
+      "end": 50.12,
+      "probability": 0.998
+    },
+    {
+      "word": "of",
+      "start": 50.12,
+      "end": 50.3,
+      "probability": 0.999
+    },
+    {
+      "word": "mathematicians",
+      "start": 50.3,
+      "end": 51.2,
+      "probability": 1.0
+    },
+    {
+      "word": "cracked",
+      "start": 51.2,
+      "end": 51.66,
+      "probability": 0.626
+    },
+    {
+      "word": "the",
+      "start": 51.66,
+      "end": 51.94,
+      "probability": 0.993
+    },
+    {
+      "word": "market",
+      "start": 51.94,
+      "end": 52.26,
+      "probability": 0.999
+    },
+    {
+      "word": "with",
+      "start": 52.26,
+      "end": 52.54,
+      "probability": 0.979
+    },
+    {
+      "word": "an",
+      "start": 52.54,
+      "end": 52.74,
+      "probability": 0.999
+    },
+    {
+      "word": "edge",
+      "start": 52.74,
+      "end": 53.08,
+      "probability": 0.985
+    },
+    {
+      "word": "that",
+      "start": 53.08,
+      "end": 53.26,
+      "probability": 0.994
+    },
+    {
+      "word": "was",
+      "start": 53.26,
+      "end": 53.4,
+      "probability": 0.999
+    },
+    {
+      "word": "barely",
+      "start": 53.4,
+      "end": 53.84,
+      "probability": 0.997
+    },
+    {
+      "word": "51%,",
+      "start": 53.84,
+      "end": 55.36,
+      "probability": 0.654
+    },
+    {
+      "word": "while",
+      "start": 55.36,
+      "end": 55.72,
+      "probability": 0.486
+    },
+    {
+      "word": "today's",
+      "start": 55.72,
+      "end": 56.24,
+      "probability": 0.992
+    },
+    {
+      "word": "most",
+      "start": 56.24,
+      "end": 56.38,
+      "probability": 0.995
+    },
+    {
+      "word": "powerful",
+      "start": 56.38,
+      "end": 56.94,
+      "probability": 0.995
+    },
+    {
+      "word": "AI",
+      "start": 56.94,
+      "end": 57.24,
+      "probability": 0.968
+    },
+    {
+      "word": "models",
+      "start": 57.24,
+      "end": 57.76,
+      "probability": 0.996
+    },
+    {
+      "word": "fail",
+      "start": 57.76,
+      "end": 58.4,
+      "probability": 0.986
+    },
+    {
+      "word": "every",
+      "start": 58.4,
+      "end": 58.98,
+      "probability": 0.991
+    },
+    {
+      "word": "single",
+      "start": 58.98,
+      "end": 59.32,
+      "probability": 0.99
+    },
+    {
+      "word": "day?",
+      "start": 59.32,
+      "end": 59.6,
+      "probability": 1.0
+    },
+    {
+      "word": "Let's",
+      "start": 60.14,
+      "end": 60.9,
+      "probability": 0.99
+    },
+    {
+      "word": "look",
+      "start": 60.9,
+      "end": 61.02,
+      "probability": 0.996
+    },
+    {
+      "word": "at",
+      "start": 61.02,
+      "end": 61.14,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 61.14,
+      "end": 61.24,
+      "probability": 0.988
+    },
+    {
+      "word": "real",
+      "start": 61.24,
+      "end": 61.58,
+      "probability": 0.955
+    },
+    {
+      "word": "mathematics",
+      "start": 61.58,
+      "end": 62.16,
+      "probability": 0.993
+    },
+    {
+      "word": "of",
+      "start": 62.16,
+      "end": 62.74,
+      "probability": 0.981
+    },
+    {
+      "word": "why",
+      "start": 62.74,
+      "end": 62.98,
+      "probability": 0.991
+    },
+    {
+      "word": "AI",
+      "start": 62.98,
+      "end": 63.38,
+      "probability": 0.992
+    },
+    {
+      "word": "cannot",
+      "start": 63.38,
+      "end": 63.74,
+      "probability": 0.885
+    },
+    {
+      "word": "predict",
+      "start": 63.74,
+      "end": 64.3,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 64.3,
+      "end": 64.6,
+      "probability": 0.993
+    },
+    {
+      "word": "stock",
+      "start": 64.6,
+      "end": 64.86,
+      "probability": 0.996
+    },
+    {
+      "word": "market",
+      "start": 64.86,
+      "end": 65.18,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 65.18,
+      "end": 65.66,
+      "probability": 0.906
+    },
+    {
+      "word": "way",
+      "start": 65.66,
+      "end": 65.8,
+      "probability": 0.999
+    },
+    {
+      "word": "most",
+      "start": 65.8,
+      "end": 66.04,
+      "probability": 0.997
+    },
+    {
+      "word": "people",
+      "start": 66.04,
+      "end": 66.3,
+      "probability": 1.0
+    },
+    {
+      "word": "think.",
+      "start": 66.3,
+      "end": 66.7,
+      "probability": 0.999
+    },
+    {
+      "word": "Here",
+      "start": 67.26,
+      "end": 67.64,
+      "probability": 0.963
+    },
+    {
+      "word": "is",
+      "start": 67.64,
+      "end": 67.94,
+      "probability": 0.983
+    },
+    {
+      "word": "the",
+      "start": 67.94,
+      "end": 68.08,
+      "probability": 0.993
+    },
+    {
+      "word": "first",
+      "start": 68.08,
+      "end": 68.46,
+      "probability": 0.984
+    },
+    {
+      "word": "great",
+      "start": 68.46,
+      "end": 68.9,
+      "probability": 0.968
+    },
+    {
+      "word": "illusion",
+      "start": 68.9,
+      "end": 69.4,
+      "probability": 0.824
+    },
+    {
+      "word": "about",
+      "start": 69.4,
+      "end": 69.88,
+      "probability": 0.993
+    },
+    {
+      "word": "quantitative",
+      "start": 69.88,
+      "end": 70.52,
+      "probability": 0.991
+    },
+    {
+      "word": "trading.",
+      "start": 70.52,
+      "end": 71.04,
+      "probability": 0.997
+    },
+    {
+      "word": "People",
+      "start": 71.54,
+      "end": 71.88,
+      "probability": 0.988
+    },
+    {
+      "word": "assume",
+      "start": 71.88,
+      "end": 72.5,
+      "probability": 0.779
+    },
+    {
+      "word": "Jim",
+      "start": 72.5,
+      "end": 72.76,
+      "probability": 0.978
+    },
+    {
+      "word": "Simons",
+      "start": 72.76,
+      "end": 73.32,
+      "probability": 0.692
+    },
+    {
+      "word": "built",
+      "start": 73.32,
+      "end": 73.56,
+      "probability": 0.988
+    },
+    {
+      "word": "an",
+      "start": 73.56,
+      "end": 73.86,
+      "probability": 0.995
+    },
+    {
+      "word": "oracle",
+      "start": 73.86,
+      "end": 74.28,
+      "probability": 0.777
+    },
+    {
+      "word": "that",
+      "start": 74.28,
+      "end": 74.6,
+      "probability": 0.989
+    },
+    {
+      "word": "predicted",
+      "start": 74.6,
+      "end": 74.96,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 74.96,
+      "end": 75.14,
+      "probability": 0.994
+    },
+    {
+      "word": "future",
+      "start": 75.14,
+      "end": 75.5,
+      "probability": 0.999
+    },
+    {
+      "word": "with",
+      "start": 75.5,
+      "end": 75.84,
+      "probability": 0.977
+    },
+    {
+      "word": "90",
+      "start": 75.84,
+      "end": 76.14,
+      "probability": 0.973
+    },
+    {
+      "word": "%",
+      "start": 76.14,
+      "end": 76.54,
+      "probability": 0.87
+    },
+    {
+      "word": "accuracy.",
+      "start": 76.54,
+      "end": 77.08,
+      "probability": 0.998
+    },
+    {
+      "word": "In",
+      "start": 77.8,
+      "end": 78.1,
+      "probability": 0.995
+    },
+    {
+      "word": "reality,",
+      "start": 78.1,
+      "end": 78.54,
+      "probability": 0.998
+    },
+    {
+      "word": "Simons",
+      "start": 79.16,
+      "end": 79.48,
+      "probability": 0.995
+    },
+    {
+      "word": "himself",
+      "start": 79.48,
+      "end": 79.94,
+      "probability": 0.977
+    },
+    {
+      "word": "admitted",
+      "start": 79.94,
+      "end": 80.52,
+      "probability": 0.997
+    },
+    {
+      "word": "that",
+      "start": 80.52,
+      "end": 80.78,
+      "probability": 0.414
+    },
+    {
+      "word": "medallion's",
+      "start": 80.78,
+      "end": 81.54,
+      "probability": 0.735
+    },
+    {
+      "word": "statistical",
+      "start": 81.54,
+      "end": 81.98,
+      "probability": 0.991
+    },
+    {
+      "word": "edge",
+      "start": 81.98,
+      "end": 82.4,
+      "probability": 0.974
+    },
+    {
+      "word": "was",
+      "start": 82.4,
+      "end": 82.72,
+      "probability": 0.997
+    },
+    {
+      "word": "microscopic.",
+      "start": 82.72,
+      "end": 83.38,
+      "probability": 0.995
+    },
+    {
+      "word": "They",
+      "start": 83.96,
+      "end": 84.2,
+      "probability": 0.992
+    },
+    {
+      "word": "were",
+      "start": 84.2,
+      "end": 84.32,
+      "probability": 0.997
+    },
+    {
+      "word": "right",
+      "start": 84.32,
+      "end": 84.56,
+      "probability": 0.749
+    },
+    {
+      "word": "roughly",
+      "start": 84.56,
+      "end": 85.08,
+      "probability": 0.911
+    },
+    {
+      "word": "50",
+      "start": 85.08,
+      "end": 85.6,
+      "probability": 0.977
+    },
+    {
+      "word": ".75",
+      "start": 85.6,
+      "end": 86.48,
+      "probability": 0.992
+    },
+    {
+      "word": "%",
+      "start": 86.48,
+      "end": 86.94,
+      "probability": 0.811
+    },
+    {
+      "word": "of",
+      "start": 86.94,
+      "end": 87.18,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 87.18,
+      "end": 87.32,
+      "probability": 0.995
+    },
+    {
+      "word": "time.",
+      "start": 87.32,
+      "end": 87.62,
+      "probability": 0.999
+    },
+    {
+      "word": "Their",
+      "start": 88.3,
+      "end": 88.54,
+      "probability": 0.994
+    },
+    {
+      "word": "entire",
+      "start": 88.54,
+      "end": 89.0,
+      "probability": 0.999
+    },
+    {
+      "word": "fortune",
+      "start": 89.0,
+      "end": 89.46,
+      "probability": 0.988
+    },
+    {
+      "word": "was",
+      "start": 89.46,
+      "end": 89.76,
+      "probability": 0.999
+    },
+    {
+      "word": "built",
+      "start": 89.76,
+      "end": 89.96,
+      "probability": 0.993
+    },
+    {
+      "word": "on",
+      "start": 89.96,
+      "end": 90.2,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 90.2,
+      "end": 90.34,
+      "probability": 0.993
+    },
+    {
+      "word": "law",
+      "start": 90.34,
+      "end": 90.6,
+      "probability": 0.974
+    },
+    {
+      "word": "of",
+      "start": 90.6,
+      "end": 90.9,
+      "probability": 0.997
+    },
+    {
+      "word": "large",
+      "start": 90.9,
+      "end": 91.22,
+      "probability": 0.997
+    },
+    {
+      "word": "numbers,",
+      "start": 91.22,
+      "end": 91.66,
+      "probability": 1.0
+    },
+    {
+      "word": "executing",
+      "start": 92.26,
+      "end": 92.66,
+      "probability": 0.985
+    },
+    {
+      "word": "millions",
+      "start": 92.66,
+      "end": 93.24,
+      "probability": 0.996
+    },
+    {
+      "word": "of",
+      "start": 93.24,
+      "end": 93.58,
+      "probability": 0.996
+    },
+    {
+      "word": "microtrades,",
+      "start": 93.58,
+      "end": 94.3,
+      "probability": 0.582
+    },
+    {
+      "word": "where",
+      "start": 94.66,
+      "end": 94.88,
+      "probability": 0.993
+    },
+    {
+      "word": "a",
+      "start": 94.88,
+      "end": 95.02,
+      "probability": 0.99
+    },
+    {
+      "word": "tiny",
+      "start": 95.02,
+      "end": 95.34,
+      "probability": 0.998
+    },
+    {
+      "word": "probability",
+      "start": 95.34,
+      "end": 95.88,
+      "probability": 0.956
+    },
+    {
+      "word": "edge",
+      "start": 95.88,
+      "end": 96.42,
+      "probability": 0.994
+    },
+    {
+      "word": "turned",
+      "start": 96.42,
+      "end": 96.7,
+      "probability": 0.994
+    },
+    {
+      "word": "into",
+      "start": 96.7,
+      "end": 97.08,
+      "probability": 0.995
+    },
+    {
+      "word": "billions",
+      "start": 97.08,
+      "end": 97.52,
+      "probability": 0.995
+    },
+    {
+      "word": "of",
+      "start": 97.52,
+      "end": 97.8,
+      "probability": 0.996
+    },
+    {
+      "word": "dollars.",
+      "start": 97.8,
+      "end": 98.12,
+      "probability": 0.999
+    },
+    {
+      "word": "But",
+      "start": 98.66,
+      "end": 99.14,
+      "probability": 0.995
+    },
+    {
+      "word": "if",
+      "start": 99.14,
+      "end": 99.34,
+      "probability": 0.985
+    },
+    {
+      "word": "it's",
+      "start": 99.34,
+      "end": 99.56,
+      "probability": 0.982
+    },
+    {
+      "word": "just",
+      "start": 99.56,
+      "end": 99.7,
+      "probability": 0.996
+    },
+    {
+      "word": "math",
+      "start": 99.7,
+      "end": 100.12,
+      "probability": 0.983
+    },
+    {
+      "word": "and",
+      "start": 100.12,
+      "end": 100.44,
+      "probability": 0.976
+    },
+    {
+      "word": "probability,",
+      "start": 100.44,
+      "end": 100.96,
+      "probability": 0.995
+    },
+    {
+      "word": "why",
+      "start": 101.6,
+      "end": 101.76,
+      "probability": 0.994
+    },
+    {
+      "word": "can't",
+      "start": 101.76,
+      "end": 102.06,
+      "probability": 0.999
+    },
+    {
+      "word": "today's",
+      "start": 102.06,
+      "end": 102.5,
+      "probability": 0.985
+    },
+    {
+      "word": "generative",
+      "start": 102.5,
+      "end": 103.02,
+      "probability": 0.953
+    },
+    {
+      "word": "AI",
+      "start": 103.02,
+      "end": 103.32,
+      "probability": 0.967
+    },
+    {
+      "word": "models",
+      "start": 103.32,
+      "end": 103.8,
+      "probability": 0.981
+    },
+    {
+      "word": "simply",
+      "start": 103.8,
+      "end": 104.24,
+      "probability": 0.998
+    },
+    {
+      "word": "look",
+      "start": 104.24,
+      "end": 104.56,
+      "probability": 0.998
+    },
+    {
+      "word": "at",
+      "start": 104.56,
+      "end": 104.74,
+      "probability": 0.997
+    },
+    {
+      "word": "decades",
+      "start": 104.74,
+      "end": 105.04,
+      "probability": 0.994
+    },
+    {
+      "word": "of",
+      "start": 105.04,
+      "end": 105.3,
+      "probability": 0.978
+    },
+    {
+      "word": "price",
+      "start": 105.3,
+      "end": 105.5,
+      "probability": 0.988
+    },
+    {
+      "word": "data",
+      "start": 105.5,
+      "end": 105.88,
+      "probability": 0.998
+    },
+    {
+      "word": "and",
+      "start": 105.88,
+      "end": 106.14,
+      "probability": 0.98
+    },
+    {
+      "word": "do",
+      "start": 106.14,
+      "end": 106.28,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 106.28,
+      "end": 106.4,
+      "probability": 0.998
+    },
+    {
+      "word": "same",
+      "start": 106.4,
+      "end": 106.6,
+      "probability": 0.999
+    },
+    {
+      "word": "thing?",
+      "start": 106.6,
+      "end": 106.94,
+      "probability": 0.997
+    },
+    {
+      "word": "Because",
+      "start": 107.58,
+      "end": 107.94,
+      "probability": 0.475
+    },
+    {
+      "word": "markets",
+      "start": 107.94,
+      "end": 108.36,
+      "probability": 0.965
+    },
+    {
+      "word": "have",
+      "start": 108.36,
+      "end": 108.66,
+      "probability": 0.998
+    },
+    {
+      "word": "a",
+      "start": 108.66,
+      "end": 108.78,
+      "probability": 0.994
+    },
+    {
+      "word": "property",
+      "start": 108.78,
+      "end": 109.2,
+      "probability": 0.993
+    },
+    {
+      "word": "almost",
+      "start": 109.2,
+      "end": 109.64,
+      "probability": 0.672
+    },
+    {
+      "word": "no",
+      "start": 109.64,
+      "end": 110.04,
+      "probability": 0.992
+    },
+    {
+      "word": "other",
+      "start": 110.04,
+      "end": 110.44,
+      "probability": 0.99
+    },
+    {
+      "word": "prediction",
+      "start": 110.44,
+      "end": 110.84,
+      "probability": 0.992
+    },
+    {
+      "word": "problem",
+      "start": 110.84,
+      "end": 111.28,
+      "probability": 0.997
+    },
+    {
+      "word": "in",
+      "start": 111.28,
+      "end": 111.5,
+      "probability": 0.99
+    },
+    {
+      "word": "computer",
+      "start": 111.5,
+      "end": 111.86,
+      "probability": 0.989
+    },
+    {
+      "word": "science",
+      "start": 111.86,
+      "end": 112.36,
+      "probability": 0.997
+    },
+    {
+      "word": "possesses,",
+      "start": 112.36,
+      "end": 113.0,
+      "probability": 0.984
+    },
+    {
+      "word": "they",
+      "start": 113.32,
+      "end": 113.58,
+      "probability": 0.984
+    },
+    {
+      "word": "react",
+      "start": 113.58,
+      "end": 114.0,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 114.0,
+      "end": 114.34,
+      "probability": 0.997
+    },
+    {
+      "word": "being",
+      "start": 114.34,
+      "end": 114.52,
+      "probability": 0.993
+    },
+    {
+      "word": "predicted.",
+      "start": 114.52,
+      "end": 115.0,
+      "probability": 0.997
+    },
+    {
+      "word": "Think",
+      "start": 115.5,
+      "end": 116.04,
+      "probability": 0.986
+    },
+    {
+      "word": "about",
+      "start": 116.04,
+      "end": 116.24,
+      "probability": 0.998
+    },
+    {
+      "word": "how",
+      "start": 116.24,
+      "end": 116.46,
+      "probability": 0.996
+    },
+    {
+      "word": "an",
+      "start": 116.46,
+      "end": 116.62,
+      "probability": 0.99
+    },
+    {
+      "word": "image",
+      "start": 116.62,
+      "end": 116.88,
+      "probability": 0.986
+    },
+    {
+      "word": "recognition",
+      "start": 116.88,
+      "end": 117.54,
+      "probability": 0.988
+    },
+    {
+      "word": "AI",
+      "start": 117.54,
+      "end": 117.8,
+      "probability": 0.972
+    },
+    {
+      "word": "works.",
+      "start": 117.8,
+      "end": 118.28,
+      "probability": 0.995
+    },
+    {
+      "word": "If",
+      "start": 118.74,
+      "end": 118.98,
+      "probability": 0.991
+    },
+    {
+      "word": "a",
+      "start": 118.98,
+      "end": 119.06,
+      "probability": 0.995
+    },
+    {
+      "word": "neural",
+      "start": 119.06,
+      "end": 119.26,
+      "probability": 0.985
+    },
+    {
+      "word": "network",
+      "start": 119.26,
+      "end": 119.68,
+      "probability": 0.997
+    },
+    {
+      "word": "learns",
+      "start": 119.68,
+      "end": 120.04,
+      "probability": 0.998
+    },
+    {
+      "word": "to",
+      "start": 120.04,
+      "end": 120.26,
+      "probability": 0.998
+    },
+    {
+      "word": "identify",
+      "start": 120.26,
+      "end": 120.66,
+      "probability": 0.997
+    },
+    {
+      "word": "a",
+      "start": 120.66,
+      "end": 120.94,
+      "probability": 0.998
+    },
+    {
+      "word": "cat,",
+      "start": 120.94,
+      "end": 121.18,
+      "probability": 0.901
+    },
+    {
+      "word": "the",
+      "start": 121.66,
+      "end": 121.78,
+      "probability": 0.993
+    },
+    {
+      "word": "cat",
+      "start": 121.78,
+      "end": 121.98,
+      "probability": 0.995
+    },
+    {
+      "word": "does",
+      "start": 121.98,
+      "end": 122.22,
+      "probability": 0.971
+    },
+    {
+      "word": "not",
+      "start": 122.22,
+      "end": 122.4,
+      "probability": 0.997
+    },
+    {
+      "word": "change",
+      "start": 122.4,
+      "end": 122.8,
+      "probability": 0.998
+    },
+    {
+      "word": "its",
+      "start": 122.8,
+      "end": 123.06,
+      "probability": 0.98
+    },
+    {
+      "word": "shape",
+      "start": 123.06,
+      "end": 123.28,
+      "probability": 0.999
+    },
+    {
+      "word": "because",
+      "start": 123.28,
+      "end": 123.7,
+      "probability": 0.875
+    },
+    {
+      "word": "the",
+      "start": 123.7,
+      "end": 123.9,
+      "probability": 0.997
+    },
+    {
+      "word": "computer",
+      "start": 123.9,
+      "end": 124.32,
+      "probability": 0.999
+    },
+    {
+      "word": "got",
+      "start": 124.32,
+      "end": 124.54,
+      "probability": 0.997
+    },
+    {
+      "word": "good",
+      "start": 124.54,
+      "end": 124.74,
+      "probability": 0.989
+    },
+    {
+      "word": "at",
+      "start": 124.74,
+      "end": 124.88,
+      "probability": 0.999
+    },
+    {
+      "word": "recognizing",
+      "start": 124.88,
+      "end": 125.32,
+      "probability": 0.972
+    },
+    {
+      "word": "it.",
+      "start": 125.32,
+      "end": 125.66,
+      "probability": 0.999
+    },
+    {
+      "word": "But",
+      "start": 126.12,
+      "end": 126.38,
+      "probability": 0.995
+    },
+    {
+      "word": "the",
+      "start": 126.38,
+      "end": 126.5,
+      "probability": 0.975
+    },
+    {
+      "word": "financial",
+      "start": 126.5,
+      "end": 126.92,
+      "probability": 0.989
+    },
+    {
+      "word": "market",
+      "start": 126.92,
+      "end": 127.34,
+      "probability": 0.998
+    },
+    {
+      "word": "is",
+      "start": 127.34,
+      "end": 127.62,
+      "probability": 0.997
+    },
+    {
+      "word": "a",
+      "start": 127.62,
+      "end": 127.72,
+      "probability": 0.997
+    },
+    {
+      "word": "competitive",
+      "start": 127.72,
+      "end": 128.2,
+      "probability": 0.997
+    },
+    {
+      "word": "zero",
+      "start": 128.2,
+      "end": 128.8,
+      "probability": 0.756
+    },
+    {
+      "word": "sum",
+      "start": 128.8,
+      "end": 129.14,
+      "probability": 0.326
+    },
+    {
+      "word": "game",
+      "start": 129.14,
+      "end": 129.5,
+      "probability": 0.976
+    },
+    {
+      "word": "of",
+      "start": 129.5,
+      "end": 129.82,
+      "probability": 0.991
+    },
+    {
+      "word": "human",
+      "start": 129.82,
+      "end": 130.16,
+      "probability": 0.997
+    },
+    {
+      "word": "and",
+      "start": 130.16,
+      "end": 130.48,
+      "probability": 0.986
+    },
+    {
+      "word": "algorithmic",
+      "start": 130.48,
+      "end": 131.14,
+      "probability": 0.994
+    },
+    {
+      "word": "participants.",
+      "start": 131.14,
+      "end": 131.76,
+      "probability": 0.996
+    },
+    {
+      "word": "If",
+      "start": 132.28,
+      "end": 132.54,
+      "probability": 0.993
+    },
+    {
+      "word": "an",
+      "start": 132.54,
+      "end": 132.64,
+      "probability": 0.99
+    },
+    {
+      "word": "AI",
+      "start": 132.64,
+      "end": 132.86,
+      "probability": 0.997
+    },
+    {
+      "word": "discovers",
+      "start": 132.86,
+      "end": 133.48,
+      "probability": 0.992
+    },
+    {
+      "word": "a",
+      "start": 133.48,
+      "end": 133.76,
+      "probability": 0.999
+    },
+    {
+      "word": "genuine",
+      "start": 133.76,
+      "end": 134.16,
+      "probability": 0.996
+    },
+    {
+      "word": "profitable",
+      "start": 134.16,
+      "end": 134.76,
+      "probability": 0.915
+    },
+    {
+      "word": "pattern",
+      "start": 134.76,
+      "end": 135.22,
+      "probability": 0.997
+    },
+    {
+      "word": "that",
+      "start": 135.22,
+      "end": 135.46,
+      "probability": 0.99
+    },
+    {
+      "word": "says",
+      "start": 135.46,
+      "end": 135.74,
+      "probability": 0.996
+    },
+    {
+      "word": "Apple",
+      "start": 135.74,
+      "end": 136.04,
+      "probability": 0.875
+    },
+    {
+      "word": "will",
+      "start": 136.04,
+      "end": 136.28,
+      "probability": 0.996
+    },
+    {
+      "word": "rise",
+      "start": 136.28,
+      "end": 136.56,
+      "probability": 0.555
+    },
+    {
+      "word": "tomorrow",
+      "start": 136.56,
+      "end": 136.88,
+      "probability": 0.954
+    },
+    {
+      "word": "and",
+      "start": 136.88,
+      "end": 137.5,
+      "probability": 0.623
+    },
+    {
+      "word": "traders",
+      "start": 137.5,
+      "end": 137.82,
+      "probability": 0.945
+    },
+    {
+      "word": "deploy",
+      "start": 137.82,
+      "end": 138.22,
+      "probability": 0.978
+    },
+    {
+      "word": "capital",
+      "start": 138.22,
+      "end": 138.7,
+      "probability": 0.967
+    },
+    {
+      "word": "on",
+      "start": 138.7,
+      "end": 138.9,
+      "probability": 0.993
+    },
+    {
+      "word": "that",
+      "start": 138.9,
+      "end": 139.06,
+      "probability": 0.979
+    },
+    {
+      "word": "signal,",
+      "start": 139.06,
+      "end": 139.42,
+      "probability": 0.989
+    },
+    {
+      "word": "their",
+      "start": 139.9,
+      "end": 140.02,
+      "probability": 0.987
+    },
+    {
+      "word": "own",
+      "start": 140.02,
+      "end": 140.36,
+      "probability": 0.998
+    },
+    {
+      "word": "buying",
+      "start": 140.36,
+      "end": 140.66,
+      "probability": 0.994
+    },
+    {
+      "word": "pressure",
+      "start": 140.66,
+      "end": 141.06,
+      "probability": 0.989
+    },
+    {
+      "word": "instantly",
+      "start": 141.06,
+      "end": 141.66,
+      "probability": 0.995
+    },
+    {
+      "word": "drives",
+      "start": 141.66,
+      "end": 142.0,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 142.0,
+      "end": 142.22,
+      "probability": 0.984
+    },
+    {
+      "word": "price",
+      "start": 142.22,
+      "end": 142.46,
+      "probability": 0.997
+    },
+    {
+      "word": "up",
+      "start": 142.46,
+      "end": 142.62,
+      "probability": 0.992
+    },
+    {
+      "word": "today.",
+      "start": 142.62,
+      "end": 142.88,
+      "probability": 0.969
+    },
+    {
+      "word": "The",
+      "start": 143.48,
+      "end": 143.64,
+      "probability": 0.988
+    },
+    {
+      "word": "prediction",
+      "start": 143.64,
+      "end": 144.0,
+      "probability": 0.993
+    },
+    {
+      "word": "itself",
+      "start": 144.0,
+      "end": 144.42,
+      "probability": 0.997
+    },
+    {
+      "word": "erases",
+      "start": 144.42,
+      "end": 145.04,
+      "probability": 0.95
+    },
+    {
+      "word": "the",
+      "start": 145.04,
+      "end": 145.26,
+      "probability": 0.994
+    },
+    {
+      "word": "pattern.",
+      "start": 145.26,
+      "end": 145.56,
+      "probability": 0.998
+    },
+    {
+      "word": "The",
+      "start": 146.08,
+      "end": 146.18,
+      "probability": 0.988
+    },
+    {
+      "word": "moment",
+      "start": 146.18,
+      "end": 146.42,
+      "probability": 0.998
+    },
+    {
+      "word": "an",
+      "start": 146.42,
+      "end": 146.72,
+      "probability": 0.917
+    },
+    {
+      "word": "edge",
+      "start": 146.72,
+      "end": 146.88,
+      "probability": 0.984
+    },
+    {
+      "word": "becomes",
+      "start": 146.88,
+      "end": 147.24,
+      "probability": 0.996
+    },
+    {
+      "word": "predictable,",
+      "start": 147.24,
+      "end": 147.8,
+      "probability": 0.994
+    },
+    {
+      "word": "it",
+      "start": 148.2,
+      "end": 148.28,
+      "probability": 0.361
+    },
+    {
+      "word": "self",
+      "start": 148.28,
+      "end": 148.52,
+      "probability": 0.876
+    },
+    {
+      "word": "-destructs.",
+      "start": 148.52,
+      "end": 149.48,
+      "probability": 0.948
+    },
+    {
+      "word": "In",
+      "start": 149.56,
+      "end": 149.94,
+      "probability": 0.912
+    },
+    {
+      "word": "quantitative",
+      "start": 149.94,
+      "end": 150.58,
+      "probability": 0.958
+    },
+    {
+      "word": "finance,",
+      "start": 150.58,
+      "end": 151.2,
+      "probability": 0.993
+    },
+    {
+      "word": "this",
+      "start": 151.7,
+      "end": 151.98,
+      "probability": 0.994
+    },
+    {
+      "word": "inevitable",
+      "start": 151.98,
+      "end": 152.52,
+      "probability": 0.969
+    },
+    {
+      "word": "self",
+      "start": 152.52,
+      "end": 153.04,
+      "probability": 0.991
+    },
+    {
+      "word": "-destruction",
+      "start": 153.04,
+      "end": 153.6,
+      "probability": 0.992
+    },
+    {
+      "word": "is",
+      "start": 153.6,
+      "end": 154.1,
+      "probability": 0.983
+    },
+    {
+      "word": "known",
+      "start": 154.1,
+      "end": 154.36,
+      "probability": 0.997
+    },
+    {
+      "word": "as",
+      "start": 154.36,
+      "end": 154.76,
+      "probability": 0.996
+    },
+    {
+      "word": "alpha",
+      "start": 154.76,
+      "end": 155.18,
+      "probability": 0.41
+    },
+    {
+      "word": "decay.",
+      "start": 155.18,
+      "end": 155.52,
+      "probability": 0.964
+    },
+    {
+      "word": "In",
+      "start": 156.12,
+      "end": 156.46,
+      "probability": 0.996
+    },
+    {
+      "word": "the",
+      "start": 156.46,
+      "end": 156.58,
+      "probability": 0.996
+    },
+    {
+      "word": "physical",
+      "start": 156.58,
+      "end": 156.9,
+      "probability": 0.994
+    },
+    {
+      "word": "world,",
+      "start": 156.9,
+      "end": 157.36,
+      "probability": 1.0
+    },
+    {
+      "word": "gravity",
+      "start": 157.76,
+      "end": 158.02,
+      "probability": 0.996
+    },
+    {
+      "word": "doesn't",
+      "start": 158.02,
+      "end": 158.44,
+      "probability": 0.996
+    },
+    {
+      "word": "stop",
+      "start": 158.44,
+      "end": 158.72,
+      "probability": 0.999
+    },
+    {
+      "word": "working",
+      "start": 158.72,
+      "end": 159.14,
+      "probability": 0.998
+    },
+    {
+      "word": "because",
+      "start": 159.14,
+      "end": 159.52,
+      "probability": 0.956
+    },
+    {
+      "word": "millions",
+      "start": 159.52,
+      "end": 159.82,
+      "probability": 0.997
+    },
+    {
+      "word": "of",
+      "start": 159.82,
+      "end": 160.16,
+      "probability": 0.999
+    },
+    {
+      "word": "physicists",
+      "start": 160.16,
+      "end": 160.62,
+      "probability": 0.993
+    },
+    {
+      "word": "understand",
+      "start": 160.62,
+      "end": 161.4,
+      "probability": 0.997
+    },
+    {
+      "word": "it.",
+      "start": 161.4,
+      "end": 161.66,
+      "probability": 0.997
+    },
+    {
+      "word": "But",
+      "start": 161.66,
+      "end": 162.3,
+      "probability": 0.578
+    },
+    {
+      "word": "in",
+      "start": 162.3,
+      "end": 162.44,
+      "probability": 0.914
+    },
+    {
+      "word": "finance,",
+      "start": 162.44,
+      "end": 162.96,
+      "probability": 0.902
+    },
+    {
+      "word": "alpha",
+      "start": 163.42,
+      "end": 163.56,
+      "probability": 0.5
+    },
+    {
+      "word": "behaves",
+      "start": 163.56,
+      "end": 164.0,
+      "probability": 0.988
+    },
+    {
+      "word": "like",
+      "start": 164.0,
+      "end": 164.34,
+      "probability": 0.998
+    },
+    {
+      "word": "an",
+      "start": 164.34,
+      "end": 164.48,
+      "probability": 0.996
+    },
+    {
+      "word": "expiring",
+      "start": 164.48,
+      "end": 165.06,
+      "probability": 0.933
+    },
+    {
+      "word": "patent.",
+      "start": 165.06,
+      "end": 165.52,
+      "probability": 0.995
+    },
+    {
+      "word": "The",
+      "start": 166.04,
+      "end": 166.32,
+      "probability": 0.985
+    },
+    {
+      "word": "second,",
+      "start": 166.32,
+      "end": 166.68,
+      "probability": 0.985
+    },
+    {
+      "word": "a",
+      "start": 166.8,
+      "end": 166.88,
+      "probability": 0.976
+    },
+    {
+      "word": "profitable",
+      "start": 166.88,
+      "end": 167.3,
+      "probability": 0.998
+    },
+    {
+      "word": "trading",
+      "start": 167.3,
+      "end": 167.74,
+      "probability": 0.995
+    },
+    {
+      "word": "anomaly",
+      "start": 167.74,
+      "end": 168.1,
+      "probability": 0.981
+    },
+    {
+      "word": "appears",
+      "start": 168.1,
+      "end": 168.62,
+      "probability": 0.975
+    },
+    {
+      "word": "in",
+      "start": 168.62,
+      "end": 168.84,
+      "probability": 0.999
+    },
+    {
+      "word": "price",
+      "start": 168.84,
+      "end": 169.12,
+      "probability": 0.961
+    },
+    {
+      "word": "data,",
+      "start": 169.12,
+      "end": 169.46,
+      "probability": 0.996
+    },
+    {
+      "word": "competing",
+      "start": 169.92,
+      "end": 170.24,
+      "probability": 0.994
+    },
+    {
+      "word": "quantitative",
+      "start": 170.24,
+      "end": 170.92,
+      "probability": 0.988
+    },
+    {
+      "word": "funds,",
+      "start": 170.92,
+      "end": 171.34,
+      "probability": 0.998
+    },
+    {
+      "word": "high",
+      "start": 171.8,
+      "end": 171.96,
+      "probability": 0.998
+    },
+    {
+      "word": "-frequency",
+      "start": 171.96,
+      "end": 172.4,
+      "probability": 0.855
+    },
+    {
+      "word": "algorithms,",
+      "start": 172.4,
+      "end": 172.92,
+      "probability": 0.995
+    },
+    {
+      "word": "and",
+      "start": 173.3,
+      "end": 173.4,
+      "probability": 0.996
+    },
+    {
+      "word": "market",
+      "start": 173.4,
+      "end": 173.64,
+      "probability": 0.999
+    },
+    {
+      "word": "makers",
+      "start": 173.64,
+      "end": 174.02,
+      "probability": 0.713
+    },
+    {
+      "word": "sniff",
+      "start": 174.02,
+      "end": 174.68,
+      "probability": 0.793
+    },
+    {
+      "word": "out",
+      "start": 174.68,
+      "end": 174.98,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 174.98,
+      "end": 175.14,
+      "probability": 0.989
+    },
+    {
+      "word": "same",
+      "start": 175.14,
+      "end": 175.4,
+      "probability": 0.997
+    },
+    {
+      "word": "volume",
+      "start": 175.4,
+      "end": 175.78,
+      "probability": 0.973
+    },
+    {
+      "word": "spikes.",
+      "start": 175.78,
+      "end": 176.16,
+      "probability": 0.995
+    },
+    {
+      "word": "As",
+      "start": 176.7,
+      "end": 176.96,
+      "probability": 0.995
+    },
+    {
+      "word": "hundreds",
+      "start": 176.96,
+      "end": 177.32,
+      "probability": 0.995
+    },
+    {
+      "word": "of",
+      "start": 177.32,
+      "end": 177.54,
+      "probability": 0.998
+    },
+    {
+      "word": "automated",
+      "start": 177.54,
+      "end": 178.02,
+      "probability": 0.999
+    },
+    {
+      "word": "systems",
+      "start": 178.02,
+      "end": 178.62,
+      "probability": 0.999
+    },
+    {
+      "word": "rush",
+      "start": 178.62,
+      "end": 178.92,
+      "probability": 0.984
+    },
+    {
+      "word": "in",
+      "start": 178.92,
+      "end": 179.2,
+      "probability": 0.853
+    },
+    {
+      "word": "to",
+      "start": 179.2,
+      "end": 179.36,
+      "probability": 0.996
+    },
+    {
+      "word": "exploit",
+      "start": 179.36,
+      "end": 179.8,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 179.8,
+      "end": 180.04,
+      "probability": 0.996
+    },
+    {
+      "word": "exact",
+      "start": 180.04,
+      "end": 180.42,
+      "probability": 0.999
+    },
+    {
+      "word": "same",
+      "start": 180.42,
+      "end": 180.88,
+      "probability": 1.0
+    },
+    {
+      "word": "inefficiency,",
+      "start": 180.88,
+      "end": 181.58,
+      "probability": 0.991
+    },
+    {
+      "word": "they",
+      "start": 181.98,
+      "end": 182.22,
+      "probability": 0.994
+    },
+    {
+      "word": "crowd",
+      "start": 182.22,
+      "end": 182.5,
+      "probability": 0.957
+    },
+    {
+      "word": "the",
+      "start": 182.5,
+      "end": 182.74,
+      "probability": 0.994
+    },
+    {
+      "word": "trade,",
+      "start": 182.74,
+      "end": 183.04,
+      "probability": 0.997
+    },
+    {
+      "word": "they",
+      "start": 183.44,
+      "end": 183.66,
+      "probability": 0.973
+    },
+    {
+      "word": "bid",
+      "start": 183.66,
+      "end": 183.9,
+      "probability": 0.698
+    },
+    {
+      "word": "up",
+      "start": 183.9,
+      "end": 184.04,
+      "probability": 0.984
+    },
+    {
+      "word": "the",
+      "start": 184.04,
+      "end": 184.22,
+      "probability": 0.996
+    },
+    {
+      "word": "entry",
+      "start": 184.22,
+      "end": 184.46,
+      "probability": 0.993
+    },
+    {
+      "word": "price,",
+      "start": 184.46,
+      "end": 184.86,
+      "probability": 0.977
+    },
+    {
+      "word": "compress",
+      "start": 185.18,
+      "end": 185.46,
+      "probability": 0.988
+    },
+    {
+      "word": "the",
+      "start": 185.46,
+      "end": 185.74,
+      "probability": 0.998
+    },
+    {
+      "word": "profit",
+      "start": 185.74,
+      "end": 186.0,
+      "probability": 0.774
+    },
+    {
+      "word": "spread,",
+      "start": 186.0,
+      "end": 186.32,
+      "probability": 0.986
+    },
+    {
+      "word": "and",
+      "start": 186.32,
+      "end": 186.82,
+      "probability": 0.293
+    },
+    {
+      "word": "push",
+      "start": 186.82,
+      "end": 187.04,
+      "probability": 0.926
+    },
+    {
+      "word": "the",
+      "start": 187.04,
+      "end": 187.26,
+      "probability": 0.989
+    },
+    {
+      "word": "market",
+      "start": 187.26,
+      "end": 187.52,
+      "probability": 0.995
+    },
+    {
+      "word": "back",
+      "start": 187.52,
+      "end": 187.82,
+      "probability": 0.996
+    },
+    {
+      "word": "to",
+      "start": 187.82,
+      "end": 188.04,
+      "probability": 0.989
+    },
+    {
+      "word": "mathematical",
+      "start": 188.04,
+      "end": 188.46,
+      "probability": 0.933
+    },
+    {
+      "word": "equilibrium.",
+      "start": 188.46,
+      "end": 189.34,
+      "probability": 0.997
+    },
+    {
+      "word": "This",
+      "start": 189.84,
+      "end": 190.14,
+      "probability": 0.99
+    },
+    {
+      "word": "is",
+      "start": 190.14,
+      "end": 190.3,
+      "probability": 0.995
+    },
+    {
+      "word": "why",
+      "start": 190.3,
+      "end": 190.54,
+      "probability": 0.989
+    },
+    {
+      "word": "an",
+      "start": 190.54,
+      "end": 190.8,
+      "probability": 0.981
+    },
+    {
+      "word": "AI",
+      "start": 190.8,
+      "end": 191.14,
+      "probability": 0.968
+    },
+    {
+      "word": "model",
+      "start": 191.14,
+      "end": 191.5,
+      "probability": 0.996
+    },
+    {
+      "word": "that",
+      "start": 191.5,
+      "end": 191.74,
+      "probability": 0.986
+    },
+    {
+      "word": "looks",
+      "start": 191.74,
+      "end": 192.02,
+      "probability": 0.992
+    },
+    {
+      "word": "brilliant",
+      "start": 192.02,
+      "end": 192.48,
+      "probability": 0.985
+    },
+    {
+      "word": "in",
+      "start": 192.48,
+      "end": 192.72,
+      "probability": 0.992
+    },
+    {
+      "word": "a",
+      "start": 192.72,
+      "end": 192.8,
+      "probability": 0.995
+    },
+    {
+      "word": "back",
+      "start": 192.8,
+      "end": 192.94,
+      "probability": 0.982
+    },
+    {
+      "word": "test",
+      "start": 192.94,
+      "end": 193.36,
+      "probability": 0.743
+    },
+    {
+      "word": "can",
+      "start": 193.36,
+      "end": 193.8,
+      "probability": 0.977
+    },
+    {
+      "word": "quietly",
+      "start": 193.8,
+      "end": 194.28,
+      "probability": 0.93
+    },
+    {
+      "word": "stop",
+      "start": 194.28,
+      "end": 194.64,
+      "probability": 0.991
+    },
+    {
+      "word": "making",
+      "start": 194.64,
+      "end": 194.92,
+      "probability": 0.997
+    },
+    {
+      "word": "money",
+      "start": 194.92,
+      "end": 195.28,
+      "probability": 1.0
+    },
+    {
+      "word": "within",
+      "start": 195.28,
+      "end": 195.7,
+      "probability": 0.973
+    },
+    {
+      "word": "four",
+      "start": 195.7,
+      "end": 196.1,
+      "probability": 0.722
+    },
+    {
+      "word": "months",
+      "start": 196.1,
+      "end": 196.32,
+      "probability": 0.998
+    },
+    {
+      "word": "of",
+      "start": 196.32,
+      "end": 196.68,
+      "probability": 0.99
+    },
+    {
+      "word": "going",
+      "start": 196.68,
+      "end": 196.9,
+      "probability": 0.987
+    },
+    {
+      "word": "live.",
+      "start": 196.9,
+      "end": 197.3,
+      "probability": 0.995
+    },
+    {
+      "word": "It",
+      "start": 197.76,
+      "end": 197.94,
+      "probability": 0.992
+    },
+    {
+      "word": "isn't",
+      "start": 197.94,
+      "end": 198.2,
+      "probability": 0.996
+    },
+    {
+      "word": "that",
+      "start": 198.2,
+      "end": 198.3,
+      "probability": 0.98
+    },
+    {
+      "word": "the",
+      "start": 198.3,
+      "end": 198.44,
+      "probability": 0.981
+    },
+    {
+      "word": "code",
+      "start": 198.44,
+      "end": 198.68,
+      "probability": 0.981
+    },
+    {
+      "word": "failed,",
+      "start": 198.68,
+      "end": 199.06,
+      "probability": 0.989
+    },
+    {
+      "word": "it's",
+      "start": 199.38,
+      "end": 199.62,
+      "probability": 0.986
+    },
+    {
+      "word": "that",
+      "start": 199.62,
+      "end": 199.74,
+      "probability": 0.987
+    },
+    {
+      "word": "the",
+      "start": 199.74,
+      "end": 199.86,
+      "probability": 0.987
+    },
+    {
+      "word": "market",
+      "start": 199.86,
+      "end": 200.2,
+      "probability": 0.999
+    },
+    {
+      "word": "agapted",
+      "start": 200.2,
+      "end": 200.94,
+      "probability": 0.488
+    },
+    {
+      "word": "around",
+      "start": 200.94,
+      "end": 201.16,
+      "probability": 0.998
+    },
+    {
+      "word": "it.",
+      "start": 201.16,
+      "end": 201.44,
+      "probability": 0.995
+    },
+    {
+      "word": "The",
+      "start": 201.82,
+      "end": 201.96,
+      "probability": 0.979
+    },
+    {
+      "word": "second",
+      "start": 201.96,
+      "end": 202.38,
+      "probability": 0.986
+    },
+    {
+      "word": "fatal",
+      "start": 202.38,
+      "end": 202.86,
+      "probability": 0.97
+    },
+    {
+      "word": "flaw",
+      "start": 202.86,
+      "end": 203.3,
+      "probability": 0.999
+    },
+    {
+      "word": "is",
+      "start": 203.3,
+      "end": 203.82,
+      "probability": 0.981
+    },
+    {
+      "word": "something",
+      "start": 203.82,
+      "end": 204.2,
+      "probability": 0.994
+    },
+    {
+      "word": "every",
+      "start": 204.2,
+      "end": 204.72,
+      "probability": 0.988
+    },
+    {
+      "word": "machine",
+      "start": 204.72,
+      "end": 205.12,
+      "probability": 0.988
+    },
+    {
+      "word": "learning",
+      "start": 205.12,
+      "end": 205.52,
+      "probability": 0.911
+    },
+    {
+      "word": "engineer",
+      "start": 205.52,
+      "end": 205.98,
+      "probability": 0.991
+    },
+    {
+      "word": "knows,",
+      "start": 205.98,
+      "end": 206.42,
+      "probability": 0.998
+    },
+    {
+      "word": "but",
+      "start": 206.92,
+      "end": 207.08,
+      "probability": 0.998
+    },
+    {
+      "word": "almost",
+      "start": 207.08,
+      "end": 207.54,
+      "probability": 0.995
+    },
+    {
+      "word": "every",
+      "start": 207.54,
+      "end": 208.2,
+      "probability": 0.997
+    },
+    {
+      "word": "retail",
+      "start": 208.2,
+      "end": 208.74,
+      "probability": 0.961
+    },
+    {
+      "word": "trader",
+      "start": 208.74,
+      "end": 209.28,
+      "probability": 0.966
+    },
+    {
+      "word": "ignores",
+      "start": 209.28,
+      "end": 209.94,
+      "probability": 0.995
+    },
+    {
+      "word": "the",
+      "start": 209.94,
+      "end": 210.82,
+      "probability": 0.399
+    },
+    {
+      "word": "overfitting",
+      "start": 210.82,
+      "end": 211.66,
+      "probability": 0.861
+    },
+    {
+      "word": "trap.",
+      "start": 211.66,
+      "end": 212.08,
+      "probability": 0.991
+    },
+    {
+      "word": "Stock",
+      "start": 212.86,
+      "end": 213.32,
+      "probability": 0.546
+    },
+    {
+      "word": "prices",
+      "start": 213.32,
+      "end": 213.78,
+      "probability": 0.946
+    },
+    {
+      "word": "are",
+      "start": 213.78,
+      "end": 214.22,
+      "probability": 0.987
+    },
+    {
+      "word": "what",
+      "start": 214.22,
+      "end": 214.36,
+      "probability": 0.977
+    },
+    {
+      "word": "statisticians",
+      "start": 214.36,
+      "end": 215.24,
+      "probability": 0.662
+    },
+    {
+      "word": "call",
+      "start": 215.24,
+      "end": 215.5,
+      "probability": 0.975
+    },
+    {
+      "word": "low",
+      "start": 215.5,
+      "end": 216.12,
+      "probability": 0.844
+    },
+    {
+      "word": "signal",
+      "start": 216.12,
+      "end": 216.7,
+      "probability": 0.775
+    },
+    {
+      "word": "to",
+      "start": 216.7,
+      "end": 216.96,
+      "probability": 0.759
+    },
+    {
+      "word": "noise",
+      "start": 216.96,
+      "end": 217.38,
+      "probability": 0.985
+    },
+    {
+      "word": "data.",
+      "start": 217.38,
+      "end": 217.9,
+      "probability": 0.991
+    },
+    {
+      "word": "On",
+      "start": 218.52,
+      "end": 218.92,
+      "probability": 0.987
+    },
+    {
+      "word": "any",
+      "start": 218.92,
+      "end": 219.16,
+      "probability": 0.996
+    },
+    {
+      "word": "given",
+      "start": 219.16,
+      "end": 219.4,
+      "probability": 0.991
+    },
+    {
+      "word": "Tuesday,",
+      "start": 219.4,
+      "end": 219.92,
+      "probability": 0.992
+    },
+    {
+      "word": "a",
+      "start": 220.44,
+      "end": 220.5,
+      "probability": 0.98
+    },
+    {
+      "word": "stock",
+      "start": 220.5,
+      "end": 220.76,
+      "probability": 0.983
+    },
+    {
+      "word": "price",
+      "start": 220.76,
+      "end": 221.08,
+      "probability": 0.992
+    },
+    {
+      "word": "moves",
+      "start": 221.08,
+      "end": 221.48,
+      "probability": 0.793
+    },
+    {
+      "word": "due",
+      "start": 221.48,
+      "end": 221.78,
+      "probability": 0.998
+    },
+    {
+      "word": "to",
+      "start": 221.78,
+      "end": 221.94,
+      "probability": 0.999
+    },
+    {
+      "word": "institutional",
+      "start": 221.94,
+      "end": 222.86,
+      "probability": 0.99
+    },
+    {
+      "word": "rebalancing,",
+      "start": 222.86,
+      "end": 223.58,
+      "probability": 0.976
+    },
+    {
+      "word": "algorithmic",
+      "start": 224.12,
+      "end": 224.74,
+      "probability": 0.994
+    },
+    {
+      "word": "hedging,",
+      "start": 224.74,
+      "end": 225.14,
+      "probability": 0.985
+    },
+    {
+      "word": "geopolitical",
+      "start": 225.64,
+      "end": 226.42,
+      "probability": 0.88
+    },
+    {
+      "word": "rumors,",
+      "start": 226.42,
+      "end": 226.76,
+      "probability": 0.924
+    },
+    {
+      "word": "or",
+      "start": 227.34,
+      "end": 227.5,
+      "probability": 0.996
+    },
+    {
+      "word": "random",
+      "start": 227.5,
+      "end": 227.98,
+      "probability": 0.991
+    },
+    {
+      "word": "liquidity",
+      "start": 227.98,
+      "end": 228.52,
+      "probability": 0.996
+    },
+    {
+      "word": "flows.",
+      "start": 228.52,
+      "end": 228.94,
+      "probability": 0.995
+    },
+    {
+      "word": "95",
+      "start": 229.6,
+      "end": 230.14,
+      "probability": 0.898
+    },
+    {
+      "word": "%",
+      "start": 230.14,
+      "end": 230.9,
+      "probability": 0.921
+    },
+    {
+      "word": "of",
+      "start": 230.9,
+      "end": 231.16,
+      "probability": 0.993
+    },
+    {
+      "word": "daily",
+      "start": 231.16,
+      "end": 231.46,
+      "probability": 0.988
+    },
+    {
+      "word": "price",
+      "start": 231.46,
+      "end": 231.86,
+      "probability": 0.994
+    },
+    {
+      "word": "movement",
+      "start": 231.86,
+      "end": 232.24,
+      "probability": 0.991
+    },
+    {
+      "word": "is",
+      "start": 232.24,
+      "end": 232.7,
+      "probability": 0.998
+    },
+    {
+      "word": "pure",
+      "start": 232.7,
+      "end": 233.1,
+      "probability": 0.991
+    },
+    {
+      "word": "noise,",
+      "start": 233.1,
+      "end": 233.56,
+      "probability": 0.997
+    },
+    {
+      "word": "but",
+      "start": 234.34,
+      "end": 234.64,
+      "probability": 0.996
+    },
+    {
+      "word": "modern,",
+      "start": 234.64,
+      "end": 235.12,
+      "probability": 0.997
+    },
+    {
+      "word": "deep",
+      "start": 235.26,
+      "end": 235.56,
+      "probability": 0.995
+    },
+    {
+      "word": "neural",
+      "start": 235.56,
+      "end": 235.86,
+      "probability": 0.708
+    },
+    {
+      "word": "networks",
+      "start": 235.86,
+      "end": 236.34,
+      "probability": 0.995
+    },
+    {
+      "word": "have",
+      "start": 236.34,
+      "end": 236.86,
+      "probability": 0.993
+    },
+    {
+      "word": "millions,",
+      "start": 236.86,
+      "end": 237.3,
+      "probability": 0.996
+    },
+    {
+      "word": "sometimes",
+      "start": 237.92,
+      "end": 238.26,
+      "probability": 0.996
+    },
+    {
+      "word": "billions",
+      "start": 238.26,
+      "end": 238.78,
+      "probability": 0.99
+    },
+    {
+      "word": "of",
+      "start": 238.78,
+      "end": 239.06,
+      "probability": 0.708
+    },
+    {
+      "word": "parameters.",
+      "start": 239.06,
+      "end": 239.52,
+      "probability": 0.988
+    },
+    {
+      "word": "If",
+      "start": 240.2,
+      "end": 240.52,
+      "probability": 0.301
+    },
+    {
+      "word": "you",
+      "start": 240.52,
+      "end": 240.68,
+      "probability": 0.992
+    },
+    {
+      "word": "feed",
+      "start": 240.68,
+      "end": 241.0,
+      "probability": 0.995
+    },
+    {
+      "word": "30",
+      "start": 241.0,
+      "end": 241.42,
+      "probability": 0.856
+    },
+    {
+      "word": "years",
+      "start": 241.42,
+      "end": 241.78,
+      "probability": 0.975
+    },
+    {
+      "word": "of",
+      "start": 241.78,
+      "end": 242.02,
+      "probability": 0.996
+    },
+    {
+      "word": "noisy",
+      "start": 242.02,
+      "end": 242.32,
+      "probability": 0.955
+    },
+    {
+      "word": "price",
+      "start": 242.32,
+      "end": 242.76,
+      "probability": 0.845
+    },
+    {
+      "word": "data",
+      "start": 242.76,
+      "end": 243.16,
+      "probability": 0.999
+    },
+    {
+      "word": "into",
+      "start": 243.16,
+      "end": 243.58,
+      "probability": 0.984
+    },
+    {
+      "word": "a",
+      "start": 243.58,
+      "end": 243.76,
+      "probability": 0.997
+    },
+    {
+      "word": "deep",
+      "start": 243.76,
+      "end": 244.0,
+      "probability": 0.978
+    },
+    {
+      "word": "learning",
+      "start": 244.0,
+      "end": 244.32,
+      "probability": 0.979
+    },
+    {
+      "word": "model,",
+      "start": 244.32,
+      "end": 244.72,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 245.1,
+      "end": 245.26,
+      "probability": 0.99
+    },
+    {
+      "word": "mathematics",
+      "start": 245.26,
+      "end": 245.92,
+      "probability": 0.928
+    },
+    {
+      "word": "guarantees",
+      "start": 245.92,
+      "end": 246.66,
+      "probability": 0.969
+    },
+    {
+      "word": "it",
+      "start": 247.1,
+      "end": 247.42,
+      "probability": 0.963
+    },
+    {
+      "word": "will",
+      "start": 247.42,
+      "end": 247.56,
+      "probability": 0.988
+    },
+    {
+      "word": "find",
+      "start": 247.56,
+      "end": 248.0,
+      "probability": 0.994
+    },
+    {
+      "word": "correlations.",
+      "start": 248.0,
+      "end": 248.84,
+      "probability": 0.989
+    },
+    {
+      "word": "It",
+      "start": 249.16,
+      "end": 249.7,
+      "probability": 0.991
+    },
+    {
+      "word": "might",
+      "start": 249.7,
+      "end": 249.9,
+      "probability": 0.983
+    },
+    {
+      "word": "discover",
+      "start": 249.9,
+      "end": 250.34,
+      "probability": 0.996
+    },
+    {
+      "word": "that",
+      "start": 250.34,
+      "end": 250.6,
+      "probability": 0.992
+    },
+    {
+      "word": "every",
+      "start": 250.6,
+      "end": 251.0,
+      "probability": 0.983
+    },
+    {
+      "word": "time",
+      "start": 251.0,
+      "end": 251.28,
+      "probability": 0.994
+    },
+    {
+      "word": "the",
+      "start": 251.28,
+      "end": 251.44,
+      "probability": 0.994
+    },
+    {
+      "word": "temperature",
+      "start": 251.44,
+      "end": 251.86,
+      "probability": 0.997
+    },
+    {
+      "word": "in",
+      "start": 251.86,
+      "end": 252.06,
+      "probability": 0.926
+    },
+    {
+      "word": "Chicago",
+      "start": 252.06,
+      "end": 252.38,
+      "probability": 0.998
+    },
+    {
+      "word": "drops",
+      "start": 252.38,
+      "end": 252.86,
+      "probability": 0.996
+    },
+    {
+      "word": "by",
+      "start": 252.86,
+      "end": 253.16,
+      "probability": 0.995
+    },
+    {
+      "word": "three",
+      "start": 253.16,
+      "end": 253.48,
+      "probability": 0.43
+    },
+    {
+      "word": "degrees",
+      "start": 253.48,
+      "end": 253.72,
+      "probability": 0.995
+    },
+    {
+      "word": "on",
+      "start": 253.72,
+      "end": 254.04,
+      "probability": 0.988
+    },
+    {
+      "word": "a",
+      "start": 254.04,
+      "end": 254.14,
+      "probability": 0.991
+    },
+    {
+      "word": "Thursday,",
+      "start": 254.14,
+      "end": 254.56,
+      "probability": 0.991
+    },
+    {
+      "word": "semiconductor",
+      "start": 255.22,
+      "end": 255.52,
+      "probability": 0.705
+    },
+    {
+      "word": "stocks",
+      "start": 255.52,
+      "end": 256.3,
+      "probability": 0.979
+    },
+    {
+      "word": "rally",
+      "start": 256.3,
+      "end": 256.78,
+      "probability": 0.943
+    },
+    {
+      "word": "on",
+      "start": 256.78,
+      "end": 257.12,
+      "probability": 0.996
+    },
+    {
+      "word": "Friday",
+      "start": 257.12,
+      "end": 257.4,
+      "probability": 0.992
+    },
+    {
+      "word": "morning.",
+      "start": 257.4,
+      "end": 257.78,
+      "probability": 0.992
+    },
+    {
+      "word": "In",
+      "start": 258.34,
+      "end": 258.74,
+      "probability": 0.995
+    },
+    {
+      "word": "a",
+      "start": 258.74,
+      "end": 258.82,
+      "probability": 0.992
+    },
+    {
+      "word": "back",
+      "start": 258.82,
+      "end": 259.0,
+      "probability": 0.989
+    },
+    {
+      "word": "test,",
+      "start": 259.0,
+      "end": 259.42,
+      "probability": 0.836
+    },
+    {
+      "word": "the",
+      "start": 259.78,
+      "end": 259.86,
+      "probability": 0.995
+    },
+    {
+      "word": "curve",
+      "start": 259.86,
+      "end": 260.14,
+      "probability": 0.989
+    },
+    {
+      "word": "looks",
+      "start": 260.14,
+      "end": 260.44,
+      "probability": 0.997
+    },
+    {
+      "word": "like",
+      "start": 260.44,
+      "end": 260.68,
+      "probability": 0.996
+    },
+    {
+      "word": "a",
+      "start": 260.68,
+      "end": 260.82,
+      "probability": 0.996
+    },
+    {
+      "word": "straight",
+      "start": 260.82,
+      "end": 261.1,
+      "probability": 0.996
+    },
+    {
+      "word": "line",
+      "start": 261.1,
+      "end": 261.5,
+      "probability": 0.992
+    },
+    {
+      "word": "up",
+      "start": 261.5,
+      "end": 261.92,
+      "probability": 0.967
+    },
+    {
+      "word": "and",
+      "start": 261.92,
+      "end": 262.24,
+      "probability": 0.941
+    },
+    {
+      "word": "to",
+      "start": 262.24,
+      "end": 262.42,
+      "probability": 0.959
+    },
+    {
+      "word": "the",
+      "start": 262.42,
+      "end": 262.52,
+      "probability": 0.997
+    },
+    {
+      "word": "right,",
+      "start": 262.52,
+      "end": 262.76,
+      "probability": 0.999
+    },
+    {
+      "word": "but",
+      "start": 263.24,
+      "end": 263.62,
+      "probability": 0.992
+    },
+    {
+      "word": "the",
+      "start": 263.62,
+      "end": 263.76,
+      "probability": 0.989
+    },
+    {
+      "word": "moment",
+      "start": 263.76,
+      "end": 264.16,
+      "probability": 0.999
+    },
+    {
+      "word": "you",
+      "start": 264.16,
+      "end": 264.54,
+      "probability": 0.997
+    },
+    {
+      "word": "connect",
+      "start": 264.54,
+      "end": 264.92,
+      "probability": 0.992
+    },
+    {
+      "word": "that",
+      "start": 264.92,
+      "end": 265.24,
+      "probability": 0.987
+    },
+    {
+      "word": "model",
+      "start": 265.24,
+      "end": 265.62,
+      "probability": 0.997
+    },
+    {
+      "word": "to",
+      "start": 265.62,
+      "end": 265.84,
+      "probability": 0.801
+    },
+    {
+      "word": "real",
+      "start": 265.84,
+      "end": 266.08,
+      "probability": 0.848
+    },
+    {
+      "word": "capital,",
+      "start": 266.08,
+      "end": 266.54,
+      "probability": 0.984
+    },
+    {
+      "word": "it",
+      "start": 266.98,
+      "end": 267.16,
+      "probability": 0.986
+    },
+    {
+      "word": "encounters",
+      "start": 267.16,
+      "end": 267.62,
+      "probability": 0.993
+    },
+    {
+      "word": "new",
+      "start": 267.62,
+      "end": 268.06,
+      "probability": 0.979
+    },
+    {
+      "word": "data.",
+      "start": 268.06,
+      "end": 268.5,
+      "probability": 1.0
+    },
+    {
+      "word": "It",
+      "start": 268.84,
+      "end": 268.84,
+      "probability": 0.985
+    },
+    {
+      "word": "hasn't",
+      "start": 268.84,
+      "end": 269.28,
+      "probability": 0.99
+    },
+    {
+      "word": "memorized",
+      "start": 269.28,
+      "end": 269.68,
+      "probability": 0.948
+    },
+    {
+      "word": "in",
+      "start": 269.68,
+      "end": 270.44,
+      "probability": 0.699
+    },
+    {
+      "word": "the",
+      "start": 270.44,
+      "end": 270.58,
+      "probability": 0.986
+    },
+    {
+      "word": "phantom",
+      "start": 270.58,
+      "end": 271.0,
+      "probability": 0.886
+    },
+    {
+      "word": "pattern",
+      "start": 271.0,
+      "end": 271.46,
+      "probability": 0.997
+    },
+    {
+      "word": "evaporates",
+      "start": 271.46,
+      "end": 272.56,
+      "probability": 0.893
+    },
+    {
+      "word": "immediately.",
+      "start": 272.56,
+      "end": 273.12,
+      "probability": 0.966
+    },
+    {
+      "word": "So",
+      "start": 273.8,
+      "end": 274.14,
+      "probability": 0.888
+    },
+    {
+      "word": "does",
+      "start": 274.14,
+      "end": 274.48,
+      "probability": 0.757
+    },
+    {
+      "word": "this",
+      "start": 274.48,
+      "end": 274.72,
+      "probability": 0.99
+    },
+    {
+      "word": "mean",
+      "start": 274.72,
+      "end": 274.96,
+      "probability": 0.999
+    },
+    {
+      "word": "institutional",
+      "start": 274.96,
+      "end": 275.84,
+      "probability": 0.963
+    },
+    {
+      "word": "wall",
+      "start": 275.84,
+      "end": 276.14,
+      "probability": 0.331
+    },
+    {
+      "word": "street",
+      "start": 276.14,
+      "end": 276.5,
+      "probability": 0.951
+    },
+    {
+      "word": "doesn't",
+      "start": 276.5,
+      "end": 276.96,
+      "probability": 0.952
+    },
+    {
+      "word": "use",
+      "start": 276.96,
+      "end": 277.24,
+      "probability": 0.996
+    },
+    {
+      "word": "AI?",
+      "start": 277.24,
+      "end": 277.52,
+      "probability": 0.908
+    },
+    {
+      "word": "Not",
+      "start": 278.26,
+      "end": 278.54,
+      "probability": 0.991
+    },
+    {
+      "word": "at",
+      "start": 278.54,
+      "end": 278.68,
+      "probability": 0.996
+    },
+    {
+      "word": "all.",
+      "start": 278.68,
+      "end": 278.94,
+      "probability": 1.0
+    },
+    {
+      "word": "Institutional",
+      "start": 279.42,
+      "end": 280.14,
+      "probability": 0.939
+    },
+    {
+      "word": "firms",
+      "start": 280.14,
+      "end": 280.5,
+      "probability": 0.996
+    },
+    {
+      "word": "spend",
+      "start": 280.5,
+      "end": 280.98,
+      "probability": 0.984
+    },
+    {
+      "word": "fortunes",
+      "start": 280.98,
+      "end": 281.72,
+      "probability": 0.975
+    },
+    {
+      "word": "on",
+      "start": 281.72,
+      "end": 281.9,
+      "probability": 0.995
+    },
+    {
+      "word": "AI,",
+      "start": 281.9,
+      "end": 282.14,
+      "probability": 0.981
+    },
+    {
+      "word": "but",
+      "start": 282.66,
+      "end": 282.9,
+      "probability": 0.998
+    },
+    {
+      "word": "they",
+      "start": 282.9,
+      "end": 283.06,
+      "probability": 0.998
+    },
+    {
+      "word": "don't",
+      "start": 283.06,
+      "end": 283.28,
+      "probability": 0.999
+    },
+    {
+      "word": "ask",
+      "start": 283.28,
+      "end": 283.58,
+      "probability": 0.998
+    },
+    {
+      "word": "it",
+      "start": 283.58,
+      "end": 283.74,
+      "probability": 0.965
+    },
+    {
+      "word": "to",
+      "start": 283.74,
+      "end": 283.86,
+      "probability": 0.642
+    },
+    {
+      "word": "naive",
+      "start": 283.86,
+      "end": 284.16,
+      "probability": 0.779
+    },
+    {
+      "word": "question,",
+      "start": 284.16,
+      "end": 284.72,
+      "probability": 0.991
+    },
+    {
+      "word": "what",
+      "start": 285.06,
+      "end": 285.44,
+      "probability": 0.874
+    },
+    {
+      "word": "will",
+      "start": 285.44,
+      "end": 285.64,
+      "probability": 0.981
+    },
+    {
+      "word": "Tesla",
+      "start": 285.64,
+      "end": 286.06,
+      "probability": 0.982
+    },
+    {
+      "word": "stock",
+      "start": 286.06,
+      "end": 286.52,
+      "probability": 0.978
+    },
+    {
+      "word": "trade",
+      "start": 286.52,
+      "end": 286.8,
+      "probability": 0.996
+    },
+    {
+      "word": "at",
+      "start": 286.8,
+      "end": 286.98,
+      "probability": 0.985
+    },
+    {
+      "word": "tomorrow",
+      "start": 286.98,
+      "end": 287.4,
+      "probability": 0.989
+    },
+    {
+      "word": "at",
+      "start": 287.4,
+      "end": 287.74,
+      "probability": 0.987
+    },
+    {
+      "word": "noon?",
+      "start": 287.74,
+      "end": 287.94,
+      "probability": 0.993
+    },
+    {
+      "word": "Instead,",
+      "start": 288.68,
+      "end": 289.18,
+      "probability": 0.993
+    },
+    {
+      "word": "they",
+      "start": 289.34,
+      "end": 289.6,
+      "probability": 0.997
+    },
+    {
+      "word": "deploy",
+      "start": 289.6,
+      "end": 289.92,
+      "probability": 0.996
+    },
+    {
+      "word": "AI",
+      "start": 289.92,
+      "end": 290.36,
+      "probability": 0.99
+    },
+    {
+      "word": "across",
+      "start": 290.36,
+      "end": 290.78,
+      "probability": 0.997
+    },
+    {
+      "word": "four",
+      "start": 290.78,
+      "end": 291.24,
+      "probability": 0.938
+    },
+    {
+      "word": "completely",
+      "start": 291.24,
+      "end": 291.78,
+      "probability": 0.997
+    },
+    {
+      "word": "different",
+      "start": 291.78,
+      "end": 292.32,
+      "probability": 0.999
+    },
+    {
+      "word": "engines.",
+      "start": 292.32,
+      "end": 292.8,
+      "probability": 0.994
+    },
+    {
+      "word": "First,",
+      "start": 293.26,
+      "end": 293.7,
+      "probability": 0.993
+    },
+    {
+      "word": "extreme",
+      "start": 294.22,
+      "end": 294.6,
+      "probability": 0.99
+    },
+    {
+      "word": "risk",
+      "start": 294.6,
+      "end": 295.0,
+      "probability": 0.997
+    },
+    {
+      "word": "modeling.",
+      "start": 295.0,
+      "end": 295.4,
+      "probability": 0.409
+    },
+    {
+      "word": "Rather",
+      "start": 296.04,
+      "end": 296.28,
+      "probability": 0.981
+    },
+    {
+      "word": "than",
+      "start": 296.28,
+      "end": 296.52,
+      "probability": 0.997
+    },
+    {
+      "word": "predicting",
+      "start": 296.52,
+      "end": 297.02,
+      "probability": 0.992
+    },
+    {
+      "word": "direction,",
+      "start": 297.02,
+      "end": 297.6,
+      "probability": 0.996
+    },
+    {
+      "word": "machine",
+      "start": 298.08,
+      "end": 298.28,
+      "probability": 0.945
+    },
+    {
+      "word": "learning",
+      "start": 298.28,
+      "end": 298.6,
+      "probability": 0.979
+    },
+    {
+      "word": "simulates",
+      "start": 298.6,
+      "end": 299.22,
+      "probability": 0.971
+    },
+    {
+      "word": "hundreds",
+      "start": 299.22,
+      "end": 299.82,
+      "probability": 0.989
+    },
+    {
+      "word": "of",
+      "start": 299.82,
+      "end": 300.08,
+      "probability": 0.993
+    },
+    {
+      "word": "thousands",
+      "start": 300.08,
+      "end": 300.48,
+      "probability": 0.998
+    },
+    {
+      "word": "of",
+      "start": 300.48,
+      "end": 300.78,
+      "probability": 0.997
+    },
+    {
+      "word": "catastrophic",
+      "start": 300.78,
+      "end": 301.38,
+      "probability": 0.997
+    },
+    {
+      "word": "market",
+      "start": 301.38,
+      "end": 301.86,
+      "probability": 0.978
+    },
+    {
+      "word": "scenarios.",
+      "start": 301.86,
+      "end": 302.42,
+      "probability": 0.995
+    },
+    {
+      "word": "Extreme",
+      "start": 303.0,
+      "end": 303.38,
+      "probability": 0.898
+    },
+    {
+      "word": "liquidity",
+      "start": 303.38,
+      "end": 303.86,
+      "probability": 0.997
+    },
+    {
+      "word": "freezes,",
+      "start": 303.86,
+      "end": 304.42,
+      "probability": 0.934
+    },
+    {
+      "word": "interest",
+      "start": 304.74,
+      "end": 304.96,
+      "probability": 0.995
+    },
+    {
+      "word": "rate",
+      "start": 304.96,
+      "end": 305.22,
+      "probability": 0.925
+    },
+    {
+      "word": "shocks,",
+      "start": 305.22,
+      "end": 305.56,
+      "probability": 0.992
+    },
+    {
+      "word": "currency",
+      "start": 306.08,
+      "end": 306.42,
+      "probability": 0.995
+    },
+    {
+      "word": "collapses,",
+      "start": 306.42,
+      "end": 306.86,
+      "probability": 0.991
+    },
+    {
+      "word": "to",
+      "start": 307.34,
+      "end": 307.5,
+      "probability": 0.997
+    },
+    {
+      "word": "calculate",
+      "start": 307.5,
+      "end": 307.88,
+      "probability": 0.996
+    },
+    {
+      "word": "the",
+      "start": 307.88,
+      "end": 308.16,
+      "probability": 0.998
+    },
+    {
+      "word": "exact",
+      "start": 308.16,
+      "end": 308.54,
+      "probability": 0.997
+    },
+    {
+      "word": "probability",
+      "start": 308.54,
+      "end": 309.32,
+      "probability": 0.985
+    },
+    {
+      "word": "of",
+      "start": 309.32,
+      "end": 309.6,
+      "probability": 0.998
+    },
+    {
+      "word": "portfolio",
+      "start": 309.6,
+      "end": 310.18,
+      "probability": 0.756
+    },
+    {
+      "word": "ruin.",
+      "start": 310.18,
+      "end": 310.68,
+      "probability": 0.937
+    },
+    {
+      "word": "Second,",
+      "start": 311.4,
+      "end": 311.78,
+      "probability": 0.869
+    },
+    {
+      "word": "execution",
+      "start": 312.3,
+      "end": 312.72,
+      "probability": 0.981
+    },
+    {
+      "word": "and",
+      "start": 312.72,
+      "end": 313.18,
+      "probability": 0.975
+    },
+    {
+      "word": "slippage",
+      "start": 313.18,
+      "end": 313.64,
+      "probability": 0.998
+    },
+    {
+      "word": "minimization.",
+      "start": 313.64,
+      "end": 314.26,
+      "probability": 0.991
+    },
+    {
+      "word": "When",
+      "start": 314.76,
+      "end": 315.0,
+      "probability": 0.993
+    },
+    {
+      "word": "a",
+      "start": 315.0,
+      "end": 315.1,
+      "probability": 0.99
+    },
+    {
+      "word": "pension",
+      "start": 315.1,
+      "end": 315.38,
+      "probability": 0.978
+    },
+    {
+      "word": "fund",
+      "start": 315.38,
+      "end": 315.74,
+      "probability": 0.999
+    },
+    {
+      "word": "needs",
+      "start": 315.74,
+      "end": 316.08,
+      "probability": 0.996
+    },
+    {
+      "word": "to",
+      "start": 316.08,
+      "end": 316.32,
+      "probability": 0.999
+    },
+    {
+      "word": "buy",
+      "start": 316.32,
+      "end": 316.46,
+      "probability": 0.994
+    },
+    {
+      "word": "five",
+      "start": 316.46,
+      "end": 316.98,
+      "probability": 0.31
+    },
+    {
+      "word": "billion",
+      "start": 316.98,
+      "end": 317.28,
+      "probability": 0.99
+    },
+    {
+      "word": "dollars",
+      "start": 317.28,
+      "end": 317.68,
+      "probability": 0.922
+    },
+    {
+      "word": "of",
+      "start": 317.68,
+      "end": 317.86,
+      "probability": 0.987
+    },
+    {
+      "word": "stock,",
+      "start": 317.86,
+      "end": 318.18,
+      "probability": 0.997
+    },
+    {
+      "word": "placing",
+      "start": 318.62,
+      "end": 318.94,
+      "probability": 0.997
+    },
+    {
+      "word": "that",
+      "start": 318.94,
+      "end": 319.2,
+      "probability": 0.993
+    },
+    {
+      "word": "order",
+      "start": 319.2,
+      "end": 319.46,
+      "probability": 0.997
+    },
+    {
+      "word": "in",
+      "start": 319.46,
+      "end": 319.72,
+      "probability": 0.997
+    },
+    {
+      "word": "one",
+      "start": 319.72,
+      "end": 319.96,
+      "probability": 0.986
+    },
+    {
+      "word": "block",
+      "start": 319.96,
+      "end": 320.32,
+      "probability": 0.994
+    },
+    {
+      "word": "would",
+      "start": 320.32,
+      "end": 320.62,
+      "probability": 0.208
+    },
+    {
+      "word": "crash",
+      "start": 320.62,
+      "end": 320.92,
+      "probability": 0.99
+    },
+    {
+      "word": "the",
+      "start": 320.92,
+      "end": 321.16,
+      "probability": 0.993
+    },
+    {
+      "word": "price",
+      "start": 321.16,
+      "end": 321.42,
+      "probability": 0.993
+    },
+    {
+      "word": "against",
+      "start": 321.42,
+      "end": 321.8,
+      "probability": 0.997
+    },
+    {
+      "word": "them.",
+      "start": 321.8,
+      "end": 322.06,
+      "probability": 0.978
+    },
+    {
+      "word": "Reinforcement",
+      "start": 322.48,
+      "end": 323.14,
+      "probability": 0.919
+    },
+    {
+      "word": "learning",
+      "start": 323.14,
+      "end": 323.42,
+      "probability": 0.895
+    },
+    {
+      "word": "agents",
+      "start": 323.42,
+      "end": 323.86,
+      "probability": 0.99
+    },
+    {
+      "word": "break",
+      "start": 323.86,
+      "end": 324.22,
+      "probability": 0.986
+    },
+    {
+      "word": "massive",
+      "start": 324.22,
+      "end": 324.74,
+      "probability": 0.996
+    },
+    {
+      "word": "orders",
+      "start": 324.74,
+      "end": 325.1,
+      "probability": 0.996
+    },
+    {
+      "word": "into",
+      "start": 325.1,
+      "end": 325.54,
+      "probability": 0.977
+    },
+    {
+      "word": "thousands",
+      "start": 325.54,
+      "end": 326.0,
+      "probability": 0.991
+    },
+    {
+      "word": "of",
+      "start": 326.0,
+      "end": 326.26,
+      "probability": 0.996
+    },
+    {
+      "word": "microslices,",
+      "start": 326.26,
+      "end": 327.12,
+      "probability": 0.767
+    },
+    {
+      "word": "hiding",
+      "start": 327.62,
+      "end": 327.82,
+      "probability": 0.997
+    },
+    {
+      "word": "order",
+      "start": 327.82,
+      "end": 328.16,
+      "probability": 0.972
+    },
+    {
+      "word": "flow",
+      "start": 328.16,
+      "end": 328.44,
+      "probability": 0.961
+    },
+    {
+      "word": "across",
+      "start": 328.44,
+      "end": 328.8,
+      "probability": 0.999
+    },
+    {
+      "word": "dark",
+      "start": 328.8,
+      "end": 329.18,
+      "probability": 0.984
+    },
+    {
+      "word": "pools",
+      "start": 329.18,
+      "end": 329.46,
+      "probability": 0.978
+    },
+    {
+      "word": "and",
+      "start": 329.46,
+      "end": 330.04,
+      "probability": 0.383
+    },
+    {
+      "word": "saving",
+      "start": 330.04,
+      "end": 330.36,
+      "probability": 0.996
+    },
+    {
+      "word": "millions",
+      "start": 330.36,
+      "end": 330.82,
+      "probability": 0.996
+    },
+    {
+      "word": "in",
+      "start": 330.82,
+      "end": 331.16,
+      "probability": 0.992
+    },
+    {
+      "word": "execution",
+      "start": 331.16,
+      "end": 331.52,
+      "probability": 0.993
+    },
+    {
+      "word": "costs.",
+      "start": 331.52,
+      "end": 332.12,
+      "probability": 0.993
+    },
+    {
+      "word": "Third,",
+      "start": 332.68,
+      "end": 333.04,
+      "probability": 0.949
+    },
+    {
+      "word": "real",
+      "start": 333.6,
+      "end": 333.72,
+      "probability": 0.986
+    },
+    {
+      "word": "-time",
+      "start": 333.72,
+      "end": 334.1,
+      "probability": 0.873
+    },
+    {
+      "word": "fraud",
+      "start": 334.1,
+      "end": 334.48,
+      "probability": 0.92
+    },
+    {
+      "word": "and",
+      "start": 334.48,
+      "end": 334.82,
+      "probability": 0.987
+    },
+    {
+      "word": "anomaly",
+      "start": 334.82,
+      "end": 335.18,
+      "probability": 0.997
+    },
+    {
+      "word": "detection,",
+      "start": 335.18,
+      "end": 335.66,
+      "probability": 0.993
+    },
+    {
+      "word": "scanning",
+      "start": 336.22,
+      "end": 336.56,
+      "probability": 0.995
+    },
+    {
+      "word": "hundreds",
+      "start": 336.56,
+      "end": 337.0,
+      "probability": 0.997
+    },
+    {
+      "word": "of",
+      "start": 337.0,
+      "end": 337.22,
+      "probability": 0.997
+    },
+    {
+      "word": "thousands",
+      "start": 337.22,
+      "end": 337.58,
+      "probability": 0.999
+    },
+    {
+      "word": "of",
+      "start": 337.58,
+      "end": 337.86,
+      "probability": 0.999
+    },
+    {
+      "word": "institutional",
+      "start": 337.86,
+      "end": 338.46,
+      "probability": 0.996
+    },
+    {
+      "word": "transactions",
+      "start": 338.46,
+      "end": 339.12,
+      "probability": 0.996
+    },
+    {
+      "word": "per",
+      "start": 339.12,
+      "end": 339.44,
+      "probability": 0.999
+    },
+    {
+      "word": "second",
+      "start": 339.44,
+      "end": 339.82,
+      "probability": 0.996
+    },
+    {
+      "word": "to",
+      "start": 339.82,
+      "end": 340.3,
+      "probability": 0.942
+    },
+    {
+      "word": "detect",
+      "start": 340.3,
+      "end": 340.56,
+      "probability": 0.998
+    },
+    {
+      "word": "spoofing,",
+      "start": 340.56,
+      "end": 341.2,
+      "probability": 0.977
+    },
+    {
+      "word": "wash",
+      "start": 341.54,
+      "end": 341.72,
+      "probability": 0.898
+    },
+    {
+      "word": "trading,",
+      "start": 341.72,
+      "end": 342.1,
+      "probability": 0.885
+    },
+    {
+      "word": "and",
+      "start": 342.4,
+      "end": 342.46,
+      "probability": 0.993
+    },
+    {
+      "word": "unusual",
+      "start": 342.46,
+      "end": 342.84,
+      "probability": 0.985
+    },
+    {
+      "word": "order",
+      "start": 342.84,
+      "end": 343.3,
+      "probability": 0.998
+    },
+    {
+      "word": "cancellations",
+      "start": 343.3,
+      "end": 344.12,
+      "probability": 0.973
+    },
+    {
+      "word": "before",
+      "start": 344.12,
+      "end": 344.6,
+      "probability": 0.796
+    },
+    {
+      "word": "regulators",
+      "start": 344.6,
+      "end": 345.22,
+      "probability": 0.995
+    },
+    {
+      "word": "even",
+      "start": 345.22,
+      "end": 345.54,
+      "probability": 0.997
+    },
+    {
+      "word": "notice.",
+      "start": 345.54,
+      "end": 345.84,
+      "probability": 0.177
+    },
+    {
+      "word": "And",
+      "start": 346.36,
+      "end": 346.64,
+      "probability": 0.881
+    },
+    {
+      "word": "fourth,",
+      "start": 346.64,
+      "end": 347.0,
+      "probability": 0.774
+    },
+    {
+      "word": "mathematical",
+      "start": 347.44,
+      "end": 347.74,
+      "probability": 0.951
+    },
+    {
+      "word": "portfolio",
+      "start": 347.74,
+      "end": 348.5,
+      "probability": 0.974
+    },
+    {
+      "word": "rebalancing.",
+      "start": 348.5,
+      "end": 349.28,
+      "probability": 0.962
+    },
+    {
+      "word": "Given",
+      "start": 349.88,
+      "end": 350.18,
+      "probability": 0.961
+    },
+    {
+      "word": "500",
+      "start": 350.18,
+      "end": 350.92,
+      "probability": 0.962
+    },
+    {
+      "word": "correlated",
+      "start": 350.92,
+      "end": 351.4,
+      "probability": 0.987
+    },
+    {
+      "word": "assets,",
+      "start": 351.4,
+      "end": 351.88,
+      "probability": 0.99
+    },
+    {
+      "word": "calculating",
+      "start": 352.44,
+      "end": 352.78,
+      "probability": 0.993
+    },
+    {
+      "word": "the",
+      "start": 352.78,
+      "end": 353.12,
+      "probability": 0.992
+    },
+    {
+      "word": "mathematically",
+      "start": 353.12,
+      "end": 353.6,
+      "probability": 0.982
+    },
+    {
+      "word": "optimal",
+      "start": 353.6,
+      "end": 354.28,
+      "probability": 0.985
+    },
+    {
+      "word": "covariance",
+      "start": 354.28,
+      "end": 354.96,
+      "probability": 0.991
+    },
+    {
+      "word": "matrix",
+      "start": 354.96,
+      "end": 355.32,
+      "probability": 0.99
+    },
+    {
+      "word": "to",
+      "start": 355.32,
+      "end": 355.84,
+      "probability": 0.861
+    },
+    {
+      "word": "maximize",
+      "start": 355.84,
+      "end": 356.3,
+      "probability": 0.943
+    },
+    {
+      "word": "sharp",
+      "start": 356.3,
+      "end": 356.66,
+      "probability": 0.971
+    },
+    {
+      "word": "ratio",
+      "start": 356.66,
+      "end": 357.18,
+      "probability": 0.992
+    },
+    {
+      "word": "while",
+      "start": 357.18,
+      "end": 357.54,
+      "probability": 0.953
+    },
+    {
+      "word": "minimizing",
+      "start": 357.54,
+      "end": 358.0,
+      "probability": 0.979
+    },
+    {
+      "word": "volatility.",
+      "start": 358.0,
+      "end": 358.6,
+      "probability": 0.988
+    },
+    {
+      "word": "Notice",
+      "start": 359.36,
+      "end": 359.64,
+      "probability": 0.974
+    },
+    {
+      "word": "what",
+      "start": 359.64,
+      "end": 359.9,
+      "probability": 0.994
+    },
+    {
+      "word": "all",
+      "start": 359.9,
+      "end": 360.12,
+      "probability": 0.995
+    },
+    {
+      "word": "four",
+      "start": 360.12,
+      "end": 360.4,
+      "probability": 0.93
+    },
+    {
+      "word": "of",
+      "start": 360.4,
+      "end": 360.58,
+      "probability": 0.993
+    },
+    {
+      "word": "these",
+      "start": 360.58,
+      "end": 360.74,
+      "probability": 0.997
+    },
+    {
+      "word": "have",
+      "start": 360.74,
+      "end": 360.96,
+      "probability": 0.995
+    },
+    {
+      "word": "in",
+      "start": 360.96,
+      "end": 361.06,
+      "probability": 0.981
+    },
+    {
+      "word": "common.",
+      "start": 361.06,
+      "end": 361.4,
+      "probability": 1.0
+    },
+    {
+      "word": "None",
+      "start": 361.94,
+      "end": 362.1,
+      "probability": 0.997
+    },
+    {
+      "word": "of",
+      "start": 362.1,
+      "end": 362.24,
+      "probability": 0.998
+    },
+    {
+      "word": "them",
+      "start": 362.24,
+      "end": 362.38,
+      "probability": 0.997
+    },
+    {
+      "word": "require",
+      "start": 362.38,
+      "end": 362.7,
+      "probability": 0.997
+    },
+    {
+      "word": "predicting",
+      "start": 362.7,
+      "end": 363.22,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 363.22,
+      "end": 363.4,
+      "probability": 0.997
+    },
+    {
+      "word": "future.",
+      "start": 363.4,
+      "end": 363.72,
+      "probability": 0.999
+    },
+    {
+      "word": "They",
+      "start": 364.2,
+      "end": 364.38,
+      "probability": 0.996
+    },
+    {
+      "word": "are",
+      "start": 364.38,
+      "end": 364.56,
+      "probability": 0.997
+    },
+    {
+      "word": "optimization",
+      "start": 364.56,
+      "end": 365.1,
+      "probability": 0.961
+    },
+    {
+      "word": "problems,",
+      "start": 365.1,
+      "end": 365.82,
+      "probability": 0.997
+    },
+    {
+      "word": "not",
+      "start": 366.1,
+      "end": 366.34,
+      "probability": 0.997
+    },
+    {
+      "word": "crystal",
+      "start": 366.34,
+      "end": 366.76,
+      "probability": 0.965
+    },
+    {
+      "word": "balls.",
+      "start": 366.76,
+      "end": 367.0,
+      "probability": 0.971
+    },
+    {
+      "word": "If",
+      "start": 367.68,
+      "end": 367.98,
+      "probability": 0.941
+    },
+    {
+      "word": "you",
+      "start": 367.98,
+      "end": 368.16,
+      "probability": 0.998
+    },
+    {
+      "word": "want",
+      "start": 368.16,
+      "end": 368.38,
+      "probability": 0.997
+    },
+    {
+      "word": "to",
+      "start": 368.38,
+      "end": 368.56,
+      "probability": 0.998
+    },
+    {
+      "word": "understand",
+      "start": 368.56,
+      "end": 369.16,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 369.16,
+      "end": 369.5,
+      "probability": 0.994
+    },
+    {
+      "word": "modern",
+      "start": 369.5,
+      "end": 369.9,
+      "probability": 0.887
+    },
+    {
+      "word": "intersection",
+      "start": 369.9,
+      "end": 370.56,
+      "probability": 0.978
+    },
+    {
+      "word": "of",
+      "start": 370.56,
+      "end": 371.08,
+      "probability": 0.997
+    },
+    {
+      "word": "artificial",
+      "start": 371.08,
+      "end": 371.5,
+      "probability": 0.985
+    },
+    {
+      "word": "intelligence",
+      "start": 371.5,
+      "end": 372.24,
+      "probability": 0.998
+    },
+    {
+      "word": "and",
+      "start": 372.24,
+      "end": 372.66,
+      "probability": 0.174
+    },
+    {
+      "word": "finance,",
+      "start": 372.66,
+      "end": 373.14,
+      "probability": 0.784
+    },
+    {
+      "word": "remember",
+      "start": 373.62,
+      "end": 374.08,
+      "probability": 0.961
+    },
+    {
+      "word": "this",
+      "start": 374.08,
+      "end": 374.44,
+      "probability": 0.985
+    },
+    {
+      "word": "fundamental",
+      "start": 374.44,
+      "end": 375.04,
+      "probability": 0.929
+    },
+    {
+      "word": "rule.",
+      "start": 375.04,
+      "end": 375.64,
+      "probability": 0.995
+    },
+    {
+      "word": "The",
+      "start": 376.34,
+      "end": 376.52,
+      "probability": 0.954
+    },
+    {
+      "word": "stock",
+      "start": 376.52,
+      "end": 376.86,
+      "probability": 0.984
+    },
+    {
+      "word": "market",
+      "start": 376.86,
+      "end": 377.2,
+      "probability": 0.997
+    },
+    {
+      "word": "is",
+      "start": 377.2,
+      "end": 377.46,
+      "probability": 0.995
+    },
+    {
+      "word": "not",
+      "start": 377.46,
+      "end": 377.7,
+      "probability": 0.994
+    },
+    {
+      "word": "a",
+      "start": 377.7,
+      "end": 377.92,
+      "probability": 0.985
+    },
+    {
+      "word": "puzzle",
+      "start": 377.92,
+      "end": 378.26,
+      "probability": 0.974
+    },
+    {
+      "word": "to",
+      "start": 378.26,
+      "end": 378.56,
+      "probability": 0.995
+    },
+    {
+      "word": "be",
+      "start": 378.56,
+      "end": 378.7,
+      "probability": 0.999
+    },
+    {
+      "word": "solved",
+      "start": 378.7,
+      "end": 379.18,
+      "probability": 0.996
+    },
+    {
+      "word": "like",
+      "start": 379.18,
+      "end": 379.46,
+      "probability": 0.735
+    },
+    {
+      "word": "chess",
+      "start": 379.46,
+      "end": 379.76,
+      "probability": 0.713
+    },
+    {
+      "word": "or",
+      "start": 379.76,
+      "end": 380.16,
+      "probability": 0.943
+    },
+    {
+      "word": "protein",
+      "start": 380.16,
+      "end": 380.58,
+      "probability": 0.991
+    },
+    {
+      "word": "folding.",
+      "start": 380.58,
+      "end": 381.0,
+      "probability": 0.955
+    },
+    {
+      "word": "It",
+      "start": 381.48,
+      "end": 381.68,
+      "probability": 0.994
+    },
+    {
+      "word": "is",
+      "start": 381.68,
+      "end": 381.78,
+      "probability": 0.983
+    },
+    {
+      "word": "an",
+      "start": 381.78,
+      "end": 381.9,
+      "probability": 0.992
+    },
+    {
+      "word": "evolving,",
+      "start": 381.9,
+      "end": 382.4,
+      "probability": 0.999
+    },
+    {
+      "word": "reflexive",
+      "start": 382.74,
+      "end": 383.34,
+      "probability": 0.95
+    },
+    {
+      "word": "ecosystem",
+      "start": 383.34,
+      "end": 383.86,
+      "probability": 0.983
+    },
+    {
+      "word": "of",
+      "start": 383.86,
+      "end": 384.34,
+      "probability": 0.994
+    },
+    {
+      "word": "competing",
+      "start": 384.34,
+      "end": 384.82,
+      "probability": 0.998
+    },
+    {
+      "word": "intelligences.",
+      "start": 384.82,
+      "end": 385.74,
+      "probability": 0.988
+    },
+    {
+      "word": "The",
+      "start": 386.24,
+      "end": 386.58,
+      "probability": 0.993
+    },
+    {
+      "word": "funds",
+      "start": 386.58,
+      "end": 386.96,
+      "probability": 0.995
+    },
+    {
+      "word": "that",
+      "start": 386.96,
+      "end": 387.18,
+      "probability": 0.998
+    },
+    {
+      "word": "survive",
+      "start": 387.18,
+      "end": 387.7,
+      "probability": 0.961
+    },
+    {
+      "word": "long",
+      "start": 387.7,
+      "end": 388.02,
+      "probability": 0.997
+    },
+    {
+      "word": "-term",
+      "start": 388.02,
+      "end": 388.46,
+      "probability": 0.864
+    },
+    {
+      "word": "never",
+      "start": 388.46,
+      "end": 389.06,
+      "probability": 0.957
+    },
+    {
+      "word": "search",
+      "start": 389.06,
+      "end": 389.48,
+      "probability": 0.991
+    },
+    {
+      "word": "for",
+      "start": 389.48,
+      "end": 389.8,
+      "probability": 0.999
+    },
+    {
+      "word": "magic",
+      "start": 389.8,
+      "end": 390.2,
+      "probability": 0.957
+    },
+    {
+      "word": "prediction",
+      "start": 390.2,
+      "end": 390.7,
+      "probability": 0.948
+    },
+    {
+      "word": "algorithms.",
+      "start": 390.7,
+      "end": 391.18,
+      "probability": 0.997
+    },
+    {
+      "word": "They",
+      "start": 391.76,
+      "end": 391.96,
+      "probability": 0.997
+    },
+    {
+      "word": "focus",
+      "start": 391.96,
+      "end": 392.26,
+      "probability": 0.995
+    },
+    {
+      "word": "on",
+      "start": 392.26,
+      "end": 392.56,
+      "probability": 0.999
+    },
+    {
+      "word": "structural",
+      "start": 392.56,
+      "end": 393.02,
+      "probability": 0.992
+    },
+    {
+      "word": "speed,",
+      "start": 393.02,
+      "end": 393.6,
+      "probability": 0.998
+    },
+    {
+      "word": "disciplined",
+      "start": 394.22,
+      "end": 394.62,
+      "probability": 0.816
+    },
+    {
+      "word": "risk",
+      "start": 394.62,
+      "end": 395.0,
+      "probability": 0.975
+    },
+    {
+      "word": "control,",
+      "start": 395.0,
+      "end": 395.42,
+      "probability": 0.987
+    },
+    {
+      "word": "and",
+      "start": 395.8,
+      "end": 396.1,
+      "probability": 0.998
+    },
+    {
+      "word": "microscopic",
+      "start": 396.1,
+      "end": 396.64,
+      "probability": 0.96
+    },
+    {
+      "word": "statistical",
+      "start": 396.64,
+      "end": 397.58,
+      "probability": 0.993
+    },
+    {
+      "word": "edges",
+      "start": 397.58,
+      "end": 397.98,
+      "probability": 0.955
+    },
+    {
+      "word": "compounded",
+      "start": 397.98,
+      "end": 399.02,
+      "probability": 0.892
+    },
+    {
+      "word": "across",
+      "start": 399.02,
+      "end": 399.32,
+      "probability": 0.996
+    },
+    {
+      "word": "millions",
+      "start": 399.32,
+      "end": 399.86,
+      "probability": 0.721
+    },
+    {
+      "word": "of",
+      "start": 399.86,
+      "end": 400.1,
+      "probability": 0.998
+    },
+    {
+      "word": "trades,",
+      "start": 400.1,
+      "end": 400.56,
+      "probability": 0.878
+    },
+    {
+      "word": "just",
+      "start": 401.02,
+      "end": 401.26,
+      "probability": 0.996
+    },
+    {
+      "word": "like",
+      "start": 401.26,
+      "end": 401.6,
+      "probability": 0.998
+    },
+    {
+      "word": "Jim",
+      "start": 401.6,
+      "end": 401.86,
+      "probability": 0.959
+    },
+    {
+      "word": "Simon's",
+      "start": 401.86,
+      "end": 402.46,
+      "probability": 0.625
+    },
+    {
+      "word": "did",
+      "start": 402.46,
+      "end": 402.58,
+      "probability": 0.998
+    },
+    {
+      "word": "almost",
+      "start": 402.58,
+      "end": 403.06,
+      "probability": 0.893
+    },
+    {
+      "word": "40",
+      "start": 403.06,
+      "end": 403.56,
+      "probability": 0.907
+    },
+    {
+      "word": "years",
+      "start": 403.56,
+      "end": 403.78,
+      "probability": 0.999
+    },
+    {
+      "word": "ago.",
+      "start": 403.78,
+      "end": 404.12,
+      "probability": 0.999
+    },
+    {
+      "word": "In",
+      "start": 405.02,
+      "end": 405.2,
+      "probability": 0.979
+    },
+    {
+      "word": "our",
+      "start": 405.2,
+      "end": 405.36,
+      "probability": 0.999
+    },
+    {
+      "word": "next",
+      "start": 405.36,
+      "end": 405.6,
+      "probability": 0.992
+    },
+    {
+      "word": "breakdown,",
+      "start": 405.6,
+      "end": 406.04,
+      "probability": 0.952
+    },
+    {
+      "word": "we're",
+      "start": 406.52,
+      "end": 406.72,
+      "probability": 0.94
+    },
+    {
+      "word": "going",
+      "start": 406.72,
+      "end": 406.88,
+      "probability": 0.999
+    },
+    {
+      "word": "behind",
+      "start": 406.88,
+      "end": 407.28,
+      "probability": 0.997
+    },
+    {
+      "word": "the",
+      "start": 407.28,
+      "end": 407.58,
+      "probability": 0.997
+    },
+    {
+      "word": "scenes",
+      "start": 407.58,
+      "end": 407.94,
+      "probability": 0.999
+    },
+    {
+      "word": "of",
+      "start": 407.94,
+      "end": 408.18,
+      "probability": 0.998
+    },
+    {
+      "word": "YouTube's",
+      "start": 408.18,
+      "end": 408.78,
+      "probability": 0.938
+    },
+    {
+      "word": "own",
+      "start": 408.78,
+      "end": 409.06,
+      "probability": 0.997
+    },
+    {
+      "word": "black",
+      "start": 409.06,
+      "end": 409.4,
+      "probability": 0.356
+    },
+    {
+      "word": "box",
+      "start": 409.4,
+      "end": 409.68,
+      "probability": 0.851
+    },
+    {
+      "word": "recommendation",
+      "start": 409.68,
+      "end": 410.3,
+      "probability": 0.992
+    },
+    {
+      "word": "algorithm",
+      "start": 410.3,
+      "end": 410.96,
+      "probability": 0.999
+    },
+    {
+      "word": "to",
+      "start": 410.96,
+      "end": 411.54,
+      "probability": 0.951
+    },
+    {
+      "word": "see",
+      "start": 411.54,
+      "end": 411.74,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 411.74,
+      "end": 411.92,
+      "probability": 0.997
+    },
+    {
+      "word": "exact",
+      "start": 411.92,
+      "end": 412.28,
+      "probability": 0.997
+    },
+    {
+      "word": "neural",
+      "start": 412.28,
+      "end": 412.7,
+      "probability": 0.965
+    },
+    {
+      "word": "network",
+      "start": 412.7,
+      "end": 413.16,
+      "probability": 0.987
+    },
+    {
+      "word": "mechanics",
+      "start": 413.16,
+      "end": 413.66,
+      "probability": 0.999
+    },
+    {
+      "word": "that",
+      "start": 413.66,
+      "end": 414.24,
+      "probability": 0.994
+    },
+    {
+      "word": "decided",
+      "start": 414.24,
+      "end": 414.66,
+      "probability": 0.977
+    },
+    {
+      "word": "to",
+      "start": 414.66,
+      "end": 414.94,
+      "probability": 0.998
+    },
+    {
+      "word": "put",
+      "start": 414.94,
+      "end": 415.1,
+      "probability": 0.997
+    },
+    {
+      "word": "this",
+      "start": 415.1,
+      "end": 415.38,
+      "probability": 0.995
+    },
+    {
+      "word": "video",
+      "start": 415.38,
+      "end": 415.74,
+      "probability": 0.999
+    },
+    {
+      "word": "on",
+      "start": 415.74,
+      "end": 416.1,
+      "probability": 0.993
+    },
+    {
+      "word": "your",
+      "start": 416.1,
+      "end": 416.32,
+      "probability": 0.997
+    },
+    {
+      "word": "screen.",
+      "start": 416.32,
+      "end": 416.7,
+      "probability": 0.999
+    },
+    {
+      "word": "If",
+      "start": 417.28,
+      "end": 417.92,
+      "probability": 0.99
+    },
+    {
+      "word": "you",
+      "start": 417.92,
+      "end": 418.06,
+      "probability": 0.999
+    },
+    {
+      "word": "want",
+      "start": 418.06,
+      "end": 418.3,
+      "probability": 0.998
+    },
+    {
+      "word": "the",
+      "start": 418.3,
+      "end": 418.5,
+      "probability": 0.995
+    },
+    {
+      "word": "real",
+      "start": 418.5,
+      "end": 418.84,
+      "probability": 0.99
+    },
+    {
+      "word": "data",
+      "start": 418.84,
+      "end": 419.24,
+      "probability": 0.992
+    },
+    {
+      "word": "and",
+      "start": 419.24,
+      "end": 419.52,
+      "probability": 0.992
+    },
+    {
+      "word": "mathematics",
+      "start": 419.52,
+      "end": 420.02,
+      "probability": 0.993
+    },
+    {
+      "word": "behind",
+      "start": 420.02,
+      "end": 420.44,
+      "probability": 0.993
+    },
+    {
+      "word": "modern",
+      "start": 420.44,
+      "end": 420.8,
+      "probability": 0.995
+    },
+    {
+      "word": "technology",
+      "start": 420.8,
+      "end": 421.46,
+      "probability": 0.999
+    },
+    {
+      "word": "without",
+      "start": 421.46,
+      "end": 421.98,
+      "probability": 0.526
+    },
+    {
+      "word": "the",
+      "start": 421.98,
+      "end": 422.24,
+      "probability": 0.997
+    },
+    {
+      "word": "hype,",
+      "start": 422.24,
+      "end": 422.54,
+      "probability": 0.996
+    },
+    {
+      "word": "hit",
+      "start": 422.54,
+      "end": 423.14,
+      "probability": 0.294
+    },
+    {
+      "word": "subscribe",
+      "start": 423.14,
+      "end": 423.66,
+      "probability": 0.855
+    },
+    {
+      "word": "and",
+      "start": 423.66,
+      "end": 424.2,
+      "probability": 0.925
+    },
+    {
+      "word": "join",
+      "start": 424.2,
+      "end": 424.52,
+      "probability": 0.994
+    },
+    {
+      "word": "Quantrove.",
+      "start": 424.52,
+      "end": 425.26,
+      "probability": 0.737
+    }
+  ],
+  "all_segments": [
+    {
+      "start": 0.0,
+      "end": 6.82,
+      "text": "In 1988, a former Cold War code-breaker and mathematician named Jim Simons launched"
+    },
+    {
+      "start": 6.82,
+      "end": 10.92,
+      "text": "a fund that did something Wall Street thought was mathematically impossible."
+    },
+    {
+      "start": 11.68,
+      "end": 18.64,
+      "text": "For more than 30 years, his medallion fund generated an average return of 66% a year,"
+    },
+    {
+      "start": 19.04,
+      "end": 26.66,
+      "text": "turning $1,000 into more than $42 million, and they did it by enforcing one strict rule."
+    },
+    {
+      "start": 27.22,
+      "end": 32.22,
+      "text": "They completely banned anyone with a finance background, hiring only physicists,"
+    },
+    {
+      "start": 32.8,
+      "end": 37.98,
+      "text": "cryptographers, and mathematicians. Yet today, across the rest of Wall Street,"
+    },
+    {
+      "start": 38.48,
+      "end": 43.92,
+      "text": "firms spend billions on deep neural networks and supercomputers to predict stock prices,"
+    },
+    {
+      "start": 44.38,
+      "end": 48.44,
+      "text": "and the vast majority still fail to beat a simple index fund."
+    },
+    {
+      "start": 49.26,
+      "end": 55.36,
+      "text": "How did a team of mathematicians cracked the market with an edge that was barely 51%,"
+    },
+    {
+      "start": 55.36,
+      "end": 59.6,
+      "text": "while today's most powerful AI models fail every single day?"
+    },
+    {
+      "start": 60.14,
+      "end": 66.04,
+      "text": "Let's look at the real mathematics of why AI cannot predict the stock market the way most"
+    },
+    {
+      "start": 66.04,
+      "end": 73.32,
+      "text": "people think. Here is the first great illusion about quantitative trading. People assume Jim Simons"
+    },
+    {
+      "start": 73.32,
+      "end": 80.52,
+      "text": "built an oracle that predicted the future with 90% accuracy. In reality, Simons himself admitted"
+    },
+    {
+      "start": 80.52,
+      "end": 87.62,
+      "text": "that medallion's statistical edge was microscopic. They were right roughly 50.75% of the time."
+    },
+    {
+      "start": 88.3,
+      "end": 94.3,
+      "text": "Their entire fortune was built on the law of large numbers, executing millions of microtrades,"
+    },
+    {
+      "start": 94.66,
+      "end": 100.96,
+      "text": "where a tiny probability edge turned into billions of dollars. But if it's just math and probability,"
+    },
+    {
+      "start": 101.6,
+      "end": 106.94,
+      "text": "why can't today's generative AI models simply look at decades of price data and do the same thing?"
+    },
+    {
+      "start": 107.58,
+      "end": 113.0,
+      "text": "Because markets have a property almost no other prediction problem in computer science possesses,"
+    },
+    {
+      "start": 113.32,
+      "end": 118.28,
+      "text": "they react to being predicted. Think about how an image recognition AI works."
+    },
+    {
+      "start": 118.74,
+      "end": 124.32,
+      "text": "If a neural network learns to identify a cat, the cat does not change its shape because the computer"
+    },
+    {
+      "start": 124.32,
+      "end": 130.16,
+      "text": "got good at recognizing it. But the financial market is a competitive zero sum game of human"
+    },
+    {
+      "start": 130.16,
+      "end": 136.28,
+      "text": "and algorithmic participants. If an AI discovers a genuine profitable pattern that says Apple will"
+    },
+    {
+      "start": 136.28,
+      "end": 142.0,
+      "text": "rise tomorrow and traders deploy capital on that signal, their own buying pressure instantly drives"
+    },
+    {
+      "start": 142.0,
+      "end": 147.8,
+      "text": "the price up today. The prediction itself erases the pattern. The moment an edge becomes predictable,"
+    },
+    {
+      "start": 148.2,
+      "end": 155.52,
+      "text": "it self-destructs. In quantitative finance, this inevitable self-destruction is known as alpha decay."
+    },
+    {
+      "start": 156.12,
+      "end": 161.66,
+      "text": "In the physical world, gravity doesn't stop working because millions of physicists understand it."
+    },
+    {
+      "start": 161.66,
+      "end": 168.1,
+      "text": "But in finance, alpha behaves like an expiring patent. The second, a profitable trading anomaly"
+    },
+    {
+      "start": 168.1,
+      "end": 174.02,
+      "text": "appears in price data, competing quantitative funds, high-frequency algorithms, and market makers"
+    },
+    {
+      "start": 174.02,
+      "end": 180.42,
+      "text": "sniff out the same volume spikes. As hundreds of automated systems rush in to exploit the exact"
+    },
+    {
+      "start": 180.42,
+      "end": 186.32,
+      "text": "same inefficiency, they crowd the trade, they bid up the entry price, compress the profit spread,"
+    },
+    {
+      "start": 186.32,
+      "end": 192.48,
+      "text": "and push the market back to mathematical equilibrium. This is why an AI model that looks brilliant"
+    },
+    {
+      "start": 192.48,
+      "end": 198.44,
+      "text": "in a back test can quietly stop making money within four months of going live. It isn't that the"
+    },
+    {
+      "start": 198.44,
+      "end": 205.12,
+      "text": "code failed, it's that the market agapted around it. The second fatal flaw is something every machine"
+    },
+    {
+      "start": 205.12,
+      "end": 212.08,
+      "text": "learning engineer knows, but almost every retail trader ignores the overfitting trap."
+    },
+    {
+      "start": 212.96,
+      "end": 217.9,
+      "text": "Stock prices are what statisticians call low signal to noise data."
+    },
+    {
+      "start": 218.52,
+      "end": 225.14,
+      "text": "On any given Tuesday, a stock price moves due to institutional rebalancing, algorithmic hedging,"
+    },
+    {
+      "start": 225.64,
+      "end": 233.56,
+      "text": "geopolitical rumors, or random liquidity flows. 95% of daily price movement is pure noise,"
+    },
+    {
+      "start": 234.34,
+      "end": 239.52,
+      "text": "but modern, deep neural networks have millions, sometimes billions of parameters."
+    },
+    {
+      "start": 240.32,
+      "end": 246.66,
+      "text": "If you feed 30 years of noisy price data into a deep learning model, the mathematics guarantees"
+    },
+    {
+      "start": 247.2,
+      "end": 253.16,
+      "text": "it will find correlations. It might discover that every time the temperature in Chicago drops by"
+    },
+    {
+      "start": 253.16,
+      "end": 259.42,
+      "text": "three degrees on a Thursday, semiconductor stocks rally on Friday morning. In a back test,"
+    },
+    {
+      "start": 259.78,
+      "end": 265.62,
+      "text": "the curve looks like a straight line up and to the right, but the moment you connect that model"
+    },
+    {
+      "start": 265.62,
+      "end": 272.56,
+      "text": "to real capital, it encounters new data. It hasn't memorized in the phantom pattern evaporates"
+    },
+    {
+      "start": 272.56,
+      "end": 280.14,
+      "text": "immediately. So does this mean institutional wall street doesn't use AI? Not at all. Institutional"
+    },
+    {
+      "start": 280.14,
+      "end": 286.98,
+      "text": "firms spend fortunes on AI, but they don't ask it to naive question, what will Tesla stock trade at"
+    },
+    {
+      "start": 286.98,
+      "end": 295.0,
+      "text": "tomorrow at noon? Instead, they deploy AI across four completely different engines. First, extreme risk"
+    },
+    {
+      "start": 295.0,
+      "end": 300.78,
+      "text": "modeling. Rather than predicting direction, machine learning simulates hundreds of thousands of"
+    },
+    {
+      "start": 300.78,
+      "end": 306.86,
+      "text": "catastrophic market scenarios. Extreme liquidity freezes, interest rate shocks, currency collapses,"
+    },
+    {
+      "start": 307.34,
+      "end": 314.26,
+      "text": "to calculate the exact probability of portfolio ruin. Second, execution and slippage minimization."
+    },
+    {
+      "start": 314.76,
+      "end": 320.32,
+      "text": "When a pension fund needs to buy five billion dollars of stock, placing that order in one block"
+    },
+    {
+      "start": 320.32,
+      "end": 326.0,
+      "text": "would crash the price against them. Reinforcement learning agents break massive orders into thousands"
+    },
+    {
+      "start": 326.0,
+      "end": 333.04,
+      "text": "of microslices, hiding order flow across dark pools and saving millions in execution costs. Third,"
+    },
+    {
+      "start": 333.6,
+      "end": 339.44,
+      "text": "real-time fraud and anomaly detection, scanning hundreds of thousands of institutional transactions per"
+    },
+    {
+      "start": 339.44,
+      "end": 345.54,
+      "text": "second to detect spoofing, wash trading, and unusual order cancellations before regulators even"
+    },
+    {
+      "start": 345.54,
+      "end": 353.12,
+      "text": "notice. And fourth, mathematical portfolio rebalancing. Given 500 correlated assets, calculating the"
+    },
+    {
+      "start": 353.12,
+      "end": 359.64,
+      "text": "mathematically optimal covariance matrix to maximize sharp ratio while minimizing volatility. Notice"
+    },
+    {
+      "start": 359.64,
+      "end": 365.1,
+      "text": "what all four of these have in common. None of them require predicting the future. They are optimization"
+    },
+    {
+      "start": 365.1,
+      "end": 372.24,
+      "text": "problems, not crystal balls. If you want to understand the modern intersection of artificial intelligence"
+    },
+    {
+      "start": 372.24,
+      "end": 379.46,
+      "text": "and finance, remember this fundamental rule. The stock market is not a puzzle to be solved like"
+    },
+    {
+      "start": 379.46,
+      "end": 385.74,
+      "text": "chess or protein folding. It is an evolving, reflexive ecosystem of competing intelligences."
+    },
+    {
+      "start": 386.24,
+      "end": 392.56,
+      "text": "The funds that survive long-term never search for magic prediction algorithms. They focus on"
+    },
+    {
+      "start": 392.56,
+      "end": 399.32,
+      "text": "structural speed, disciplined risk control, and microscopic statistical edges compounded across"
+    },
+    {
+      "start": 399.32,
+      "end": 406.04,
+      "text": "millions of trades, just like Jim Simon's did almost 40 years ago. In our next breakdown,"
+    },
+    {
+      "start": 406.52,
+      "end": 410.96,
+      "text": "we're going behind the scenes of YouTube's own black box recommendation algorithm"
+    },
+    {
+      "start": 410.96,
+      "end": 416.7,
+      "text": "to see the exact neural network mechanics that decided to put this video on your screen."
+    },
+    {
+      "start": 417.28,
+      "end": 422.54,
+      "text": "If you want the real data and mathematics behind modern technology without the hype,"
+    },
+    {
+      "start": 422.54,
+      "end": 425.26,
+      "text": "hit subscribe and join Quantrove."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QuantroveLongsShotlistTemplate",
+  "description": "Standard shot list template for Quantrove long-form documentary episodes. Enforces pacing, pattern interrupts, motion discipline, and measured durations.",
+  "total_measured_runtime_s": 720.0,
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "scene_name": "Cold Open Hook",
+      "start_s": 0.0,
+      "end_s": 15.0,
+      "motion_tag": "manim_draw",
+      "motion_purpose": "Draw eye to liquidation spike before title drop",
+      "on_screen_text": {
+        "text": "The Liquidity Lie",
+        "word_count": 3
+      },
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "hold_tag": null
+    },
+    {
+      "id": 2,
+      "chapter": 0,
+      "scene_name": "Pace Statement & Premise",
+      "start_s": 15.0,
+      "end_s": 35.0,
+      "motion_tag": "camera_push",
+      "camera_push_scale": 1.05,
+      "motion_purpose": "Focus on institutional timeline diagram",
+      "on_screen_text": {
+        "text": "12 Minutes to Algorithmic Reality",
+        "word_count": 5
+      },
+      "pattern_interrupt": false,
+      "end_screen_safe": false,
+      "hold_tag": null
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "scene_name": "Gaussian Distribution Failure",
+      "start_s": 35.0,
+      "end_s": 70.0,
+      "motion_tag": "manim_transform",
+      "motion_purpose": "Transform bell curve into fat-tail reality",
+      "on_screen_text": {
+        "text": "Standard Deviation Is Broken",
+        "word_count": 4
+      },
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "hold_tag": "HOLD_FOR_UNDERSTANDING"
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "scene_name": "Fat Tail Statistical Proof",
+      "start_s": 70.0,
+      "end_s": 105.0,
+      "motion_tag": "manim_draw",
+      "motion_purpose": "Plot 100-year historical outlier distribution",
+      "on_screen_text": {
+        "text": "The 10,000x Probability Anomaly",
+        "word_count": 4
+      },
+      "pattern_interrupt": false,
+      "end_screen_safe": false,
+      "hold_tag": null
+    },
+    {
+      "id": 5,
+      "chapter": 2,
+      "scene_name": "Order Book Liquidity Drain",
+      "start_s": 105.0,
+      "end_s": 140.0,
+      "motion_tag": "flow_atmosphere",
+      "motion_purpose": "Cinematic visual of high-frequency data center server farm",
+      "on_screen_text": {
+        "text": "Order Flow Velocity",
+        "word_count": 3
+      },
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "hold_tag": null
+    },
+    {
+      "id": 6,
+      "chapter": 4,
+      "scene_name": "Final Payoff & Primary Revelation",
+      "start_s": 620.0,
+      "end_s": 675.0,
+      "motion_tag": "manim_draw",
+      "motion_purpose": "Complete institutional volume profile footprint",
+      "on_screen_text": {
+        "text": "The Sovereign Order Book Formula",
+        "word_count": 5
+      },
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "hold_tag": null
+    },
+    {
+      "id": 7,
+      "chapter": 4,
+      "scene_name": "Disciplined Spoken CTA",
+      "start_s": 675.0,
+      "end_s": 700.0,
+      "motion_tag": "manim_draw",
+      "motion_purpose": "Display next video graphic and key takeaway",
+      "on_screen_text": {
+        "text": "Next: Institutional Liquidity Breakdown",
+        "word_count": 4
+      },
+      "pattern_interrupt": false,
+      "end_screen_safe": false,
+      "hold_tag": null
+    },
+    {
+      "id": 8,
+      "chapter": 4,
+      "scene_name": "End Screen YouTube Card Safe Zone",
+      "start_s": 700.0,
+      "end_s": 720.0,
+      "motion_tag": "manim_draw",
+      "motion_purpose": "Minimalist obsidian background clean of competing focal text for YouTube end screen cards",
+      "on_screen_text": null,
+      "pattern_interrupt": false,
+      "end_screen_safe": true,
+      "hold_tag": null
+    }
+  ]
+}

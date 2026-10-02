@@ -1,0 +1,696 @@
+[
+  {
+    "start": 0.05,
+    "end": 1.32,
+    "words": [
+      {
+        "word": "Have",
+        "start": 0.0,
+        "end": 0.46
+      },
+      {
+        "word": "you",
+        "start": 0.46,
+        "end": 0.66
+      },
+      {
+        "word": "ever",
+        "start": 0.66,
+        "end": 0.96
+      },
+      {
+        "word": "wondered",
+        "start": 0.96,
+        "end": 1.34
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 1.34,
+    "end": 3.22,
+    "words": [
+      {
+        "word": "how",
+        "start": 1.34,
+        "end": 1.68
+      },
+      {
+        "word": "currency",
+        "start": 1.68,
+        "end": 2.1
+      },
+      {
+        "word": "exchange",
+        "start": 2.1,
+        "end": 2.78
+      },
+      {
+        "word": "kiosk",
+        "start": 2.78,
+        "end": 3.24
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 3.24,
+    "end": 5.06,
+    "words": [
+      {
+        "word": "said",
+        "start": 3.24,
+        "end": 3.62
+      },
+      {
+        "word": "airports",
+        "start": 3.62,
+        "end": 4.06
+      },
+      {
+        "word": "make",
+        "start": 4.06,
+        "end": 4.48
+      },
+      {
+        "word": "millions",
+        "start": 4.48,
+        "end": 5.08
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 5.08,
+    "end": 6.78,
+    "words": [
+      {
+        "word": "without",
+        "start": 5.08,
+        "end": 5.64
+      },
+      {
+        "word": "charging",
+        "start": 5.64,
+        "end": 6.04
+      },
+      {
+        "word": "a",
+        "start": 6.04,
+        "end": 6.42
+      },
+      {
+        "word": "single",
+        "start": 6.42,
+        "end": 6.8
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 6.8,
+    "end": 8.7,
+    "words": [
+      {
+        "word": "fee?",
+        "start": 6.8,
+        "end": 7.22
+      },
+      {
+        "word": "Most",
+        "start": 7.6,
+        "end": 7.9
+      },
+      {
+        "word": "travelers",
+        "start": 7.9,
+        "end": 8.32
+      },
+      {
+        "word": "assume",
+        "start": 8.32,
+        "end": 8.72
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 8.72,
+    "end": 9.88,
+    "words": [
+      {
+        "word": "the",
+        "start": 8.72,
+        "end": 9.04
+      },
+      {
+        "word": "exchange",
+        "start": 9.04,
+        "end": 9.44
+      },
+      {
+        "word": "rate",
+        "start": 9.44,
+        "end": 9.68
+      },
+      {
+        "word": "they",
+        "start": 9.68,
+        "end": 9.9
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 9.9,
+    "end": 11.04,
+    "words": [
+      {
+        "word": "see",
+        "start": 9.9,
+        "end": 10.1
+      },
+      {
+        "word": "on",
+        "start": 10.1,
+        "end": 10.26
+      },
+      {
+        "word": "Google",
+        "start": 10.26,
+        "end": 10.62
+      },
+      {
+        "word": "is",
+        "start": 10.62,
+        "end": 11.06
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 11.06,
+    "end": 12.3,
+    "words": [
+      {
+        "word": "the",
+        "start": 11.06,
+        "end": 11.3
+      },
+      {
+        "word": "exact",
+        "start": 11.3,
+        "end": 11.68
+      },
+      {
+        "word": "price",
+        "start": 11.68,
+        "end": 12.08
+      },
+      {
+        "word": "they",
+        "start": 12.08,
+        "end": 12.32
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 12.32,
+    "end": 13.38,
+    "words": [
+      {
+        "word": "receive",
+        "start": 12.32,
+        "end": 12.7
+      },
+      {
+        "word": "at",
+        "start": 12.7,
+        "end": 12.94
+      },
+      {
+        "word": "the",
+        "start": 12.94,
+        "end": 13.06
+      },
+      {
+        "word": "counter.",
+        "start": 13.06,
+        "end": 13.38
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 13.84,
+    "end": 14.76,
+    "words": [
+      {
+        "word": "When",
+        "start": 13.86,
+        "end": 13.96
+      },
+      {
+        "word": "you",
+        "start": 13.96,
+        "end": 14.16
+      },
+      {
+        "word": "receive",
+        "start": 14.16,
+        "end": 14.46
+      },
+      {
+        "word": "less",
+        "start": 14.46,
+        "end": 14.78
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 14.78,
+    "end": 15.58,
+    "words": [
+      {
+        "word": "cash",
+        "start": 14.78,
+        "end": 15.1
+      },
+      {
+        "word": "back,",
+        "start": 15.1,
+        "end": 15.58
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 15.82,
+    "end": 16.94,
+    "words": [
+      {
+        "word": "people",
+        "start": 15.84,
+        "end": 16.04
+      },
+      {
+        "word": "assume",
+        "start": 16.04,
+        "end": 16.46
+      },
+      {
+        "word": "the",
+        "start": 16.46,
+        "end": 16.66
+      },
+      {
+        "word": "missing",
+        "start": 16.66,
+        "end": 16.96
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 16.96,
+    "end": 17.92,
+    "words": [
+      {
+        "word": "money",
+        "start": 16.96,
+        "end": 17.24
+      },
+      {
+        "word": "is",
+        "start": 17.24,
+        "end": 17.5
+      },
+      {
+        "word": "a",
+        "start": 17.5,
+        "end": 17.64
+      },
+      {
+        "word": "government",
+        "start": 17.64,
+        "end": 17.94
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 17.94,
+    "end": 19.62,
+    "words": [
+      {
+        "word": "tax",
+        "start": 17.94,
+        "end": 18.42
+      },
+      {
+        "word": "or",
+        "start": 18.42,
+        "end": 18.72
+      },
+      {
+        "word": "conversion",
+        "start": 18.72,
+        "end": 19.18
+      },
+      {
+        "word": "fee.",
+        "start": 19.18,
+        "end": 19.62
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 19.9,
+    "end": 20.88,
+    "words": [
+      {
+        "word": "The",
+        "start": 19.92,
+        "end": 20.12
+      },
+      {
+        "word": "secret",
+        "start": 20.12,
+        "end": 20.44
+      },
+      {
+        "word": "is",
+        "start": 20.44,
+        "end": 20.9
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 20.9,
+    "end": 22.2,
+    "words": [
+      {
+        "word": "the",
+        "start": 20.9,
+        "end": 21.14
+      },
+      {
+        "word": "bid",
+        "start": 21.14,
+        "end": 21.44
+      },
+      {
+        "word": "-ask",
+        "start": 21.44,
+        "end": 21.82
+      },
+      {
+        "word": "spread.",
+        "start": 21.82,
+        "end": 22.2
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 22.58,
+    "end": 23.42,
+    "words": [
+      {
+        "word": "They",
+        "start": 22.6,
+        "end": 22.88
+      },
+      {
+        "word": "sell",
+        "start": 22.88,
+        "end": 23.14
+      },
+      {
+        "word": "euros",
+        "start": 23.14,
+        "end": 23.44
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 23.44,
+    "end": 24.6,
+    "words": [
+      {
+        "word": "to",
+        "start": 23.44,
+        "end": 23.8
+      },
+      {
+        "word": "you",
+        "start": 23.8,
+        "end": 23.98
+      },
+      {
+        "word": "for",
+        "start": 23.98,
+        "end": 24.16
+      },
+      {
+        "word": "95",
+        "start": 24.16,
+        "end": 24.62
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": "95"
+  },
+  {
+    "start": 24.62,
+    "end": 25.34,
+    "words": [
+      {
+        "word": "cents,",
+        "start": 24.62,
+        "end": 25.22
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 25.48,
+    "end": 26.32,
+    "words": [
+      {
+        "word": "but",
+        "start": 25.5,
+        "end": 25.58
+      },
+      {
+        "word": "buy",
+        "start": 25.58,
+        "end": 25.8
+      },
+      {
+        "word": "them",
+        "start": 25.8,
+        "end": 26.02
+      },
+      {
+        "word": "back",
+        "start": 26.02,
+        "end": 26.34
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 26.34,
+    "end": 27.6,
+    "words": [
+      {
+        "word": "for",
+        "start": 26.34,
+        "end": 26.58
+      },
+      {
+        "word": "85",
+        "start": 26.58,
+        "end": 27.02
+      },
+      {
+        "word": "cents.",
+        "start": 27.02,
+        "end": 27.6
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": "85"
+  },
+  {
+    "start": 27.84,
+    "end": 29.0,
+    "words": [
+      {
+        "word": "The",
+        "start": 27.86,
+        "end": 28.06
+      },
+      {
+        "word": "gap",
+        "start": 28.06,
+        "end": 28.4
+      },
+      {
+        "word": "is",
+        "start": 28.4,
+        "end": 28.76
+      },
+      {
+        "word": "their",
+        "start": 28.76,
+        "end": 29.02
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 29.02,
+    "end": 29.74,
+    "words": [
+      {
+        "word": "profit.",
+        "start": 29.02,
+        "end": 29.36
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 29.76,
+    "end": 31.48,
+    "words": [
+      {
+        "word": "And",
+        "start": 29.36,
+        "end": 30.04
+      },
+      {
+        "word": "that",
+        "start": 30.04,
+        "end": 30.26
+      },
+      {
+        "word": "identical",
+        "start": 30.26,
+        "end": 30.8
+      },
+      {
+        "word": "invisible",
+        "start": 30.8,
+        "end": 31.5
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 31.5,
+    "end": 32.96,
+    "words": [
+      {
+        "word": "spread",
+        "start": 31.5,
+        "end": 31.96
+      },
+      {
+        "word": "tax",
+        "start": 31.96,
+        "end": 32.46
+      },
+      {
+        "word": "happens",
+        "start": 32.46,
+        "end": 32.98
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 32.98,
+    "end": 34.56,
+    "words": [
+      {
+        "word": "on",
+        "start": 32.98,
+        "end": 33.44
+      },
+      {
+        "word": "every",
+        "start": 33.44,
+        "end": 33.92
+      },
+      {
+        "word": "stock",
+        "start": 33.92,
+        "end": 34.2
+      },
+      {
+        "word": "trade.",
+        "start": 34.2,
+        "end": 34.56
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  }
+]

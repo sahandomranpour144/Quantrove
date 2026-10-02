@@ -1,0 +1,27 @@
+{
+  "type": "extraction",
+  "slug": "ep06_short_speed_gets_you_first",
+  "title": "Speed Gets You First",
+  "duration_s": 30.9,
+  "scenes": [
+    {
+      "id": 1,
+      "scene_name": "S19_STALE_QUOTE_RACE",
+      "beat": "IDEA",
+      "start_s": 0.0,
+      "end_s": 16.25,
+      "motion_tag": "html_motion",
+      "type": "extraction"
+    },
+    {
+      "id": 2,
+      "scene_name": "S20_QUEUE_LINE",
+      "beat": "INSIGHT",
+      "start_s": 16.25,
+      "end_s": 30.9,
+      "motion_tag": "manim_draw",
+      "badge": "PRICE TIME PRIORITY",
+      "type": "extraction"
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "words": [
+    {
+      "word": "Most",
+      "start": 0.05,
+      "end": 0.404
+    },
+    {
+      "word": "people",
+      "start": 0.404,
+      "end": 0.757
+    },
+    {
+      "word": "assume",
+      "start": 0.757,
+      "end": 1.111
+    },
+    {
+      "word": "high-frequency",
+      "start": 1.111,
+      "end": 1.464
+    },
+    {
+      "word": "trading",
+      "start": 1.464,
+      "end": 1.818
+    },
+    {
+      "word": "is",
+      "start": 1.818,
+      "end": 2.171
+    },
+    {
+      "word": "about",
+      "start": 2.171,
+      "end": 2.525
+    },
+    {
+      "word": "predicting",
+      "start": 2.525,
+      "end": 2.879
+    },
+    {
+      "word": "whether",
+      "start": 2.879,
+      "end": 3.232
+    },
+    {
+      "word": "stock",
+      "start": 3.232,
+      "end": 3.586
+    },
+    {
+      "word": "prices",
+      "start": 3.586,
+      "end": 3.939
+    },
+    {
+      "word": "rise",
+      "start": 3.939,
+      "end": 4.293
+    },
+    {
+      "word": "or",
+      "start": 4.293,
+      "end": 4.646
+    },
+    {
+      "word": "fall.",
+      "start": 4.646,
+      "end": 5.0
+    },
+    {
+      "word": "Directional",
+      "start": 5.0,
+      "end": 5.425
+    },
+    {
+      "word": "forecasting",
+      "start": 5.425,
+      "end": 5.85
+    },
+    {
+      "word": "over",
+      "start": 5.85,
+      "end": 6.275
+    },
+    {
+      "word": "minutes",
+      "start": 6.275,
+      "end": 6.7
+    },
+    {
+      "word": "or",
+      "start": 6.7,
+      "end": 7.125
+    },
+    {
+      "word": "hours.",
+      "start": 7.125,
+      "end": 7.55
+    },
+    {
+      "word": "But",
+      "start": 7.55,
+      "end": 7.975
+    },
+    {
+      "word": "guessing",
+      "start": 7.975,
+      "end": 8.4
+    },
+    {
+      "word": "macro",
+      "start": 8.4,
+      "end": 8.825
+    },
+    {
+      "word": "direction",
+      "start": 8.825,
+      "end": 9.25
+    },
+    {
+      "word": "in",
+      "start": 9.25,
+      "end": 9.675
+    },
+    {
+      "word": "volatile",
+      "start": 9.675,
+      "end": 10.1
+    },
+    {
+      "word": "public",
+      "start": 10.1,
+      "end": 10.525
+    },
+    {
+      "word": "markets",
+      "start": 10.525,
+      "end": 10.95
+    },
+    {
+      "word": "is",
+      "start": 10.95,
+      "end": 11.375
+    },
+    {
+      "word": "a",
+      "start": 11.375,
+      "end": 11.8
+    },
+    {
+      "word": "low-probability,",
+      "start": 11.8,
+      "end": 12.225
+    },
+    {
+      "word": "high-variance",
+      "start": 12.225,
+      "end": 12.65
+    },
+    {
+      "word": "coin",
+      "start": 12.65,
+      "end": 13.075
+    },
+    {
+      "word": "toss.",
+      "start": 13.075,
+      "end": 13.5
+    },
+    {
+      "word": "Instead,",
+      "start": 13.5,
+      "end": 13.9
+    },
+    {
+      "word": "market-making",
+      "start": 13.9,
+      "end": 14.3
+    },
+    {
+      "word": "machines",
+      "start": 14.3,
+      "end": 14.7
+    },
+    {
+      "word": "remain",
+      "start": 14.7,
+      "end": 15.1
+    },
+    {
+      "word": "market",
+      "start": 15.1,
+      "end": 15.5
+    },
+    {
+      "word": "neutral.",
+      "start": 15.5,
+      "end": 15.9
+    },
+    {
+      "word": "They",
+      "start": 15.9,
+      "end": 16.3
+    },
+    {
+      "word": "quote",
+      "start": 16.3,
+      "end": 16.7
+    },
+    {
+      "word": "both",
+      "start": 16.7,
+      "end": 17.1
+    },
+    {
+      "word": "sides",
+      "start": 17.1,
+      "end": 17.5
+    },
+    {
+      "word": "simultaneously,",
+      "start": 17.5,
+      "end": 17.9
+    },
+    {
+      "word": "buying",
+      "start": 17.9,
+      "end": 18.3
+    },
+    {
+      "word": "at",
+      "start": 18.3,
+      "end": 18.7
+    },
+    {
+      "word": "the",
+      "start": 18.7,
+      "end": 19.1
+    },
+    {
+      "word": "bid",
+      "start": 19.1,
+      "end": 19.5
+    },
+    {
+      "word": "and",
+      "start": 19.5,
+      "end": 19.9
+    },
+    {
+      "word": "selling",
+      "start": 19.9,
+      "end": 20.3
+    },
+    {
+      "word": "at",
+      "start": 20.3,
+      "end": 20.7
+    },
+    {
+      "word": "the",
+      "start": 20.7,
+      "end": 21.1
+    },
+    {
+      "word": "ask,",
+      "start": 21.1,
+      "end": 21.5
+    },
+    {
+      "word": "capturing",
+      "start": 21.5,
+      "end": 21.9
+    },
+    {
+      "word": "fractions",
+      "start": 21.9,
+      "end": 22.3
+    },
+    {
+      "word": "of",
+      "start": 22.3,
+      "end": 22.7
+    },
+    {
+      "word": "a",
+      "start": 22.7,
+      "end": 23.1
+    },
+    {
+      "word": "cent",
+      "start": 23.1,
+      "end": 23.5
+    },
+    {
+      "word": "while",
+      "start": 23.5,
+      "end": 23.9
+    },
+    {
+      "word": "immediately",
+      "start": 23.9,
+      "end": 24.3
+    },
+    {
+      "word": "hedging",
+      "start": 24.3,
+      "end": 24.7
+    },
+    {
+      "word": "inventory",
+      "start": 24.7,
+      "end": 25.1
+    },
+    {
+      "word": "risk.",
+      "start": 25.1,
+      "end": 25.5
+    },
+    {
+      "word": "In",
+      "start": 25.5,
+      "end": 25.903
+    },
+    {
+      "word": "its",
+      "start": 25.903,
+      "end": 26.306
+    },
+    {
+      "word": "SEC",
+      "start": 26.306,
+      "end": 26.71
+    },
+    {
+      "word": "filing,",
+      "start": 26.71,
+      "end": 27.113
+    },
+    {
+      "word": "Virtu",
+      "start": 27.113,
+      "end": 27.516
+    },
+    {
+      "word": "Financial",
+      "start": 27.516,
+      "end": 27.919
+    },
+    {
+      "word": "revealed",
+      "start": 27.919,
+      "end": 28.323
+    },
+    {
+      "word": "1,238",
+      "start": 28.323,
+      "end": 28.726
+    },
+    {
+      "word": "trading",
+      "start": 28.726,
+      "end": 29.129
+    },
+    {
+      "word": "days",
+      "start": 29.129,
+      "end": 29.532
+    },
+    {
+      "word": "with",
+      "start": 29.532,
+      "end": 29.935
+    },
+    {
+      "word": "only",
+      "start": 29.935,
+      "end": 30.339
+    },
+    {
+      "word": "one",
+      "start": 30.339,
+      "end": 30.742
+    },
+    {
+      "word": "losing",
+      "start": 30.742,
+      "end": 31.145
+    },
+    {
+      "word": "day.",
+      "start": 31.145,
+      "end": 31.548
+    },
+    {
+      "word": "Not",
+      "start": 31.548,
+      "end": 31.952
+    },
+    {
+      "word": "by",
+      "start": 31.952,
+      "end": 32.355
+    },
+    {
+      "word": "predicting",
+      "start": 32.355,
+      "end": 32.758
+    },
+    {
+      "word": "prices,",
+      "start": 32.758,
+      "end": 33.161
+    },
+    {
+      "word": "but",
+      "start": 33.161,
+      "end": 33.565
+    },
+    {
+      "word": "by",
+      "start": 33.565,
+      "end": 33.968
+    },
+    {
+      "word": "repeating",
+      "start": 33.968,
+      "end": 34.371
+    },
+    {
+      "word": "a",
+      "start": 34.371,
+      "end": 34.774
+    },
+    {
+      "word": "tiny",
+      "start": 34.774,
+      "end": 35.177
+    },
+    {
+      "word": "statistical",
+      "start": 35.177,
+      "end": 35.581
+    },
+    {
+      "word": "edge",
+      "start": 35.581,
+      "end": 35.984
+    },
+    {
+      "word": "millions",
+      "start": 35.984,
+      "end": 36.387
+    },
+    {
+      "word": "of",
+      "start": 36.387,
+      "end": 36.79
+    },
+    {
+      "word": "times",
+      "start": 36.79,
+      "end": 37.194
+    },
+    {
+      "word": "a",
+      "start": 37.194,
+      "end": 37.597
+    },
+    {
+      "word": "day.",
+      "start": 37.597,
+      "end": 38.0
+    }
+  ]
+}

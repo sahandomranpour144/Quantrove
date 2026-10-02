@@ -1,0 +1,1545 @@
+{
+  "all_words": [
+    {
+      "word": "How",
+      "start": 0.5,
+      "end": 0.9
+    },
+    {
+      "word": "algorithmic",
+      "start": 1.0,
+      "end": 1.8
+    },
+    {
+      "word": "order",
+      "start": 1.9,
+      "end": 2.3
+    },
+    {
+      "word": "flow",
+      "start": 2.4,
+      "end": 2.9
+    },
+    {
+      "word": "operates.",
+      "start": 3.0,
+      "end": 3.8
+    },
+    {
+      "word": "In",
+      "start": 6.0,
+      "end": 6.3
+    },
+    {
+      "word": "the",
+      "start": 6.4,
+      "end": 6.6
+    },
+    {
+      "word": "next",
+      "start": 6.7,
+      "end": 7.0
+    },
+    {
+      "word": "2",
+      "start": 7.1,
+      "end": 7.4
+    },
+    {
+      "word": "minutes,",
+      "start": 7.5,
+      "end": 8.0
+    },
+    {
+      "word": "I",
+      "start": 8.1,
+      "end": 8.3
+    },
+    {
+      "word": "will",
+      "start": 8.4,
+      "end": 8.7
+    },
+    {
+      "word": "show",
+      "start": 8.8,
+      "end": 9.1
+    },
+    {
+      "word": "you",
+      "start": 9.2,
+      "end": 9.4
+    },
+    {
+      "word": "exactly",
+      "start": 9.5,
+      "end": 10.0
+    },
+    {
+      "word": "how",
+      "start": 10.1,
+      "end": 10.4
+    },
+    {
+      "word": "liquidity",
+      "start": 10.5,
+      "end": 11.2
+    },
+    {
+      "word": "works.",
+      "start": 11.3,
+      "end": 11.9
+    },
+    {
+      "word": "market",
+      "start": 13.0,
+      "end": 13.311
+    },
+    {
+      "word": "makers",
+      "start": 13.366,
+      "end": 13.677
+    },
+    {
+      "word": "exploit",
+      "start": 13.731,
+      "end": 14.042
+    },
+    {
+      "word": "retail",
+      "start": 14.097,
+      "end": 14.408
+    },
+    {
+      "word": "liquidity",
+      "start": 14.462,
+      "end": 14.773
+    },
+    {
+      "word": "pools",
+      "start": 14.828,
+      "end": 15.139
+    },
+    {
+      "word": "using",
+      "start": 15.193,
+      "end": 15.504
+    },
+    {
+      "word": "automated",
+      "start": 15.559,
+      "end": 15.87
+    },
+    {
+      "word": "latency",
+      "start": 15.924,
+      "end": 16.235
+    },
+    {
+      "word": "arbitrage",
+      "start": 16.29,
+      "end": 16.601
+    },
+    {
+      "word": "market",
+      "start": 16.655,
+      "end": 16.966
+    },
+    {
+      "word": "makers",
+      "start": 17.021,
+      "end": 17.332
+    },
+    {
+      "word": "exploit",
+      "start": 17.386,
+      "end": 17.697
+    },
+    {
+      "word": "retail",
+      "start": 17.752,
+      "end": 18.063
+    },
+    {
+      "word": "liquidity",
+      "start": 18.117,
+      "end": 18.428
+    },
+    {
+      "word": "pools",
+      "start": 18.483,
+      "end": 18.794
+    },
+    {
+      "word": "using",
+      "start": 18.848,
+      "end": 19.159
+    },
+    {
+      "word": "automated",
+      "start": 19.214,
+      "end": 19.525
+    },
+    {
+      "word": "latency",
+      "start": 19.579,
+      "end": 19.89
+    },
+    {
+      "word": "arbitrage",
+      "start": 19.945,
+      "end": 20.256
+    },
+    {
+      "word": "market",
+      "start": 20.31,
+      "end": 20.621
+    },
+    {
+      "word": "makers",
+      "start": 20.676,
+      "end": 20.987
+    },
+    {
+      "word": "exploit",
+      "start": 21.041,
+      "end": 21.352
+    },
+    {
+      "word": "retail",
+      "start": 21.407,
+      "end": 21.718
+    },
+    {
+      "word": "liquidity",
+      "start": 21.772,
+      "end": 22.083
+    },
+    {
+      "word": "pools",
+      "start": 22.138,
+      "end": 22.449
+    },
+    {
+      "word": "using",
+      "start": 22.503,
+      "end": 22.814
+    },
+    {
+      "word": "automated",
+      "start": 22.869,
+      "end": 23.18
+    },
+    {
+      "word": "latency",
+      "start": 23.234,
+      "end": 23.545
+    },
+    {
+      "word": "arbitrage",
+      "start": 23.6,
+      "end": 23.911
+    },
+    {
+      "word": "market",
+      "start": 23.966,
+      "end": 24.277
+    },
+    {
+      "word": "makers",
+      "start": 24.331,
+      "end": 24.642
+    },
+    {
+      "word": "exploit",
+      "start": 24.697,
+      "end": 25.008
+    },
+    {
+      "word": "retail",
+      "start": 25.062,
+      "end": 25.373
+    },
+    {
+      "word": "liquidity",
+      "start": 25.428,
+      "end": 25.739
+    },
+    {
+      "word": "pools",
+      "start": 25.793,
+      "end": 26.104
+    },
+    {
+      "word": "using",
+      "start": 26.159,
+      "end": 26.47
+    },
+    {
+      "word": "automated",
+      "start": 26.524,
+      "end": 26.835
+    },
+    {
+      "word": "latency",
+      "start": 26.89,
+      "end": 27.201
+    },
+    {
+      "word": "arbitrage",
+      "start": 27.255,
+      "end": 27.566
+    },
+    {
+      "word": "market",
+      "start": 27.621,
+      "end": 27.932
+    },
+    {
+      "word": "makers",
+      "start": 27.986,
+      "end": 28.297
+    },
+    {
+      "word": "exploit",
+      "start": 28.352,
+      "end": 28.663
+    },
+    {
+      "word": "retail",
+      "start": 28.717,
+      "end": 29.028
+    },
+    {
+      "word": "liquidity",
+      "start": 29.083,
+      "end": 29.394
+    },
+    {
+      "word": "pools",
+      "start": 29.448,
+      "end": 29.759
+    },
+    {
+      "word": "using",
+      "start": 29.814,
+      "end": 30.125
+    },
+    {
+      "word": "automated",
+      "start": 30.179,
+      "end": 30.49
+    },
+    {
+      "word": "latency",
+      "start": 30.545,
+      "end": 30.856
+    },
+    {
+      "word": "arbitrage",
+      "start": 30.91,
+      "end": 31.221
+    },
+    {
+      "word": "market",
+      "start": 31.276,
+      "end": 31.587
+    },
+    {
+      "word": "makers",
+      "start": 31.641,
+      "end": 31.952
+    },
+    {
+      "word": "exploit",
+      "start": 32.007,
+      "end": 32.318
+    },
+    {
+      "word": "retail",
+      "start": 32.372,
+      "end": 32.683
+    },
+    {
+      "word": "liquidity",
+      "start": 32.738,
+      "end": 33.049
+    },
+    {
+      "word": "pools",
+      "start": 33.103,
+      "end": 33.414
+    },
+    {
+      "word": "using",
+      "start": 33.469,
+      "end": 33.78
+    },
+    {
+      "word": "automated",
+      "start": 33.834,
+      "end": 34.145
+    },
+    {
+      "word": "latency",
+      "start": 34.2,
+      "end": 34.511
+    },
+    {
+      "word": "arbitrage",
+      "start": 34.566,
+      "end": 34.877
+    },
+    {
+      "word": "market",
+      "start": 34.931,
+      "end": 35.242
+    },
+    {
+      "word": "makers",
+      "start": 35.297,
+      "end": 35.608
+    },
+    {
+      "word": "exploit",
+      "start": 35.662,
+      "end": 35.973
+    },
+    {
+      "word": "retail",
+      "start": 36.028,
+      "end": 36.339
+    },
+    {
+      "word": "liquidity",
+      "start": 36.393,
+      "end": 36.704
+    },
+    {
+      "word": "pools",
+      "start": 36.759,
+      "end": 37.07
+    },
+    {
+      "word": "using",
+      "start": 37.124,
+      "end": 37.435
+    },
+    {
+      "word": "automated",
+      "start": 37.49,
+      "end": 37.801
+    },
+    {
+      "word": "latency",
+      "start": 37.855,
+      "end": 38.166
+    },
+    {
+      "word": "arbitrage",
+      "start": 38.221,
+      "end": 38.532
+    },
+    {
+      "word": "market",
+      "start": 38.586,
+      "end": 38.897
+    },
+    {
+      "word": "makers",
+      "start": 38.952,
+      "end": 39.263
+    },
+    {
+      "word": "exploit",
+      "start": 39.317,
+      "end": 39.628
+    },
+    {
+      "word": "retail",
+      "start": 39.683,
+      "end": 39.994
+    },
+    {
+      "word": "liquidity",
+      "start": 40.048,
+      "end": 40.359
+    },
+    {
+      "word": "pools",
+      "start": 40.414,
+      "end": 40.725
+    },
+    {
+      "word": "using",
+      "start": 40.779,
+      "end": 41.09
+    },
+    {
+      "word": "automated",
+      "start": 41.145,
+      "end": 41.456
+    },
+    {
+      "word": "latency",
+      "start": 41.51,
+      "end": 41.821
+    },
+    {
+      "word": "arbitrage",
+      "start": 41.876,
+      "end": 42.187
+    },
+    {
+      "word": "market",
+      "start": 42.241,
+      "end": 42.552
+    },
+    {
+      "word": "makers",
+      "start": 42.607,
+      "end": 42.918
+    },
+    {
+      "word": "exploit",
+      "start": 42.972,
+      "end": 43.283
+    },
+    {
+      "word": "retail",
+      "start": 43.338,
+      "end": 43.649
+    },
+    {
+      "word": "liquidity",
+      "start": 43.703,
+      "end": 44.014
+    },
+    {
+      "word": "pools",
+      "start": 44.069,
+      "end": 44.38
+    },
+    {
+      "word": "using",
+      "start": 44.434,
+      "end": 44.745
+    },
+    {
+      "word": "automated",
+      "start": 44.8,
+      "end": 45.111
+    },
+    {
+      "word": "latency",
+      "start": 45.166,
+      "end": 45.477
+    },
+    {
+      "word": "arbitrage",
+      "start": 45.531,
+      "end": 45.842
+    },
+    {
+      "word": "market",
+      "start": 45.897,
+      "end": 46.208
+    },
+    {
+      "word": "makers",
+      "start": 46.262,
+      "end": 46.573
+    },
+    {
+      "word": "exploit",
+      "start": 46.628,
+      "end": 46.939
+    },
+    {
+      "word": "retail",
+      "start": 46.993,
+      "end": 47.304
+    },
+    {
+      "word": "liquidity",
+      "start": 47.359,
+      "end": 47.67
+    },
+    {
+      "word": "pools",
+      "start": 47.724,
+      "end": 48.035
+    },
+    {
+      "word": "using",
+      "start": 48.09,
+      "end": 48.401
+    },
+    {
+      "word": "automated",
+      "start": 48.455,
+      "end": 48.766
+    },
+    {
+      "word": "latency",
+      "start": 48.821,
+      "end": 49.132
+    },
+    {
+      "word": "arbitrage",
+      "start": 49.186,
+      "end": 49.497
+    },
+    {
+      "word": "market",
+      "start": 49.552,
+      "end": 49.863
+    },
+    {
+      "word": "makers",
+      "start": 49.917,
+      "end": 50.228
+    },
+    {
+      "word": "exploit",
+      "start": 50.283,
+      "end": 50.594
+    },
+    {
+      "word": "retail",
+      "start": 50.648,
+      "end": 50.959
+    },
+    {
+      "word": "liquidity",
+      "start": 51.014,
+      "end": 51.325
+    },
+    {
+      "word": "pools",
+      "start": 51.379,
+      "end": 51.69
+    },
+    {
+      "word": "using",
+      "start": 51.745,
+      "end": 52.056
+    },
+    {
+      "word": "automated",
+      "start": 52.11,
+      "end": 52.421
+    },
+    {
+      "word": "latency",
+      "start": 52.476,
+      "end": 52.787
+    },
+    {
+      "word": "arbitrage",
+      "start": 52.841,
+      "end": 53.152
+    },
+    {
+      "word": "market",
+      "start": 53.207,
+      "end": 53.518
+    },
+    {
+      "word": "makers",
+      "start": 53.572,
+      "end": 53.883
+    },
+    {
+      "word": "exploit",
+      "start": 53.938,
+      "end": 54.249
+    },
+    {
+      "word": "retail",
+      "start": 54.303,
+      "end": 54.614
+    },
+    {
+      "word": "liquidity",
+      "start": 54.669,
+      "end": 54.98
+    },
+    {
+      "word": "pools",
+      "start": 55.034,
+      "end": 55.345
+    },
+    {
+      "word": "using",
+      "start": 55.4,
+      "end": 55.711
+    },
+    {
+      "word": "automated",
+      "start": 55.766,
+      "end": 56.077
+    },
+    {
+      "word": "latency",
+      "start": 56.131,
+      "end": 56.442
+    },
+    {
+      "word": "arbitrage",
+      "start": 56.497,
+      "end": 56.808
+    },
+    {
+      "word": "market",
+      "start": 56.862,
+      "end": 57.173
+    },
+    {
+      "word": "makers",
+      "start": 57.228,
+      "end": 57.539
+    },
+    {
+      "word": "exploit",
+      "start": 57.593,
+      "end": 57.904
+    },
+    {
+      "word": "retail",
+      "start": 57.959,
+      "end": 58.27
+    },
+    {
+      "word": "liquidity",
+      "start": 58.324,
+      "end": 58.635
+    },
+    {
+      "word": "pools",
+      "start": 58.69,
+      "end": 59.001
+    },
+    {
+      "word": "using",
+      "start": 59.055,
+      "end": 59.366
+    },
+    {
+      "word": "automated",
+      "start": 59.421,
+      "end": 59.732
+    },
+    {
+      "word": "latency",
+      "start": 59.786,
+      "end": 60.097
+    },
+    {
+      "word": "arbitrage",
+      "start": 60.152,
+      "end": 60.463
+    },
+    {
+      "word": "market",
+      "start": 60.517,
+      "end": 60.828
+    },
+    {
+      "word": "makers",
+      "start": 60.883,
+      "end": 61.194
+    },
+    {
+      "word": "exploit",
+      "start": 61.248,
+      "end": 61.559
+    },
+    {
+      "word": "retail",
+      "start": 61.614,
+      "end": 61.925
+    },
+    {
+      "word": "liquidity",
+      "start": 61.979,
+      "end": 62.29
+    },
+    {
+      "word": "pools",
+      "start": 62.345,
+      "end": 62.656
+    },
+    {
+      "word": "using",
+      "start": 62.71,
+      "end": 63.021
+    },
+    {
+      "word": "automated",
+      "start": 63.076,
+      "end": 63.387
+    },
+    {
+      "word": "latency",
+      "start": 63.441,
+      "end": 63.752
+    },
+    {
+      "word": "arbitrage",
+      "start": 63.807,
+      "end": 64.118
+    },
+    {
+      "word": "market",
+      "start": 64.172,
+      "end": 64.483
+    },
+    {
+      "word": "makers",
+      "start": 64.538,
+      "end": 64.849
+    },
+    {
+      "word": "exploit",
+      "start": 64.903,
+      "end": 65.214
+    },
+    {
+      "word": "retail",
+      "start": 65.269,
+      "end": 65.58
+    },
+    {
+      "word": "liquidity",
+      "start": 65.634,
+      "end": 65.945
+    },
+    {
+      "word": "pools",
+      "start": 66.0,
+      "end": 66.311
+    },
+    {
+      "word": "using",
+      "start": 66.366,
+      "end": 66.677
+    },
+    {
+      "word": "automated",
+      "start": 66.731,
+      "end": 67.042
+    },
+    {
+      "word": "latency",
+      "start": 67.097,
+      "end": 67.408
+    },
+    {
+      "word": "arbitrage",
+      "start": 67.462,
+      "end": 67.773
+    },
+    {
+      "word": "market",
+      "start": 67.828,
+      "end": 68.139
+    },
+    {
+      "word": "makers",
+      "start": 68.193,
+      "end": 68.504
+    },
+    {
+      "word": "exploit",
+      "start": 68.559,
+      "end": 68.87
+    },
+    {
+      "word": "retail",
+      "start": 68.924,
+      "end": 69.235
+    },
+    {
+      "word": "liquidity",
+      "start": 69.29,
+      "end": 69.601
+    },
+    {
+      "word": "pools",
+      "start": 69.655,
+      "end": 69.966
+    },
+    {
+      "word": "using",
+      "start": 70.021,
+      "end": 70.332
+    },
+    {
+      "word": "automated",
+      "start": 70.386,
+      "end": 70.697
+    },
+    {
+      "word": "latency",
+      "start": 70.752,
+      "end": 71.063
+    },
+    {
+      "word": "arbitrage",
+      "start": 71.117,
+      "end": 71.428
+    },
+    {
+      "word": "market",
+      "start": 71.483,
+      "end": 71.794
+    },
+    {
+      "word": "makers",
+      "start": 71.848,
+      "end": 72.159
+    },
+    {
+      "word": "exploit",
+      "start": 72.214,
+      "end": 72.525
+    },
+    {
+      "word": "retail",
+      "start": 72.579,
+      "end": 72.89
+    },
+    {
+      "word": "liquidity",
+      "start": 72.945,
+      "end": 73.256
+    },
+    {
+      "word": "pools",
+      "start": 73.31,
+      "end": 73.621
+    },
+    {
+      "word": "using",
+      "start": 73.676,
+      "end": 73.987
+    },
+    {
+      "word": "automated",
+      "start": 74.041,
+      "end": 74.352
+    },
+    {
+      "word": "latency",
+      "start": 74.407,
+      "end": 74.718
+    },
+    {
+      "word": "arbitrage",
+      "start": 74.772,
+      "end": 75.083
+    },
+    {
+      "word": "market",
+      "start": 75.138,
+      "end": 75.449
+    },
+    {
+      "word": "makers",
+      "start": 75.503,
+      "end": 75.814
+    },
+    {
+      "word": "exploit",
+      "start": 75.869,
+      "end": 76.18
+    },
+    {
+      "word": "retail",
+      "start": 76.234,
+      "end": 76.545
+    },
+    {
+      "word": "liquidity",
+      "start": 76.6,
+      "end": 76.911
+    },
+    {
+      "word": "pools",
+      "start": 76.966,
+      "end": 77.277
+    },
+    {
+      "word": "using",
+      "start": 77.331,
+      "end": 77.642
+    },
+    {
+      "word": "automated",
+      "start": 77.697,
+      "end": 78.008
+    },
+    {
+      "word": "latency",
+      "start": 78.062,
+      "end": 78.373
+    },
+    {
+      "word": "arbitrage",
+      "start": 78.428,
+      "end": 78.739
+    },
+    {
+      "word": "market",
+      "start": 78.793,
+      "end": 79.104
+    },
+    {
+      "word": "makers",
+      "start": 79.159,
+      "end": 79.47
+    },
+    {
+      "word": "exploit",
+      "start": 79.524,
+      "end": 79.835
+    },
+    {
+      "word": "retail",
+      "start": 79.89,
+      "end": 80.201
+    },
+    {
+      "word": "liquidity",
+      "start": 80.255,
+      "end": 80.566
+    },
+    {
+      "word": "pools",
+      "start": 80.621,
+      "end": 80.932
+    },
+    {
+      "word": "using",
+      "start": 80.986,
+      "end": 81.297
+    },
+    {
+      "word": "automated",
+      "start": 81.352,
+      "end": 81.663
+    },
+    {
+      "word": "latency",
+      "start": 81.717,
+      "end": 82.028
+    },
+    {
+      "word": "arbitrage",
+      "start": 82.083,
+      "end": 82.394
+    },
+    {
+      "word": "market",
+      "start": 82.448,
+      "end": 82.759
+    },
+    {
+      "word": "makers",
+      "start": 82.814,
+      "end": 83.125
+    },
+    {
+      "word": "exploit",
+      "start": 83.179,
+      "end": 83.49
+    },
+    {
+      "word": "retail",
+      "start": 83.545,
+      "end": 83.856
+    },
+    {
+      "word": "liquidity",
+      "start": 83.91,
+      "end": 84.221
+    },
+    {
+      "word": "pools",
+      "start": 84.276,
+      "end": 84.587
+    },
+    {
+      "word": "using",
+      "start": 84.641,
+      "end": 84.952
+    },
+    {
+      "word": "automated",
+      "start": 85.007,
+      "end": 85.318
+    },
+    {
+      "word": "latency",
+      "start": 85.372,
+      "end": 85.683
+    },
+    {
+      "word": "arbitrage",
+      "start": 85.738,
+      "end": 86.049
+    },
+    {
+      "word": "market",
+      "start": 86.103,
+      "end": 86.414
+    },
+    {
+      "word": "makers",
+      "start": 86.469,
+      "end": 86.78
+    },
+    {
+      "word": "exploit",
+      "start": 86.834,
+      "end": 87.145
+    },
+    {
+      "word": "retail",
+      "start": 87.2,
+      "end": 87.511
+    },
+    {
+      "word": "liquidity",
+      "start": 87.566,
+      "end": 87.877
+    },
+    {
+      "word": "pools",
+      "start": 87.931,
+      "end": 88.242
+    },
+    {
+      "word": "using",
+      "start": 88.297,
+      "end": 88.608
+    },
+    {
+      "word": "automated",
+      "start": 88.662,
+      "end": 88.973
+    },
+    {
+      "word": "latency",
+      "start": 89.028,
+      "end": 89.339
+    },
+    {
+      "word": "arbitrage",
+      "start": 89.393,
+      "end": 89.704
+    },
+    {
+      "word": "market",
+      "start": 89.759,
+      "end": 90.07
+    },
+    {
+      "word": "makers",
+      "start": 90.124,
+      "end": 90.435
+    },
+    {
+      "word": "exploit",
+      "start": 90.49,
+      "end": 90.801
+    },
+    {
+      "word": "retail",
+      "start": 90.855,
+      "end": 91.166
+    },
+    {
+      "word": "liquidity",
+      "start": 91.221,
+      "end": 91.532
+    },
+    {
+      "word": "pools",
+      "start": 91.586,
+      "end": 91.897
+    },
+    {
+      "word": "using",
+      "start": 91.952,
+      "end": 92.263
+    },
+    {
+      "word": "automated",
+      "start": 92.317,
+      "end": 92.628
+    },
+    {
+      "word": "latency",
+      "start": 92.683,
+      "end": 92.994
+    },
+    {
+      "word": "arbitrage",
+      "start": 93.048,
+      "end": 93.359
+    },
+    {
+      "word": "market",
+      "start": 93.414,
+      "end": 93.725
+    },
+    {
+      "word": "makers",
+      "start": 93.779,
+      "end": 94.09
+    },
+    {
+      "word": "exploit",
+      "start": 94.145,
+      "end": 94.456
+    },
+    {
+      "word": "retail",
+      "start": 94.51,
+      "end": 94.821
+    },
+    {
+      "word": "liquidity",
+      "start": 94.876,
+      "end": 95.187
+    },
+    {
+      "word": "pools",
+      "start": 95.241,
+      "end": 95.552
+    },
+    {
+      "word": "using",
+      "start": 95.607,
+      "end": 95.918
+    },
+    {
+      "word": "automated",
+      "start": 95.972,
+      "end": 96.283
+    },
+    {
+      "word": "latency",
+      "start": 96.338,
+      "end": 96.649
+    },
+    {
+      "word": "arbitrage",
+      "start": 96.703,
+      "end": 97.014
+    },
+    {
+      "word": "market",
+      "start": 97.069,
+      "end": 97.38
+    },
+    {
+      "word": "makers",
+      "start": 97.434,
+      "end": 97.745
+    },
+    {
+      "word": "exploit",
+      "start": 97.8,
+      "end": 98.111
+    },
+    {
+      "word": "retail",
+      "start": 98.166,
+      "end": 98.477
+    },
+    {
+      "word": "liquidity",
+      "start": 98.531,
+      "end": 98.842
+    },
+    {
+      "word": "pools",
+      "start": 98.897,
+      "end": 99.208
+    },
+    {
+      "word": "using",
+      "start": 99.262,
+      "end": 99.573
+    },
+    {
+      "word": "automated",
+      "start": 99.628,
+      "end": 99.939
+    },
+    {
+      "word": "latency",
+      "start": 99.993,
+      "end": 100.304
+    },
+    {
+      "word": "arbitrage",
+      "start": 100.359,
+      "end": 100.67
+    },
+    {
+      "word": "market",
+      "start": 100.724,
+      "end": 101.035
+    },
+    {
+      "word": "makers",
+      "start": 101.09,
+      "end": 101.401
+    },
+    {
+      "word": "exploit",
+      "start": 101.455,
+      "end": 101.766
+    },
+    {
+      "word": "retail",
+      "start": 101.821,
+      "end": 102.132
+    },
+    {
+      "word": "liquidity",
+      "start": 102.186,
+      "end": 102.497
+    },
+    {
+      "word": "pools",
+      "start": 102.552,
+      "end": 102.863
+    },
+    {
+      "word": "using",
+      "start": 102.917,
+      "end": 103.228
+    },
+    {
+      "word": "automated",
+      "start": 103.283,
+      "end": 103.594
+    },
+    {
+      "word": "latency",
+      "start": 103.648,
+      "end": 103.959
+    },
+    {
+      "word": "arbitrage",
+      "start": 104.014,
+      "end": 104.325
+    },
+    {
+      "word": "market",
+      "start": 104.379,
+      "end": 104.69
+    },
+    {
+      "word": "makers",
+      "start": 104.745,
+      "end": 105.056
+    },
+    {
+      "word": "exploit",
+      "start": 105.11,
+      "end": 105.421
+    },
+    {
+      "word": "retail",
+      "start": 105.476,
+      "end": 105.787
+    },
+    {
+      "word": "liquidity",
+      "start": 105.841,
+      "end": 106.152
+    },
+    {
+      "word": "pools",
+      "start": 106.207,
+      "end": 106.518
+    },
+    {
+      "word": "using",
+      "start": 106.572,
+      "end": 106.883
+    },
+    {
+      "word": "automated",
+      "start": 106.938,
+      "end": 107.249
+    },
+    {
+      "word": "latency",
+      "start": 107.303,
+      "end": 107.614
+    },
+    {
+      "word": "arbitrage",
+      "start": 107.669,
+      "end": 107.98
+    },
+    {
+      "word": "market",
+      "start": 108.034,
+      "end": 108.345
+    },
+    {
+      "word": "makers",
+      "start": 108.4,
+      "end": 108.711
+    },
+    {
+      "word": "exploit",
+      "start": 108.766,
+      "end": 109.077
+    },
+    {
+      "word": "retail",
+      "start": 109.131,
+      "end": 109.442
+    },
+    {
+      "word": "liquidity",
+      "start": 109.497,
+      "end": 109.808
+    },
+    {
+      "word": "pools",
+      "start": 109.862,
+      "end": 110.173
+    },
+    {
+      "word": "using",
+      "start": 110.228,
+      "end": 110.539
+    },
+    {
+      "word": "automated",
+      "start": 110.593,
+      "end": 110.904
+    },
+    {
+      "word": "latency",
+      "start": 110.959,
+      "end": 111.27
+    },
+    {
+      "word": "arbitrage",
+      "start": 111.324,
+      "end": 111.635
+    },
+    {
+      "word": "market",
+      "start": 111.69,
+      "end": 112.001
+    },
+    {
+      "word": "makers",
+      "start": 112.055,
+      "end": 112.366
+    },
+    {
+      "word": "exploit",
+      "start": 112.421,
+      "end": 112.732
+    },
+    {
+      "word": "retail",
+      "start": 112.786,
+      "end": 113.097
+    },
+    {
+      "word": "liquidity",
+      "start": 113.152,
+      "end": 113.463
+    },
+    {
+      "word": "pools",
+      "start": 113.517,
+      "end": 113.828
+    },
+    {
+      "word": "using",
+      "start": 113.883,
+      "end": 114.194
+    },
+    {
+      "word": "automated",
+      "start": 114.248,
+      "end": 114.559
+    },
+    {
+      "word": "latency",
+      "start": 114.614,
+      "end": 114.925
+    },
+    {
+      "word": "arbitrage",
+      "start": 114.979,
+      "end": 115.29
+    },
+    {
+      "word": "market",
+      "start": 115.345,
+      "end": 115.656
+    },
+    {
+      "word": "makers",
+      "start": 115.71,
+      "end": 116.021
+    },
+    {
+      "word": "exploit",
+      "start": 116.076,
+      "end": 116.387
+    },
+    {
+      "word": "retail",
+      "start": 116.441,
+      "end": 116.752
+    },
+    {
+      "word": "liquidity",
+      "start": 116.807,
+      "end": 117.118
+    },
+    {
+      "word": "pools",
+      "start": 117.172,
+      "end": 117.483
+    },
+    {
+      "word": "using",
+      "start": 117.538,
+      "end": 117.849
+    },
+    {
+      "word": "automated",
+      "start": 117.903,
+      "end": 118.214
+    },
+    {
+      "word": "latency",
+      "start": 118.269,
+      "end": 118.58
+    },
+    {
+      "word": "arbitrage",
+      "start": 118.634,
+      "end": 118.945
+    }
+  ],
+  "total_words": 308
+}

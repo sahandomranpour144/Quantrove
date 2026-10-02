@@ -1,0 +1,145 @@
+{
+  "all_words": [
+    {
+      "word": "In",
+      "start": 2.5,
+      "end": 3.043
+    },
+    {
+      "word": "this",
+      "start": 3.179,
+      "end": 3.722
+    },
+    {
+      "word": "slow",
+      "start": 3.857,
+      "end": 4.4
+    },
+    {
+      "word": "paced",
+      "start": 4.536,
+      "end": 5.079
+    },
+    {
+      "word": "presentation",
+      "start": 5.214,
+      "end": 5.757
+    },
+    {
+      "word": "we",
+      "start": 5.893,
+      "end": 6.436
+    },
+    {
+      "word": "analyze",
+      "start": 6.571,
+      "end": 7.114
+    },
+    {
+      "word": "why",
+      "start": 7.25,
+      "end": 7.793
+    },
+    {
+      "word": "markets",
+      "start": 7.929,
+      "end": 8.472
+    },
+    {
+      "word": "move",
+      "start": 8.607,
+      "end": 9.15
+    },
+    {
+      "word": "without",
+      "start": 9.286,
+      "end": 9.829
+    },
+    {
+      "word": "speed",
+      "start": 9.964,
+      "end": 10.507
+    },
+    {
+      "word": "or",
+      "start": 10.643,
+      "end": 11.186
+    },
+    {
+      "word": "urgency",
+      "start": 11.321,
+      "end": 11.864
+    },
+    {
+      "word": "today.",
+      "start": 12.0,
+      "end": 12.543
+    },
+    {
+      "word": "Notice",
+      "start": 12.679,
+      "end": 13.222
+    },
+    {
+      "word": "how",
+      "start": 13.357,
+      "end": 13.9
+    },
+    {
+      "word": "every",
+      "start": 14.036,
+      "end": 14.579
+    },
+    {
+      "word": "single",
+      "start": 14.714,
+      "end": 15.257
+    },
+    {
+      "word": "spoken",
+      "start": 15.393,
+      "end": 15.936
+    },
+    {
+      "word": "word",
+      "start": 16.071,
+      "end": 16.614
+    },
+    {
+      "word": "is",
+      "start": 16.75,
+      "end": 17.293
+    },
+    {
+      "word": "delayed",
+      "start": 17.429,
+      "end": 17.972
+    },
+    {
+      "word": "far",
+      "start": 18.107,
+      "end": 18.65
+    },
+    {
+      "word": "beyond",
+      "start": 18.786,
+      "end": 19.329
+    },
+    {
+      "word": "any",
+      "start": 19.464,
+      "end": 20.007
+    },
+    {
+      "word": "acceptable",
+      "start": 20.143,
+      "end": 20.686
+    },
+    {
+      "word": "threshold.",
+      "start": 20.821,
+      "end": 21.364
+    }
+  ],
+  "total_words": 28
+}

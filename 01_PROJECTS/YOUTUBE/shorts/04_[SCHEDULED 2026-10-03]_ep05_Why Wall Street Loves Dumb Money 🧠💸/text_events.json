@@ -1,0 +1,772 @@
+[
+  {
+    "start": 0.05,
+    "end": 1.94,
+    "words": [
+      {
+        "word": "Why",
+        "start": 0.0,
+        "end": 0.6
+      },
+      {
+        "word": "do",
+        "start": 0.6,
+        "end": 0.92
+      },
+      {
+        "word": "multi",
+        "start": 0.92,
+        "end": 1.3
+      },
+      {
+        "word": "-billion",
+        "start": 1.3,
+        "end": 1.96
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 1.96,
+    "end": 3.86,
+    "words": [
+      {
+        "word": "-dollar",
+        "start": 1.96,
+        "end": 2.46
+      },
+      {
+        "word": "algorithmic",
+        "start": 2.46,
+        "end": 3.2
+      },
+      {
+        "word": "trading",
+        "start": 3.2,
+        "end": 3.5
+      },
+      {
+        "word": "firms",
+        "start": 3.5,
+        "end": 3.88
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 3.88,
+    "end": 5.12,
+    "words": [
+      {
+        "word": "pay",
+        "start": 3.88,
+        "end": 4.28
+      },
+      {
+        "word": "retail",
+        "start": 4.28,
+        "end": 4.74
+      },
+      {
+        "word": "brokers",
+        "start": 4.74,
+        "end": 5.14
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 5.14,
+    "end": 6.9,
+    "words": [
+      {
+        "word": "to",
+        "start": 5.14,
+        "end": 5.52
+      },
+      {
+        "word": "trade",
+        "start": 5.52,
+        "end": 5.82
+      },
+      {
+        "word": "against",
+        "start": 5.82,
+        "end": 6.3
+      },
+      {
+        "word": "complete",
+        "start": 6.3,
+        "end": 6.92
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 6.92,
+    "end": 7.64,
+    "words": [
+      {
+        "word": "beginners?",
+        "start": 6.92,
+        "end": 7.48
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 8.26,
+    "end": 9.66,
+    "words": [
+      {
+        "word": "Most",
+        "start": 8.28,
+        "end": 8.6
+      },
+      {
+        "word": "people",
+        "start": 8.6,
+        "end": 8.92
+      },
+      {
+        "word": "assume",
+        "start": 8.92,
+        "end": 9.28
+      },
+      {
+        "word": "high",
+        "start": 9.28,
+        "end": 9.68
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 9.68,
+    "end": 10.82,
+    "words": [
+      {
+        "word": "-frequency",
+        "start": 9.68,
+        "end": 10.04
+      },
+      {
+        "word": "traders",
+        "start": 10.04,
+        "end": 10.5
+      },
+      {
+        "word": "want",
+        "start": 10.5,
+        "end": 10.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 10.84,
+    "end": 11.96,
+    "words": [
+      {
+        "word": "to",
+        "start": 10.84,
+        "end": 11.12
+      },
+      {
+        "word": "front",
+        "start": 11.12,
+        "end": 11.32
+      },
+      {
+        "word": "-run",
+        "start": 11.32,
+        "end": 11.62
+      },
+      {
+        "word": "retail",
+        "start": 11.62,
+        "end": 11.98
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 11.98,
+    "end": 13.38,
+    "words": [
+      {
+        "word": "investors",
+        "start": 11.98,
+        "end": 12.4
+      },
+      {
+        "word": "or",
+        "start": 12.4,
+        "end": 12.92
+      },
+      {
+        "word": "steal",
+        "start": 12.92,
+        "end": 13.14
+      },
+      {
+        "word": "their",
+        "start": 13.14,
+        "end": 13.4
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 13.4,
+    "end": 14.12,
+    "words": [
+      {
+        "word": "stock",
+        "start": 13.4,
+        "end": 13.64
+      },
+      {
+        "word": "picks.",
+        "start": 13.64,
+        "end": 14.04
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 14.56,
+    "end": 15.86,
+    "words": [
+      {
+        "word": "Others",
+        "start": 14.58,
+        "end": 14.88
+      },
+      {
+        "word": "think",
+        "start": 14.88,
+        "end": 15.22
+      },
+      {
+        "word": "market",
+        "start": 15.22,
+        "end": 15.58
+      },
+      {
+        "word": "makers",
+        "start": 15.58,
+        "end": 15.88
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 15.88,
+    "end": 17.54,
+    "words": [
+      {
+        "word": "make",
+        "start": 15.88,
+        "end": 16.2
+      },
+      {
+        "word": "fortunes",
+        "start": 16.2,
+        "end": 16.78
+      },
+      {
+        "word": "taking",
+        "start": 16.78,
+        "end": 17.12
+      },
+      {
+        "word": "massive",
+        "start": 17.12,
+        "end": 17.56
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 17.56,
+    "end": 18.74,
+    "words": [
+      {
+        "word": "directional",
+        "start": 17.56,
+        "end": 18.06
+      },
+      {
+        "word": "bets",
+        "start": 18.06,
+        "end": 18.38
+      },
+      {
+        "word": "on",
+        "start": 18.38,
+        "end": 18.62
+      },
+      {
+        "word": "where",
+        "start": 18.62,
+        "end": 18.76
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 18.76,
+    "end": 19.54,
+    "words": [
+      {
+        "word": "stocks",
+        "start": 18.76,
+        "end": 19.0
+      },
+      {
+        "word": "are",
+        "start": 19.0,
+        "end": 19.26
+      },
+      {
+        "word": "headed.",
+        "start": 19.26,
+        "end": 19.54
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 20.22,
+    "end": 22.14,
+    "words": [
+      {
+        "word": "The",
+        "start": 20.24,
+        "end": 20.4
+      },
+      {
+        "word": "mathematical",
+        "start": 20.4,
+        "end": 21.02
+      },
+      {
+        "word": "reality",
+        "start": 21.02,
+        "end": 21.62
+      },
+      {
+        "word": "is",
+        "start": 21.62,
+        "end": 22.16
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 22.16,
+    "end": 23.18,
+    "words": [
+      {
+        "word": "adverse",
+        "start": 22.16,
+        "end": 22.56
+      },
+      {
+        "word": "selection.",
+        "start": 22.56,
+        "end": 23.18
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 23.7,
+    "end": 24.58,
+    "words": [
+      {
+        "word": "When",
+        "start": 23.72,
+        "end": 23.94
+      },
+      {
+        "word": "a",
+        "start": 23.94,
+        "end": 24.14
+      },
+      {
+        "word": "market",
+        "start": 24.14,
+        "end": 24.26
+      },
+      {
+        "word": "maker",
+        "start": 24.26,
+        "end": 24.6
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 24.6,
+    "end": 26.06,
+    "words": [
+      {
+        "word": "trades",
+        "start": 24.6,
+        "end": 24.9
+      },
+      {
+        "word": "against",
+        "start": 24.9,
+        "end": 25.34
+      },
+      {
+        "word": "an",
+        "start": 25.34,
+        "end": 25.66
+      },
+      {
+        "word": "institutional",
+        "start": 25.66,
+        "end": 26.08
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 26.08,
+    "end": 26.8,
+    "words": [
+      {
+        "word": "fund,",
+        "start": 26.08,
+        "end": 26.66
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 27.1,
+    "end": 28.24,
+    "words": [
+      {
+        "word": "that",
+        "start": 27.12,
+        "end": 27.36
+      },
+      {
+        "word": "fund",
+        "start": 27.36,
+        "end": 27.64
+      },
+      {
+        "word": "has",
+        "start": 27.64,
+        "end": 27.9
+      },
+      {
+        "word": "faster",
+        "start": 27.9,
+        "end": 28.26
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 28.26,
+    "end": 29.6,
+    "words": [
+      {
+        "word": "data",
+        "start": 28.26,
+        "end": 28.6
+      },
+      {
+        "word": "and",
+        "start": 28.6,
+        "end": 28.88
+      },
+      {
+        "word": "private",
+        "start": 28.88,
+        "end": 29.14
+      },
+      {
+        "word": "research,",
+        "start": 29.14,
+        "end": 29.62
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 29.62,
+    "end": 31.4,
+    "words": [
+      {
+        "word": "that",
+        "start": 29.62,
+        "end": 30.28
+      },
+      {
+        "word": "order",
+        "start": 30.28,
+        "end": 30.62
+      },
+      {
+        "word": "carries",
+        "start": 30.62,
+        "end": 30.98
+      },
+      {
+        "word": "severe",
+        "start": 30.98,
+        "end": 31.42
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 31.42,
+    "end": 32.38,
+    "words": [
+      {
+        "word": "information",
+        "start": 31.42,
+        "end": 31.92
+      },
+      {
+        "word": "risk.",
+        "start": 31.92,
+        "end": 32.38
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 33.02,
+    "end": 34.52,
+    "words": [
+      {
+        "word": "Retail",
+        "start": 33.04,
+        "end": 33.42
+      },
+      {
+        "word": "flow",
+        "start": 33.42,
+        "end": 33.7
+      },
+      {
+        "word": "is",
+        "start": 33.7,
+        "end": 34.0
+      },
+      {
+        "word": "completely",
+        "start": 34.0,
+        "end": 34.54
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 34.54,
+    "end": 36.38,
+    "words": [
+      {
+        "word": "uninformed.",
+        "start": 34.54,
+        "end": 35.24
+      },
+      {
+        "word": "It",
+        "start": 35.66,
+        "end": 35.74
+      },
+      {
+        "word": "is",
+        "start": 35.74,
+        "end": 36.0
+      },
+      {
+        "word": "small,",
+        "start": 36.0,
+        "end": 36.38
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 36.74,
+    "end": 37.72,
+    "words": [
+      {
+        "word": "random,",
+        "start": 36.76,
+        "end": 36.94
+      },
+      {
+        "word": "and",
+        "start": 37.16,
+        "end": 37.3
+      },
+      {
+        "word": "harmless,",
+        "start": 37.3,
+        "end": 37.72
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 38.22,
+    "end": 39.14,
+    "words": [
+      {
+        "word": "allowing",
+        "start": 38.24,
+        "end": 38.46
+      },
+      {
+        "word": "market",
+        "start": 38.46,
+        "end": 38.82
+      },
+      {
+        "word": "makers",
+        "start": 38.82,
+        "end": 39.16
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 39.16,
+    "end": 40.18,
+    "words": [
+      {
+        "word": "to",
+        "start": 39.16,
+        "end": 39.4
+      },
+      {
+        "word": "capture",
+        "start": 39.4,
+        "end": 39.7
+      },
+      {
+        "word": "the",
+        "start": 39.7,
+        "end": 39.94
+      },
+      {
+        "word": "spread",
+        "start": 39.94,
+        "end": 40.2
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 40.2,
+    "end": 41.82,
+    "words": [
+      {
+        "word": "with",
+        "start": 40.2,
+        "end": 40.5
+      },
+      {
+        "word": "virtually",
+        "start": 40.5,
+        "end": 40.86
+      },
+      {
+        "word": "zero",
+        "start": 40.86,
+        "end": 41.4
+      },
+      {
+        "word": "inventory",
+        "start": 41.4,
+        "end": 41.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 41.84,
+    "end": 42.56,
+    "words": [
+      {
+        "word": "risk.",
+        "start": 41.84,
+        "end": 42.26
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  }
+]

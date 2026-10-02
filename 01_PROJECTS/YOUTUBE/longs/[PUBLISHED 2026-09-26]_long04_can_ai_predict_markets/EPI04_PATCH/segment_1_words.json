@@ -1,0 +1,449 @@
+{
+  "total_words": 74,
+  "words": [
+    {
+      "word": "Can",
+      "start": 0.0,
+      "end": 0.46,
+      "probability": 0.455
+    },
+    {
+      "word": "AI",
+      "start": 0.46,
+      "end": 0.86,
+      "probability": 0.938
+    },
+    {
+      "word": "actually",
+      "start": 0.86,
+      "end": 1.92,
+      "probability": 0.993
+    },
+    {
+      "word": "predict",
+      "start": 1.92,
+      "end": 2.42,
+      "probability": 0.986
+    },
+    {
+      "word": "the",
+      "start": 2.42,
+      "end": 2.8,
+      "probability": 0.994
+    },
+    {
+      "word": "stock",
+      "start": 2.8,
+      "end": 3.1,
+      "probability": 0.994
+    },
+    {
+      "word": "market?",
+      "start": 3.1,
+      "end": 3.42,
+      "probability": 0.997
+    },
+    {
+      "word": "That's",
+      "start": 4.0,
+      "end": 4.46,
+      "probability": 0.991
+    },
+    {
+      "word": "what",
+      "start": 4.46,
+      "end": 4.58,
+      "probability": 0.999
+    },
+    {
+      "word": "you",
+      "start": 4.58,
+      "end": 4.76,
+      "probability": 0.999
+    },
+    {
+      "word": "clicked",
+      "start": 4.76,
+      "end": 5.22,
+      "probability": 0.962
+    },
+    {
+      "word": "to",
+      "start": 5.22,
+      "end": 5.46,
+      "probability": 0.978
+    },
+    {
+      "word": "find",
+      "start": 5.46,
+      "end": 5.68,
+      "probability": 0.998
+    },
+    {
+      "word": "out.",
+      "start": 5.68,
+      "end": 6.0,
+      "probability": 0.998
+    },
+    {
+      "word": "The",
+      "start": 6.6,
+      "end": 6.84,
+      "probability": 0.976
+    },
+    {
+      "word": "honest",
+      "start": 6.84,
+      "end": 7.14,
+      "probability": 0.986
+    },
+    {
+      "word": "answer",
+      "start": 7.14,
+      "end": 7.56,
+      "probability": 1.0
+    },
+    {
+      "word": "is",
+      "start": 7.56,
+      "end": 7.92,
+      "probability": 0.999
+    },
+    {
+      "word": "mostly",
+      "start": 7.92,
+      "end": 8.86,
+      "probability": 0.428
+    },
+    {
+      "word": "no,",
+      "start": 8.86,
+      "end": 9.24,
+      "probability": 0.544
+    },
+    {
+      "word": "but",
+      "start": 9.68,
+      "end": 10.02,
+      "probability": 0.991
+    },
+    {
+      "word": "the",
+      "start": 10.02,
+      "end": 10.16,
+      "probability": 0.992
+    },
+    {
+      "word": "reason",
+      "start": 10.16,
+      "end": 10.52,
+      "probability": 0.999
+    },
+    {
+      "word": "is",
+      "start": 10.52,
+      "end": 10.82,
+      "probability": 0.995
+    },
+    {
+      "word": "not",
+      "start": 10.82,
+      "end": 11.12,
+      "probability": 0.99
+    },
+    {
+      "word": "what",
+      "start": 11.12,
+      "end": 11.38,
+      "probability": 0.997
+    },
+    {
+      "word": "most",
+      "start": 11.38,
+      "end": 11.62,
+      "probability": 0.998
+    },
+    {
+      "word": "people",
+      "start": 11.62,
+      "end": 11.88,
+      "probability": 0.999
+    },
+    {
+      "word": "think.",
+      "start": 11.88,
+      "end": 12.28,
+      "probability": 0.999
+    },
+    {
+      "word": "Get",
+      "start": 13.06,
+      "end": 13.16,
+      "probability": 0.961
+    },
+    {
+      "word": "comfortable.",
+      "start": 13.16,
+      "end": 13.58,
+      "probability": 0.998
+    },
+    {
+      "word": "This",
+      "start": 14.16,
+      "end": 14.34,
+      "probability": 0.994
+    },
+    {
+      "word": "one",
+      "start": 14.34,
+      "end": 14.54,
+      "probability": 0.986
+    },
+    {
+      "word": "is",
+      "start": 14.54,
+      "end": 14.72,
+      "probability": 0.997
+    },
+    {
+      "word": "worth",
+      "start": 14.72,
+      "end": 14.94,
+      "probability": 0.997
+    },
+    {
+      "word": "going",
+      "start": 14.94,
+      "end": 15.14,
+      "probability": 0.992
+    },
+    {
+      "word": "slowly.",
+      "start": 15.14,
+      "end": 15.6,
+      "probability": 0.996
+    },
+    {
+      "word": "It",
+      "start": 16.4,
+      "end": 16.7,
+      "probability": 0.98
+    },
+    {
+      "word": "starts",
+      "start": 16.7,
+      "end": 17.02,
+      "probability": 0.997
+    },
+    {
+      "word": "in",
+      "start": 17.02,
+      "end": 17.4,
+      "probability": 0.999
+    },
+    {
+      "word": "1988,",
+      "start": 17.4,
+      "end": 18.08,
+      "probability": 0.991
+    },
+    {
+      "word": "when",
+      "start": 18.84,
+      "end": 18.98,
+      "probability": 0.987
+    },
+    {
+      "word": "Jim",
+      "start": 18.98,
+      "end": 19.22,
+      "probability": 0.952
+    },
+    {
+      "word": "Simons",
+      "start": 19.22,
+      "end": 19.86,
+      "probability": 0.751
+    },
+    {
+      "word": "launched",
+      "start": 19.86,
+      "end": 20.4,
+      "probability": 0.993
+    },
+    {
+      "word": "the",
+      "start": 20.4,
+      "end": 20.62,
+      "probability": 0.875
+    },
+    {
+      "word": "Medallion",
+      "start": 20.62,
+      "end": 21.08,
+      "probability": 0.826
+    },
+    {
+      "word": "Fund,",
+      "start": 21.08,
+      "end": 21.36,
+      "probability": 0.616
+    },
+    {
+      "word": "and",
+      "start": 21.84,
+      "end": 22.06,
+      "probability": 0.996
+    },
+    {
+      "word": "for",
+      "start": 22.06,
+      "end": 22.2,
+      "probability": 0.987
+    },
+    {
+      "word": "three",
+      "start": 22.2,
+      "end": 22.6,
+      "probability": 0.901
+    },
+    {
+      "word": "decades,",
+      "start": 22.6,
+      "end": 22.98,
+      "probability": 0.997
+    },
+    {
+      "word": "it",
+      "start": 23.42,
+      "end": 23.56,
+      "probability": 0.996
+    },
+    {
+      "word": "averaged",
+      "start": 23.56,
+      "end": 24.1,
+      "probability": 0.992
+    },
+    {
+      "word": "about",
+      "start": 24.1,
+      "end": 24.34,
+      "probability": 0.995
+    },
+    {
+      "word": "66",
+      "start": 24.34,
+      "end": 24.86,
+      "probability": 0.981
+    },
+    {
+      "word": "%",
+      "start": 24.86,
+      "end": 25.54,
+      "probability": 0.874
+    },
+    {
+      "word": "a",
+      "start": 25.54,
+      "end": 25.74,
+      "probability": 0.986
+    },
+    {
+      "word": "year",
+      "start": 25.74,
+      "end": 25.98,
+      "probability": 1.0
+    },
+    {
+      "word": "before",
+      "start": 25.98,
+      "end": 26.32,
+      "probability": 0.997
+    },
+    {
+      "word": "fees.",
+      "start": 26.32,
+      "end": 26.74,
+      "probability": 0.934
+    },
+    {
+      "word": "He",
+      "start": 27.32,
+      "end": 27.72,
+      "probability": 0.698
+    },
+    {
+      "word": "hired",
+      "start": 27.72,
+      "end": 28.12,
+      "probability": 0.993
+    },
+    {
+      "word": "physicists,",
+      "start": 28.12,
+      "end": 28.64,
+      "probability": 0.932
+    },
+    {
+      "word": "mathematicians,",
+      "start": 29.28,
+      "end": 29.98,
+      "probability": 0.999
+    },
+    {
+      "word": "and",
+      "start": 30.32,
+      "end": 30.44,
+      "probability": 0.971
+    },
+    {
+      "word": "computer",
+      "start": 30.44,
+      "end": 30.78,
+      "probability": 0.997
+    },
+    {
+      "word": "scientists,",
+      "start": 30.78,
+      "end": 31.48,
+      "probability": 0.992
+    },
+    {
+      "word": "and",
+      "start": 32.02,
+      "end": 32.12,
+      "probability": 0.994
+    },
+    {
+      "word": "deliberately",
+      "start": 32.12,
+      "end": 32.62,
+      "probability": 0.999
+    },
+    {
+      "word": "avoided",
+      "start": 32.62,
+      "end": 33.4,
+      "probability": 0.989
+    },
+    {
+      "word": "Wall",
+      "start": 33.4,
+      "end": 33.8,
+      "probability": 0.974
+    },
+    {
+      "word": "Street",
+      "start": 33.8,
+      "end": 34.08,
+      "probability": 0.982
+    },
+    {
+      "word": "traders.",
+      "start": 34.08,
+      "end": 34.46,
+      "probability": 0.721
+    }
+  ]
+}

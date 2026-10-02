@@ -1,0 +1,50 @@
+[
+  {
+    "scene": "Scene02Grid1238",
+    "file": "EP06_SC02_GRID_1238.mp4",
+    "measured_duration": 15.0,
+    "target_duration": 15.0,
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "scene": "Scene08TickHistory",
+    "file": "EP06_SC08_TICK_HISTORY.mp4",
+    "measured_duration": 29.516667,
+    "target_duration": 29.52,
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "scene": "Scene13ReservationPrice",
+    "file": "EP06_SC13_RESERVATION_PRICE.mp4",
+    "measured_duration": 22.6,
+    "target_duration": 22.6,
+    "delta": 0.0,
+    "status": "PASS"
+  },
+  {
+    "scene": "Scene15SpreadFormula",
+    "file": "EP06_SC15_SPREAD_FORMULA.mp4",
+    "measured_duration": 14.666667,
+    "target_duration": 14.68,
+    "delta": 0.01,
+    "status": "PASS"
+  },
+  {
+    "scene": "Scene18MicrosecondLight",
+    "file": "EP06_SC18_MICROSECOND_LIGHT.mp4",
+    "measured_duration": 17.55,
+    "target_duration": 17.56,
+    "delta": 0.01,
+    "status": "PASS"
+  },
+  {
+    "scene": "Scene22BothSides",
+    "file": "EP06_SC22_BOTH_SIDES.mp4",
+    "measured_duration": 26.433333,
+    "target_duration": 26.44,
+    "delta": 0.01,
+    "status": "PASS"
+  }
+]

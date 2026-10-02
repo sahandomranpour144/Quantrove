@@ -1,0 +1,557 @@
+{
+  "slug": "ep03_short_clicks_to_watchtime",
+  "total_words": 78,
+  "duration_s": 39.69999999999999,
+  "source_range": {
+    "start_s": 127.9,
+    "end_s": 167.6
+  },
+  "words": [
+    {
+      "word": "For",
+      "start": 0.22,
+      "end": 0.54,
+      "orig_start": 128.12,
+      "orig_end": 128.44
+    },
+    {
+      "word": "years,",
+      "start": 0.54,
+      "end": 0.96,
+      "orig_start": 128.44,
+      "orig_end": 128.86
+    },
+    {
+      "word": "recommendation",
+      "start": 1.5,
+      "end": 1.84,
+      "orig_start": 129.4,
+      "orig_end": 129.74
+    },
+    {
+      "word": "systems",
+      "start": 1.84,
+      "end": 2.66,
+      "orig_start": 129.74,
+      "orig_end": 130.56
+    },
+    {
+      "word": "were",
+      "start": 2.66,
+      "end": 2.88,
+      "orig_start": 130.56,
+      "orig_end": 130.78
+    },
+    {
+      "word": "built",
+      "start": 2.88,
+      "end": 3.18,
+      "orig_start": 130.78,
+      "orig_end": 131.08
+    },
+    {
+      "word": "to",
+      "start": 3.18,
+      "end": 3.48,
+      "orig_start": 131.08,
+      "orig_end": 131.38
+    },
+    {
+      "word": "maximize",
+      "start": 3.48,
+      "end": 4.04,
+      "orig_start": 131.38,
+      "orig_end": 131.94
+    },
+    {
+      "word": "clicks,",
+      "start": 4.04,
+      "end": 4.66,
+      "orig_start": 131.94,
+      "orig_end": 132.56
+    },
+    {
+      "word": "and",
+      "start": 5.26,
+      "end": 5.62,
+      "orig_start": 133.16,
+      "orig_end": 133.52
+    },
+    {
+      "word": "that",
+      "start": 5.62,
+      "end": 5.78,
+      "orig_start": 133.52,
+      "orig_end": 133.68
+    },
+    {
+      "word": "created",
+      "start": 5.78,
+      "end": 6.26,
+      "orig_start": 133.68,
+      "orig_end": 134.16
+    },
+    {
+      "word": "an",
+      "start": 6.26,
+      "end": 6.54,
+      "orig_start": 134.16,
+      "orig_end": 134.44
+    },
+    {
+      "word": "obvious",
+      "start": 6.54,
+      "end": 7.0,
+      "orig_start": 134.44,
+      "orig_end": 134.9
+    },
+    {
+      "word": "problem.",
+      "start": 7.0,
+      "end": 7.56,
+      "orig_start": 134.9,
+      "orig_end": 135.46
+    },
+    {
+      "word": "Creators",
+      "start": 8.2,
+      "end": 8.74,
+      "orig_start": 136.1,
+      "orig_end": 136.64
+    },
+    {
+      "word": "learned",
+      "start": 8.74,
+      "end": 9.1,
+      "orig_start": 136.64,
+      "orig_end": 137.0
+    },
+    {
+      "word": "that",
+      "start": 9.1,
+      "end": 9.36,
+      "orig_start": 137.0,
+      "orig_end": 137.26
+    },
+    {
+      "word": "outrageous",
+      "start": 9.36,
+      "end": 10.1,
+      "orig_start": 137.26,
+      "orig_end": 138.0
+    },
+    {
+      "word": "misleading",
+      "start": 10.1,
+      "end": 11.08,
+      "orig_start": 138.0,
+      "orig_end": 138.98
+    },
+    {
+      "word": "thumbnails",
+      "start": 11.08,
+      "end": 11.76,
+      "orig_start": 138.98,
+      "orig_end": 139.66
+    },
+    {
+      "word": "and",
+      "start": 11.76,
+      "end": 12.08,
+      "orig_start": 139.66,
+      "orig_end": 139.98
+    },
+    {
+      "word": "titles",
+      "start": 12.08,
+      "end": 12.52,
+      "orig_start": 139.98,
+      "orig_end": 140.42
+    },
+    {
+      "word": "got",
+      "start": 12.52,
+      "end": 12.98,
+      "orig_start": 140.42,
+      "orig_end": 140.88
+    },
+    {
+      "word": "clicked",
+      "start": 12.98,
+      "end": 13.32,
+      "orig_start": 140.88,
+      "orig_end": 141.22
+    },
+    {
+      "word": "more",
+      "start": 13.32,
+      "end": 13.74,
+      "orig_start": 141.22,
+      "orig_end": 141.64
+    },
+    {
+      "word": "even",
+      "start": 13.74,
+      "end": 14.64,
+      "orig_start": 141.64,
+      "orig_end": 142.54
+    },
+    {
+      "word": "when",
+      "start": 14.64,
+      "end": 14.86,
+      "orig_start": 142.54,
+      "orig_end": 142.76
+    },
+    {
+      "word": "the",
+      "start": 14.86,
+      "end": 15.0,
+      "orig_start": 142.76,
+      "orig_end": 142.9
+    },
+    {
+      "word": "actual",
+      "start": 15.0,
+      "end": 15.46,
+      "orig_start": 142.9,
+      "orig_end": 143.36
+    },
+    {
+      "word": "video",
+      "start": 15.46,
+      "end": 15.96,
+      "orig_start": 143.36,
+      "orig_end": 143.86
+    },
+    {
+      "word": "disappointed",
+      "start": 15.96,
+      "end": 16.68,
+      "orig_start": 143.86,
+      "orig_end": 144.58
+    },
+    {
+      "word": "viewers.",
+      "start": 16.68,
+      "end": 17.22,
+      "orig_start": 144.58,
+      "orig_end": 145.12
+    },
+    {
+      "word": "So",
+      "start": 17.88,
+      "end": 18.5,
+      "orig_start": 145.78,
+      "orig_end": 146.4
+    },
+    {
+      "word": "platforms",
+      "start": 18.5,
+      "end": 19.14,
+      "orig_start": 146.4,
+      "orig_end": 147.04
+    },
+    {
+      "word": "changed",
+      "start": 19.14,
+      "end": 19.82,
+      "orig_start": 147.04,
+      "orig_end": 147.72
+    },
+    {
+      "word": "the",
+      "start": 19.82,
+      "end": 20.08,
+      "orig_start": 147.72,
+      "orig_end": 147.98
+    },
+    {
+      "word": "target,",
+      "start": 20.08,
+      "end": 20.46,
+      "orig_start": 147.98,
+      "orig_end": 148.36
+    },
+    {
+      "word": "not",
+      "start": 20.8,
+      "end": 21.26,
+      "orig_start": 148.7,
+      "orig_end": 149.16
+    },
+    {
+      "word": "clicks",
+      "start": 21.26,
+      "end": 21.78,
+      "orig_start": 149.16,
+      "orig_end": 149.68
+    },
+    {
+      "word": "watch",
+      "start": 21.78,
+      "end": 22.64,
+      "orig_start": 149.68,
+      "orig_end": 150.54
+    },
+    {
+      "word": "time.",
+      "start": 22.64,
+      "end": 23.12,
+      "orig_start": 150.54,
+      "orig_end": 151.02
+    },
+    {
+      "word": "The",
+      "start": 23.92,
+      "end": 24.16,
+      "orig_start": 151.82,
+      "orig_end": 152.06
+    },
+    {
+      "word": "system",
+      "start": 24.16,
+      "end": 24.48,
+      "orig_start": 152.06,
+      "orig_end": 152.38
+    },
+    {
+      "word": "stopped",
+      "start": 24.48,
+      "end": 24.86,
+      "orig_start": 152.38,
+      "orig_end": 152.76
+    },
+    {
+      "word": "asking",
+      "start": 24.86,
+      "end": 25.4,
+      "orig_start": 152.76,
+      "orig_end": 153.3
+    },
+    {
+      "word": "what",
+      "start": 25.4,
+      "end": 25.9,
+      "orig_start": 153.3,
+      "orig_end": 153.8
+    },
+    {
+      "word": "will",
+      "start": 25.9,
+      "end": 26.12,
+      "orig_start": 153.8,
+      "orig_end": 154.02
+    },
+    {
+      "word": "get",
+      "start": 26.12,
+      "end": 26.3,
+      "orig_start": 154.02,
+      "orig_end": 154.2
+    },
+    {
+      "word": "clicked",
+      "start": 26.3,
+      "end": 26.78,
+      "orig_start": 154.2,
+      "orig_end": 154.68
+    },
+    {
+      "word": "and",
+      "start": 26.78,
+      "end": 27.38,
+      "orig_start": 154.68,
+      "orig_end": 155.28
+    },
+    {
+      "word": "started",
+      "start": 27.38,
+      "end": 27.7,
+      "orig_start": 155.28,
+      "orig_end": 155.6
+    },
+    {
+      "word": "asking",
+      "start": 27.7,
+      "end": 28.14,
+      "orig_start": 155.6,
+      "orig_end": 156.04
+    },
+    {
+      "word": "what",
+      "start": 28.14,
+      "end": 28.76,
+      "orig_start": 156.04,
+      "orig_end": 156.66
+    },
+    {
+      "word": "will",
+      "start": 28.76,
+      "end": 28.98,
+      "orig_start": 156.66,
+      "orig_end": 156.88
+    },
+    {
+      "word": "this",
+      "start": 28.98,
+      "end": 29.3,
+      "orig_start": 156.88,
+      "orig_end": 157.2
+    },
+    {
+      "word": "specific",
+      "start": 29.3,
+      "end": 30.02,
+      "orig_start": 157.2,
+      "orig_end": 157.92
+    },
+    {
+      "word": "person",
+      "start": 30.02,
+      "end": 30.58,
+      "orig_start": 157.92,
+      "orig_end": 158.48
+    },
+    {
+      "word": "actually",
+      "start": 30.58,
+      "end": 31.3,
+      "orig_start": 158.48,
+      "orig_end": 159.2
+    },
+    {
+      "word": "keep",
+      "start": 31.3,
+      "end": 31.8,
+      "orig_start": 159.2,
+      "orig_end": 159.7
+    },
+    {
+      "word": "watching.",
+      "start": 31.8,
+      "end": 32.3,
+      "orig_start": 159.7,
+      "orig_end": 160.2
+    },
+    {
+      "word": "That",
+      "start": 33.04,
+      "end": 33.68,
+      "orig_start": 160.94,
+      "orig_end": 161.58
+    },
+    {
+      "word": "single",
+      "start": 33.68,
+      "end": 34.16,
+      "orig_start": 161.58,
+      "orig_end": 162.06
+    },
+    {
+      "word": "change",
+      "start": 34.16,
+      "end": 34.56,
+      "orig_start": 162.06,
+      "orig_end": 162.46
+    },
+    {
+      "word": "is",
+      "start": 34.56,
+      "end": 34.94,
+      "orig_start": 162.46,
+      "orig_end": 162.84
+    },
+    {
+      "word": "the",
+      "start": 34.94,
+      "end": 35.12,
+      "orig_start": 162.84,
+      "orig_end": 163.02
+    },
+    {
+      "word": "most",
+      "start": 35.12,
+      "end": 35.4,
+      "orig_start": 163.02,
+      "orig_end": 163.3
+    },
+    {
+      "word": "important",
+      "start": 35.4,
+      "end": 36.1,
+      "orig_start": 163.3,
+      "orig_end": 164.0
+    },
+    {
+      "word": "thing",
+      "start": 36.1,
+      "end": 36.36,
+      "orig_start": 164.0,
+      "orig_end": 164.26
+    },
+    {
+      "word": "to",
+      "start": 36.36,
+      "end": 36.52,
+      "orig_start": 164.26,
+      "orig_end": 164.42
+    },
+    {
+      "word": "understand",
+      "start": 36.52,
+      "end": 37.06,
+      "orig_start": 164.42,
+      "orig_end": 164.96
+    },
+    {
+      "word": "about",
+      "start": 37.06,
+      "end": 37.44,
+      "orig_start": 164.96,
+      "orig_end": 165.34
+    },
+    {
+      "word": "how",
+      "start": 37.44,
+      "end": 37.78,
+      "orig_start": 165.34,
+      "orig_end": 165.68
+    },
+    {
+      "word": "your",
+      "start": 37.78,
+      "end": 38.06,
+      "orig_start": 165.68,
+      "orig_end": 165.96
+    },
+    {
+      "word": "feed",
+      "start": 38.06,
+      "end": 38.34,
+      "orig_start": 165.96,
+      "orig_end": 166.24
+    },
+    {
+      "word": "is",
+      "start": 38.34,
+      "end": 38.64,
+      "orig_start": 166.24,
+      "orig_end": 166.54
+    },
+    {
+      "word": "built",
+      "start": 38.64,
+      "end": 38.9,
+      "orig_start": 166.54,
+      "orig_end": 166.8
+    },
+    {
+      "word": "today.",
+      "start": 38.9,
+      "end": 39.34,
+      "orig_start": 166.8,
+      "orig_end": 167.24
+    }
+  ]
+}

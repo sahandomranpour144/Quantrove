@@ -1,0 +1,496 @@
+{
+  "words": [
+    {
+      "word": "If",
+      "start": 0.18,
+      "end": 0.96,
+      "prob": 0.305
+    },
+    {
+      "word": "market",
+      "start": 0.96,
+      "end": 1.28,
+      "prob": 0.909
+    },
+    {
+      "word": "makers",
+      "start": 1.28,
+      "end": 1.76,
+      "prob": 0.941
+    },
+    {
+      "word": "are",
+      "start": 1.76,
+      "end": 2.1,
+      "prob": 0.997
+    },
+    {
+      "word": "paying",
+      "start": 2.1,
+      "end": 2.48,
+      "prob": 0.994
+    },
+    {
+      "word": "brokers,",
+      "start": 2.48,
+      "end": 2.98,
+      "prob": 0.988
+    },
+    {
+      "word": "who",
+      "start": 3.5,
+      "end": 3.78,
+      "prob": 0.98
+    },
+    {
+      "word": "ends",
+      "start": 3.78,
+      "end": 4.12,
+      "prob": 0.985
+    },
+    {
+      "word": "up",
+      "start": 4.12,
+      "end": 4.22,
+      "prob": 0.997
+    },
+    {
+      "word": "paying",
+      "start": 4.22,
+      "end": 4.54,
+      "prob": 0.997
+    },
+    {
+      "word": "the",
+      "start": 4.54,
+      "end": 4.74,
+      "prob": 0.994
+    },
+    {
+      "word": "bill?",
+      "start": 4.74,
+      "end": 4.96,
+      "prob": 0.99
+    },
+    {
+      "word": "In",
+      "start": 5.54,
+      "end": 5.88,
+      "prob": 0.983
+    },
+    {
+      "word": "2020,",
+      "start": 5.88,
+      "end": 6.5,
+      "prob": 0.991
+    },
+    {
+      "word": "the",
+      "start": 6.98,
+      "end": 7.12,
+      "prob": 0.995
+    },
+    {
+      "word": "SEC",
+      "start": 7.12,
+      "end": 7.46,
+      "prob": 0.988
+    },
+    {
+      "word": "answered",
+      "start": 7.46,
+      "end": 8.14,
+      "prob": 0.985
+    },
+    {
+      "word": "that",
+      "start": 8.14,
+      "end": 8.4,
+      "prob": 0.995
+    },
+    {
+      "word": "question",
+      "start": 8.4,
+      "end": 8.88,
+      "prob": 0.998
+    },
+    {
+      "word": "with",
+      "start": 8.88,
+      "end": 9.22,
+      "prob": 0.781
+    },
+    {
+      "word": "a",
+      "start": 9.22,
+      "end": 9.32,
+      "prob": 0.982
+    },
+    {
+      "word": "$65",
+      "start": 9.32,
+      "end": 9.92,
+      "prob": 0.933
+    },
+    {
+      "word": "million",
+      "start": 9.92,
+      "end": 10.48,
+      "prob": 0.937
+    },
+    {
+      "word": "dollar",
+      "start": 10.48,
+      "end": 10.88,
+      "prob": 0.079
+    },
+    {
+      "word": "enforcement",
+      "start": 10.88,
+      "end": 11.42,
+      "prob": 0.921
+    },
+    {
+      "word": "settlement",
+      "start": 11.42,
+      "end": 11.86,
+      "prob": 0.998
+    },
+    {
+      "word": "against",
+      "start": 11.86,
+      "end": 12.4,
+      "prob": 0.993
+    },
+    {
+      "word": "Robinhood.",
+      "start": 12.4,
+      "end": 12.88,
+      "prob": 0.962
+    },
+    {
+      "word": "The",
+      "start": 13.14,
+      "end": 13.76,
+      "prob": 0.994
+    },
+    {
+      "word": "SEC",
+      "start": 13.76,
+      "end": 14.12,
+      "prob": 0.999
+    },
+    {
+      "word": "found",
+      "start": 14.12,
+      "end": 14.64,
+      "prob": 0.998
+    },
+    {
+      "word": "that",
+      "start": 14.64,
+      "end": 14.82,
+      "prob": 0.978
+    },
+    {
+      "word": "Robinhood",
+      "start": 14.82,
+      "end": 15.4,
+      "prob": 0.998
+    },
+    {
+      "word": "told",
+      "start": 15.4,
+      "end": 15.68,
+      "prob": 0.99
+    },
+    {
+      "word": "customers",
+      "start": 15.68,
+      "end": 16.24,
+      "prob": 0.975
+    },
+    {
+      "word": "its",
+      "start": 16.24,
+      "end": 16.52,
+      "prob": 0.756
+    },
+    {
+      "word": "trading",
+      "start": 16.52,
+      "end": 16.9,
+      "prob": 0.985
+    },
+    {
+      "word": "was",
+      "start": 16.9,
+      "end": 17.14,
+      "prob": 0.999
+    },
+    {
+      "word": "free,",
+      "start": 17.14,
+      "end": 17.52,
+      "prob": 0.903
+    },
+    {
+      "word": "while",
+      "start": 17.96,
+      "end": 18.16,
+      "prob": 0.992
+    },
+    {
+      "word": "quietly",
+      "start": 18.16,
+      "end": 18.72,
+      "prob": 0.9
+    },
+    {
+      "word": "routing",
+      "start": 18.72,
+      "end": 19.06,
+      "prob": 0.924
+    },
+    {
+      "word": "orders",
+      "start": 19.06,
+      "end": 19.6,
+      "prob": 0.997
+    },
+    {
+      "word": "to",
+      "start": 19.6,
+      "end": 19.8,
+      "prob": 0.996
+    },
+    {
+      "word": "the",
+      "start": 19.8,
+      "end": 19.9,
+      "prob": 0.983
+    },
+    {
+      "word": "market",
+      "start": 19.9,
+      "end": 20.18,
+      "prob": 0.997
+    },
+    {
+      "word": "makers",
+      "start": 20.18,
+      "end": 20.56,
+      "prob": 0.953
+    },
+    {
+      "word": "paying",
+      "start": 20.56,
+      "end": 20.9,
+      "prob": 0.954
+    },
+    {
+      "word": "the",
+      "start": 20.9,
+      "end": 21.14,
+      "prob": 0.99
+    },
+    {
+      "word": "highest",
+      "start": 21.14,
+      "end": 21.54,
+      "prob": 0.997
+    },
+    {
+      "word": "fees,",
+      "start": 21.54,
+      "end": 21.92,
+      "prob": 0.996
+    },
+    {
+      "word": "even",
+      "start": 22.42,
+      "end": 22.7,
+      "prob": 0.997
+    },
+    {
+      "word": "when",
+      "start": 22.7,
+      "end": 22.9,
+      "prob": 0.998
+    },
+    {
+      "word": "that",
+      "start": 22.9,
+      "end": 23.08,
+      "prob": 0.987
+    },
+    {
+      "word": "meant",
+      "start": 23.08,
+      "end": 23.24,
+      "prob": 0.993
+    },
+    {
+      "word": "customers",
+      "start": 23.24,
+      "end": 23.74,
+      "prob": 0.982
+    },
+    {
+      "word": "received",
+      "start": 23.74,
+      "end": 24.24,
+      "prob": 0.989
+    },
+    {
+      "word": "worse",
+      "start": 24.24,
+      "end": 24.64,
+      "prob": 0.934
+    },
+    {
+      "word": "execution",
+      "start": 24.64,
+      "end": 25.28,
+      "prob": 0.99
+    },
+    {
+      "word": "prices",
+      "start": 25.28,
+      "end": 25.72,
+      "prob": 0.993
+    },
+    {
+      "word": "than",
+      "start": 25.72,
+      "end": 26.08,
+      "prob": 0.989
+    },
+    {
+      "word": "other",
+      "start": 26.08,
+      "end": 26.34,
+      "prob": 0.992
+    },
+    {
+      "word": "brokers.",
+      "start": 26.34,
+      "end": 26.66,
+      "prob": 0.998
+    },
+    {
+      "word": "Free",
+      "start": 27.36,
+      "end": 27.68,
+      "prob": 0.418
+    },
+    {
+      "word": "trading",
+      "start": 27.68,
+      "end": 28.12,
+      "prob": 0.822
+    },
+    {
+      "word": "had",
+      "start": 28.12,
+      "end": 28.48,
+      "prob": 0.971
+    },
+    {
+      "word": "a",
+      "start": 28.48,
+      "end": 28.62,
+      "prob": 0.991
+    },
+    {
+      "word": "hidden",
+      "start": 28.62,
+      "end": 28.94,
+      "prob": 0.997
+    },
+    {
+      "word": "invoice.",
+      "start": 28.94,
+      "end": 29.48,
+      "prob": 0.986
+    },
+    {
+      "word": "It",
+      "start": 29.98,
+      "end": 30.08,
+      "prob": 0.978
+    },
+    {
+      "word": "was",
+      "start": 30.08,
+      "end": 30.22,
+      "prob": 0.993
+    },
+    {
+      "word": "just",
+      "start": 30.22,
+      "end": 30.42,
+      "prob": 0.993
+    },
+    {
+      "word": "subtracted",
+      "start": 30.42,
+      "end": 31.1,
+      "prob": 0.991
+    },
+    {
+      "word": "from",
+      "start": 31.1,
+      "end": 31.26,
+      "prob": 0.994
+    },
+    {
+      "word": "your",
+      "start": 31.26,
+      "end": 31.42,
+      "prob": 0.978
+    },
+    {
+      "word": "fill",
+      "start": 31.42,
+      "end": 31.66,
+      "prob": 0.928
+    },
+    {
+      "word": "price",
+      "start": 31.66,
+      "end": 31.96,
+      "prob": 0.997
+    },
+    {
+      "word": "before",
+      "start": 31.96,
+      "end": 32.4,
+      "prob": 0.96
+    },
+    {
+      "word": "you",
+      "start": 32.4,
+      "end": 32.64,
+      "prob": 0.994
+    },
+    {
+      "word": "ever",
+      "start": 32.64,
+      "end": 32.88,
+      "prob": 0.991
+    },
+    {
+      "word": "saw",
+      "start": 32.88,
+      "end": 33.14,
+      "prob": 0.989
+    },
+    {
+      "word": "it.",
+      "start": 33.14,
+      "end": 33.36,
+      "prob": 0.992
+    }
+  ]
+}

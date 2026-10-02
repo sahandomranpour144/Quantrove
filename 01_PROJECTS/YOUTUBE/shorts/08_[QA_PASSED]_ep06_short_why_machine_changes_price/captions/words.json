@@ -1,0 +1,794 @@
+[
+  {
+    "word": "A",
+    "start": 0.0,
+    "end": 0.22,
+    "probability": 0.816
+  },
+  {
+    "word": "market",
+    "start": 0.22,
+    "end": 0.54,
+    "probability": 0.986
+  },
+  {
+    "word": "-making",
+    "start": 0.54,
+    "end": 0.88,
+    "probability": 0.921
+  },
+  {
+    "word": "algorithm",
+    "start": 0.88,
+    "end": 1.5,
+    "probability": 0.998
+  },
+  {
+    "word": "has",
+    "start": 1.5,
+    "end": 1.76,
+    "probability": 0.996
+  },
+  {
+    "word": "a",
+    "start": 1.76,
+    "end": 1.9,
+    "probability": 0.996
+  },
+  {
+    "word": "problem",
+    "start": 1.9,
+    "end": 2.36,
+    "probability": 0.998
+  },
+  {
+    "word": "that",
+    "start": 2.36,
+    "end": 2.6,
+    "probability": 0.991
+  },
+  {
+    "word": "a",
+    "start": 2.6,
+    "end": 2.7,
+    "probability": 0.996
+  },
+  {
+    "word": "normal",
+    "start": 2.7,
+    "end": 3.06,
+    "probability": 0.995
+  },
+  {
+    "word": "trader",
+    "start": 3.06,
+    "end": 3.46,
+    "probability": 0.969
+  },
+  {
+    "word": "usually",
+    "start": 3.46,
+    "end": 3.9,
+    "probability": 0.996
+  },
+  {
+    "word": "doesn't.",
+    "start": 3.9,
+    "end": 4.62,
+    "probability": 0.992
+  },
+  {
+    "word": "It",
+    "start": 5.18,
+    "end": 5.4,
+    "probability": 0.995
+  },
+  {
+    "word": "has",
+    "start": 5.4,
+    "end": 5.56,
+    "probability": 0.997
+  },
+  {
+    "word": "to",
+    "start": 5.56,
+    "end": 5.72,
+    "probability": 0.999
+  },
+  {
+    "word": "keep",
+    "start": 5.72,
+    "end": 5.9,
+    "probability": 0.995
+  },
+  {
+    "word": "track",
+    "start": 5.9,
+    "end": 6.24,
+    "probability": 1.0
+  },
+  {
+    "word": "of",
+    "start": 6.24,
+    "end": 6.44,
+    "probability": 0.993
+  },
+  {
+    "word": "what",
+    "start": 6.44,
+    "end": 6.58,
+    "probability": 0.996
+  },
+  {
+    "word": "it",
+    "start": 6.58,
+    "end": 6.68,
+    "probability": 0.989
+  },
+  {
+    "word": "already",
+    "start": 6.68,
+    "end": 7.1,
+    "probability": 0.995
+  },
+  {
+    "word": "owns.",
+    "start": 7.1,
+    "end": 7.6,
+    "probability": 0.988
+  },
+  {
+    "word": "Say",
+    "start": 8.3,
+    "end": 8.56,
+    "probability": 0.382
+  },
+  {
+    "word": "a",
+    "start": 8.56,
+    "end": 8.68,
+    "probability": 0.785
+  },
+  {
+    "word": "stock",
+    "start": 8.68,
+    "end": 8.98,
+    "probability": 0.948
+  },
+  {
+    "word": "is",
+    "start": 8.98,
+    "end": 9.18,
+    "probability": 0.997
+  },
+  {
+    "word": "around",
+    "start": 9.18,
+    "end": 9.48,
+    "probability": 0.988
+  },
+  {
+    "word": "$100.",
+    "start": 9.48,
+    "end": 10.06,
+    "probability": 0.901
+  },
+  {
+    "word": "The",
+    "start": 10.94,
+    "end": 11.2,
+    "probability": 0.992
+  },
+  {
+    "word": "machine",
+    "start": 11.2,
+    "end": 11.5,
+    "probability": 0.997
+  },
+  {
+    "word": "buys",
+    "start": 11.5,
+    "end": 11.88,
+    "probability": 0.996
+  },
+  {
+    "word": "three",
+    "start": 11.88,
+    "end": 12.3,
+    "probability": 0.832
+  },
+  {
+    "word": "units.",
+    "start": 12.3,
+    "end": 12.64,
+    "probability": 0.998
+  },
+  {
+    "word": "Now,",
+    "start": 13.3,
+    "end": 13.64,
+    "probability": 0.995
+  },
+  {
+    "word": "the",
+    "start": 13.86,
+    "end": 13.92,
+    "probability": 0.992
+  },
+  {
+    "word": "stock",
+    "start": 13.92,
+    "end": 14.18,
+    "probability": 0.999
+  },
+  {
+    "word": "moves",
+    "start": 14.18,
+    "end": 14.48,
+    "probability": 0.995
+  },
+  {
+    "word": "against",
+    "start": 14.48,
+    "end": 14.82,
+    "probability": 0.997
+  },
+  {
+    "word": "it.",
+    "start": 14.82,
+    "end": 15.26,
+    "probability": 0.998
+  },
+  {
+    "word": "Those",
+    "start": 15.98,
+    "end": 16.62,
+    "probability": 0.864
+  },
+  {
+    "word": "three",
+    "start": 16.62,
+    "end": 16.98,
+    "probability": 0.993
+  },
+  {
+    "word": "units",
+    "start": 16.98,
+    "end": 17.34,
+    "probability": 0.999
+  },
+  {
+    "word": "are",
+    "start": 17.34,
+    "end": 17.52,
+    "probability": 0.999
+  },
+  {
+    "word": "sitting",
+    "start": 17.52,
+    "end": 17.84,
+    "probability": 0.997
+  },
+  {
+    "word": "on",
+    "start": 17.84,
+    "end": 18.0,
+    "probability": 0.999
+  },
+  {
+    "word": "its",
+    "start": 18.0,
+    "end": 18.18,
+    "probability": 0.847
+  },
+  {
+    "word": "books,",
+    "start": 18.18,
+    "end": 18.52,
+    "probability": 0.954
+  },
+  {
+    "word": "so",
+    "start": 19.0,
+    "end": 19.24,
+    "probability": 0.997
+  },
+  {
+    "word": "the",
+    "start": 19.24,
+    "end": 19.36,
+    "probability": 0.995
+  },
+  {
+    "word": "next",
+    "start": 19.36,
+    "end": 19.6,
+    "probability": 0.995
+  },
+  {
+    "word": "trade",
+    "start": 19.6,
+    "end": 19.94,
+    "probability": 0.997
+  },
+  {
+    "word": "matters",
+    "start": 19.94,
+    "end": 20.26,
+    "probability": 0.997
+  },
+  {
+    "word": "differently",
+    "start": 20.26,
+    "end": 20.82,
+    "probability": 0.992
+  },
+  {
+    "word": "than",
+    "start": 20.82,
+    "end": 21.14,
+    "probability": 0.993
+  },
+  {
+    "word": "the",
+    "start": 21.14,
+    "end": 21.26,
+    "probability": 0.997
+  },
+  {
+    "word": "one",
+    "start": 21.26,
+    "end": 21.4,
+    "probability": 0.996
+  },
+  {
+    "word": "before",
+    "start": 21.4,
+    "end": 21.78,
+    "probability": 0.999
+  },
+  {
+    "word": "it.",
+    "start": 21.78,
+    "end": 22.0,
+    "probability": 0.991
+  },
+  {
+    "word": "The",
+    "start": 22.5,
+    "end": 22.64,
+    "probability": 0.996
+  },
+  {
+    "word": "algorithm",
+    "start": 22.64,
+    "end": 23.08,
+    "probability": 0.999
+  },
+  {
+    "word": "can",
+    "start": 23.08,
+    "end": 23.34,
+    "probability": 0.999
+  },
+  {
+    "word": "respond",
+    "start": 23.34,
+    "end": 23.74,
+    "probability": 0.988
+  },
+  {
+    "word": "by",
+    "start": 23.74,
+    "end": 24.14,
+    "probability": 0.997
+  },
+  {
+    "word": "moving",
+    "start": 24.14,
+    "end": 24.48,
+    "probability": 0.996
+  },
+  {
+    "word": "its",
+    "start": 24.48,
+    "end": 24.7,
+    "probability": 0.958
+  },
+  {
+    "word": "reservation",
+    "start": 24.7,
+    "end": 25.26,
+    "probability": 0.996
+  },
+  {
+    "word": "price.",
+    "start": 25.26,
+    "end": 25.62,
+    "probability": 0.996
+  },
+  {
+    "word": "In",
+    "start": 26.04,
+    "end": 26.4,
+    "probability": 0.696
+  },
+  {
+    "word": "the",
+    "start": 26.4,
+    "end": 26.56,
+    "probability": 0.994
+  },
+  {
+    "word": "Avaya",
+    "start": 26.56,
+    "end": 26.86,
+    "probability": 0.327
+  },
+  {
+    "word": "Neda",
+    "start": 26.86,
+    "end": 27.18,
+    "probability": 0.253
+  },
+  {
+    "word": "Stoicov",
+    "start": 27.18,
+    "end": 27.8,
+    "probability": 0.616
+  },
+  {
+    "word": "model,",
+    "start": 27.8,
+    "end": 28.18,
+    "probability": 0.903
+  },
+  {
+    "word": "that",
+    "start": 28.64,
+    "end": 28.8,
+    "probability": 0.977
+  },
+  {
+    "word": "price",
+    "start": 28.8,
+    "end": 29.04,
+    "probability": 0.998
+  },
+  {
+    "word": "falls",
+    "start": 29.04,
+    "end": 29.56,
+    "probability": 0.994
+  },
+  {
+    "word": "as",
+    "start": 29.56,
+    "end": 29.82,
+    "probability": 0.983
+  },
+  {
+    "word": "inventory",
+    "start": 29.82,
+    "end": 30.3,
+    "probability": 0.992
+  },
+  {
+    "word": "increases.",
+    "start": 30.3,
+    "end": 31.0,
+    "probability": 0.999
+  },
+  {
+    "word": "The",
+    "start": 31.58,
+    "end": 31.68,
+    "probability": 0.995
+  },
+  {
+    "word": "machine",
+    "start": 31.68,
+    "end": 31.94,
+    "probability": 0.996
+  },
+  {
+    "word": "becomes",
+    "start": 31.94,
+    "end": 32.32,
+    "probability": 0.997
+  },
+  {
+    "word": "less",
+    "start": 32.32,
+    "end": 32.7,
+    "probability": 0.999
+  },
+  {
+    "word": "willing",
+    "start": 32.7,
+    "end": 33.1,
+    "probability": 0.997
+  },
+  {
+    "word": "to",
+    "start": 33.1,
+    "end": 33.36,
+    "probability": 0.999
+  },
+  {
+    "word": "accumulate",
+    "start": 33.36,
+    "end": 33.86,
+    "probability": 0.996
+  },
+  {
+    "word": "even",
+    "start": 33.86,
+    "end": 34.24,
+    "probability": 0.985
+  },
+  {
+    "word": "more",
+    "start": 34.24,
+    "end": 34.54,
+    "probability": 0.997
+  },
+  {
+    "word": "of",
+    "start": 34.54,
+    "end": 34.72,
+    "probability": 0.991
+  },
+  {
+    "word": "the",
+    "start": 34.72,
+    "end": 34.86,
+    "probability": 0.996
+  },
+  {
+    "word": "stock.",
+    "start": 34.86,
+    "end": 35.14,
+    "probability": 0.998
+  },
+  {
+    "word": "If",
+    "start": 35.72,
+    "end": 35.92,
+    "probability": 0.995
+  },
+  {
+    "word": "volatility",
+    "start": 35.92,
+    "end": 36.3,
+    "probability": 0.989
+  },
+  {
+    "word": "rises,",
+    "start": 36.3,
+    "end": 36.94,
+    "probability": 0.995
+  },
+  {
+    "word": "the",
+    "start": 37.46,
+    "end": 37.52,
+    "probability": 0.996
+  },
+  {
+    "word": "penalty",
+    "start": 37.52,
+    "end": 37.9,
+    "probability": 0.957
+  },
+  {
+    "word": "gets",
+    "start": 37.9,
+    "end": 38.16,
+    "probability": 0.996
+  },
+  {
+    "word": "larger",
+    "start": 38.16,
+    "end": 38.56,
+    "probability": 0.995
+  },
+  {
+    "word": "too.",
+    "start": 38.56,
+    "end": 38.88,
+    "probability": 0.888
+  },
+  {
+    "word": "And",
+    "start": 39.42,
+    "end": 39.52,
+    "probability": 0.965
+  },
+  {
+    "word": "if",
+    "start": 39.52,
+    "end": 39.64,
+    "probability": 0.983
+  },
+  {
+    "word": "there's",
+    "start": 39.64,
+    "end": 39.84,
+    "probability": 0.969
+  },
+  {
+    "word": "more",
+    "start": 39.84,
+    "end": 39.98,
+    "probability": 0.997
+  },
+  {
+    "word": "time",
+    "start": 39.98,
+    "end": 40.34,
+    "probability": 0.999
+  },
+  {
+    "word": "left",
+    "start": 40.34,
+    "end": 40.58,
+    "probability": 0.996
+  },
+  {
+    "word": "to",
+    "start": 40.58,
+    "end": 40.78,
+    "probability": 0.998
+  },
+  {
+    "word": "manage",
+    "start": 40.78,
+    "end": 41.04,
+    "probability": 0.998
+  },
+  {
+    "word": "the",
+    "start": 41.04,
+    "end": 41.24,
+    "probability": 0.996
+  },
+  {
+    "word": "position,",
+    "start": 41.24,
+    "end": 41.66,
+    "probability": 0.998
+  },
+  {
+    "word": "that",
+    "start": 42.18,
+    "end": 42.3,
+    "probability": 0.994
+  },
+  {
+    "word": "changes",
+    "start": 42.3,
+    "end": 42.68,
+    "probability": 0.981
+  },
+  {
+    "word": "the",
+    "start": 42.68,
+    "end": 42.88,
+    "probability": 0.998
+  },
+  {
+    "word": "calculation",
+    "start": 42.88,
+    "end": 43.3,
+    "probability": 0.997
+  },
+  {
+    "word": "again.",
+    "start": 43.3,
+    "end": 43.78,
+    "probability": 0.997
+  },
+  {
+    "word": "So",
+    "start": 44.34,
+    "end": 44.5,
+    "probability": 0.994
+  },
+  {
+    "word": "the",
+    "start": 44.5,
+    "end": 44.64,
+    "probability": 0.873
+  },
+  {
+    "word": "quote",
+    "start": 44.64,
+    "end": 44.96,
+    "probability": 0.863
+  },
+  {
+    "word": "is",
+    "start": 44.96,
+    "end": 45.2,
+    "probability": 0.966
+  },
+  {
+    "word": "moving",
+    "start": 45.2,
+    "end": 45.62,
+    "probability": 0.829
+  },
+  {
+    "word": "with",
+    "start": 45.62,
+    "end": 45.86,
+    "probability": 0.995
+  },
+  {
+    "word": "the",
+    "start": 45.86,
+    "end": 45.96,
+    "probability": 0.994
+  },
+  {
+    "word": "machine's",
+    "start": 45.96,
+    "end": 46.42,
+    "probability": 0.961
+  },
+  {
+    "word": "position.",
+    "start": 46.42,
+    "end": 46.84,
+    "probability": 0.998
+  },
+  {
+    "word": "The",
+    "start": 47.38,
+    "end": 47.48,
+    "probability": 0.937
+  },
+  {
+    "word": "stock",
+    "start": 47.48,
+    "end": 47.84,
+    "probability": 0.997
+  },
+  {
+    "word": "hasn't",
+    "start": 47.84,
+    "end": 48.12,
+    "probability": 0.998
+  },
+  {
+    "word": "changed.",
+    "start": 48.12,
+    "end": 48.54,
+    "probability": 0.997
+  },
+  {
+    "word": "The",
+    "start": 49.02,
+    "end": 49.12,
+    "probability": 0.992
+  },
+  {
+    "word": "machine's",
+    "start": 49.12,
+    "end": 49.58,
+    "probability": 0.995
+  },
+  {
+    "word": "exposure",
+    "start": 49.58,
+    "end": 50.18,
+    "probability": 0.998
+  },
+  {
+    "word": "has.",
+    "start": 50.18,
+    "end": 50.62,
+    "probability": 0.996
+  }
+]

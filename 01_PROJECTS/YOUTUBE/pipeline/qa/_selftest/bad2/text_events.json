@@ -1,0 +1,80 @@
+[
+  {
+    "start": 2.0,
+    "end": 4.5,
+    "words": [
+      {
+        "word": "In",
+        "start": 2.5,
+        "end": 3.043
+      },
+      {
+        "word": "this",
+        "start": 3.179,
+        "end": 3.722
+      },
+      {
+        "word": "slow",
+        "start": 3.857,
+        "end": 4.4
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 88.0,
+    "color": "#FF0055",
+    "emphasis_word": null
+  },
+  {
+    "start": 4.0,
+    "end": 6.5,
+    "words": [
+      {
+        "word": "paced",
+        "start": 4.536,
+        "end": 5.079
+      },
+      {
+        "word": "presentation",
+        "start": 5.214,
+        "end": 5.757
+      },
+      {
+        "word": "we",
+        "start": 5.893,
+        "end": 6.436
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  },
+  {
+    "start": 6.5,
+    "end": 21.5,
+    "words": [
+      {
+        "word": "analyze",
+        "start": 6.571,
+        "end": 7.114
+      },
+      {
+        "word": "why",
+        "start": 7.25,
+        "end": 7.793
+      },
+      {
+        "word": "markets",
+        "start": 7.929,
+        "end": 8.472
+      },
+      {
+        "word": "move",
+        "start": 8.607,
+        "end": 9.15
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "emphasis_word": null
+  }
+]

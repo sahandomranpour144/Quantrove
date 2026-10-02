@@ -1,0 +1,28 @@
+{
+  "type": "extraction",
+  "slug": "ep06_short_trader_knew_first",
+  "title": "The Trader Who Knew First",
+  "duration_s": 35.55,
+  "scenes": [
+    {
+      "id": 1,
+      "scene_name": "S05_ADVERSE_SELECTION",
+      "beat": "IDEA",
+      "start_s": 0.0,
+      "end_s": 22.84,
+      "motion_tag": "manim_draw",
+      "hold_tag": "HOLD_FOR_UNDERSTANDING",
+      "type": "extraction"
+    },
+    {
+      "id": 2,
+      "scene_name": "S06_PRICE_JUMPS",
+      "beat": "INSIGHT",
+      "start_s": 22.84,
+      "end_s": 35.55,
+      "motion_tag": "html_motion",
+      "badge": "ADVERSE SELECTION",
+      "type": "extraction"
+    }
+  ]
+}

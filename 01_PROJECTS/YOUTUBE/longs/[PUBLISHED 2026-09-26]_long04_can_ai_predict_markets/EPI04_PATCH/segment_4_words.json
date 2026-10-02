@@ -1,0 +1,257 @@
+{
+  "total_words": 42,
+  "words": [
+    {
+      "word": "If",
+      "start": 0.0,
+      "end": 0.52,
+      "probability": 0.91
+    },
+    {
+      "word": "this",
+      "start": 0.52,
+      "end": 0.76,
+      "probability": 0.994
+    },
+    {
+      "word": "changed",
+      "start": 0.76,
+      "end": 1.56,
+      "probability": 0.987
+    },
+    {
+      "word": "how",
+      "start": 1.56,
+      "end": 1.8,
+      "probability": 0.991
+    },
+    {
+      "word": "you",
+      "start": 1.8,
+      "end": 2.08,
+      "probability": 0.99
+    },
+    {
+      "word": "see",
+      "start": 2.08,
+      "end": 2.44,
+      "probability": 0.996
+    },
+    {
+      "word": "AI",
+      "start": 2.44,
+      "end": 2.98,
+      "probability": 0.957
+    },
+    {
+      "word": "and",
+      "start": 2.98,
+      "end": 3.44,
+      "probability": 0.905
+    },
+    {
+      "word": "markets,",
+      "start": 3.44,
+      "end": 3.84,
+      "probability": 0.952
+    },
+    {
+      "word": "watch",
+      "start": 4.34,
+      "end": 4.74,
+      "probability": 0.975
+    },
+    {
+      "word": "this",
+      "start": 4.74,
+      "end": 5.0,
+      "probability": 0.996
+    },
+    {
+      "word": "next,",
+      "start": 5.0,
+      "end": 5.56,
+      "probability": 0.994
+    },
+    {
+      "word": "how",
+      "start": 5.96,
+      "end": 6.2,
+      "probability": 0.931
+    },
+    {
+      "word": "YouTube's",
+      "start": 6.2,
+      "end": 7.0,
+      "probability": 0.945
+    },
+    {
+      "word": "recommendation",
+      "start": 7.0,
+      "end": 7.56,
+      "probability": 0.96
+    },
+    {
+      "word": "algorithm",
+      "start": 7.56,
+      "end": 8.42,
+      "probability": 0.999
+    },
+    {
+      "word": "actually",
+      "start": 8.42,
+      "end": 9.1,
+      "probability": 0.961
+    },
+    {
+      "word": "works,",
+      "start": 9.1,
+      "end": 9.58,
+      "probability": 0.999
+    },
+    {
+      "word": "the",
+      "start": 10.0,
+      "end": 10.26,
+      "probability": 0.988
+    },
+    {
+      "word": "system",
+      "start": 10.26,
+      "end": 10.68,
+      "probability": 0.996
+    },
+    {
+      "word": "that",
+      "start": 10.68,
+      "end": 10.92,
+      "probability": 0.994
+    },
+    {
+      "word": "put",
+      "start": 10.92,
+      "end": 11.14,
+      "probability": 0.992
+    },
+    {
+      "word": "this",
+      "start": 11.14,
+      "end": 11.46,
+      "probability": 0.995
+    },
+    {
+      "word": "video",
+      "start": 11.46,
+      "end": 11.86,
+      "probability": 0.998
+    },
+    {
+      "word": "in",
+      "start": 11.86,
+      "end": 12.24,
+      "probability": 0.996
+    },
+    {
+      "word": "front",
+      "start": 12.24,
+      "end": 12.42,
+      "probability": 0.998
+    },
+    {
+      "word": "of",
+      "start": 12.42,
+      "end": 12.6,
+      "probability": 0.997
+    },
+    {
+      "word": "you,",
+      "start": 12.6,
+      "end": 12.84,
+      "probability": 0.999
+    },
+    {
+      "word": "and",
+      "start": 13.3,
+      "end": 13.5,
+      "probability": 0.987
+    },
+    {
+      "word": "if",
+      "start": 13.5,
+      "end": 13.7,
+      "probability": 0.992
+    },
+    {
+      "word": "you",
+      "start": 13.7,
+      "end": 13.86,
+      "probability": 0.997
+    },
+    {
+      "word": "want",
+      "start": 13.86,
+      "end": 14.16,
+      "probability": 0.998
+    },
+    {
+      "word": "real",
+      "start": 14.16,
+      "end": 14.46,
+      "probability": 0.993
+    },
+    {
+      "word": "data",
+      "start": 14.46,
+      "end": 15.0,
+      "probability": 0.997
+    },
+    {
+      "word": "and",
+      "start": 15.0,
+      "end": 15.36,
+      "probability": 0.966
+    },
+    {
+      "word": "mathematics",
+      "start": 15.36,
+      "end": 15.98,
+      "probability": 0.992
+    },
+    {
+      "word": "without",
+      "start": 15.98,
+      "end": 16.86,
+      "probability": 0.79
+    },
+    {
+      "word": "the",
+      "start": 16.86,
+      "end": 17.14,
+      "probability": 0.995
+    },
+    {
+      "word": "hype,",
+      "start": 17.14,
+      "end": 17.46,
+      "probability": 0.994
+    },
+    {
+      "word": "subscribe",
+      "start": 18.02,
+      "end": 18.48,
+      "probability": 0.974
+    },
+    {
+      "word": "to",
+      "start": 18.48,
+      "end": 18.94,
+      "probability": 0.997
+    },
+    {
+      "word": "Quantrove.",
+      "start": 18.94,
+      "end": 19.52,
+      "probability": 0.588
+    }
+  ]
+}

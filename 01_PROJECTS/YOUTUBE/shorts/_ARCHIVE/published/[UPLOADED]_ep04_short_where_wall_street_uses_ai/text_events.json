@@ -1,0 +1,1116 @@
+[
+  {
+    "start": 0.05,
+    "end": 0.92,
+    "words": [
+      {
+        "word": "Wall",
+        "start": 0.0,
+        "end": 0.54
+      },
+      {
+        "word": "Street",
+        "start": 0.54,
+        "end": 0.92
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "Street",
+    "risk_word": null
+  },
+  {
+    "start": 0.92,
+    "end": 2.02,
+    "words": [
+      {
+        "word": "spends",
+        "start": 0.92,
+        "end": 1.46
+      },
+      {
+        "word": "billions",
+        "start": 1.46,
+        "end": 2.02
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "billions",
+    "risk_word": null
+  },
+  {
+    "start": 2.02,
+    "end": 3.24,
+    "words": [
+      {
+        "word": "on",
+        "start": 2.02,
+        "end": 2.44
+      },
+      {
+        "word": "AI,",
+        "start": 2.44,
+        "end": 2.78
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "AI,",
+    "risk_word": null
+  },
+  {
+    "start": 3.24,
+    "end": 4.0,
+    "words": [
+      {
+        "word": "but",
+        "start": 3.24,
+        "end": 3.5
+      },
+      {
+        "word": "$0",
+        "start": 3.5,
+        "end": 4.0
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "$0"
+  },
+  {
+    "start": 4.0,
+    "end": 5.38,
+    "words": [
+      {
+        "word": "trying",
+        "start": 4.0,
+        "end": 4.76
+      },
+      {
+        "word": "to",
+        "start": 4.76,
+        "end": 4.98
+      },
+      {
+        "word": "predict",
+        "start": 4.98,
+        "end": 5.38
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "predict",
+    "risk_word": null
+  },
+  {
+    "start": 5.38,
+    "end": 6.96,
+    "words": [
+      {
+        "word": "stock",
+        "start": 5.38,
+        "end": 5.86
+      },
+      {
+        "word": "prices.",
+        "start": 5.86,
+        "end": 6.34
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "prices."
+  },
+  {
+    "start": 6.96,
+    "end": 8.0,
+    "words": [
+      {
+        "word": "Retail",
+        "start": 6.96,
+        "end": 7.58
+      },
+      {
+        "word": "traders",
+        "start": 7.58,
+        "end": 8.0
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "Retail",
+    "risk_word": null
+  },
+  {
+    "start": 8.0,
+    "end": 8.72,
+    "words": [
+      {
+        "word": "think",
+        "start": 8.0,
+        "end": 8.34
+      },
+      {
+        "word": "AI",
+        "start": 8.34,
+        "end": 8.62
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "AI",
+    "risk_word": null
+  },
+  {
+    "start": 8.72,
+    "end": 9.78,
+    "words": [
+      {
+        "word": "is",
+        "start": 8.62,
+        "end": 9.0
+      },
+      {
+        "word": "a",
+        "start": 9.0,
+        "end": 9.1
+      },
+      {
+        "word": "crystal",
+        "start": 9.1,
+        "end": 9.46
+      },
+      {
+        "word": "ball",
+        "start": 9.46,
+        "end": 9.78
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "ball"
+  },
+  {
+    "start": 9.78,
+    "end": 10.5,
+    "words": [
+      {
+        "word": "that",
+        "start": 9.78,
+        "end": 10.06
+      },
+      {
+        "word": "tells",
+        "start": 10.06,
+        "end": 10.28
+      },
+      {
+        "word": "you",
+        "start": 10.28,
+        "end": 10.46
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "tells",
+    "risk_word": null
+  },
+  {
+    "start": 10.5,
+    "end": 11.22,
+    "words": [
+      {
+        "word": "where",
+        "start": 10.46,
+        "end": 10.62
+      },
+      {
+        "word": "Tesla",
+        "start": 10.62,
+        "end": 10.96
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "Tesla",
+    "risk_word": null
+  },
+  {
+    "start": 11.22,
+    "end": 12.24,
+    "words": [
+      {
+        "word": "trades",
+        "start": 10.96,
+        "end": 11.36
+      },
+      {
+        "word": "tomorrow.",
+        "start": 11.36,
+        "end": 11.7
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "tomorrow.",
+    "risk_word": null
+  },
+  {
+    "start": 12.24,
+    "end": 12.96,
+    "words": [
+      {
+        "word": "But",
+        "start": 12.24,
+        "end": 12.46
+      },
+      {
+        "word": "markets",
+        "start": 12.46,
+        "end": 12.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "markets",
+    "risk_word": null
+  },
+  {
+    "start": 12.96,
+    "end": 14.3,
+    "words": [
+      {
+        "word": "are",
+        "start": 12.84,
+        "end": 13.04
+      },
+      {
+        "word": "reflexive.",
+        "start": 13.04,
+        "end": 13.78
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "reflexive.",
+    "risk_word": null
+  },
+  {
+    "start": 14.3,
+    "end": 15.02,
+    "words": [
+      {
+        "word": "The",
+        "start": 14.3,
+        "end": 14.42
+      },
+      {
+        "word": "moment",
+        "start": 14.42,
+        "end": 14.82
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "moment",
+    "risk_word": null
+  },
+  {
+    "start": 15.02,
+    "end": 15.84,
+    "words": [
+      {
+        "word": "in",
+        "start": 14.82,
+        "end": 15.08
+      },
+      {
+        "word": "AI",
+        "start": 15.08,
+        "end": 15.34
+      },
+      {
+        "word": "predicts",
+        "start": 15.34,
+        "end": 15.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "predicts",
+    "risk_word": null
+  },
+  {
+    "start": 15.84,
+    "end": 16.8,
+    "words": [
+      {
+        "word": "a",
+        "start": 15.84,
+        "end": 15.92
+      },
+      {
+        "word": "price,",
+        "start": 15.92,
+        "end": 16.28
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "price,",
+    "risk_word": null
+  },
+  {
+    "start": 16.8,
+    "end": 17.52,
+    "words": [
+      {
+        "word": "buying",
+        "start": 16.8,
+        "end": 17.0
+      },
+      {
+        "word": "pressure",
+        "start": 17.0,
+        "end": 17.42
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "pressure"
+  },
+  {
+    "start": 17.52,
+    "end": 19.26,
+    "words": [
+      {
+        "word": "destroys",
+        "start": 17.42,
+        "end": 17.96
+      },
+      {
+        "word": "the",
+        "start": 17.96,
+        "end": 18.26
+      },
+      {
+        "word": "pattern.",
+        "start": 18.26,
+        "end": 18.58
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "pattern."
+  },
+  {
+    "start": 19.26,
+    "end": 19.98,
+    "words": [
+      {
+        "word": "So",
+        "start": 19.26,
+        "end": 19.52
+      },
+      {
+        "word": "where",
+        "start": 19.52,
+        "end": 19.8
+      },
+      {
+        "word": "do",
+        "start": 19.8,
+        "end": 19.98
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "where",
+    "risk_word": null
+  },
+  {
+    "start": 19.98,
+    "end": 21.14,
+    "words": [
+      {
+        "word": "institutional",
+        "start": 19.98,
+        "end": 20.7
+      },
+      {
+        "word": "quants",
+        "start": 20.7,
+        "end": 21.14
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "quants",
+    "risk_word": null
+  },
+  {
+    "start": 21.14,
+    "end": 21.94,
+    "words": [
+      {
+        "word": "actually",
+        "start": 21.14,
+        "end": 21.6
+      },
+      {
+        "word": "use",
+        "start": 21.6,
+        "end": 21.94
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "use",
+    "risk_word": null
+  },
+  {
+    "start": 21.94,
+    "end": 23.08,
+    "words": [
+      {
+        "word": "machine",
+        "start": 21.94,
+        "end": 22.24
+      },
+      {
+        "word": "learning?",
+        "start": 22.24,
+        "end": 22.64
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "learning?",
+    "risk_word": null
+  },
+  {
+    "start": 23.08,
+    "end": 24.1,
+    "words": [
+      {
+        "word": "Across",
+        "start": 23.08,
+        "end": 23.6
+      },
+      {
+        "word": "four",
+        "start": 23.6,
+        "end": 24.1
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "four",
+    "risk_word": null
+  },
+  {
+    "start": 24.1,
+    "end": 25.26,
+    "words": [
+      {
+        "word": "invisible",
+        "start": 24.1,
+        "end": 24.68
+      },
+      {
+        "word": "engines,",
+        "start": 24.68,
+        "end": 25.26
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "engines,",
+    "risk_word": null
+  },
+  {
+    "start": 25.26,
+    "end": 26.96,
+    "words": [
+      {
+        "word": "simulating",
+        "start": 25.26,
+        "end": 26.28
+      },
+      {
+        "word": "catastrophic",
+        "start": 26.28,
+        "end": 26.96
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "catastrophic",
+    "risk_word": null
+  },
+  {
+    "start": 26.96,
+    "end": 28.44,
+    "words": [
+      {
+        "word": "liquidity",
+        "start": 26.96,
+        "end": 27.52
+      },
+      {
+        "word": "freezes,",
+        "start": 27.52,
+        "end": 28.06
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "freezes,"
+  },
+  {
+    "start": 28.44,
+    "end": 29.78,
+    "words": [
+      {
+        "word": "slicing",
+        "start": 28.44,
+        "end": 28.86
+      },
+      {
+        "word": "multi",
+        "start": 28.86,
+        "end": 29.3
+      },
+      {
+        "word": "-billion",
+        "start": 29.3,
+        "end": 29.78
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "multi-billion",
+    "risk_word": null
+  },
+  {
+    "start": 29.78,
+    "end": 30.5,
+    "words": [
+      {
+        "word": "dollar",
+        "start": 29.78,
+        "end": 30.1
+      },
+      {
+        "word": "orders",
+        "start": 30.1,
+        "end": 30.48
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "orders",
+    "risk_word": null
+  },
+  {
+    "start": 30.5,
+    "end": 31.42,
+    "words": [
+      {
+        "word": "into",
+        "start": 30.48,
+        "end": 30.74
+      },
+      {
+        "word": "micro",
+        "start": 30.74,
+        "end": 31.1
+      },
+      {
+        "word": "trades",
+        "start": 31.1,
+        "end": 31.42
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "micro-trades",
+    "risk_word": null
+  },
+  {
+    "start": 31.42,
+    "end": 32.14,
+    "words": [
+      {
+        "word": "to",
+        "start": 31.42,
+        "end": 31.66
+      },
+      {
+        "word": "hide",
+        "start": 31.66,
+        "end": 31.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "hide",
+    "risk_word": null
+  },
+  {
+    "start": 32.14,
+    "end": 32.86,
+    "words": [
+      {
+        "word": "from",
+        "start": 31.84,
+        "end": 32.06
+      },
+      {
+        "word": "you,",
+        "start": 32.06,
+        "end": 32.28
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "you,",
+    "risk_word": null
+  },
+  {
+    "start": 32.86,
+    "end": 33.72,
+    "words": [
+      {
+        "word": "catching",
+        "start": 32.82,
+        "end": 33.08
+      },
+      {
+        "word": "algorithmic",
+        "start": 33.08,
+        "end": 33.72
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "algorithmic",
+    "risk_word": null
+  },
+  {
+    "start": 33.72,
+    "end": 35.36,
+    "words": [
+      {
+        "word": "spoofing",
+        "start": 33.72,
+        "end": 34.18
+      },
+      {
+        "word": "in",
+        "start": 34.18,
+        "end": 34.28
+      },
+      {
+        "word": "real",
+        "start": 34.28,
+        "end": 34.46
+      },
+      {
+        "word": "time,",
+        "start": 34.46,
+        "end": 34.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "spoofing",
+    "risk_word": null
+  },
+  {
+    "start": 35.36,
+    "end": 36.08,
+    "words": [
+      {
+        "word": "and",
+        "start": 35.36,
+        "end": 35.44
+      },
+      {
+        "word": "calculating",
+        "start": 35.44,
+        "end": 35.84
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "calculating",
+    "risk_word": null
+  },
+  {
+    "start": 36.08,
+    "end": 37.1,
+    "words": [
+      {
+        "word": "optimal",
+        "start": 35.84,
+        "end": 36.46
+      },
+      {
+        "word": "covariance",
+        "start": 36.46,
+        "end": 37.1
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "covariance",
+    "risk_word": null
+  },
+  {
+    "start": 37.1,
+    "end": 37.92,
+    "words": [
+      {
+        "word": "matrices",
+        "start": 37.1,
+        "end": 37.52
+      },
+      {
+        "word": "across",
+        "start": 37.52,
+        "end": 37.92
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "matrices",
+    "risk_word": null
+  },
+  {
+    "start": 37.92,
+    "end": 39.72,
+    "words": [
+      {
+        "word": "500",
+        "start": 37.92,
+        "end": 38.6
+      },
+      {
+        "word": "assets.",
+        "start": 38.6,
+        "end": 39.08
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "assets.",
+    "risk_word": null
+  },
+  {
+    "start": 39.72,
+    "end": 40.44,
+    "words": [
+      {
+        "word": "Notice",
+        "start": 39.72,
+        "end": 40.08
+      },
+      {
+        "word": "what",
+        "start": 40.08,
+        "end": 40.32
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "Notice",
+    "risk_word": null
+  },
+  {
+    "start": 40.44,
+    "end": 41.46,
+    "words": [
+      {
+        "word": "none",
+        "start": 40.32,
+        "end": 40.5
+      },
+      {
+        "word": "of",
+        "start": 40.5,
+        "end": 40.64
+      },
+      {
+        "word": "them",
+        "start": 40.64,
+        "end": 40.78
+      },
+      {
+        "word": "do.",
+        "start": 40.78,
+        "end": 40.94
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "do."
+  },
+  {
+    "start": 41.46,
+    "end": 42.18,
+    "words": [
+      {
+        "word": "They",
+        "start": 41.46,
+        "end": 41.62
+      },
+      {
+        "word": "never",
+        "start": 41.62,
+        "end": 42.0
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "never"
+  },
+  {
+    "start": 42.18,
+    "end": 43.54,
+    "words": [
+      {
+        "word": "predict",
+        "start": 42.0,
+        "end": 42.32
+      },
+      {
+        "word": "the",
+        "start": 42.32,
+        "end": 42.58
+      },
+      {
+        "word": "future.",
+        "start": 42.58,
+        "end": 42.88
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "future.",
+    "risk_word": null
+  },
+  {
+    "start": 43.54,
+    "end": 44.26,
+    "words": [
+      {
+        "word": "Real",
+        "start": 43.54,
+        "end": 43.86
+      },
+      {
+        "word": "AI",
+        "start": 43.86,
+        "end": 44.22
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "AI",
+    "risk_word": null
+  },
+  {
+    "start": 44.26,
+    "end": 44.98,
+    "words": [
+      {
+        "word": "in",
+        "start": 44.22,
+        "end": 44.42
+      },
+      {
+        "word": "finance",
+        "start": 44.42,
+        "end": 44.76
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "finance",
+    "risk_word": null
+  },
+  {
+    "start": 44.98,
+    "end": 45.74,
+    "words": [
+      {
+        "word": "is",
+        "start": 44.76,
+        "end": 45.1
+      },
+      {
+        "word": "an",
+        "start": 45.1,
+        "end": 45.24
+      },
+      {
+        "word": "optimization",
+        "start": 45.24,
+        "end": 45.74
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "optimization",
+    "risk_word": null
+  },
+  {
+    "start": 45.74,
+    "end": 46.64,
+    "words": [
+      {
+        "word": "engine,",
+        "start": 45.74,
+        "end": 46.24
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": "engine,",
+    "risk_word": null
+  },
+  {
+    "start": 46.64,
+    "end": 48.0,
+    "words": [
+      {
+        "word": "not",
+        "start": 46.64,
+        "end": 46.88
+      },
+      {
+        "word": "a",
+        "start": 46.88,
+        "end": 47.16
+      },
+      {
+        "word": "fortune",
+        "start": 47.16,
+        "end": 47.42
+      },
+      {
+        "word": "teller.",
+        "start": 47.42,
+        "end": 47.78
+      }
+    ],
+    "type": "chunk",
+    "y_pct": 68.0,
+    "font": "Nohemi",
+    "color": "#E6EDF3",
+    "emphasis_word": null,
+    "risk_word": "fortune"
+  }
+]

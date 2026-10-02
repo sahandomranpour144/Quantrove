@@ -1,0 +1,178 @@
+[
+  {
+    "class_name": "Scene02Grid1238",
+    "output_filename": "EP06_SC02_GRID_1238.mp4",
+    "render_time_s": 43.8,
+    "actual_duration_s": 15.0,
+    "target_duration_s": 15.0,
+    "diff_s": 0.0,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene04ZeroCost",
+    "output_filename": "EP06_SC04_ZERO_COST.mp4",
+    "render_time_s": 48.3,
+    "actual_duration_s": 18.9,
+    "target_duration_s": 18.9,
+    "diff_s": 0.0,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene05AdverseSelection",
+    "output_filename": "EP06_SC05_ADVERSE_SELECTION.mp4",
+    "render_time_s": 53.1,
+    "actual_duration_s": 22.766667,
+    "target_duration_s": 22.78,
+    "diff_s": 0.01,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene08TickHistory",
+    "output_filename": "EP06_SC08_TICK_HISTORY.mp4",
+    "render_time_s": 73.1,
+    "actual_duration_s": 29.516667,
+    "target_duration_s": 29.52,
+    "diff_s": 0.0,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene09SecSpreadDrop",
+    "output_filename": "EP06_SC09_SEC_SPREAD_DROP.mp4",
+    "render_time_s": 50.7,
+    "actual_duration_s": 17.266667,
+    "target_duration_s": 17.28,
+    "diff_s": 0.01,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene10PinnedSpread",
+    "output_filename": "EP06_SC10_PINNED_SPREAD.mp4",
+    "render_time_s": 43.4,
+    "actual_duration_s": 18.016667,
+    "target_duration_s": 18.02,
+    "diff_s": 0.0,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene12InventoryRisk",
+    "output_filename": "EP06_SC12_INVENTORY_RISK.mp4",
+    "render_time_s": 44.8,
+    "actual_duration_s": 17.716667,
+    "target_duration_s": 17.72,
+    "diff_s": 0.0,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene13ReservationPrice",
+    "output_filename": "EP06_SC13_RESERVATION_PRICE.mp4",
+    "render_time_s": 45.9,
+    "actual_duration_s": 22.6,
+    "target_duration_s": 22.6,
+    "diff_s": 0.0,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene15SpreadFormula",
+    "output_filename": "EP06_SC15_SPREAD_FORMULA.mp4",
+    "render_time_s": 36.4,
+    "actual_duration_s": 14.666667,
+    "target_duration_s": 14.68,
+    "diff_s": 0.01,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene16RepriceShape",
+    "output_filename": "EP06_SC16_REPRICE_SHAPE.mp4",
+    "render_time_s": 55.1,
+    "actual_duration_s": 23.533333,
+    "target_duration_s": 23.54,
+    "diff_s": 0.01,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene18MicrosecondLight",
+    "output_filename": "EP06_SC18_MICROSECOND_LIGHT.mp4",
+    "render_time_s": 42.6,
+    "actual_duration_s": 17.55,
+    "target_duration_s": 17.56,
+    "diff_s": 0.01,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene20QueueLine",
+    "output_filename": "EP06_SC20_QUEUE_LINE.mp4",
+    "render_time_s": 34.6,
+    "actual_duration_s": 13.766667,
+    "target_duration_s": 13.78,
+    "diff_s": 0.01,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene21VirtuPayoff",
+    "output_filename": "EP06_SC21_VIRTU_PAYOFF.mp4",
+    "render_time_s": 55.9,
+    "actual_duration_s": 27.616667,
+    "target_duration_s": 27.62,
+    "diff_s": 0.0,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene22BothSides",
+    "output_filename": "EP06_SC22_BOTH_SIDES.mp4",
+    "render_time_s": 59.3,
+    "actual_duration_s": 26.433333,
+    "target_duration_s": 26.44,
+    "diff_s": 0.01,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene23FinalInsight",
+    "output_filename": "EP06_SC23_FINAL_INSIGHT.mp4",
+    "render_time_s": 33.7,
+    "actual_duration_s": 15.466667,
+    "target_duration_s": 15.48,
+    "diff_s": 0.01,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  },
+  {
+    "class_name": "Scene25EndScreenBg",
+    "output_filename": "EP06_SC25_END_SCREEN_BG.mp4",
+    "render_time_s": 60.5,
+    "actual_duration_s": 20.0,
+    "target_duration_s": 20.0,
+    "diff_s": 0.0,
+    "resolution": "1920x1080",
+    "fps": "60/1",
+    "status": "PASS"
+  }
+]

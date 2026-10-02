@@ -1,0 +1,496 @@
+{
+  "words": [
+    {
+      "word": "So",
+      "start": 0.16,
+      "end": 0.48,
+      "prob": 0.937
+    },
+    {
+      "word": "why",
+      "start": 0.48,
+      "end": 0.82,
+      "prob": 0.856
+    },
+    {
+      "word": "do",
+      "start": 0.82,
+      "end": 1.06,
+      "prob": 0.996
+    },
+    {
+      "word": "market",
+      "start": 1.06,
+      "end": 1.44,
+      "prob": 0.994
+    },
+    {
+      "word": "makers",
+      "start": 1.44,
+      "end": 1.92,
+      "prob": 0.918
+    },
+    {
+      "word": "want",
+      "start": 1.92,
+      "end": 2.38,
+      "prob": 0.994
+    },
+    {
+      "word": "your",
+      "start": 2.38,
+      "end": 2.82,
+      "prob": 0.99
+    },
+    {
+      "word": "retail",
+      "start": 2.82,
+      "end": 3.24,
+      "prob": 0.997
+    },
+    {
+      "word": "trades",
+      "start": 3.24,
+      "end": 3.82,
+      "prob": 0.993
+    },
+    {
+      "word": "so",
+      "start": 3.82,
+      "end": 4.2,
+      "prob": 0.998
+    },
+    {
+      "word": "badly?",
+      "start": 4.2,
+      "end": 4.68,
+      "prob": 0.999
+    },
+    {
+      "word": "Because",
+      "start": 5.24,
+      "end": 5.62,
+      "prob": 0.991
+    },
+    {
+      "word": "retail",
+      "start": 5.62,
+      "end": 6.08,
+      "prob": 0.996
+    },
+    {
+      "word": "trades",
+      "start": 6.08,
+      "end": 6.72,
+      "prob": 0.996
+    },
+    {
+      "word": "are",
+      "start": 6.72,
+      "end": 7.02,
+      "prob": 0.999
+    },
+    {
+      "word": "safe,",
+      "start": 7.02,
+      "end": 7.4,
+      "prob": 0.994
+    },
+    {
+      "word": "you",
+      "start": 7.4,
+      "end": 8.3,
+      "prob": 0.067
+    },
+    {
+      "word": "aren't",
+      "start": 8.3,
+      "end": 8.56,
+      "prob": 0.541
+    },
+    {
+      "word": "a",
+      "start": 8.56,
+      "end": 8.66,
+      "prob": 0.886
+    },
+    {
+      "word": "hedge",
+      "start": 8.66,
+      "end": 9.0,
+      "prob": 0.989
+    },
+    {
+      "word": "fund",
+      "start": 9.0,
+      "end": 9.24,
+      "prob": 0.993
+    },
+    {
+      "word": "with",
+      "start": 9.24,
+      "end": 9.54,
+      "prob": 0.913
+    },
+    {
+      "word": "insider",
+      "start": 9.54,
+      "end": 10.04,
+      "prob": 0.975
+    },
+    {
+      "word": "information.",
+      "start": 10.04,
+      "end": 10.82,
+      "prob": 0.997
+    },
+    {
+      "word": "You're",
+      "start": 11.2,
+      "end": 11.5,
+      "prob": 0.933
+    },
+    {
+      "word": "an",
+      "start": 11.5,
+      "end": 11.6,
+      "prob": 0.88
+    },
+    {
+      "word": "individual",
+      "start": 11.6,
+      "end": 12.22,
+      "prob": 0.996
+    },
+    {
+      "word": "buying",
+      "start": 12.22,
+      "end": 12.6,
+      "prob": 0.985
+    },
+    {
+      "word": "50",
+      "start": 12.6,
+      "end": 13.08,
+      "prob": 0.901
+    },
+    {
+      "word": "shares",
+      "start": 13.08,
+      "end": 13.42,
+      "prob": 0.989
+    },
+    {
+      "word": "of",
+      "start": 13.42,
+      "end": 13.68,
+      "prob": 0.993
+    },
+    {
+      "word": "Apple",
+      "start": 13.68,
+      "end": 14.0,
+      "prob": 0.898
+    },
+    {
+      "word": "on",
+      "start": 14.0,
+      "end": 14.34,
+      "prob": 0.975
+    },
+    {
+      "word": "your",
+      "start": 14.34,
+      "end": 14.48,
+      "prob": 0.992
+    },
+    {
+      "word": "lunch",
+      "start": 14.48,
+      "end": 14.72,
+      "prob": 0.674
+    },
+    {
+      "word": "break.",
+      "start": 14.72,
+      "end": 15.04,
+      "prob": 0.971
+    },
+    {
+      "word": "Market",
+      "start": 15.92,
+      "end": 16.14,
+      "prob": 0.916
+    },
+    {
+      "word": "makers",
+      "start": 16.14,
+      "end": 16.5,
+      "prob": 0.558
+    },
+    {
+      "word": "love",
+      "start": 16.5,
+      "end": 16.98,
+      "prob": 0.985
+    },
+    {
+      "word": "retail",
+      "start": 16.98,
+      "end": 17.5,
+      "prob": 0.969
+    },
+    {
+      "word": "flow",
+      "start": 17.5,
+      "end": 17.84,
+      "prob": 0.9
+    },
+    {
+      "word": "so",
+      "start": 17.84,
+      "end": 18.2,
+      "prob": 0.993
+    },
+    {
+      "word": "much",
+      "start": 18.2,
+      "end": 18.7,
+      "prob": 0.999
+    },
+    {
+      "word": "that",
+      "start": 18.7,
+      "end": 19.1,
+      "prob": 0.96
+    },
+    {
+      "word": "they",
+      "start": 19.1,
+      "end": 19.28,
+      "prob": 0.998
+    },
+    {
+      "word": "pay",
+      "start": 19.28,
+      "end": 19.58,
+      "prob": 0.998
+    },
+    {
+      "word": "your",
+      "start": 19.58,
+      "end": 19.86,
+      "prob": 0.989
+    },
+    {
+      "word": "broker",
+      "start": 19.86,
+      "end": 20.28,
+      "prob": 0.998
+    },
+    {
+      "word": "for",
+      "start": 20.28,
+      "end": 20.56,
+      "prob": 0.996
+    },
+    {
+      "word": "the",
+      "start": 20.56,
+      "end": 20.7,
+      "prob": 0.997
+    },
+    {
+      "word": "privilege",
+      "start": 20.7,
+      "end": 21.14,
+      "prob": 0.993
+    },
+    {
+      "word": "of",
+      "start": 21.14,
+      "end": 21.42,
+      "prob": 0.999
+    },
+    {
+      "word": "filling",
+      "start": 21.42,
+      "end": 21.74,
+      "prob": 0.987
+    },
+    {
+      "word": "it.",
+      "start": 21.74,
+      "end": 21.96,
+      "prob": 0.994
+    },
+    {
+      "word": "This",
+      "start": 22.66,
+      "end": 22.86,
+      "prob": 0.984
+    },
+    {
+      "word": "is",
+      "start": 22.86,
+      "end": 23.0,
+      "prob": 0.996
+    },
+    {
+      "word": "called",
+      "start": 23.0,
+      "end": 23.34,
+      "prob": 0.999
+    },
+    {
+      "word": "Payment",
+      "start": 23.34,
+      "end": 23.9,
+      "prob": 0.787
+    },
+    {
+      "word": "for",
+      "start": 23.9,
+      "end": 24.16,
+      "prob": 0.886
+    },
+    {
+      "word": "Order",
+      "start": 24.16,
+      "end": 24.46,
+      "prob": 0.956
+    },
+    {
+      "word": "Flow,",
+      "start": 24.46,
+      "end": 24.76,
+      "prob": 0.672
+    },
+    {
+      "word": "or",
+      "start": 25.12,
+      "end": 25.28,
+      "prob": 0.99
+    },
+    {
+      "word": "PF",
+      "start": 25.28,
+      "end": 25.78,
+      "prob": 0.736
+    },
+    {
+      "word": "OF.",
+      "start": 25.78,
+      "end": 26.36,
+      "prob": 0.686
+    },
+    {
+      "word": "At",
+      "start": 27.06,
+      "end": 27.4,
+      "prob": 0.991
+    },
+    {
+      "word": "its",
+      "start": 27.4,
+      "end": 27.6,
+      "prob": 0.872
+    },
+    {
+      "word": "peak,",
+      "start": 27.6,
+      "end": 27.92,
+      "prob": 0.997
+    },
+    {
+      "word": "Robinhood",
+      "start": 28.46,
+      "end": 28.82,
+      "prob": 0.764
+    },
+    {
+      "word": "was",
+      "start": 28.82,
+      "end": 29.06,
+      "prob": 0.999
+    },
+    {
+      "word": "generating",
+      "start": 29.06,
+      "end": 29.52,
+      "prob": 0.997
+    },
+    {
+      "word": "over",
+      "start": 29.52,
+      "end": 29.84,
+      "prob": 0.993
+    },
+    {
+      "word": "$200",
+      "start": 29.84,
+      "end": 30.52,
+      "prob": 0.867
+    },
+    {
+      "word": "million",
+      "start": 30.52,
+      "end": 31.04,
+      "prob": 0.964
+    },
+    {
+      "word": "dollars",
+      "start": 31.04,
+      "end": 31.64,
+      "prob": 0.373
+    },
+    {
+      "word": "every",
+      "start": 31.64,
+      "end": 32.02,
+      "prob": 0.929
+    },
+    {
+      "word": "single",
+      "start": 32.02,
+      "end": 32.46,
+      "prob": 0.998
+    },
+    {
+      "word": "quarter",
+      "start": 32.46,
+      "end": 32.92,
+      "prob": 0.993
+    },
+    {
+      "word": "just",
+      "start": 32.92,
+      "end": 33.54,
+      "prob": 0.749
+    },
+    {
+      "word": "from",
+      "start": 33.54,
+      "end": 33.96,
+      "prob": 0.985
+    },
+    {
+      "word": "selling",
+      "start": 33.96,
+      "end": 34.28,
+      "prob": 0.995
+    },
+    {
+      "word": "order",
+      "start": 34.28,
+      "end": 34.58,
+      "prob": 0.71
+    },
+    {
+      "word": "flow.",
+      "start": 34.58,
+      "end": 34.88,
+      "prob": 0.915
+    }
+  ]
+}

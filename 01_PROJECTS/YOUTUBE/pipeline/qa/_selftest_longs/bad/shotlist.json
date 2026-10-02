@@ -1,0 +1,75 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "scene_name": "Intro",
+      "start_s": 0.0,
+      "end_s": 30.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Intro",
+        "word_count": 1
+      }
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "scene_name": "Freeze Scene",
+      "start_s": 30.0,
+      "end_s": 35.0,
+      "motion_tag": "manim_transform",
+      "hold_tag": null,
+      "pattern_interrupt": false,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Static",
+        "word_count": 1
+      }
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "scene_name": "Main Body",
+      "start_s": 35.0,
+      "end_s": 70.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Body",
+        "word_count": 1
+      }
+    },
+    {
+      "id": 4,
+      "chapter": 2,
+      "scene_name": "Section 2",
+      "start_s": 70.0,
+      "end_s": 100.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Section",
+        "word_count": 1
+      }
+    },
+    {
+      "id": 5,
+      "chapter": 3,
+      "scene_name": "Ending without CTA",
+      "start_s": 100.0,
+      "end_s": 120.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": false,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "End",
+        "word_count": 1
+      }
+    }
+  ]
+}

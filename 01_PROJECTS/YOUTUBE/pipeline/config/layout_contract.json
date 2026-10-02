@@ -1,0 +1,198 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "contract_name": "Quantrove Layout Contract",
+  "long_form": {
+    "dimensions": {
+      "width": 1920,
+      "height": 1080
+    },
+    "units": {
+      "width": 14.222222222222221,
+      "height": 8.0,
+      "px_per_unit": 135.0
+    },
+    "caption_lane": {
+      "ymin": 864,
+      "ymax": 1080,
+      "forbidden": true,
+      "description": "FORBIDDEN for all text, pop-ups, and Manim content"
+    },
+    "margins": {
+      "left": 96,
+      "right": 96,
+      "top": 56,
+      "bottom": 216
+    },
+    "manim_stage": {
+      "xmin": 96,
+      "xmax": 1824,
+      "ymin": 190,
+      "ymax": 856,
+      "width_px": 1728,
+      "height_px": 666,
+      "units_width": 12.8,
+      "units_height": 4.933333333333334,
+      "center_offset_y_units": 0.1259259259259259,
+      "description": "Safe stage for all Manim animations, graphs, cards, and diagrams"
+    },
+    "manim_popup_band": {
+      "xmin": 96,
+      "xmax": 1824,
+      "ymin": 56,
+      "ymax": 176,
+      "slots": {
+        "TL": {
+          "align": "left",
+          "x": 96,
+          "ymin": 56,
+          "ymax": 176
+        },
+        "TC": {
+          "align": "center",
+          "x": 960,
+          "ymin": 56,
+          "ymax": 176
+        },
+        "TR": {
+          "align": "right",
+          "x": 1824,
+          "ymin": 56,
+          "ymax": 176
+        }
+      }
+    },
+    "flow_slots": {
+      "TL": {
+        "align": "left",
+        "x": 96,
+        "ymin": 56,
+        "ymax": 176
+      },
+      "TR": {
+        "align": "right",
+        "x": 1824,
+        "ymin": 56,
+        "ymax": 176
+      },
+      "ML": {
+        "align": "left",
+        "x": 96,
+        "ymin": 380,
+        "ymax": 700
+      },
+      "MR": {
+        "align": "right",
+        "x": 1824,
+        "ymin": 380,
+        "ymax": 700
+      },
+      "forbidden_center_column": {
+        "xmin": 656,
+        "xmax": 1264,
+        "description": "Center column is FORBIDDEN for pop-ups on Flow scenes"
+      }
+    },
+    "popup_box": {
+      "max_width": 560,
+      "max_height": 110,
+      "font_size_min": 56,
+      "font_size_max": 72,
+      "fill": "#222022",
+      "fill_opacity": 0.80,
+      "border_color": "#233D4C",
+      "border_width": 1
+    },
+    "rules": {
+      "max_simultaneous_popups": 1,
+      "no_consecutive_same_slot": true,
+      "manim_beats_popups": true,
+      "scene_type_classification": {
+        "manim": "any clip containing a Manim layer",
+        "flow": "pure Flow footage"
+      }
+    }
+  },
+  "shorts": {
+    "dimensions": {
+      "width": 1080,
+      "height": 1920
+    },
+    "reserved": {
+      "top": 250,
+      "bottom": 480,
+      "left": 60,
+      "right": 200
+    },
+    "safe_box": {
+      "xmin": 60,
+      "xmax": 880,
+      "ymin": 250,
+      "ymax": 1440
+    },
+    "stage_band": {
+      "xmin": 60,
+      "xmax": 880,
+      "ymin": 250,
+      "ymax": 1000,
+      "content": "visuals_only"
+    },
+    "text_band": {
+      "xmin": 60,
+      "xmax": 880,
+      "ymin": 1040,
+      "ymax": 1440,
+      "content": "kinetic_chunks_only"
+    },
+    "single_text_system": true,
+    "no_separate_popup_layer": true
+  },
+  "palette": {
+    "roles": {
+      "background": {
+        "hex": "#202322",
+        "usage": "background canvas & dark surfaces"
+      },
+      "pill_card_fill": {
+        "hex": "#222022",
+        "opacity": 0.80,
+        "usage": "pill/card fill (never text)"
+      },
+      "chrome": {
+        "hex": "#233D4C",
+        "usage": "chrome only (grid, dividers, borders, or a fill behind light text; NEVER text on dark bg)"
+      },
+      "primary_text": {
+        "hexes": ["#E6EDF3", "#FFFFFF"],
+        "usage": "primary text"
+      },
+      "secondary_text": {
+        "hex": "#E6EDF3",
+        "min_opacity": 0.60,
+        "usage": "secondary text = #E6EDF3 at opacity >= 0.60"
+      },
+      "accent_success": {
+        "hex": "#C3D809",
+        "usage": "accent: success/accuracy"
+      },
+      "accent_risk": {
+        "hex": "#FD802E",
+        "usage": "accent: risk/anomaly/target"
+      },
+      "accent_loss": {
+        "hex": "#EF6448",
+        "usage": "accent: loss/negative/danger"
+      }
+    },
+    "allowed_text_colors": [
+      "#E6EDF3",
+      "#FFFFFF",
+      "#C3D809",
+      "#FD802E",
+      "#EF6448"
+    ],
+    "contrast_minimum": 4.5,
+    "contrast_large_bold_minimum": 3.0,
+    "large_bold_min_font_px": 48
+  }
+}

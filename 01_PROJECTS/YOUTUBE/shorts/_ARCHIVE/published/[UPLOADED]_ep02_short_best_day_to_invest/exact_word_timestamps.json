@@ -1,0 +1,442 @@
+{
+  "words": [
+    {
+      "word": "In",
+      "start": 0.0,
+      "end": 0.4,
+      "prob": 0.842
+    },
+    {
+      "word": "almost",
+      "start": 0.4,
+      "end": 0.86,
+      "prob": 0.994
+    },
+    {
+      "word": "every",
+      "start": 0.86,
+      "end": 1.52,
+      "prob": 0.993
+    },
+    {
+      "word": "recession",
+      "start": 1.52,
+      "end": 2.14,
+      "prob": 0.994
+    },
+    {
+      "word": "over",
+      "start": 2.14,
+      "end": 2.52,
+      "prob": 0.699
+    },
+    {
+      "word": "the",
+      "start": 2.52,
+      "end": 2.66,
+      "prob": 0.997
+    },
+    {
+      "word": "last",
+      "start": 2.66,
+      "end": 2.92,
+      "prob": 0.974
+    },
+    {
+      "word": "50",
+      "start": 2.92,
+      "end": 3.5,
+      "prob": 0.841
+    },
+    {
+      "word": "years,",
+      "start": 3.5,
+      "end": 4.0,
+      "prob": 0.991
+    },
+    {
+      "word": "the",
+      "start": 4.56,
+      "end": 4.64,
+      "prob": 0.991
+    },
+    {
+      "word": "single",
+      "start": 4.64,
+      "end": 5.06,
+      "prob": 0.995
+    },
+    {
+      "word": "best",
+      "start": 5.06,
+      "end": 5.5,
+      "prob": 0.979
+    },
+    {
+      "word": "day",
+      "start": 5.5,
+      "end": 5.84,
+      "prob": 0.893
+    },
+    {
+      "word": "to",
+      "start": 5.84,
+      "end": 6.06,
+      "prob": 0.994
+    },
+    {
+      "word": "invest",
+      "start": 6.06,
+      "end": 6.42,
+      "prob": 0.998
+    },
+    {
+      "word": "in",
+      "start": 6.42,
+      "end": 6.7,
+      "prob": 0.997
+    },
+    {
+      "word": "the",
+      "start": 6.7,
+      "end": 6.82,
+      "prob": 0.988
+    },
+    {
+      "word": "stock",
+      "start": 6.82,
+      "end": 7.08,
+      "prob": 0.992
+    },
+    {
+      "word": "market",
+      "start": 7.08,
+      "end": 7.46,
+      "prob": 0.998
+    },
+    {
+      "word": "happened",
+      "start": 7.46,
+      "end": 8.16,
+      "prob": 0.952
+    },
+    {
+      "word": "when",
+      "start": 8.16,
+      "end": 8.44,
+      "prob": 0.996
+    },
+    {
+      "word": "the",
+      "start": 8.44,
+      "end": 8.56,
+      "prob": 0.979
+    },
+    {
+      "word": "news",
+      "start": 8.56,
+      "end": 8.9,
+      "prob": 0.998
+    },
+    {
+      "word": "was",
+      "start": 8.9,
+      "end": 9.14,
+      "prob": 0.993
+    },
+    {
+      "word": "screaming",
+      "start": 9.14,
+      "end": 9.78,
+      "prob": 0.976
+    },
+    {
+      "word": "that",
+      "start": 9.78,
+      "end": 10.22,
+      "prob": 0.93
+    },
+    {
+      "word": "the",
+      "start": 10.22,
+      "end": 10.34,
+      "prob": 0.981
+    },
+    {
+      "word": "world",
+      "start": 10.34,
+      "end": 10.68,
+      "prob": 0.994
+    },
+    {
+      "word": "was",
+      "start": 10.68,
+      "end": 10.98,
+      "prob": 0.995
+    },
+    {
+      "word": "ending.",
+      "start": 10.98,
+      "end": 11.38,
+      "prob": 0.994
+    },
+    {
+      "word": "Most",
+      "start": 12.5,
+      "end": 12.8,
+      "prob": 0.991
+    },
+    {
+      "word": "people",
+      "start": 12.8,
+      "end": 13.12,
+      "prob": 0.999
+    },
+    {
+      "word": "believe",
+      "start": 13.12,
+      "end": 13.58,
+      "prob": 0.993
+    },
+    {
+      "word": "recessions",
+      "start": 13.58,
+      "end": 14.32,
+      "prob": 0.986
+    },
+    {
+      "word": "and",
+      "start": 14.32,
+      "end": 14.6,
+      "prob": 0.99
+    },
+    {
+      "word": "market",
+      "start": 14.6,
+      "end": 14.92,
+      "prob": 0.998
+    },
+    {
+      "word": "crashes",
+      "start": 14.92,
+      "end": 15.32,
+      "prob": 0.994
+    },
+    {
+      "word": "move",
+      "start": 15.32,
+      "end": 15.98,
+      "prob": 0.941
+    },
+    {
+      "word": "in",
+      "start": 15.98,
+      "end": 16.32,
+      "prob": 0.996
+    },
+    {
+      "word": "lockstep,",
+      "start": 16.32,
+      "end": 16.92,
+      "prob": 0.84
+    },
+    {
+      "word": "but",
+      "start": 17.28,
+      "end": 17.82,
+      "prob": 0.993
+    },
+    {
+      "word": "when",
+      "start": 17.82,
+      "end": 18.06,
+      "prob": 0.996
+    },
+    {
+      "word": "you",
+      "start": 18.06,
+      "end": 18.2,
+      "prob": 0.995
+    },
+    {
+      "word": "look",
+      "start": 18.2,
+      "end": 18.4,
+      "prob": 0.999
+    },
+    {
+      "word": "at",
+      "start": 18.4,
+      "end": 18.54,
+      "prob": 0.998
+    },
+    {
+      "word": "five",
+      "start": 18.54,
+      "end": 19.0,
+      "prob": 0.665
+    },
+    {
+      "word": "decades",
+      "start": 19.0,
+      "end": 19.42,
+      "prob": 0.991
+    },
+    {
+      "word": "of",
+      "start": 19.42,
+      "end": 19.72,
+      "prob": 0.996
+    },
+    {
+      "word": "actual",
+      "start": 19.72,
+      "end": 20.28,
+      "prob": 0.984
+    },
+    {
+      "word": "economic",
+      "start": 20.28,
+      "end": 20.86,
+      "prob": 0.997
+    },
+    {
+      "word": "data,",
+      "start": 20.86,
+      "end": 21.22,
+      "prob": 1.0
+    },
+    {
+      "word": "you",
+      "start": 21.76,
+      "end": 21.84,
+      "prob": 0.996
+    },
+    {
+      "word": "discover",
+      "start": 21.84,
+      "end": 22.24,
+      "prob": 0.994
+    },
+    {
+      "word": "something",
+      "start": 22.24,
+      "end": 22.66,
+      "prob": 0.996
+    },
+    {
+      "word": "completely",
+      "start": 22.66,
+      "end": 23.32,
+      "prob": 0.997
+    },
+    {
+      "word": "counterintuitive.",
+      "start": 23.32,
+      "end": 24.48,
+      "prob": 0.943
+    },
+    {
+      "word": "The",
+      "start": 24.48,
+      "end": 25.38,
+      "prob": 0.613
+    },
+    {
+      "word": "market",
+      "start": 25.38,
+      "end": 25.72,
+      "prob": 0.991
+    },
+    {
+      "word": "almost",
+      "start": 25.72,
+      "end": 26.2,
+      "prob": 0.957
+    },
+    {
+      "word": "always",
+      "start": 26.2,
+      "end": 26.8,
+      "prob": 0.992
+    },
+    {
+      "word": "starts",
+      "start": 26.8,
+      "end": 27.18,
+      "prob": 0.99
+    },
+    {
+      "word": "a",
+      "start": 27.18,
+      "end": 27.46,
+      "prob": 0.994
+    },
+    {
+      "word": "massive",
+      "start": 27.46,
+      "end": 28.0,
+      "prob": 0.989
+    },
+    {
+      "word": "recovery,",
+      "start": 28.0,
+      "end": 28.66,
+      "prob": 0.998
+    },
+    {
+      "word": "months",
+      "start": 29.02,
+      "end": 29.36,
+      "prob": 0.97
+    },
+    {
+      "word": "before",
+      "start": 29.36,
+      "end": 29.8,
+      "prob": 0.966
+    },
+    {
+      "word": "the",
+      "start": 29.8,
+      "end": 30.0,
+      "prob": 0.987
+    },
+    {
+      "word": "recession",
+      "start": 30.0,
+      "end": 30.42,
+      "prob": 0.996
+    },
+    {
+      "word": "is",
+      "start": 30.42,
+      "end": 30.7,
+      "prob": 0.989
+    },
+    {
+      "word": "even",
+      "start": 30.7,
+      "end": 31.02,
+      "prob": 0.993
+    },
+    {
+      "word": "close",
+      "start": 31.02,
+      "end": 31.46,
+      "prob": 0.91
+    },
+    {
+      "word": "to",
+      "start": 31.46,
+      "end": 31.8,
+      "prob": 0.986
+    },
+    {
+      "word": "over.",
+      "start": 31.8,
+      "end": 32.1,
+      "prob": 0.991
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+ "brand_tokens": "brand/brand_tokens.json",
+ "font": "Nohemi",
+ "font_fallback": "Inter",
+ "weights": {"normal": [500], "emphasis": [700]},
+ "tracking_em_headline": -0.02,
+ "colors": {
+  "bg": "#202322",
+  "text": "#E6EDF3",
+  "dim_opacity": 0.4,
+  "emphasis": "#C3D809",
+  "risk": "#FD802E",
+  "ui_structure": "#233D4C",
+  "badge_bg": "#E6EDF3",
+  "badge_text": "#202322"
+ },
+ "text_effects": {"stroke": false, "glow": false, "shadow": false, "shake": false},
+ "size_pct_frame_height": [4, 5],
+ "chunk": {
+  "max_words": 4,
+  "min_on_screen_s": 0.7,
+  "zone_y_pct": [60, 76],
+  "max_lines": 2,
+  "safe_bottom_pct": 20,
+  "safe_right_pct": 15,
+  "break_on_pause_s": 0.25,
+  "never_end_on": ["the", "a", "an", "of", "to", "in", "on", "and", "or"],
+  "lone_word_only_if_emphasis": true,
+  "max_gold_words_per_chunk": 1
+ },
+ "animation": {
+  "entrance": "fade_blur_up",
+  "travel_px": [10, 15],
+  "duration_ms": [180, 250],
+  "easing": "ease-out",
+  "exit": "hard_cut",
+  "gap_ms": 0,
+  "onset_offset_ms": [-20, 0],
+  "reveal": "dim_to_solid_per_word"
+ },
+ "badge": {
+  "max_per_short": 1,
+  "beat": "INSIGHT",
+  "zone_y_pct": [42, 52],
+  "radius_px": 6,
+  "entrance": "slide_from_right_spring",
+  "duration_ms": 350,
+  "max_words": 3,
+  "uppercase": true,
+  "hold_s": [1.2, 1.8],
+  "alone_on_screen": true
+ },
+ "hook": {"first_word_max_s": 0.5, "text_at_s": 0.0, "window_s": 3.0},
+ "static": {"max_freeze_s": 3.5, "hold_tag": "HOLD_FOR_UNDERSTANDING", "hold_max_s": 5.0},
+ "audio": {
+  "voice_lufs": -14,
+  "voice_tol": 1.5,
+  "music_below_voice_db_min": 16,
+  "music_below_voice_db_target": [18, 20],
+  "music_ducks_under_voice": true,
+  "music_lyrics": false
+ },
+ "voice_wpm": {"target": [145, 160], "warn_margin": 10},
+ "structure": {
+  "beats": ["IDEA", "SIMPLE_WRONG", "COMPLEX_WRONG", "INSIGHT"],
+  "length_s": [30, 45],
+  "applies_to": "native_shorts_only"
+ },
+ "motion": {
+  "tags": ["manim_draw", "manim_transform", "camera_push", "flow_atmosphere", "html_motion"],
+  "camera_push_max_scale": 1.08,
+  "camera_push_needs_purpose": true,
+  "flow_max_pct_of_runtime": 20
+ },
+ "ending": {
+  "max_tail_after_last_word_s": 1.0,
+  "forbidden_words": ["subscribe", "follow", "like", "comment", "link in bio", "ebook"],
+  "no_outro_card": true
+ }
+}

@@ -1,0 +1,444 @@
+{
+  "words": [
+    {
+      "word": "Stocks",
+      "start": 0.07,
+      "end": 0.51
+    },
+    {
+      "word": "trade",
+      "start": 0.51,
+      "end": 0.73
+    },
+    {
+      "word": "on",
+      "start": 0.73,
+      "end": 0.95
+    },
+    {
+      "word": "many",
+      "start": 0.95,
+      "end": 1.31
+    },
+    {
+      "word": "venues",
+      "start": 1.31,
+      "end": 1.69
+    },
+    {
+      "word": "at",
+      "start": 1.69,
+      "end": 1.93
+    },
+    {
+      "word": "once.",
+      "start": 1.93,
+      "end": 2.27
+    },
+    {
+      "word": "A",
+      "start": 2.6,
+      "end": 2.89
+    },
+    {
+      "word": "price",
+      "start": 2.89,
+      "end": 3.15
+    },
+    {
+      "word": "move",
+      "start": 3.15,
+      "end": 3.41
+    },
+    {
+      "word": "on",
+      "start": 3.41,
+      "end": 3.61
+    },
+    {
+      "word": "one",
+      "start": 3.61,
+      "end": 3.89
+    },
+    {
+      "word": "is",
+      "start": 3.89,
+      "end": 4.29
+    },
+    {
+      "word": "news",
+      "start": 4.29,
+      "end": 4.61
+    },
+    {
+      "word": "on",
+      "start": 4.61,
+      "end": 4.93
+    },
+    {
+      "word": "all",
+      "start": 4.93,
+      "end": 5.27
+    },
+    {
+      "word": "the",
+      "start": 5.27,
+      "end": 5.47
+    },
+    {
+      "word": "others.",
+      "start": 5.47,
+      "end": 5.87
+    },
+    {
+      "word": "If",
+      "start": 6.31,
+      "end": 6.49
+    },
+    {
+      "word": "a",
+      "start": 6.49,
+      "end": 6.57
+    },
+    {
+      "word": "machine's",
+      "start": 6.57,
+      "end": 7.13
+    },
+    {
+      "word": "quote",
+      "start": 7.13,
+      "end": 7.29
+    },
+    {
+      "word": "is",
+      "start": 7.29,
+      "end": 7.53
+    },
+    {
+      "word": "stale",
+      "start": 7.53,
+      "end": 7.99
+    },
+    {
+      "word": "for",
+      "start": 7.99,
+      "end": 8.17
+    },
+    {
+      "word": "even",
+      "start": 8.17,
+      "end": 8.47
+    },
+    {
+      "word": "a",
+      "start": 8.47,
+      "end": 8.61
+    },
+    {
+      "word": "moment,",
+      "start": 8.61,
+      "end": 9.07
+    },
+    {
+      "word": "someone",
+      "start": 9.45,
+      "end": 9.77
+    },
+    {
+      "word": "faster",
+      "start": 9.77,
+      "end": 10.35
+    },
+    {
+      "word": "buys",
+      "start": 10.35,
+      "end": 10.75
+    },
+    {
+      "word": "it",
+      "start": 10.75,
+      "end": 10.99
+    },
+    {
+      "word": "at",
+      "start": 10.99,
+      "end": 11.07
+    },
+    {
+      "word": "the",
+      "start": 11.07,
+      "end": 11.21
+    },
+    {
+      "word": "old",
+      "start": 11.21,
+      "end": 11.35
+    },
+    {
+      "word": "price.",
+      "start": 11.35,
+      "end": 11.69
+    },
+    {
+      "word": "That",
+      "start": 12.29,
+      "end": 12.59
+    },
+    {
+      "word": "is",
+      "start": 12.59,
+      "end": 12.87
+    },
+    {
+      "word": "adverse",
+      "start": 12.87,
+      "end": 13.25
+    },
+    {
+      "word": "selection",
+      "start": 13.25,
+      "end": 13.77
+    },
+    {
+      "word": "again,",
+      "start": 13.77,
+      "end": 14.17
+    },
+    {
+      "word": "now",
+      "start": 14.59,
+      "end": 14.79
+    },
+    {
+      "word": "measured",
+      "start": 14.79,
+      "end": 15.15
+    },
+    {
+      "word": "in",
+      "start": 15.15,
+      "end": 15.43
+    },
+    {
+      "word": "microseconds.",
+      "start": 15.43,
+      "end": 16.27
+    },
+    {
+      "word": "And",
+      "start": 16.87,
+      "end": 16.99
+    },
+    {
+      "word": "when",
+      "start": 16.99,
+      "end": 17.11
+    },
+    {
+      "word": "every",
+      "start": 17.11,
+      "end": 17.49
+    },
+    {
+      "word": "machine",
+      "start": 17.49,
+      "end": 17.89
+    },
+    {
+      "word": "quotes",
+      "start": 17.89,
+      "end": 18.21
+    },
+    {
+      "word": "the",
+      "start": 18.21,
+      "end": 18.47
+    },
+    {
+      "word": "same",
+      "start": 18.47,
+      "end": 18.77
+    },
+    {
+      "word": "price,",
+      "start": 18.77,
+      "end": 19.15
+    },
+    {
+      "word": "the",
+      "start": 19.63,
+      "end": 19.73
+    },
+    {
+      "word": "order",
+      "start": 19.73,
+      "end": 19.97
+    },
+    {
+      "word": "book",
+      "start": 19.97,
+      "end": 20.23
+    },
+    {
+      "word": "becomes",
+      "start": 20.23,
+      "end": 20.65
+    },
+    {
+      "word": "a",
+      "start": 20.65,
+      "end": 20.83
+    },
+    {
+      "word": "line.",
+      "start": 20.83,
+      "end": 21.11
+    },
+    {
+      "word": "On",
+      "start": 21.49,
+      "end": 21.61
+    },
+    {
+      "word": "most",
+      "start": 21.61,
+      "end": 21.85
+    },
+    {
+      "word": "exchanges,",
+      "start": 21.85,
+      "end": 22.45
+    },
+    {
+      "word": "orders",
+      "start": 22.91,
+      "end": 23.13
+    },
+    {
+      "word": "at",
+      "start": 23.13,
+      "end": 23.33
+    },
+    {
+      "word": "the",
+      "start": 23.33,
+      "end": 23.47
+    },
+    {
+      "word": "same",
+      "start": 23.47,
+      "end": 23.71
+    },
+    {
+      "word": "price",
+      "start": 23.71,
+      "end": 24.13
+    },
+    {
+      "word": "fill",
+      "start": 24.13,
+      "end": 24.49
+    },
+    {
+      "word": "in",
+      "start": 24.49,
+      "end": 24.71
+    },
+    {
+      "word": "the",
+      "start": 24.71,
+      "end": 24.83
+    },
+    {
+      "word": "order",
+      "start": 24.83,
+      "end": 25.07
+    },
+    {
+      "word": "they",
+      "start": 25.07,
+      "end": 25.29
+    },
+    {
+      "word": "arrived.",
+      "start": 25.29,
+      "end": 25.77
+    },
+    {
+      "word": "The",
+      "start": 26.29,
+      "end": 26.45
+    },
+    {
+      "word": "first",
+      "start": 26.45,
+      "end": 26.71
+    },
+    {
+      "word": "in",
+      "start": 26.71,
+      "end": 26.89
+    },
+    {
+      "word": "line",
+      "start": 26.89,
+      "end": 27.09
+    },
+    {
+      "word": "gets",
+      "start": 27.09,
+      "end": 27.39
+    },
+    {
+      "word": "filled",
+      "start": 27.39,
+      "end": 27.71
+    },
+    {
+      "word": "first.",
+      "start": 27.71,
+      "end": 28.13
+    },
+    {
+      "word": "Speed",
+      "start": 28.67,
+      "end": 29.11
+    },
+    {
+      "word": "is",
+      "start": 29.11,
+      "end": 29.55
+    },
+    {
+      "word": "how",
+      "start": 29.55,
+      "end": 29.73
+    },
+    {
+      "word": "you",
+      "start": 29.73,
+      "end": 29.87
+    },
+    {
+      "word": "get",
+      "start": 29.87,
+      "end": 30.01
+    },
+    {
+      "word": "to",
+      "start": 30.01,
+      "end": 30.15
+    },
+    {
+      "word": "the",
+      "start": 30.15,
+      "end": 30.27
+    },
+    {
+      "word": "front.",
+      "start": 30.27,
+      "end": 30.55
+    }
+  ]
+}

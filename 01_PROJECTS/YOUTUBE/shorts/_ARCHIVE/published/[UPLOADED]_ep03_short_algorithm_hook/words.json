@@ -1,0 +1,277 @@
+{
+  "words": [
+    {
+      "word": "It",
+      "start": 0.12,
+      "end": 0.56,
+      "orig_start": 8.22,
+      "orig_end": 8.66
+    },
+    {
+      "word": "was",
+      "start": 0.56,
+      "end": 0.72,
+      "orig_start": 8.66,
+      "orig_end": 8.82
+    },
+    {
+      "word": "never",
+      "start": 0.72,
+      "end": 0.98,
+      "orig_start": 8.82,
+      "orig_end": 9.08
+    },
+    {
+      "word": "built",
+      "start": 0.98,
+      "end": 1.4,
+      "orig_start": 9.08,
+      "orig_end": 9.5
+    },
+    {
+      "word": "to",
+      "start": 1.4,
+      "end": 1.72,
+      "orig_start": 9.5,
+      "orig_end": 9.82
+    },
+    {
+      "word": "inform",
+      "start": 1.72,
+      "end": 2.12,
+      "orig_start": 9.82,
+      "orig_end": 10.22
+    },
+    {
+      "word": "you.",
+      "start": 2.12,
+      "end": 2.46,
+      "orig_start": 10.22,
+      "orig_end": 10.56
+    },
+    {
+      "word": "It",
+      "start": 2.92,
+      "end": 3.16,
+      "orig_start": 11.02,
+      "orig_end": 11.26
+    },
+    {
+      "word": "was",
+      "start": 3.16,
+      "end": 3.3,
+      "orig_start": 11.26,
+      "orig_end": 11.4
+    },
+    {
+      "word": "built",
+      "start": 3.3,
+      "end": 3.56,
+      "orig_start": 11.4,
+      "orig_end": 11.66
+    },
+    {
+      "word": "to",
+      "start": 3.56,
+      "end": 3.88,
+      "orig_start": 11.66,
+      "orig_end": 11.98
+    },
+    {
+      "word": "do",
+      "start": 3.88,
+      "end": 4.04,
+      "orig_start": 11.98,
+      "orig_end": 12.14
+    },
+    {
+      "word": "exactly",
+      "start": 4.04,
+      "end": 4.5,
+      "orig_start": 12.14,
+      "orig_end": 12.6
+    },
+    {
+      "word": "one",
+      "start": 4.5,
+      "end": 5.14,
+      "orig_start": 12.6,
+      "orig_end": 13.24
+    },
+    {
+      "word": "thing.",
+      "start": 5.14,
+      "end": 5.66,
+      "orig_start": 13.24,
+      "orig_end": 13.76
+    },
+    {
+      "word": "Keep",
+      "start": 6.38,
+      "end": 6.62,
+      "orig_start": 14.48,
+      "orig_end": 14.72
+    },
+    {
+      "word": "you",
+      "start": 6.62,
+      "end": 6.88,
+      "orig_start": 14.72,
+      "orig_end": 14.98
+    },
+    {
+      "word": "watching",
+      "start": 6.88,
+      "end": 7.34,
+      "orig_start": 14.98,
+      "orig_end": 15.44
+    },
+    {
+      "word": "and",
+      "start": 7.34,
+      "end": 8.34,
+      "orig_start": 15.44,
+      "orig_end": 16.44
+    },
+    {
+      "word": "it",
+      "start": 8.34,
+      "end": 8.54,
+      "orig_start": 16.44,
+      "orig_end": 16.64
+    },
+    {
+      "word": "is",
+      "start": 8.54,
+      "end": 8.7,
+      "orig_start": 16.64,
+      "orig_end": 16.8
+    },
+    {
+      "word": "frighteningly",
+      "start": 8.7,
+      "end": 9.44,
+      "orig_start": 16.8,
+      "orig_end": 17.54
+    },
+    {
+      "word": "good",
+      "start": 9.44,
+      "end": 9.74,
+      "orig_start": 17.54,
+      "orig_end": 17.84
+    },
+    {
+      "word": "at",
+      "start": 9.74,
+      "end": 10.04,
+      "orig_start": 17.84,
+      "orig_end": 18.14
+    },
+    {
+      "word": "its",
+      "start": 10.04,
+      "end": 10.24,
+      "orig_start": 18.14,
+      "orig_end": 18.34
+    },
+    {
+      "word": "job.",
+      "start": 10.24,
+      "end": 10.56,
+      "orig_start": 18.34,
+      "orig_end": 18.66
+    },
+    {
+      "word": "Most",
+      "start": 11.94,
+      "end": 12.1,
+      "orig_start": 20.04,
+      "orig_end": 20.2
+    },
+    {
+      "word": "people",
+      "start": 12.1,
+      "end": 12.48,
+      "orig_start": 20.2,
+      "orig_end": 20.58
+    },
+    {
+      "word": "think",
+      "start": 12.48,
+      "end": 12.88,
+      "orig_start": 20.58,
+      "orig_end": 20.98
+    },
+    {
+      "word": "they",
+      "start": 12.88,
+      "end": 13.12,
+      "orig_start": 20.98,
+      "orig_end": 21.22
+    },
+    {
+      "word": "know",
+      "start": 13.12,
+      "end": 13.34,
+      "orig_start": 21.22,
+      "orig_end": 21.44
+    },
+    {
+      "word": "how",
+      "start": 13.34,
+      "end": 13.54,
+      "orig_start": 21.44,
+      "orig_end": 21.64
+    },
+    {
+      "word": "it",
+      "start": 13.54,
+      "end": 13.7,
+      "orig_start": 21.64,
+      "orig_end": 21.8
+    },
+    {
+      "word": "works.",
+      "start": 13.7,
+      "end": 13.98,
+      "orig_start": 21.8,
+      "orig_end": 22.08
+    },
+    {
+      "word": "They",
+      "start": 14.62,
+      "end": 14.86,
+      "orig_start": 22.72,
+      "orig_end": 22.96
+    },
+    {
+      "word": "are",
+      "start": 14.86,
+      "end": 14.96,
+      "orig_start": 22.96,
+      "orig_end": 23.06
+    },
+    {
+      "word": "almost",
+      "start": 14.96,
+      "end": 15.3,
+      "orig_start": 23.06,
+      "orig_end": 23.4
+    },
+    {
+      "word": "always",
+      "start": 15.3,
+      "end": 15.86,
+      "orig_start": 23.4,
+      "orig_end": 23.96
+    },
+    {
+      "word": "wrong.",
+      "start": 15.86,
+      "end": 16.26,
+      "orig_start": 23.96,
+      "orig_end": 24.36
+    }
+  ]
+}

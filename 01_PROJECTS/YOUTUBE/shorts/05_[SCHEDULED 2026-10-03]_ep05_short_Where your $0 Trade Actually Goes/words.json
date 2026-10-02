@@ -1,0 +1,532 @@
+{
+  "words": [
+    {
+      "word": "When",
+      "start": 0.0,
+      "end": 0.5,
+      "prob": 0.951
+    },
+    {
+      "word": "you",
+      "start": 0.5,
+      "end": 0.78,
+      "prob": 0.997
+    },
+    {
+      "word": "tap",
+      "start": 0.78,
+      "end": 1.04,
+      "prob": 0.987
+    },
+    {
+      "word": "buy",
+      "start": 1.04,
+      "end": 1.5,
+      "prob": 0.205
+    },
+    {
+      "word": "on",
+      "start": 1.5,
+      "end": 1.74,
+      "prob": 0.981
+    },
+    {
+      "word": "a",
+      "start": 1.74,
+      "end": 1.88,
+      "prob": 0.988
+    },
+    {
+      "word": "zero",
+      "start": 1.88,
+      "end": 2.18,
+      "prob": 0.67
+    },
+    {
+      "word": "-commissioned",
+      "start": 2.18,
+      "end": 2.92,
+      "prob": 0.733
+    },
+    {
+      "word": "stock",
+      "start": 2.92,
+      "end": 3.06,
+      "prob": 0.967
+    },
+    {
+      "word": "app,",
+      "start": 3.06,
+      "end": 3.52,
+      "prob": 0.912
+    },
+    {
+      "word": "where",
+      "start": 3.86,
+      "end": 3.96,
+      "prob": 0.88
+    },
+    {
+      "word": "does",
+      "start": 3.96,
+      "end": 4.18,
+      "prob": 0.996
+    },
+    {
+      "word": "your",
+      "start": 4.18,
+      "end": 4.44,
+      "prob": 0.997
+    },
+    {
+      "word": "order",
+      "start": 4.44,
+      "end": 4.74,
+      "prob": 0.99
+    },
+    {
+      "word": "actually",
+      "start": 4.74,
+      "end": 5.28,
+      "prob": 0.973
+    },
+    {
+      "word": "go?",
+      "start": 5.28,
+      "end": 5.8,
+      "prob": 0.997
+    },
+    {
+      "word": "Most",
+      "start": 6.34,
+      "end": 6.62,
+      "prob": 0.99
+    },
+    {
+      "word": "investors",
+      "start": 6.62,
+      "end": 7.04,
+      "prob": 0.994
+    },
+    {
+      "word": "assume",
+      "start": 7.04,
+      "end": 7.48,
+      "prob": 0.994
+    },
+    {
+      "word": "your",
+      "start": 7.48,
+      "end": 7.82,
+      "prob": 0.943
+    },
+    {
+      "word": "trade",
+      "start": 7.82,
+      "end": 8.08,
+      "prob": 0.991
+    },
+    {
+      "word": "flies",
+      "start": 8.08,
+      "end": 8.52,
+      "prob": 0.579
+    },
+    {
+      "word": "straight",
+      "start": 8.52,
+      "end": 8.9,
+      "prob": 0.997
+    },
+    {
+      "word": "to",
+      "start": 8.9,
+      "end": 9.1,
+      "prob": 0.997
+    },
+    {
+      "word": "the",
+      "start": 9.1,
+      "end": 9.24,
+      "prob": 0.991
+    },
+    {
+      "word": "New",
+      "start": 9.24,
+      "end": 9.36,
+      "prob": 0.986
+    },
+    {
+      "word": "York",
+      "start": 9.36,
+      "end": 9.6,
+      "prob": 0.998
+    },
+    {
+      "word": "Stock",
+      "start": 9.6,
+      "end": 9.88,
+      "prob": 0.933
+    },
+    {
+      "word": "Exchange",
+      "start": 9.88,
+      "end": 10.3,
+      "prob": 0.995
+    },
+    {
+      "word": "to",
+      "start": 10.3,
+      "end": 10.72,
+      "prob": 0.985
+    },
+    {
+      "word": "match",
+      "start": 10.72,
+      "end": 10.98,
+      "prob": 0.988
+    },
+    {
+      "word": "with",
+      "start": 10.98,
+      "end": 11.24,
+      "prob": 0.998
+    },
+    {
+      "word": "another",
+      "start": 11.24,
+      "end": 11.48,
+      "prob": 0.996
+    },
+    {
+      "word": "investor.",
+      "start": 11.48,
+      "end": 11.98,
+      "prob": 0.997
+    },
+    {
+      "word": "Others",
+      "start": 12.58,
+      "end": 12.9,
+      "prob": 0.992
+    },
+    {
+      "word": "think",
+      "start": 12.9,
+      "end": 13.36,
+      "prob": 0.998
+    },
+    {
+      "word": "the",
+      "start": 13.36,
+      "end": 13.66,
+      "prob": 0.962
+    },
+    {
+      "word": "broker",
+      "start": 13.66,
+      "end": 13.92,
+      "prob": 0.94
+    },
+    {
+      "word": "holds",
+      "start": 13.92,
+      "end": 14.34,
+      "prob": 0.997
+    },
+    {
+      "word": "the",
+      "start": 14.34,
+      "end": 14.66,
+      "prob": 0.996
+    },
+    {
+      "word": "stock",
+      "start": 14.66,
+      "end": 14.86,
+      "prob": 0.994
+    },
+    {
+      "word": "in",
+      "start": 14.86,
+      "end": 15.06,
+      "prob": 0.901
+    },
+    {
+      "word": "inventory.",
+      "start": 15.06,
+      "end": 15.56,
+      "prob": 0.987
+    },
+    {
+      "word": "But",
+      "start": 16.2,
+      "end": 16.48,
+      "prob": 0.822
+    },
+    {
+      "word": "retail",
+      "start": 16.48,
+      "end": 16.74,
+      "prob": 0.973
+    },
+    {
+      "word": "brokers",
+      "start": 16.74,
+      "end": 17.2,
+      "prob": 0.991
+    },
+    {
+      "word": "take",
+      "start": 17.2,
+      "end": 17.64,
+      "prob": 0.997
+    },
+    {
+      "word": "zero",
+      "start": 17.64,
+      "end": 18.28,
+      "prob": 0.945
+    },
+    {
+      "word": "inventory",
+      "start": 18.28,
+      "end": 18.88,
+      "prob": 0.927
+    },
+    {
+      "word": "risk",
+      "start": 18.88,
+      "end": 19.42,
+      "prob": 0.959
+    },
+    {
+      "word": "on",
+      "start": 19.42,
+      "end": 19.66,
+      "prob": 0.996
+    },
+    {
+      "word": "your",
+      "start": 19.66,
+      "end": 19.84,
+      "prob": 0.995
+    },
+    {
+      "word": "trades.",
+      "start": 19.84,
+      "end": 20.24,
+      "prob": 0.991
+    },
+    {
+      "word": "Instead,",
+      "start": 20.94,
+      "end": 21.24,
+      "prob": 0.994
+    },
+    {
+      "word": "your",
+      "start": 21.78,
+      "end": 21.98,
+      "prob": 0.997
+    },
+    {
+      "word": "broker",
+      "start": 21.98,
+      "end": 22.34,
+      "prob": 0.999
+    },
+    {
+      "word": "routes",
+      "start": 22.34,
+      "end": 22.82,
+      "prob": 0.947
+    },
+    {
+      "word": "your",
+      "start": 22.82,
+      "end": 23.04,
+      "prob": 0.994
+    },
+    {
+      "word": "order",
+      "start": 23.04,
+      "end": 23.38,
+      "prob": 0.997
+    },
+    {
+      "word": "to",
+      "start": 23.38,
+      "end": 23.72,
+      "prob": 0.998
+    },
+    {
+      "word": "giant",
+      "start": 23.72,
+      "end": 24.1,
+      "prob": 0.923
+    },
+    {
+      "word": "wholesale",
+      "start": 24.1,
+      "end": 24.72,
+      "prob": 0.986
+    },
+    {
+      "word": "internalizers,",
+      "start": 24.72,
+      "end": 25.76,
+      "prob": 0.892
+    },
+    {
+      "word": "such",
+      "start": 25.76,
+      "end": 26.24,
+      "prob": 0.875
+    },
+    {
+      "word": "as",
+      "start": 26.24,
+      "end": 26.48,
+      "prob": 0.992
+    },
+    {
+      "word": "Citadel",
+      "start": 26.48,
+      "end": 26.9,
+      "prob": 0.94
+    },
+    {
+      "word": "and",
+      "start": 26.9,
+      "end": 27.26,
+      "prob": 0.473
+    },
+    {
+      "word": "Virtue",
+      "start": 27.26,
+      "end": 27.8,
+      "prob": 0.445
+    },
+    {
+      "word": "who",
+      "start": 27.8,
+      "end": 28.16,
+      "prob": 0.659
+    },
+    {
+      "word": "pay",
+      "start": 28.16,
+      "end": 28.4,
+      "prob": 0.986
+    },
+    {
+      "word": "kickbacks",
+      "start": 28.4,
+      "end": 29.02,
+      "prob": 0.853
+    },
+    {
+      "word": "for",
+      "start": 29.02,
+      "end": 29.2,
+      "prob": 0.998
+    },
+    {
+      "word": "your",
+      "start": 29.2,
+      "end": 29.44,
+      "prob": 0.993
+    },
+    {
+      "word": "flow.",
+      "start": 29.44,
+      "end": 29.82,
+      "prob": 0.949
+    },
+    {
+      "word": "Free",
+      "start": 30.38,
+      "end": 30.6,
+      "prob": 0.935
+    },
+    {
+      "word": "trading",
+      "start": 30.6,
+      "end": 30.96,
+      "prob": 0.75
+    },
+    {
+      "word": "has",
+      "start": 30.96,
+      "end": 31.32,
+      "prob": 0.993
+    },
+    {
+      "word": "a",
+      "start": 31.32,
+      "end": 31.54,
+      "prob": 0.985
+    },
+    {
+      "word": "cost.",
+      "start": 31.54,
+      "end": 31.86,
+      "prob": 0.991
+    },
+    {
+      "word": "You",
+      "start": 32.34,
+      "end": 32.46,
+      "prob": 0.983
+    },
+    {
+      "word": "are",
+      "start": 32.46,
+      "end": 32.64,
+      "prob": 0.984
+    },
+    {
+      "word": "not",
+      "start": 32.64,
+      "end": 32.92,
+      "prob": 0.93
+    },
+    {
+      "word": "the",
+      "start": 32.92,
+      "end": 33.12,
+      "prob": 0.994
+    },
+    {
+      "word": "customer.",
+      "start": 33.12,
+      "end": 33.44,
+      "prob": 0.988
+    },
+    {
+      "word": "You",
+      "start": 34.04,
+      "end": 34.3,
+      "prob": 0.951
+    },
+    {
+      "word": "are",
+      "start": 34.3,
+      "end": 34.66,
+      "prob": 0.986
+    },
+    {
+      "word": "the",
+      "start": 34.66,
+      "end": 34.8,
+      "prob": 0.997
+    },
+    {
+      "word": "product.",
+      "start": 34.8,
+      "end": 35.1,
+      "prob": 0.974
+    }
+  ]
+}

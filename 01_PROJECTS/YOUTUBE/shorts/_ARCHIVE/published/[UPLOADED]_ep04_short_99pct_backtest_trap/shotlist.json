@@ -1,0 +1,16 @@
+{
+  "type": "extraction",
+  "total_duration_s": 39.7,
+  "scenes": [
+    {
+      "id": 1,
+      "scene_name": "The Overfitting Trap & Phantom Correlations",
+      "start_s": 0.0,
+      "end_s": 39.7,
+      "type": "extraction",
+      "motion_tag": "manim_transform",
+      "hold_tag": "HOLD_FOR_UNDERSTANDING",
+      "font": "Nohemi"
+    }
+  ]
+}

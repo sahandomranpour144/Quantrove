@@ -1,0 +1,44 @@
+{
+  "type": "native",
+  "slug": "ep06_short_hft_not_predict_prices",
+  "title": "HFT Doesn't Predict Prices",
+  "duration_s": 38.5,
+  "scenes": [
+    {
+      "id": 1,
+      "beat": "IDEA",
+      "start_s": 0.0,
+      "end_s": 5.0,
+      "motion_tag": "manim_draw",
+      "type": "native"
+    },
+    {
+      "id": 2,
+      "beat": "SIMPLE_WRONG",
+      "start_s": 5.0,
+      "end_s": 13.5,
+      "motion_tag": "manim_transform",
+      "hold_tag": "HOLD_FOR_UNDERSTANDING",
+      "type": "native"
+    },
+    {
+      "id": 3,
+      "beat": "COMPLEX_WRONG",
+      "start_s": 13.5,
+      "end_s": 25.5,
+      "motion_tag": "camera_push",
+      "type": "native",
+      "camera_push_scale": 1.05,
+      "motion_purpose": "Focus on bilateral quote spread and hedge"
+    },
+    {
+      "id": 4,
+      "beat": "INSIGHT",
+      "start_s": 25.5,
+      "end_s": 38.0,
+      "motion_tag": "manim_draw",
+      "type": "native",
+      "badge": "TINY EDGE REPEATED"
+    }
+  ]
+}

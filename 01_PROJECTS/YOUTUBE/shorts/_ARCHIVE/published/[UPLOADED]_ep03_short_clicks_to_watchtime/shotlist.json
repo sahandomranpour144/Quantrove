@@ -1,0 +1,13 @@
+{
+  "type": "extraction",
+  "scenes": [
+    {
+      "id": 1,
+      "start_s": 0.0,
+      "end_s": 31.8,
+      "type": "extraction",
+      "motion_tag": "manim_draw",
+      "hold_tag": "HOLD_FOR_UNDERSTANDING"
+    }
+  ]
+}

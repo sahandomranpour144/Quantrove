@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "question": "How did mathematicians crack the market with a ~51% edge while AI fails?",
+    "planted_at_s": 8.0,
+    "paid_at_s": 375.0,
+    "partial_payoff_at_s": 86.1,
+    "payoff_type": "primary_insight"
+  },
+  {
+    "id": 2,
+    "question": "Why is the honest answer 'mostly no', and why isn't the reason what most people think?",
+    "planted_at_s": 10.0,
+    "paid_at_s": 144.5,
+    "payoff_type": "mechanism_reveal"
+  },
+  {
+    "id": 3,
+    "question": "Why does a 99%-accurate backtest collapse live?",
+    "planted_at_s": 154.8,
+    "paid_at_s": 205.0,
+    "payoff_type": "empirical_proof"
+  },
+  {
+    "id": 4,
+    "question": "Why does 30 years of data guarantee false correlations?",
+    "planted_at_s": 215.5,
+    "paid_at_s": 272.5,
+    "payoff_type": "mechanism_reveal"
+  },
+  {
+    "id": 5,
+    "question": "Where does Wall Street actually use AI?",
+    "planted_at_s": 274.0,
+    "paid_at_s": 365.0,
+    "payoff_type": "strategic_resolution"
+  }
+]

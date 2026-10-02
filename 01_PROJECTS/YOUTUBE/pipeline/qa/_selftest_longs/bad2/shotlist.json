@@ -1,0 +1,113 @@
+{
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "scene_name": "Cold Open Hook",
+      "start_s": 0.0,
+      "end_s": 45.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "The Liquidity Lie",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "scene_name": "Chapter 1",
+      "start_s": 45.0,
+      "end_s": 55.0,
+      "motion_tag": "manim_transform",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Standard deviation fails to measure the real fat tail risk",
+        "word_count": 9
+      }
+    },
+    {
+      "id": 3,
+      "chapter": 2,
+      "scene_name": "Chapter 2",
+      "start_s": 55.0,
+      "end_s": 65.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Order Book Cascades",
+        "word_count": 3
+      }
+    },
+    {
+      "id": 4,
+      "chapter": 3,
+      "scene_name": "Chapter 3",
+      "start_s": 65.0,
+      "end_s": 75.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Liquidity Drain",
+        "word_count": 2
+      }
+    },
+    {
+      "id": 5,
+      "chapter": 4,
+      "scene_name": "Chapter 4",
+      "start_s": 75.0,
+      "end_s": 82.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Harvest Phase",
+        "word_count": 2
+      }
+    },
+    {
+      "id": 6,
+      "chapter": 5,
+      "scene_name": "Disciplined Spoken CTA",
+      "start_s": 82.0,
+      "end_s": 98.0,
+      "motion_tag": "manim_transform",
+      "pattern_interrupt": true,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Watch Institutional Liquidity Next",
+        "word_count": 4
+      }
+    },
+    {
+      "id": 7,
+      "chapter": 6,
+      "scene_name": "Chapter 6 Payoff",
+      "start_s": 98.0,
+      "end_s": 100.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": false,
+      "end_screen_safe": false,
+      "on_screen_text": null
+    },
+    {
+      "id": 8,
+      "chapter": 7,
+      "scene_name": "Ending with illegal text",
+      "start_s": 100.0,
+      "end_s": 120.0,
+      "motion_tag": "manim_draw",
+      "pattern_interrupt": false,
+      "end_screen_safe": false,
+      "on_screen_text": {
+        "text": "Don't forget to subscribe to our channel",
+        "word_count": 7
+      }
+    }
+  ]
+}
