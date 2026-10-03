@@ -112,7 +112,7 @@ KEYWORDS: NOBODY PROGRAMMED IT | WHAT ELSE?
 KEYWORDS: 1954 | IBM 701
 
 **Scene 4 — Remotion (R1_GEORGETOWN_CARD)**
-[VISUAL] b1 card "GEORGETOWN–IBM EXPERIMENT · 1954" · b2 counter `250 WORDS` · b3 counter `6 GRAMMAR RULES` · b4 quote card "SOLVED IN 3–5 YEARS" (lime) · b5 "3–5" strikes through in Pumpkin on "It was not".
+[VISUAL] b0 (beat moved in from S3 by the 8 s Flow cap: "live, in front of the press") camera-flash white pop on a press-clipping silhouette · b1 card "GEORGETOWN–IBM EXPERIMENT · 1954" · b2 counter `250 WORDS` · b3 counter `6 GRAMMAR RULES` · b4 quote card "SOLVED IN 3–5 YEARS" (lime) · b5 "3–5" strikes through in Pumpkin on "It was not".
 [NARRATION] "The system knew 250 words ‖ and six rules of grammar. ‖ The researchers predicted ‖ machine translation would be a solved problem within three to five years. ‖ It was not."
 KEYWORDS: 250 WORDS | 6 RULES | "3–5 YEARS"
 
