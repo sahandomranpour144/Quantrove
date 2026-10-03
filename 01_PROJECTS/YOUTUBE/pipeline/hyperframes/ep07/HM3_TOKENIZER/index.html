@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<!-- EP07 Scene 31 · HM3_TOKENIZER · 13.82 s · beats (rel): 0 / 3.94 / 9.28 · split + IDs ILLUSTRATIVE; vocab 50,257 = GPT-3 (real) -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Bold.ttf"); font-weight: 700; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #202322; }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #202322;
+    font-family: "Nohemi", "Inter", "Segoe UI", system-ui, sans-serif; font-weight: 500; color: #E6EDF3;
+    font-variant-numeric: tabular-nums; }
+  .grid { position: absolute; left: -120px; top: -120px; width: 2160px; height: 1320px; opacity: 0.22;
+    background-image: linear-gradient(#233D4C 1px, transparent 1px), linear-gradient(90deg, #233D4C 1px, transparent 1px);
+    background-size: 120px 120px; }
+  #win { position: absolute; left: 160px; top: 214px; width: 1600px; height: 620px; border: 1px solid #233D4C; background: #202322; }
+  .bar { position: absolute; left: 0; top: 0; width: 100%; height: 64px; border-bottom: 1px solid #233D4C; }
+  .dot { position: absolute; top: 24px; width: 16px; height: 16px; border-radius: 50%; background: #233D4C; }
+  .title { position: absolute; left: 120px; top: 16px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; opacity: 0.7; }
+  #tag { position: absolute; right: 28px; top: 16px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; color: #FD802E; }
+  .prompt { position: absolute; left: 60px; top: 96px; font-size: 44px; white-space: pre; }
+  .dim { opacity: 0.6; }
+  #chips { position: absolute; left: 60px; top: 196px; display: flex; align-items: flex-start; }
+  .chip { position: relative; padding: 14px 18px 12px; border: 2px solid #233D4C; text-align: center; white-space: pre; }
+  .chip.piece { border-color: #C3D809; }
+  .t { font-size: 60px; font-weight: 700; line-height: 70px; }
+  .id { font-size: 32px; line-height: 40px; margin-top: 6px; opacity: 0.75; }
+  .u { position: absolute; left: 0; right: 0; top: 158px; height: 4px; background: #233D4C; transform-origin: 0 50%; }
+  .piece .u { background: #C3D809; }
+  .note { position: absolute; left: 0; top: 178px; font-size: 32px; font-weight: 700; white-space: nowrap; }
+  .piece .note { color: #C3D809; }
+  .foot { position: absolute; left: 60px; top: 448px; }
+  .flbl { font-size: 28px; letter-spacing: 0.12em; opacity: 0.7; }
+  .fnum { font-size: 96px; font-weight: 700; line-height: 1.1; }
+  .fnum small { font-size: 36px; font-weight: 500; opacity: 0.75; margin-left: 18px; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="13.82" data-width="1920" data-height="1080">
+  <div class="grid clip" id="grid" data-start="0" data-duration="13.82" data-track-index="0"></div>
+  <div id="win">
+    <div class="bar"><div class="dot" style="left:24px"></div><div class="dot" style="left:52px"></div><div class="dot" style="left:80px"></div>
+      <div class="title">TOKENIZER</div><div id="tag">ILLUSTRATIVE</div></div>
+    <div class="prompt"><span class="dim">&gt; input: </span><span id="typed">"Unbelievably, the bank closed."</span></div>
+    <div id="chips"></div>
+    <div class="foot" id="foot"><div class="flbl">VOCAB</div><div class="fnum"><span id="vnum">0</span><small>GPT-3</small></div></div>
+  </div>
+</div>
+<script>
+  const D = 13.82, B = [0, 3.94, 9.28];
+  // [text, id, kind] — kind: p = piece of a word, w = whole word, s = punctuation
+  const TOK = [["Un", 3118, "p"], ["believ", 6667, "p"], ["ably", 1346, "p"], [",", 11, "s"],
+               ["the", 262, "w"], ["bank", 3331, "w"], ["closed", 4838, "w"], [".", 13, "s"]];
+  const NOTES = { 0: "1 word · 3 tokens", 5: "1 word · 1 token" };
+  const box = document.getElementById("chips");
+  const chips = TOK.map(([t, id, k], i) => {
+    const c = document.createElement("div");
+    c.className = "chip" + (k === "p" ? " piece" : "");
+    c.innerHTML = `<div class="t">${t}</div><div class="id">${id}</div>` + (k !== "s" ? `<div class="u"></div>` : "") +
+      (NOTES[i] ? `<div class="note" data-layout-allow-overflow>${NOTES[i]}</div>` : "");
+    box.appendChild(c); return c;
+  });
+  const typed = document.getElementById("typed");
+  const chars = typed.textContent.split(""); typed.textContent = "";
+  const spans = chars.map(ch => { const s = document.createElement("span"); s.textContent = ch; s.style.opacity = 0; typed.appendChild(s); return s; });
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#grid", { x: 0, y: 0 }, { x: 120, y: 60, duration: D, ease: "none" }, 0);
+  gsap.set(["#tag", "#foot", ".id", ".u", ".note"], { opacity: 0 });
+  gsap.set(chips, { opacity: 0 });
+
+  // b1 — input line types
+  tl.from("#win", { opacity: 0, scale: 0.97, duration: 0.6, ease: "power2.out" }, 0);
+  tl.from(".title", { opacity: 0, x: -20, duration: 0.5, ease: "power2.out" }, 0.3);
+  tl.from(".prompt .dim", { opacity: 0, duration: 0.4 }, 0.5);
+  spans.forEach((s, i) => tl.set(s, { opacity: 1 }, 0.8 + i * 0.07));
+
+  // b2 — text splits into chips (packed, then spreading apart)
+  tl.to("#tag", { opacity: 1, duration: 0.4, ease: "power2.out" }, B[1]);
+  tl.to(chips, { opacity: 1, duration: 0.35, ease: "power2.out", stagger: 0.06 }, B[1]);
+  tl.fromTo(chips, { x: 0 }, { x: (i) => i * 18, duration: 0.9, ease: "power2.inOut" }, B[1] + 0.5);
+  tl.to(".prompt", { opacity: 0.45, duration: 0.6, ease: "power2.inOut" }, B[1] + 0.5);
+  // mid-beat sub-change: pieces vs whole words
+  tl.fromTo(".u", { opacity: 1, scaleX: 0 }, { opacity: 1, scaleX: 1, duration: 0.6, ease: "power2.inOut", stagger: 0.08 }, 6.3);
+  tl.fromTo(".note", { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out", stagger: 0.5 }, 6.8);
+
+  // b3 — each chip gets a token ID, then the vocabulary footer
+  tl.fromTo(".id", { opacity: 0, y: -8 }, { opacity: 0.75, y: 0, duration: 0.4, ease: "power2.out", stagger: 0.15 }, B[2]);
+  const vn = document.getElementById("vnum"), st = { v: 0 };
+  tl.fromTo("#foot", { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 10.9);
+  tl.to(st, { v: 50257, duration: 1.8, ease: "power2.out", onUpdate: () => { vn.textContent = Math.round(st.v).toLocaleString("en-US"); } }, 11.0);
+  tl.to("#vnum", { color: "#C3D809", duration: 0.4, ease: "power2.inOut" }, 12.8);
+  tl.to({}, { duration: 0.01 }, D - 0.01); // final frame held from ~13.2 s
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

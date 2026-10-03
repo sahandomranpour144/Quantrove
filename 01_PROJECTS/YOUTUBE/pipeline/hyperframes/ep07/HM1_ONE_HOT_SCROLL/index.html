@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<!-- EP07 Scene 7 · HM1_ONE_HOT_SCROLL · 15.28 s · beats (rel): 0 / 2.94 / 6.52 / 13.14 -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Bold.ttf"); font-weight: 700; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #202322; }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #202322;
+    font-family: "Nohemi", "Inter", "Segoe UI", system-ui, sans-serif; font-weight: 500; color: #E6EDF3;
+    font-variant-numeric: tabular-nums; }
+  .grid { position: absolute; left: -120px; top: -120px; width: 2160px; height: 1320px; opacity: 0.22;
+    background-image: linear-gradient(#233D4C 1px, transparent 1px), linear-gradient(90deg, #233D4C 1px, transparent 1px);
+    background-size: 120px 120px; }
+  #win { position: absolute; left: 160px; top: 214px; width: 1600px; height: 620px; border: 1px solid #233D4C; background: #202322; }
+  .bar { position: absolute; left: 0; top: 0; width: 100%; height: 64px; border-bottom: 1px solid #233D4C; }
+  .dot { position: absolute; top: 24px; width: 16px; height: 16px; border-radius: 50%; background: #233D4C; }
+  .title { position: absolute; left: 120px; top: 16px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; opacity: 0.7; }
+  .line1 { position: absolute; left: 60px; top: 96px; font-size: 40px; white-space: pre; }
+  .dim { opacity: 0.6; }
+  .lime { color: #C3D809; }
+  .cursor { display: inline-block; width: 18px; height: 40px; background: #C3D809; vertical-align: -6px; margin-left: 6px; }
+  #viewport { position: absolute; left: 60px; top: 190px; width: 1480px; height: 110px; overflow: hidden; }
+  #strip { position: absolute; left: 0; top: 0; height: 110px; }
+  .cell { position: absolute; top: 7px; width: 80px; height: 96px; border: 1px solid #233D4C; display: flex;
+    align-items: center; justify-content: center; font-size: 48px; font-weight: 700; color: #E6EDF3; }
+  #hotlbl { position: absolute; top: 314px; width: 240px; text-align: center; font-size: 32px; font-weight: 700; color: #C3D809; }
+  .lenlbl { position: absolute; left: 60px; top: 372px; font-size: 28px; letter-spacing: 0.12em; opacity: 0.7; }
+  #count { position: absolute; left: 60px; top: 410px; font-size: 120px; font-weight: 700; line-height: 1; }
+  #src { position: absolute; left: 520px; top: 470px; font-size: 32px; opacity: 0; }
+  .track { position: absolute; left: 60px; top: 562px; width: 1480px; height: 6px; background: #233D4C; }
+  #fill { position: absolute; left: 0; top: 0; width: 100%; height: 6px; background: #C3D809; transform-origin: 0 50%; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="15.28" data-width="1920" data-height="1080">
+  <div class="grid clip" id="grid" data-start="0" data-duration="15.28" data-track-index="0"></div>
+  <div id="win">
+    <div class="bar"><div class="dot" style="left:24px"></div><div class="dot" style="left:52px"></div><div class="dot" style="left:80px"></div>
+      <div class="title">ONE-HOT ENCODING</div></div>
+    <div class="line1"><span class="dim">&gt; word = </span><span id="typed" class="lime">"hotel"</span><span class="cursor" id="cur"></span></div>
+    <div id="viewport" data-layout-allow-overflow data-layout-allow-overlap><div id="strip"></div></div>
+    <div id="hotlbl">"hotel"</div>
+    <div class="lenlbl" id="lenlbl">VECTOR LENGTH</div>
+    <div id="count">0</div>
+    <div id="src">GPT-3 vocabulary</div>
+    <div class="track" id="track"><div id="fill"></div></div>
+  </div>
+</div>
+<script>
+  const D = 15.28, B = [0, 2.94, 6.52, 13.14];
+  const PITCH = 88, N = 150, K = 132, VIEW = 1480;
+  const strip = document.getElementById("strip");
+  for (let i = 0; i < N; i++) {
+    const c = document.createElement("div");
+    c.className = "cell"; c.textContent = "0"; c.style.left = (i * PITCH) + "px";
+    if (i === K) c.id = "zeroK";
+    strip.appendChild(c);
+  }
+  const FINAL_X = VIEW / 2 - (K * PITCH + 40);
+  // label sits under the centered cell (viewport left 60 + center 740)
+  document.getElementById("hotlbl").style.left = (60 + VIEW / 2 - 120) + "px";
+
+  // typing: split into per-char spans
+  const typed = document.getElementById("typed");
+  const chars = typed.textContent.split(""); typed.textContent = "";
+  const spans = chars.map(ch => { const s = document.createElement("span"); s.textContent = ch; s.style.opacity = 0; typed.appendChild(s); return s; });
+
+  const tl = gsap.timeline({ paused: true });
+  // ambient drift (whole duration)
+  tl.fromTo("#grid", { x: 0, y: 0 }, { x: 120, y: 60, duration: D, ease: "none" }, 0);
+
+  // b1 — window opens, header, word typed
+  tl.from("#win", { opacity: 0, scale: 0.97, duration: 0.6, ease: "power2.out" }, 0);
+  tl.from(".title", { opacity: 0, x: -20, duration: 0.5, ease: "power2.out" }, 0.3);
+  tl.from(".line1 .dim", { opacity: 0, duration: 0.4, ease: "power2.out" }, 0.6);
+  spans.forEach((s, i) => tl.set(s, { opacity: 1 }, 1.0 + i * 0.09));
+  for (let t = 1.7; t < B[1]; t += 0.5) tl.set("#cur", { opacity: ((t - 1.7) / 0.5) % 2 < 1 ? 0 : 1 }, t);
+  tl.set("#cur", { opacity: 1 }, B[1]);
+  gsap.set(["#hotlbl", "#lenlbl", "#count", "#track"], { opacity: 0 });
+  gsap.set(".cell", { opacity: 0 });
+
+  // b2 — a vector of slots appears and starts scrolling
+  tl.to(".cell", { opacity: 1, duration: 0.3, ease: "power1.out", stagger: 0.03 }, B[1]);
+  tl.to("#cur", { opacity: 0, duration: 0.2 }, B[1] + 0.2);
+  tl.fromTo("#strip", { x: 0 }, { x: FINAL_X, duration: 12.9 - (B[1] + 0.7), ease: "power2.inOut" }, B[1] + 0.7);
+
+  // b3 — length counter rolls to 50,257
+  const cnt = document.getElementById("count"), st = { v: 0 };
+  tl.to(["#lenlbl", "#count", "#track"], { opacity: 1, duration: 0.4, ease: "power2.out" }, B[2]);
+  tl.to(st, { v: 50257, duration: 5.0, ease: "power2.inOut",
+    onUpdate: () => { cnt.textContent = Math.round(st.v).toLocaleString("en-US"); } }, B[2] + 0.2);
+  tl.fromTo("#fill", { scaleX: 0 }, { scaleX: 1, duration: 5.0, ease: "power2.inOut" }, B[2] + 0.2);
+  // mid-beat sub-change: source tag
+  tl.fromTo("#src", { opacity: 0, x: -16 }, { opacity: 0.75, x: 0, duration: 0.5, ease: "power2.out" }, 9.8);
+  tl.to("#count", { color: "#C3D809", duration: 0.4, ease: "power2.inOut" }, B[2] + 5.2);
+
+  // b4 — one slot flips to 1; all others stay 0
+  tl.to(".cell:not(#zeroK)", { opacity: 0.4, duration: 0.5, ease: "power2.inOut" }, B[3]);
+  tl.set("#zeroK", { textContent: "1" }, B[3] + 0.05);
+  tl.fromTo("#zeroK", { opacity: 1, backgroundColor: "rgba(195,216,9,0)", color: "#E6EDF3", scale: 1 },
+    { opacity: 1, backgroundColor: "rgba(195,216,9,1)", color: "#202322", scale: 1.12, duration: 0.45, ease: "power2.out", immediateRender: false }, B[3] + 0.05);
+  tl.fromTo("#hotlbl", { opacity: 0, y: -10 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, B[3] + 0.35);
+  tl.to({}, { duration: 0.01 }, D - 0.01); // timeline length = composition length; final frame held from ~13.95 s
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

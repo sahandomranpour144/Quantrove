@@ -1,0 +1,1569 @@
+{
+ "script": "longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/EP08_SCRIPT_AND_SHOTLIST.md",
+ "vo_file": "longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/VOICEOVER/ElevenLabs_2026-10-03T06_29_48__s35_v4.mp3",
+ "vo_duration_s": 641.802,
+ "total_duration_s": 661.802,
+ "match_ratio": 0.977,
+ "scenes": [
+  {
+   "scene": 1,
+   "engine": "Remotion",
+   "asset": "R1_PAPER_COUNTER",
+   "start": 0.0,
+   "end": 17.78,
+   "duration": 17.78,
+   "beats": [
+    {
+     "start": 0.0,
+     "end": 4.28,
+     "text": "In June 2017, eight researchers at Google posted a paper"
+    },
+    {
+     "start": 4.28,
+     "end": 6.94,
+     "text": "with a title borrowed from a Beatles song."
+    },
+    {
+     "start": 6.94,
+     "end": 11.36,
+     "text": "It has since been cited more than 250,000 times."
+    },
+    {
+     "start": 11.36,
+     "end": 15.44,
+     "text": "And its key idea became the T in ChatGPT."
+    },
+    {
+     "start": 15.44,
+     "end": 15.64,
+     "text": "T,"
+    },
+    {
+     "start": 15.64,
+     "end": 17.78,
+     "text": "for Transformer."
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "engine": "Manim",
+   "asset": "M01_T_IN_GPT",
+   "start": 17.78,
+   "end": 28.28,
+   "duration": 10.5,
+   "beats": [
+    {
+     "start": 17.78,
+     "end": 19.2,
+     "text": "So what did this paper see"
+    },
+    {
+     "start": 19.2,
+     "end": 22.12,
+     "text": "that decades of language research had missed?"
+    },
+    {
+     "start": 22.12,
+     "end": 24.78,
+     "text": "And where did its eight authors end up?"
+    },
+    {
+     "start": 24.78,
+     "end": 28.28,
+     "text": "Get comfortable, this one is worth going slowly."
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "engine": "Flow",
+   "asset": "F1_INTERPRETER_BOOTH",
+   "start": 28.28,
+   "end": 34.54,
+   "duration": 6.26,
+   "beats": [
+    {
+     "start": 28.28,
+     "end": 32.92,
+     "text": "Before 2017, the best translation systems worked like a careful reader"
+    },
+    {
+     "start": 32.92,
+     "end": 34.54,
+     "text": "with a bad memory."
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "engine": "Manim",
+   "asset": "M02_RNN_CHAIN",
+   "start": 34.54,
+   "end": 47.36,
+   "duration": 12.82,
+   "beats": [
+    {
+     "start": 34.54,
+     "end": 37.54,
+     "text": "They read a sentence one word at a time."
+    },
+    {
+     "start": 37.54,
+     "end": 42.22,
+     "text": "After each word, they updated a single list of numbers, a running memory,"
+    },
+    {
+     "start": 42.22,
+     "end": 44.44,
+     "text": "and passed it to the next step."
+    },
+    {
+     "start": 44.44,
+     "end": 47.36,
+     "text": "These were recurrent neural networks."
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "engine": "Manim",
+   "asset": "M03_MEMORY_SQUEEZE",
+   "start": 47.36,
+   "end": 57.78,
+   "duration": 10.42,
+   "beats": [
+    {
+     "start": 47.36,
+     "end": 48.54,
+     "text": "Here is the problem."
+    },
+    {
+     "start": 48.54,
+     "end": 50.44,
+     "text": "By the end of a long sentence,"
+    },
+    {
+     "start": 50.44,
+     "end": 54.16,
+     "text": "everything has been squeezed through that one list of numbers."
+    },
+    {
+     "start": 54.16,
+     "end": 55.82,
+     "text": "Early words fade."
+    },
+    {
+     "start": 55.82,
+     "end": 57.78,
+     "text": "Details get overwritten."
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "engine": "Remotion",
+   "asset": "R1B_LSTM_GNMT",
+   "start": 57.78,
+   "end": 81.74,
+   "duration": 23.96,
+   "beats": [
+    {
+     "start": 57.78,
+     "end": 60.36,
+     "text": "Engineers had fought this for years."
+    },
+    {
+     "start": 60.36,
+     "end": 64.6,
+     "text": "In 1997, a design called the LSTM added gates"
+    },
+    {
+     "start": 64.6,
+     "end": 67.64,
+     "text": "that decide what to keep and what to forget."
+    },
+    {
+     "start": 67.64,
+     "end": 72.38,
+     "text": "In 2016, Google Translate switched to a large LSTM system"
+    },
+    {
+     "start": 72.38,
+     "end": 77.16,
+     "text": "and reported cutting translation errors by about 60 percent on average."
+    },
+    {
+     "start": 77.16,
+     "end": 78.64,
+     "text": "A huge step."
+    },
+    {
+     "start": 78.64,
+     "end": 81.74,
+     "text": "But it still read one word at a time."
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "engine": "html_motion",
+   "asset": "HM1_WINOGRAD",
+   "start": 81.74,
+   "end": 93.66,
+   "duration": 11.92,
+   "beats": [
+    {
+     "start": 81.74,
+     "end": 83.24,
+     "text": "Try this sentence."
+    },
+    {
+     "start": 83.24,
+     "end": 87.28,
+     "text": "The trophy didn't fit in the suitcase because it was too big."
+    },
+    {
+     "start": 87.28,
+     "end": 90.3,
+     "text": "What was too big? The trophy."
+    },
+    {
+     "start": 90.3,
+     "end": 93.66,
+     "text": "Change big to small, and it now means the suitcase."
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "engine": "Manim",
+   "asset": "M04_DISTANT_LINK",
+   "start": 93.66,
+   "end": 101.22,
+   "duration": 7.56,
+   "beats": [
+    {
+     "start": 93.66,
+     "end": 98.02,
+     "text": "To get that right, a model must connect it to a word several steps back,"
+    },
+    {
+     "start": 98.02,
+     "end": 101.22,
+     "text": "through a memory that has been fading the whole way."
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "engine": "Remotion",
+   "asset": "R2_SEQUENTIAL_GPU",
+   "start": 101.22,
+   "end": 114.34,
+   "duration": 13.12,
+   "beats": [
+    {
+     "start": 101.22,
+     "end": 104.3,
+     "text": "There was a second problem, a hardware one."
+    },
+    {
+     "start": 104.3,
+     "end": 107.04,
+     "text": "Because each step needs the step before it,"
+    },
+    {
+     "start": 107.04,
+     "end": 109.54,
+     "text": "the words must be processed in order."
+    },
+    {
+     "start": 109.54,
+     "end": 111.56,
+     "text": "A graphics chip with thousands of cores"
+    },
+    {
+     "start": 111.56,
+     "end": 114.34,
+     "text": "sits mostly idle, waiting."
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "engine": "Remotion",
+   "asset": "R3_BAHDANAU_2014",
+   "start": 114.34,
+   "end": 131.82,
+   "duration": 17.48,
+   "beats": [
+    {
+     "start": 114.34,
+     "end": 117.38,
+     "text": "A partial fix had appeared in 2014."
+    },
+    {
+     "start": 117.38,
+     "end": 121.36,
+     "text": "A team in Montreal let the translator look back at every input word"
+    },
+    {
+     "start": 121.36,
+     "end": 123.16,
+     "text": "while writing each output word,"
+    },
+    {
+     "start": 123.16,
+     "end": 125.88,
+     "text": "and decide which ones mattered most."
+    },
+    {
+     "start": 125.88,
+     "end": 127.88,
+     "text": "They called it attention."
+    },
+    {
+     "start": 127.88,
+     "end": 131.82,
+     "text": "But it was still bolted onto the slow, step-by-step reader."
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "engine": "Manim",
+   "asset": "M05_DELETE_QUESTION",
+   "start": 131.82,
+   "end": 139.76,
+   "duration": 7.94,
+   "beats": [
+    {
+     "start": 131.82,
+     "end": 134.5,
+     "text": "So a question sat in plain sight."
+    },
+    {
+     "start": 134.5,
+     "end": 136.5,
+     "text": "If looking back is the part that works,"
+    },
+    {
+     "start": 136.5,
+     "end": 139.76,
+     "text": "why keep the step-by-step reader at all?"
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "engine": "Flow",
+   "asset": "F2_NIGHT_OFFICE",
+   "start": 139.76,
+   "end": 147.8,
+   "duration": 8.04,
+   "beats": [
+    {
+     "start": 139.76,
+     "end": 145.28,
+     "text": "In 2017, a group at Google Brain and Google Research tried exactly that."
+    },
+    {
+     "start": 145.28,
+     "end": 147.8,
+     "text": "They deleted the recurrence completely."
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "engine": "Remotion",
+   "asset": "R4_PAPER_CARD",
+   "start": 147.8,
+   "end": 157.56,
+   "duration": 9.76,
+   "beats": [
+    {
+     "start": 147.8,
+     "end": 149.72,
+     "text": "The title said it plainly:"
+    },
+    {
+     "start": 149.72,
+     "end": 152.08,
+     "text": "Attention Is All You Need."
+    },
+    {
+     "start": 152.08,
+     "end": 153.12,
+     "text": "Eight authors,"
+    },
+    {
+     "start": 153.12,
+     "end": 155.24,
+     "text": "with a footnote saying they contributed equally"
+    },
+    {
+     "start": 155.24,
+     "end": 157.56,
+     "text": "and were listed in random order."
+    }
+   ]
+  },
+  {
+   "scene": 14,
+   "engine": "Manim",
+   "asset": "M06_ALL_AT_ONCE",
+   "start": 157.56,
+   "end": 176.4,
+   "duration": 18.84,
+   "beats": [
+    {
+     "start": 157.56,
+     "end": 159.74,
+     "text": "Here is the core idea."
+    },
+    {
+     "start": 159.74,
+     "end": 161.86,
+     "text": "Instead of reading left to right,"
+    },
+    {
+     "start": 161.86,
+     "end": 165.58,
+     "text": "every word looks at every other word, all at once."
+    },
+    {
+     "start": 165.58,
+     "end": 168.0,
+     "text": "No chain. No fading memory."
+    },
+    {
+     "start": 168.0,
+     "end": 171.64,
+     "text": "Any word can reach any other word in a single step."
+    },
+    {
+     "start": 171.64,
+     "end": 174.06,
+     "text": "The technical name is self-attention:"
+    },
+    {
+     "start": 174.06,
+     "end": 176.4,
+     "text": "the sentence attending to itself."
+    }
+   ]
+  },
+  {
+   "scene": 15,
+   "engine": "Manim",
+   "asset": "M06B_144_LINKS",
+   "start": 176.4,
+   "end": 190.9,
+   "duration": 14.5,
+   "beats": [
+    {
+     "start": 176.4,
+     "end": 179.08,
+     "text": "Our trophy sentence has twelve words."
+    },
+    {
+     "start": 179.08,
+     "end": 183.82,
+     "text": "Every word against every word is 144 comparisons."
+    },
+    {
+     "start": 183.82,
+     "end": 186.7,
+     "text": "The old reader made them one step at a time."
+    },
+    {
+     "start": 186.7,
+     "end": 190.9,
+     "text": "This design makes all 144 at the same moment."
+    }
+   ]
+  },
+  {
+   "scene": 16,
+   "engine": "Manim",
+   "asset": "M07_QKV",
+   "start": 190.9,
+   "end": 205.0,
+   "duration": 14.1,
+   "beats": [
+    {
+     "start": 190.9,
+     "end": 192.94,
+     "text": "How does a word decide what to look at?"
+    },
+    {
+     "start": 192.94,
+     "end": 196.4,
+     "text": "Each word produces three lists of numbers."
+    },
+    {
+     "start": 196.4,
+     "end": 198.74,
+     "text": "A query: what am I looking for?"
+    },
+    {
+     "start": 198.74,
+     "end": 201.08,
+     "text": "A key: what do I contain?"
+    },
+    {
+     "start": 201.08,
+     "end": 205.0,
+     "text": "And a value: what I will pass along if I am chosen."
+    }
+   ]
+  },
+  {
+   "scene": 17,
+   "engine": "Manim",
+   "asset": "M08_DOT_SCORES",
+   "start": 205.0,
+   "end": 217.84,
+   "duration": 12.84,
+   "beats": [
+    {
+     "start": 205.0,
+     "end": 208.28,
+     "text": "Then every query is compared with every key."
+    },
+    {
+     "start": 208.28,
+     "end": 212.72,
+     "text": "The comparison is the same closeness measure that turns words into maps:"
+    },
+    {
+     "start": 212.72,
+     "end": 215.32,
+     "text": "arrows that point the same way score high."
+    },
+    {
+     "start": 215.32,
+     "end": 217.84,
+     "text": "Arrows at right angles score near zero."
+    }
+   ]
+  },
+  {
+   "scene": 18,
+   "engine": "Manim",
+   "asset": "M09_SOFTMAX",
+   "start": 217.84,
+   "end": 229.4,
+   "duration": 11.56,
+   "beats": [
+    {
+     "start": 217.84,
+     "end": 220.96,
+     "text": "The scores are turned into weights that add up to one."
+    },
+    {
+     "start": 220.96,
+     "end": 223.42,
+     "text": "For the word it, in our trophy sentence,"
+    },
+    {
+     "start": 223.42,
+     "end": 225.6,
+     "text": "most of the weight can land on trophy."
+    },
+    {
+     "start": 225.6,
+     "end": 229.4,
+     "text": "The new meaning of it becomes a weighted blend of the values."
+    }
+   ]
+  },
+  {
+   "scene": 19,
+   "engine": "Manim",
+   "asset": "M10_FORMULA",
+   "start": 229.4,
+   "end": 246.78,
+   "duration": 17.38,
+   "beats": [
+    {
+     "start": 229.4,
+     "end": 232.72,
+     "text": "Written down, the whole mechanism fits on one line."
+    },
+    {
+     "start": 232.72,
+     "end": 234.74,
+     "text": "Multiply queries by keys."
+    },
+    {
+     "start": 234.74,
+     "end": 237.36,
+     "text": "Scale them down so the numbers stay stable."
+    },
+    {
+     "start": 237.36,
+     "end": 239.78,
+     "text": "Without that step, the scores grow so large"
+    },
+    {
+     "start": 239.78,
+     "end": 242.26,
+     "text": "that almost all the weight lands on one word,"
+    },
+    {
+     "start": 242.26,
+     "end": 243.38,
+     "text": "and learning stalls."
+    },
+    {
+     "start": 243.38,
+     "end": 245.56,
+     "text": "Turn them into weights."
+    },
+    {
+     "start": 245.56,
+     "end": 246.78,
+     "text": "Mix the values."
+    }
+   ]
+  },
+  {
+   "scene": 20,
+   "engine": "Manim",
+   "asset": "M11_IT_RESOLVES",
+   "start": 246.78,
+   "end": 258.06,
+   "duration": 11.28,
+   "beats": [
+    {
+     "start": 246.78,
+     "end": 247.94,
+     "text": "Change big to small,"
+    },
+    {
+     "start": 247.94,
+     "end": 252.04,
+     "text": "and in a well-trained model the weight can shift toward suitcase."
+    },
+    {
+     "start": 252.04,
+     "end": 255.36,
+     "text": "Nobody wrote a rule about trophies or suitcases."
+    },
+    {
+     "start": 255.36,
+     "end": 258.06,
+     "text": "The queries and keys are learned from data."
+    }
+   ]
+  },
+  {
+   "scene": 21,
+   "engine": "Manim",
+   "asset": "M12_MULTI_HEAD",
+   "start": 258.06,
+   "end": 271.66,
+   "duration": 13.6,
+   "beats": [
+    {
+     "start": 258.06,
+     "end": 260.38,
+     "text": "One attention pattern is not enough."
+    },
+    {
+     "start": 260.38,
+     "end": 264.16,
+     "text": "So the paper ran eight of them side by side, called heads."
+    },
+    {
+     "start": 264.16,
+     "end": 267.56,
+     "text": "Each head can learn to track a different kind of relationship:"
+    },
+    {
+     "start": 267.56,
+     "end": 268.66,
+     "text": "who did what,"
+    },
+    {
+     "start": 268.66,
+     "end": 270.12,
+     "text": "what refers to what,"
+    },
+    {
+     "start": 270.12,
+     "end": 271.66,
+     "text": "which words sit next to each other."
+    }
+   ]
+  },
+  {
+   "scene": 22,
+   "engine": "Remotion",
+   "asset": "R4B_WHAT_HEADS_LEARN",
+   "start": 271.66,
+   "end": 289.96,
+   "duration": 18.3,
+   "beats": [
+    {
+     "start": 271.66,
+     "end": 272.96,
+     "text": "And they do."
+    },
+    {
+     "start": 272.96,
+     "end": 278.16,
+     "text": "In 2019, a Stanford team opened up a trained Transformer model, BERT,"
+    },
+    {
+     "start": 278.16,
+     "end": 280.3,
+     "text": "and looked at its heads one by one."
+    },
+    {
+     "start": 280.3,
+     "end": 283.3,
+     "text": "Some heads had learned to link verbs to their objects."
+    },
+    {
+     "start": 283.3,
+     "end": 285.44,
+     "text": "Others linked nouns to their articles,"
+    },
+    {
+     "start": 285.44,
+     "end": 287.82,
+     "text": "or a pronoun to the thing it refers to."
+    },
+    {
+     "start": 287.82,
+     "end": 289.96,
+     "text": "Nobody programmed any of it."
+    }
+   ]
+  },
+  {
+   "scene": 23,
+   "engine": "Manim",
+   "asset": "M13_STACK_LAYERS",
+   "start": 289.96,
+   "end": 305.72,
+   "duration": 15.76,
+   "beats": [
+    {
+     "start": 289.96,
+     "end": 293.98,
+     "text": "After attention, each word passes through a small network of its own,"
+    },
+    {
+     "start": 293.98,
+     "end": 296.42,
+     "text": "a place to process what it just gathered."
+    },
+    {
+     "start": 296.42,
+     "end": 298.52,
+     "text": "Attention, then processing."
+    },
+    {
+     "start": 298.52,
+     "end": 300.28,
+     "text": "That pair is one block."
+    },
+    {
+     "start": 300.28,
+     "end": 302.78,
+     "text": "Then they stacked the block six times,"
+    },
+    {
+     "start": 302.78,
+     "end": 305.72,
+     "text": "each layer refining what the one below produced."
+    }
+   ]
+  },
+  {
+   "scene": 24,
+   "engine": "Manim",
+   "asset": "M14_POSITION_WAVES",
+   "start": 305.72,
+   "end": 320.44,
+   "duration": 14.72,
+   "beats": [
+    {
+     "start": 305.72,
+     "end": 306.68,
+     "text": "One catch."
+    },
+    {
+     "start": 306.68,
+     "end": 309.32,
+     "text": "If every word looks at every word at once,"
+    },
+    {
+     "start": 309.32,
+     "end": 311.68,
+     "text": "the model has no sense of word order."
+    },
+    {
+     "start": 311.68,
+     "end": 315.56,
+     "text": "The dog bit the man would look the same as the man bit the dog."
+    },
+    {
+     "start": 315.56,
+     "end": 318.08,
+     "text": "So they stamped each position with a signature,"
+    },
+    {
+     "start": 318.08,
+     "end": 320.44,
+     "text": "built from sine waves of different speeds."
+    }
+   ]
+  },
+  {
+   "scene": 25,
+   "engine": "Remotion",
+   "asset": "R5_TRAINING_COST",
+   "start": 320.44,
+   "end": 335.6,
+   "duration": 15.16,
+   "beats": [
+    {
+     "start": 320.44,
+     "end": 323.3,
+     "text": "Now the real payoff of deleting the chain."
+    },
+    {
+     "start": 323.3,
+     "end": 325.5,
+     "text": "With no step-by-step dependency,"
+    },
+    {
+     "start": 325.5,
+     "end": 328.54,
+     "text": "the whole sentence can be processed in parallel."
+    },
+    {
+     "start": 328.54,
+     "end": 332.62,
+     "text": "Their base model trained in twelve hours on eight graphics chips."
+    },
+    {
+     "start": 332.62,
+     "end": 335.6,
+     "text": "The big one took three and a half days."
+    }
+   ]
+  },
+  {
+   "scene": 26,
+   "engine": "Remotion",
+   "asset": "R6_BLEU",
+   "start": 335.6,
+   "end": 352.46,
+   "duration": 16.86,
+   "beats": [
+    {
+     "start": 335.6,
+     "end": 339.08,
+     "text": "And it beat the best translation systems of the time."
+    },
+    {
+     "start": 339.08,
+     "end": 343.18,
+     "text": "English to German: 28.4 on the standard BLEU score,"
+    },
+    {
+     "start": 343.18,
+     "end": 345.96,
+     "text": "more than two points above the previous best."
+    },
+    {
+     "start": 345.96,
+     "end": 348.4,
+     "text": "English to French: 41.8,"
+    },
+    {
+     "start": 348.4,
+     "end": 352.46,
+     "text": "at a small fraction of the training cost of earlier top models."
+    }
+   ]
+  },
+  {
+   "scene": 27,
+   "engine": "Flow",
+   "asset": "F3_DATA_CENTER_DAWN",
+   "start": 352.46,
+   "end": 358.74,
+   "duration": 6.28,
+   "beats": [
+    {
+     "start": 352.46,
+     "end": 354.74,
+     "text": "Speed was the real gift."
+    },
+    {
+     "start": 354.74,
+     "end": 358.74,
+     "text": "A model that runs in parallel can grow as fast as hardware can."
+    }
+   ]
+  },
+  {
+   "scene": 28,
+   "engine": "Remotion",
+   "asset": "R7_TIMELINE_2018_2022",
+   "start": 358.74,
+   "end": 383.38,
+   "duration": 24.64,
+   "beats": [
+    {
+     "start": 358.74,
+     "end": 362.3,
+     "text": "Within a year, others took the design and ran with it."
+    },
+    {
+     "start": 362.3,
+     "end": 368.64,
+     "text": "In 2018, OpenAI released GPT, the Generative Pre-trained Transformer."
+    },
+    {
+     "start": 368.64,
+     "end": 372.48,
+     "text": "Google released BERT, which reads in both directions at once."
+    },
+    {
+     "start": 372.48,
+     "end": 376.06,
+     "text": "In 2020, GPT-3 used 96 layers"
+    },
+    {
+     "start": 376.06,
+     "end": 379.44,
+     "text": "and 175 billion parameters."
+    },
+    {
+     "start": 379.44,
+     "end": 383.38,
+     "text": "In November 2022, ChatGPT launched."
+    }
+   ]
+  },
+  {
+   "scene": 29,
+   "engine": "Remotion",
+   "asset": "R8_PARAM_GROWTH",
+   "start": 383.38,
+   "end": 399.22,
+   "duration": 15.84,
+   "beats": [
+    {
+     "start": 383.38,
+     "end": 389.28,
+     "text": "The big 2017 model had about 213 million parameters."
+    },
+    {
+     "start": 389.28,
+     "end": 392.18,
+     "text": "GPT-3 had 175 billion,"
+    },
+    {
+     "start": 392.18,
+     "end": 394.6,
+     "text": "roughly 800 times more."
+    },
+    {
+     "start": 394.6,
+     "end": 395.5,
+     "text": "Same core block,"
+    },
+    {
+     "start": 395.5,
+     "end": 397.12,
+     "text": "stacked deeper,"
+    },
+    {
+     "start": 397.12,
+     "end": 399.22,
+     "text": "trained on far more text."
+    }
+   ]
+  },
+  {
+   "scene": 30,
+   "engine": "Manim",
+   "asset": "M15_DECODER_ONLY",
+   "start": 399.22,
+   "end": 415.2,
+   "duration": 15.98,
+   "beats": [
+    {
+     "start": 399.22,
+     "end": 402.18,
+     "text": "GPT kept only one half of the original design,"
+    },
+    {
+     "start": 402.18,
+     "end": 406.3,
+     "text": "and gave it a single job: predict the next token."
+    },
+    {
+     "start": 406.3,
+     "end": 407.86,
+     "text": "Each word may look back,"
+    },
+    {
+     "start": 407.86,
+     "end": 409.46,
+     "text": "but never ahead."
+    },
+    {
+     "start": 409.46,
+     "end": 412.5,
+     "text": "That one rule, repeated at enormous scale,"
+    },
+    {
+     "start": 412.5,
+     "end": 415.2,
+     "text": "became the chatbot on your phone."
+    }
+   ]
+  },
+  {
+   "scene": 31,
+   "engine": "Remotion",
+   "asset": "R8B_SCALING_LAWS",
+   "start": 415.2,
+   "end": 430.76,
+   "duration": 15.56,
+   "beats": [
+    {
+     "start": 415.2,
+     "end": 417.66,
+     "text": "Why did everyone keep making them bigger?"
+    },
+    {
+     "start": 417.66,
+     "end": 421.2,
+     "text": "In 2020, researchers at OpenAI measured it."
+    },
+    {
+     "start": 421.2,
+     "end": 424.46,
+     "text": "As these models grew, and got more data and compute,"
+    },
+    {
+     "start": 424.46,
+     "end": 427.86,
+     "text": "their error fell along a smooth, predictable curve."
+    },
+    {
+     "start": 427.86,
+     "end": 430.76,
+     "text": "That turned scaling from a gamble into a plan."
+    }
+   ]
+  },
+  {
+   "scene": 32,
+   "engine": "Remotion",
+   "asset": "R9_CHATGPT_USERS",
+   "start": 430.76,
+   "end": 441.8,
+   "duration": 11.04,
+   "beats": [
+    {
+     "start": 430.76,
+     "end": 436.52,
+     "text": "Analysts at UBS estimated that ChatGPT reached 100 million monthly users"
+    },
+    {
+     "start": 436.52,
+     "end": 438.8,
+     "text": "about two months after launch,"
+    },
+    {
+     "start": 438.8,
+     "end": 441.8,
+     "text": "the fastest growth they had seen for a consumer app."
+    }
+   ]
+  },
+  {
+   "scene": 33,
+   "engine": "Manim",
+   "asset": "M15B_BEYOND_TEXT",
+   "start": 441.8,
+   "end": 465.26,
+   "duration": 23.46,
+   "beats": [
+    {
+     "start": 441.8,
+     "end": 443.96,
+     "text": "And it did not stay with language."
+    },
+    {
+     "start": 443.96,
+     "end": 447.74,
+     "text": "In 2020, Google researchers cut images into small patches"
+    },
+    {
+     "start": 447.74,
+     "end": 450.94,
+     "text": "and fed them to a Transformer as if they were words."
+    },
+    {
+     "start": 450.94,
+     "end": 451.94,
+     "text": "It worked."
+    },
+    {
+     "start": 451.94,
+     "end": 456.24,
+     "text": "In 2021, DeepMind's AlphaFold 2, built around attention,"
+    },
+    {
+     "start": 456.24,
+     "end": 460.9,
+     "text": "predicted protein structures with accuracy close to lab experiments."
+    },
+    {
+     "start": 460.9,
+     "end": 465.26,
+     "text": "Same core idea: let every piece look at every other piece."
+    }
+   ]
+  },
+  {
+   "scene": 34,
+   "engine": "Manim",
+   "asset": "M16_N_SQUARED",
+   "start": 465.26,
+   "end": 474.8,
+   "duration": 9.54,
+   "beats": [
+    {
+     "start": 465.26,
+     "end": 468.84,
+     "text": "But every word looking at every word has a price."
+    },
+    {
+     "start": 468.84,
+     "end": 471.6,
+     "text": "Ten words means a hundred comparisons."
+    },
+    {
+     "start": 471.6,
+     "end": 474.8,
+     "text": "Double the text, and the work goes up four times."
+    }
+   ]
+  },
+  {
+   "scene": 35,
+   "engine": "Remotion",
+   "asset": "R10_QUADRATIC_TABLE",
+   "start": 474.8,
+   "end": 489.32,
+   "duration": 14.52,
+   "beats": [
+    {
+     "start": 474.8,
+     "end": 477.44,
+     "text": "A thousand tokens means a million comparisons,"
+    },
+    {
+     "start": 477.44,
+     "end": 480.32,
+     "text": "for every head, in every layer."
+    },
+    {
+     "start": 480.32,
+     "end": 483.46,
+     "text": "A long novel is on the order of a hundred thousand tokens."
+    },
+    {
+     "start": 483.46,
+     "end": 486.46,
+     "text": "That is ten billion comparisons,"
+    },
+    {
+     "start": 486.46,
+     "end": 489.32,
+     "text": "again for every head, in every layer."
+    }
+   ]
+  },
+  {
+   "scene": 36,
+   "engine": "Remotion",
+   "asset": "R11_CONTEXT_WINDOWS",
+   "start": 489.32,
+   "end": 513.16,
+   "duration": 23.84,
+   "beats": [
+    {
+     "start": 489.32,
+     "end": 494.5,
+     "text": "That is why the amount of text a model can read at once started small."
+    },
+    {
+     "start": 494.5,
+     "end": 497.54,
+     "text": "GPT-3 could take in 2,048 tokens."
+    },
+    {
+     "start": 497.54,
+     "end": 502.78,
+     "text": "In 2024, Google's Gemini 1.5 offered a million."
+    },
+    {
+     "start": 502.78,
+     "end": 505.18,
+     "text": "Getting there took years of engineering,"
+    },
+    {
+     "start": 505.18,
+     "end": 506.9,
+     "text": "like FlashAttention in 2022,"
+    },
+    {
+     "start": 506.9,
+     "end": 509.66,
+     "text": "which computes the exact same attention"
+    },
+    {
+     "start": 509.66,
+     "end": 513.16,
+     "text": "while moving far less data in and out of memory."
+    }
+   ]
+  },
+  {
+   "scene": 37,
+   "engine": "html_motion",
+   "asset": "HM2_TOKEN_METER",
+   "start": 513.16,
+   "end": 524.14,
+   "duration": 10.98,
+   "beats": [
+    {
+     "start": 513.16,
+     "end": 516.0,
+     "text": "It is also why very long prompts run slower,"
+    },
+    {
+     "start": 516.0,
+     "end": 519.42,
+     "text": "and why AI services charge by the token."
+    },
+    {
+     "start": 519.42,
+     "end": 524.14,
+     "text": "Every extra word is one more thing every other word has to look at."
+    }
+   ]
+  },
+  {
+   "scene": 38,
+   "engine": "Remotion",
+   "asset": "R11B_TRANSFORMER_ENGINE",
+   "start": 524.14,
+   "end": 536.88,
+   "duration": 12.74,
+   "beats": [
+    {
+     "start": 524.14,
+     "end": 526.28,
+     "text": "The hardware followed the paper."
+    },
+    {
+     "start": 526.28,
+     "end": 529.72,
+     "text": "In 2022, NVIDIA announced its H100 chip"
+    },
+    {
+     "start": 529.72,
+     "end": 533.76,
+     "text": "with a section it literally named the Transformer Engine,"
+    },
+    {
+     "start": 533.76,
+     "end": 536.88,
+     "text": "built to speed up exactly this kind of math."
+    }
+   ]
+  },
+  {
+   "scene": 39,
+   "engine": "Manim",
+   "asset": "M17_CHAIN_VS_WEB",
+   "start": 536.88,
+   "end": 552.76,
+   "duration": 15.88,
+   "beats": [
+    {
+     "start": 536.88,
+     "end": 540.88,
+     "text": "So what did the 2017 paper see that others missed?"
+    },
+    {
+     "start": 540.88,
+     "end": 545.4,
+     "text": "That the step-by-step reader was the bottleneck, not the helper."
+    },
+    {
+     "start": 545.4,
+     "end": 546.24,
+     "text": "Remove it,"
+    },
+    {
+     "start": 546.24,
+     "end": 548.74,
+     "text": "let every word look at every other word at once,"
+    },
+    {
+     "start": 548.74,
+     "end": 552.76,
+     "text": "and language becomes a problem that hardware can scale."
+    }
+   ]
+  },
+  {
+   "scene": 40,
+   "engine": "Manim",
+   "asset": "M18_T_RETURNS",
+   "start": 552.76,
+   "end": 565.18,
+   "duration": 12.42,
+   "beats": [
+    {
+     "start": 552.76,
+     "end": 555.74,
+     "text": "That is the T in GPT."
+    },
+    {
+     "start": 555.74,
+     "end": 557.8,
+     "text": "Not a new kind of mind."
+    },
+    {
+     "start": 557.8,
+     "end": 559.94,
+     "text": "A new way to route information,"
+    },
+    {
+     "start": 559.94,
+     "end": 561.7,
+     "text": "simple enough to fit on one line,"
+    },
+    {
+     "start": 561.7,
+     "end": 565.18,
+     "text": "and parallel enough to grow 800-fold."
+    }
+   ]
+  },
+  {
+   "scene": 41,
+   "engine": "Manim",
+   "asset": "M18B_WHAT_IT_DID_NOT_SOLVE",
+   "start": 565.18,
+   "end": 580.74,
+   "duration": 15.56,
+   "beats": [
+    {
+     "start": 565.18,
+     "end": 568.4,
+     "text": "It is worth being clear about what it did not do."
+    },
+    {
+     "start": 568.4,
+     "end": 571.1,
+     "text": "Attention decides which words to combine."
+    },
+    {
+     "start": 571.1,
+     "end": 574.0,
+     "text": "It does not check whether the result is true."
+    },
+    {
+     "start": 574.0,
+     "end": 576.04,
+     "text": "The model still predicts the next token,"
+    },
+    {
+     "start": 576.04,
+     "end": 577.94,
+     "text": "fluently and fast,"
+    },
+    {
+     "start": 577.94,
+     "end": 580.74,
+     "text": "whether or not the facts behind it hold."
+    }
+   ]
+  },
+  {
+   "scene": 42,
+   "engine": "Remotion",
+   "asset": "R13_RECAP",
+   "start": 580.74,
+   "end": 599.26,
+   "duration": 18.52,
+   "beats": [
+    {
+     "start": 580.74,
+     "end": 583.38,
+     "text": "Gated memory in 1997."
+    },
+    {
+     "start": 583.38,
+     "end": 586.66,
+     "text": "Attention, bolted on, in 2014."
+    },
+    {
+     "start": 586.66,
+     "end": 590.26,
+     "text": "The chain deleted in 2017."
+    },
+    {
+     "start": 590.26,
+     "end": 593.1,
+     "text": "Eight hundred times bigger by 2020."
+    },
+    {
+     "start": 593.1,
+     "end": 596.3,
+     "text": "A hundred million users by early 2023."
+    },
+    {
+     "start": 596.3,
+     "end": 599.26,
+     "text": "One deletion, and everything after it."
+    }
+   ]
+  },
+  {
+   "scene": 43,
+   "engine": "Remotion",
+   "asset": "R12_AUTHORS_GRID",
+   "start": 599.26,
+   "end": 621.78,
+   "duration": 22.52,
+   "beats": [
+    {
+     "start": 599.26,
+     "end": 600.86,
+     "text": "And the eight authors?"
+    },
+    {
+     "start": 600.86,
+     "end": 604.32,
+     "text": "By 2023, every one of them had left Google."
+    },
+    {
+     "start": 604.32,
+     "end": 606.3,
+     "text": "They went on to found or join companies"
+    },
+    {
+     "start": 606.3,
+     "end": 611.34,
+     "text": "like Cohere, Character.AI, Sakana AI, and OpenAI."
+    },
+    {
+     "start": 611.34,
+     "end": 613.22,
+     "text": "One of them, Noam Shazeer,"
+    },
+    {
+     "start": 613.22,
+     "end": 617.32,
+     "text": "returned to Google in 2024 as part of a deal with his startup."
+    },
+    {
+     "start": 617.32,
+     "end": 621.78,
+     "text": "Their eight names sit on one of the most cited papers of the century."
+    }
+   ]
+  },
+  {
+   "scene": 44,
+   "engine": "Manim",
+   "asset": "M19_SINGLE_LINE",
+   "start": 621.78,
+   "end": 629.2,
+   "duration": 7.42,
+   "beats": [
+    {
+     "start": 621.78,
+     "end": 624.12,
+     "text": "The idea they left behind is still running"
+    },
+    {
+     "start": 624.12,
+     "end": 626.88,
+     "text": "inside nearly every major chatbot,"
+    },
+    {
+     "start": 626.88,
+     "end": 629.2,
+     "text": "one weighted blend at a time."
+    }
+   ]
+  },
+  {
+   "scene": 45,
+   "engine": "Manim",
+   "asset": "M20_CTA_SPLIT",
+   "start": 629.2,
+   "end": 641.802,
+   "duration": 12.602,
+   "beats": [
+    {
+     "start": 629.2,
+     "end": 633.34,
+     "text": "If you want to see what these models are actually comparing when they pay attention,"
+    },
+    {
+     "start": 633.34,
+     "end": 637.04,
+     "text": "watch {EP07_TITLE}."
+    },
+    {
+     "start": 637.04,
+     "end": 640.5,
+     "text": "It shows how every word becomes a point in space."
+    },
+    {
+     "start": 640.5,
+     "end": 641.802,
+     "text": "It's on screen now."
+    }
+   ]
+  },
+  {
+   "scene": 46,
+   "engine": "Manim",
+   "asset": "M21_END_SCREEN_BG",
+   "start": 641.802,
+   "end": 661.802,
+   "duration": 20.0,
+   "beats": [
+    {
+     "start": 641.802,
+     "end": 661.802,
+     "text": ""
+    }
+   ]
+  }
+ ]
+}

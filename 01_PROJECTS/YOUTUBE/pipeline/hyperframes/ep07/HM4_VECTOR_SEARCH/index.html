@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<!-- EP07 Scene 40 · HM4_VECTOR_SEARCH · 10.48 s · beats (rel): 0 / 2.72 / 6.30 / 7.98 · vector + scores ILLUSTRATIVE -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Bold.ttf"); font-weight: 700; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #202322; }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #202322;
+    font-family: "Nohemi", "Inter", "Segoe UI", system-ui, sans-serif; font-weight: 500; color: #E6EDF3;
+    font-variant-numeric: tabular-nums; }
+  .grid { position: absolute; left: -120px; top: -120px; width: 2160px; height: 1320px; opacity: 0.22;
+    background-image: linear-gradient(#233D4C 1px, transparent 1px), linear-gradient(90deg, #233D4C 1px, transparent 1px);
+    background-size: 120px 120px; }
+  #win { position: absolute; left: 160px; top: 200px; width: 1600px; height: 640px; border: 1px solid #233D4C; background: #202322; }
+  .bar { position: absolute; left: 0; top: 0; width: 100%; height: 64px; border-bottom: 1px solid #233D4C; }
+  .dot { position: absolute; top: 24px; width: 16px; height: 16px; border-radius: 50%; background: #233D4C; }
+  .title { position: absolute; left: 120px; top: 16px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; opacity: 0.7; }
+  #tag { position: absolute; right: 28px; top: 16px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; color: #FD802E; }
+  .prompt { position: absolute; left: 60px; top: 92px; font-size: 40px; white-space: pre; }
+  .dim { opacity: 0.6; }
+  .lbl { position: absolute; left: 60px; font-size: 28px; letter-spacing: 0.12em; opacity: 0.7; }
+  #vec { position: absolute; left: 60px; top: 206px; font-size: 44px; font-weight: 700; white-space: pre; }
+  #vec .n { display: inline-block; }
+  .scan { position: absolute; left: 260px; top: 300px; width: 1280px; height: 6px; background: rgba(35, 61, 76, 0.8); }
+  #scanfill { position: absolute; left: 0; top: 0; width: 100%; height: 6px; background: #C3D809; transform-origin: 0 50%; }
+  #scanct { position: absolute; left: 60px; top: 284px; font-size: 28px; letter-spacing: 0.12em; opacity: 0.7; }
+  .res { position: absolute; left: 60px; width: 1480px; height: 58px; }
+  .res .edge { position: absolute; left: 0; top: 4px; width: 6px; height: 50px; background: #233D4C; }
+  .res .s { position: absolute; left: 30px; top: 6px; font-size: 44px; font-weight: 700; color: #C3D809; }
+  .res .d { position: absolute; left: 190px; top: 10px; font-size: 38px; }
+  #done { position: absolute; left: 60px; top: 566px; font-size: 40px; font-weight: 700; color: #C3D809; letter-spacing: 0.06em; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="10.48" data-width="1920" data-height="1080">
+  <div class="grid clip" id="grid" data-start="0" data-duration="10.48" data-track-index="0"></div>
+  <div id="win">
+    <div class="bar"><div class="dot" style="left:24px"></div><div class="dot" style="left:52px"></div><div class="dot" style="left:80px"></div>
+      <div class="title">SEMANTIC SEARCH</div><div id="tag">ILLUSTRATIVE</div></div>
+    <div class="prompt"><span class="dim">&gt; query: </span><span id="typed">"can i bring medicine for a friend"</span></div>
+    <div class="lbl" id="veclbl" style="top:166px">QUERY VECTOR</div>
+    <div id="vec"></div>
+    <div id="scanct">SCANNING</div>
+    <div class="scan" id="scan"><div id="scanfill"></div></div>
+    <div class="res" id="q0" style="top:350px"><div class="edge"></div><div class="s">0.87</div><div class="d">Travelling with someone else's prescription</div></div>
+    <div class="res" id="q1" style="top:418px"><div class="edge"></div><div class="s">0.84</div><div class="d">Carrying medication across borders</div></div>
+    <div class="res" id="q2" style="top:486px"><div class="edge"></div><div class="s">0.79</div><div class="d">Packing medicine in hand luggage</div></div>
+    <div id="done">RETRIEVED: nearest 3</div>
+  </div>
+</div>
+<script>
+  const D = 10.48, B = [0, 2.72, 6.30, 7.98];
+  const VEC = ["0.12", "-0.48", "0.91", "0.05", "-0.33", "0.27", "-0.71", "0.64"];
+  const vec = document.getElementById("vec");
+  const parts = [];
+  const add = (txt, cls) => { const s = document.createElement("span"); s.className = cls || ""; s.textContent = txt; vec.appendChild(s); parts.push(s); };
+  add("[ ", "n");
+  VEC.forEach((v, i) => add(v + (i < VEC.length - 1 ? ",  " : ""), "n"));
+  add(" … ]", "n");
+
+  const typed = document.getElementById("typed");
+  const chars = typed.textContent.split(""); typed.textContent = "";
+  const spans = chars.map(ch => { const s = document.createElement("span"); s.textContent = ch; s.style.opacity = 0; typed.appendChild(s); return s; });
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#grid", { x: 0, y: 0 }, { x: 120, y: 60, duration: D, ease: "none" }, 0);
+  gsap.set(["#tag", "#veclbl", "#scanct", "#scan", ".res", "#done"], { opacity: 0 });
+  gsap.set(parts, { opacity: 0 });
+
+  // b1 — the query
+  tl.from("#win", { opacity: 0, scale: 0.97, duration: 0.6, ease: "power2.out" }, 0);
+  tl.from(".title", { opacity: 0, x: -20, duration: 0.5, ease: "power2.out" }, 0.3);
+  tl.from(".prompt .dim", { opacity: 0, duration: 0.4 }, 0.4);
+  spans.forEach((s, i) => tl.set(s, { opacity: 1 }, 0.6 + i * 0.055));
+
+  // b2 — the query becomes a vector
+  tl.to(["#veclbl", "#tag"], { opacity: 0.8, duration: 0.4, ease: "power2.out" }, B[1]);
+  tl.fromTo(parts, { opacity: 0, y: 10 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out", stagger: 0.12 }, B[1] + 0.1);
+  // mid-beat sub-change: scan the document index
+  tl.to(["#scanct", "#scan"], { opacity: 0.8, duration: 0.3, ease: "power2.out" }, 4.5);
+  tl.fromTo("#scanfill", { scaleX: 0 }, { scaleX: 1, duration: 1.6, ease: "power2.inOut" }, 4.6);
+
+  // b3 — top-3 by cosine score
+  tl.to(["#scanct", "#scan"], { opacity: 0.3, duration: 0.4, ease: "power2.inOut" }, B[2]);
+  tl.fromTo(".res", { opacity: 0, x: -24 }, { opacity: 1, x: 0, duration: 0.4, ease: "power2.out", stagger: 0.3 }, B[2]);
+
+  // b4 — retrieved
+  tl.fromTo("#done", { opacity: 0, y: 12 }, { opacity: 1, y: 0, duration: 0.45, ease: "power2.out" }, B[3] + 0.1);
+  tl.to(".res .edge", { backgroundColor: "#C3D809", duration: 0.4, ease: "power2.inOut", stagger: 0.12 }, B[3] + 0.2);
+  tl.to({}, { duration: 0.01 }, D - 0.01); // final frame held from ~8.9 s
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

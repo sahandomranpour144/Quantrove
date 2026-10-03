@@ -4,6 +4,7 @@ import { Short02SpeedDoesntPredictMarket } from "./shorts/Short02SpeedDoesntPred
 import { Short03WhyMachineChangesPrice } from "./shorts/Short03WhyMachineChangesPrice";
 import { Short04HowOneLosingDayHappens } from "./shorts/Short04HowOneLosingDayHappens";
 import { OrderRoutingBenchmark } from "./OrderRoutingBenchmark";
+import { LongCompositions } from "./longs";
 import "./index.css";
 
 export const RemotionRoot: React.FC = () => {
@@ -58,6 +59,9 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
       />
+
+      {/* EP07+ long-form 16:9 data-graphics scenes */}
+      <LongCompositions />
     </>
   );
 };

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<!-- EP07 Scene 12 · HM2_FILL_BLANK · 9.74 s · beats (rel): 0 / 3.74 / 5.54 / 8.12 · probabilities ILLUSTRATIVE -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Bold.ttf"); font-weight: 700; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #202322; }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #202322;
+    font-family: "Nohemi", "Inter", "Segoe UI", system-ui, sans-serif; font-weight: 500; color: #E6EDF3;
+    font-variant-numeric: tabular-nums; }
+  .grid { position: absolute; left: -120px; top: -120px; width: 2160px; height: 1320px; opacity: 0.22;
+    background-image: linear-gradient(#233D4C 1px, transparent 1px), linear-gradient(90deg, #233D4C 1px, transparent 1px);
+    background-size: 120px 120px; }
+  #win { position: absolute; left: 160px; top: 214px; width: 1600px; height: 620px; border: 1px solid #233D4C; background: #202322; }
+  .bar { position: absolute; left: 0; top: 0; width: 100%; height: 64px; border-bottom: 1px solid #233D4C; }
+  .dot { position: absolute; top: 24px; width: 16px; height: 16px; border-radius: 50%; background: #233D4C; }
+  .title { position: absolute; left: 120px; top: 16px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; opacity: 0.7; }
+  #tag { position: absolute; right: 28px; top: 16px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; color: #FD802E; }
+  .prompt { position: absolute; left: 60px; top: 96px; font-size: 52px; white-space: pre; }
+  .blank { display: inline-block; width: 200px; height: 52px; border-bottom: 4px solid #C3D809; vertical-align: -10px; position: relative; }
+  #cur { position: absolute; left: 8px; top: 2px; width: 20px; height: 46px; background: #C3D809; }
+  .hdr { position: absolute; left: 60px; top: 196px; font-size: 28px; letter-spacing: 0.12em; opacity: 0.7; }
+  .row { position: absolute; left: 60px; width: 1480px; height: 72px; }
+  .w { position: absolute; left: 0; top: 10px; font-size: 44px; font-weight: 700; }
+  .track { position: absolute; left: 280px; top: 22px; width: 960px; height: 28px; background: rgba(35, 61, 76, 0.55); }
+  .fill { position: absolute; left: 0; top: 0; height: 28px; background: #C3D809; transform-origin: 0 50%; }
+  .v { position: absolute; left: 1280px; top: 12px; font-size: 40px; font-weight: 700; }
+  .risk .fill { background: #FD802E; }
+  .risk .w, .risk .v { color: #FD802E; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="9.74" data-width="1920" data-height="1080">
+  <div class="grid clip" id="grid" data-start="0" data-duration="9.74" data-track-index="0"></div>
+  <div id="win">
+    <div class="bar"><div class="dot" style="left:24px"></div><div class="dot" style="left:52px"></div><div class="dot" style="left:80px"></div>
+      <div class="title">NEXT-WORD GUESS</div><div id="tag">ILLUSTRATIVE</div></div>
+    <div class="prompt"><span id="typed">I drank a hot cup of </span><span class="blank" id="blank"><span id="cur"></span></span></div>
+    <div class="hdr" id="hdr">P(NEXT WORD)</div>
+    <div class="row" id="r0" style="top:250px"><div class="w">coffee</div><div class="track"><div class="fill" style="width:595px"></div></div><div class="v" data-v="0.62">0.00</div></div>
+    <div class="row" id="r1" style="top:336px"><div class="w">tea</div><div class="track"><div class="fill" style="width:259px"></div></div><div class="v" data-v="0.27">0.00</div></div>
+    <div class="row" id="r2" style="top:422px"><div class="w">cocoa</div><div class="track"><div class="fill" style="width:77px"></div></div><div class="v" data-v="0.08">0.00</div></div>
+    <div class="row risk" id="r3" style="top:508px"><div class="w">banana</div><div class="track"><div class="fill" style="width:4px"></div></div><div class="v">&lt;0.001</div></div>
+  </div>
+</div>
+<script>
+  const D = 9.74, B = [0, 3.74, 5.54, 8.12];
+  const typed = document.getElementById("typed");
+  const chars = typed.textContent.split(""); typed.textContent = "";
+  const spans = chars.map(ch => { const s = document.createElement("span"); s.textContent = ch; s.style.opacity = 0; typed.appendChild(s); return s; });
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#grid", { x: 0, y: 0 }, { x: 120, y: 60, duration: D, ease: "none" }, 0);
+  gsap.set(["#tag", "#hdr", ".row", "#blank"], { opacity: 0 });
+
+  // b1 — prompt types, blank cursor blinks
+  tl.from("#win", { opacity: 0, scale: 0.97, duration: 0.6, ease: "power2.out" }, 0);
+  tl.from(".title", { opacity: 0, x: -20, duration: 0.5, ease: "power2.out" }, 0.3);
+  spans.forEach((s, i) => tl.set(s, { opacity: 1 }, 0.5 + i * 0.07));
+  const tBlank = 0.5 + spans.length * 0.07;
+  tl.to("#blank", { opacity: 1, duration: 0.3, ease: "power2.out" }, tBlank);
+  for (let t = tBlank + 0.5, k = 0; t < D - 0.6; t += 0.5, k++) tl.set("#cur", { opacity: k % 2 ? 1 : 0 }, t);
+
+  // value counters
+  function countUp(row, at, dur) {
+    const el = document.querySelector(row + " .v"), target = parseFloat(el.dataset.v), st = { v: 0 };
+    tl.to(st, { v: target, duration: dur, ease: "power2.out", onUpdate: () => { el.textContent = st.v.toFixed(2); } }, at);
+  }
+  function showRow(row, at) {
+    tl.fromTo(row, { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.4, ease: "power2.out" }, at);
+    tl.fromTo(row + " .fill", { scaleX: 0 }, { scaleX: 1, duration: 0.9, ease: "power2.inOut" }, at + 0.15);
+  }
+  // b2 — candidate panel, first bar
+  tl.to(["#hdr", "#tag"], { opacity: 0.8, duration: 0.4, ease: "power2.out" }, B[1]);
+  showRow("#r0", B[1] + 0.2); countUp("#r0", B[1] + 0.35, 0.9);
+  // b3 — tea, cocoa
+  showRow("#r1", B[2]); countUp("#r1", B[2] + 0.15, 0.9);
+  showRow("#r2", B[2] + 0.9); countUp("#r2", B[2] + 1.05, 0.9);
+  // b4 — banana: near-zero, Pumpkin
+  showRow("#r3", B[3]);
+  tl.to("#r0 .w", { color: "#C3D809", duration: 0.4, ease: "power2.inOut" }, B[3] + 0.3);
+  tl.to({}, { duration: 0.01 }, D - 0.01); // final frame held from ~9.1 s
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>

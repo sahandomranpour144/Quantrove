@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<!-- EP08 Scene 7 · HM1_WINOGRAD · 11.92 s · beats (rel): 0 / 1.50 / 5.54 / 8.56 -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<style>
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Medium.ttf"); font-weight: 500; }
+  @font-face { font-family: "Nohemi"; src: url("assets/fonts/Nohemi-Bold.ttf"); font-weight: 700; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1920px; height: 1080px; overflow: hidden; background: #202322; }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #202322;
+    font-family: "Nohemi", "Inter", "Segoe UI", system-ui, sans-serif; font-weight: 500; color: #E6EDF3;
+    font-variant-numeric: tabular-nums; }
+  .grid { position: absolute; left: -120px; top: -120px; width: 2160px; height: 1320px; opacity: 0.22;
+    background-image: linear-gradient(#233D4C 1px, transparent 1px), linear-gradient(90deg, #233D4C 1px, transparent 1px);
+    background-size: 120px 120px; }
+  #win { position: absolute; left: 160px; top: 214px; width: 1600px; height: 620px; border: 1px solid #233D4C; background: #202322; }
+  .bar { position: absolute; left: 0; top: 0; width: 100%; height: 64px; border-bottom: 1px solid #233D4C; }
+  .dot { position: absolute; top: 24px; width: 16px; height: 16px; border-radius: 50%; background: #233D4C; }
+  .title { position: absolute; left: 120px; top: 16px; font-size: 28px; font-weight: 700; letter-spacing: 0.12em; opacity: 0.7; }
+  .cmd { position: absolute; left: 60px; top: 92px; font-size: 32px; opacity: 0.6; white-space: pre; }
+  .line { position: absolute; left: 60px; font-size: 58px; font-weight: 700; white-space: nowrap; }
+  .w { position: relative; display: inline-block; margin-right: 0.26em; }
+  .u { position: absolute; left: -4px; right: -4px; bottom: -10px; height: 6px; background: #C3D809; transform-origin: 0 50%; }
+  .swap { display: inline-grid; }
+  .swap > span { grid-area: 1 / 1; }
+  #small { color: #FD802E; }
+  .rlbl { position: absolute; left: 60px; top: 372px; font-size: 28px; letter-spacing: 0.12em; opacity: 0.7; }
+  .res { position: absolute; left: 60px; top: 414px; font-size: 76px; font-weight: 700; white-space: nowrap; }
+  .slot { display: inline-grid; margin-left: 24px; }
+  .slot > span { grid-area: 1 / 1; }
+  #q { color: #E6EDF3; }
+  #r1, #r2 { color: #C3D809; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="11.92" data-width="1920" data-height="1080">
+  <div class="grid clip" id="grid" data-start="0" data-duration="11.92" data-track-index="0"></div>
+  <div id="win">
+    <div class="bar"><div class="dot" style="left:24px"></div><div class="dot" style="left:52px"></div><div class="dot" style="left:80px"></div>
+      <div class="title">PRONOUN RESOLVER</div></div>
+    <div class="cmd" id="cmd">&gt; resolve("it")</div>
+    <div class="line" id="la" style="top:150px"></div>
+    <div class="line" id="lb" style="top:236px"></div>
+    <div class="rlbl" id="rlbl">REFERENT</div>
+    <div class="res" id="res">it <span style="font-family:'Segoe UI', system-ui, sans-serif">→</span><span class="slot"><span id="q">?</span><span id="r1">trophy</span><span id="r2">suitcase</span></span></div>
+  </div>
+</div>
+<script>
+  const D = 11.92, B = [0, 1.50, 5.54, 8.56];
+  const LA = "The trophy didn't fit in the suitcase".split(" ");
+  const LB = ["because", "it", "was", "too", "BIG"];
+  const allChars = [], words = {};
+  function build(lineEl, list) {
+    list.forEach((wd) => {
+      const w = document.createElement("span"); w.className = "w";
+      let host = w;
+      if (wd === "BIG") {
+        w.innerHTML = `<span class="swap"><span id="big"></span><span id="small">small.</span></span>`;
+        host = w.querySelector("#big"); wd = "big.";
+      }
+      wd.split("").forEach(ch => { const c = document.createElement("span"); c.textContent = ch; host.appendChild(c); allChars.push(c); });
+      const u = document.createElement("div"); u.className = "u"; w.appendChild(u);
+      words[wd] = words[wd] || w;
+      lineEl.appendChild(w);
+    });
+  }
+  build(document.getElementById("la"), LA);
+  build(document.getElementById("lb"), LB);
+  const U = (k) => words[k].querySelector(".u");
+
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#grid", { x: 0, y: 0 }, { x: 120, y: 60, duration: D, ease: "none" }, 0);
+  gsap.set(allChars, { opacity: 0 });
+  gsap.set(".u", { scaleX: 0 });
+  gsap.set(["#rlbl", "#res", "#r1", "#r2", "#small"], { opacity: 0 });
+
+  // b1 — terminal opens, sentence starts printing
+  tl.from("#win", { opacity: 0, scale: 0.97, duration: 0.6, ease: "power2.out" }, 0);
+  tl.from(".title", { opacity: 0, x: -20, duration: 0.5, ease: "power2.out" }, 0.3);
+  tl.from("#cmd", { opacity: 0, duration: 0.4 }, 0.4);
+  allChars.forEach((c, i) => tl.set(c, { opacity: 1 }, 0.7 + i * 0.042));
+  // b2 — "it" is flagged, referent unknown, "?" blinks
+  tl.fromTo(U("it"), { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power2.out" }, 3.5);
+  tl.to(["#rlbl", "#res"], { opacity: 1, duration: 0.4, ease: "power2.out" }, 3.7);
+  for (let t = 4.3, k = 0; t < B[2]; t += 0.4, k++) tl.set("#q", { opacity: k % 2 ? 1 : 0.15 }, t);
+  // b3 — it → trophy
+  tl.to("#q", { opacity: 0, duration: 0.25 }, B[2]);
+  tl.fromTo("#r1", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, B[2] + 0.1);
+  tl.fromTo(U("trophy"), { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "power2.out" }, B[2] + 0.2);
+  tl.fromTo(U("big."), { scaleX: 0, backgroundColor: "#E6EDF3" }, { scaleX: 1, duration: 0.5, ease: "power2.out" }, B[2] + 1.2);
+  // b4 — big → small, it → suitcase
+  tl.to("#big", { opacity: 0, y: -20, duration: 0.35, ease: "power2.in" }, B[3]);
+  tl.fromTo("#small", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, B[3] + 0.25);
+  tl.to(U("big."), { backgroundColor: "#FD802E", duration: 0.3 }, B[3] + 0.25);
+  tl.to(U("trophy"), { scaleX: 0, duration: 0.4, ease: "power2.in" }, B[3] + 0.6);
+  tl.to("#r1", { opacity: 0, y: -16, duration: 0.3, ease: "power2.in" }, B[3] + 0.6);
+  tl.fromTo("#r2", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.4, ease: "power2.out" }, B[3] + 0.9);
+  tl.fromTo(U("suitcase"), { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "power2.out" }, B[3] + 1.0);
+  tl.to({}, { duration: 0.01 }, D - 0.01); // final frame held from ~10.1 s
+
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+  tl.seek(0);
+</script>
+</body>
+</html>
