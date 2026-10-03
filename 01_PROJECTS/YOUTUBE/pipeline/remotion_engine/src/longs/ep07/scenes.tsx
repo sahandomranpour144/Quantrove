@@ -26,7 +26,6 @@ import {
   ease,
   limeA,
   pulse,
-  pumpkinA,
   sp,
   textA,
   useBeats,

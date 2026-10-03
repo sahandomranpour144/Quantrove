@@ -187,18 +187,42 @@ def measure(text, size):
 
 
 def render_card(text, color, style):
-    size = FONT_MAX
-    while True:
-        tw, top, bot, parts = measure(text, size)
-        if tw + 2 * PAD_X <= CARD_MAX_W or size <= FONT_FLOOR:
+    """Single line 72->56 px; else two balanced lines (largest size fitting 560x110 contract); else shrink 1 line."""
+    MAXH = CONTRACT["popup_box"]["max_height"]
+    lines, size, pad_y = [text], FONT_MAX, PAD_Y
+    for sz in range(FONT_MAX, CONTRACT["popup_box"]["font_size_min"] - 1, -1):
+        if measure(text, sz)[0] + 2 * PAD_X <= CARD_MAX_W:
+            size = sz
             break
-        size -= 1
-    cw, ch = int(math.ceil(tw + 2 * PAD_X)), int(bot - top + 2 * PAD_Y)
+    else:
+        toks = text.split(" ")
+        splits = [(" ".join(toks[:i]), " ".join(toks[i:])) for i in range(1, len(toks))]
+        done = False
+        for sz in range(CONTRACT["popup_box"]["font_size_min"], 29, -1):
+            lh = int(sz * 1.08)
+            for l1, l2 in sorted(splits, key=lambda p: abs(len(p[0]) - len(p[1]))):
+                if max(measure(l1, sz)[0], measure(l2, sz)[0]) + 2 * PAD_X <= CARD_MAX_W and int(0.92 * sz) + lh + 2 * 12 <= MAXH:
+                    lines, size, pad_y, done = [l1, l2], sz, 12, True
+                    break
+            if done:
+                break
+        if not done:
+            size = FONT_MAX
+            while measure(text, size)[0] + 2 * PAD_X > CARD_MAX_W and size > FONT_FLOOR:
+                size -= 1
+    ms = [measure(l, size) for l in lines]
+    lh = int(size * 1.08)
+    tw = max(m[0] for m in ms)
+    top, bot = min(m[1] for m in ms), max(m[2] for m in ms)
+    cw = int(math.ceil(tw + 2 * PAD_X))
+    ch = int(bot - top + 2 * pad_y + (len(lines) - 1) * lh)
     card = Image.new("RGBA", (cw, ch), (0, 0, 0, 0))
     d = ImageDraw.Draw(card)
     d.rounded_rectangle([0, 0, cw - 1, ch - 1], radius=14, fill=PILL_FILL, outline=BORDER, width=1)
-    for s, font, x in parts:
-        d.text((PAD_X + x, PAD_Y - top), s, fill=color, font=font, anchor="ls")
+    for li, (lw, _, _, parts) in enumerate(ms):
+        ox = (tw - lw) / 2
+        for s, font, x in parts:
+            d.text((PAD_X + ox + x, pad_y - top + li * lh), s, fill=color, font=font, anchor="ls")
     if style == "glow":
         g = Image.new("RGBA", (cw + 24, ch + 24), (0, 0, 0, 0))
         ImageDraw.Draw(g).rounded_rectangle([12, 12, cw + 12, ch + 12], radius=16, fill=color[:3] + (50,))
@@ -266,7 +290,9 @@ def main():
         cx, cy, bbox = place(p["slot"], cw, ch)
         cards[id(p)], p["pos"], p["bbox"], p["font_px"] = card, (cx, cy), bbox, size
         if size < CONTRACT["popup_box"]["font_size_min"]:
-            log.append(f"FONT {size}px < contract min for {p['text']!r} (shrunk to fit {CARD_MAX_W}px card)")
+            log.append(f"FONT {size}px < contract min {p['text']!r} (2-line wrap to fit 560x110)")
+        if ch > CONTRACT["popup_box"]["max_height"]:
+            log.append(f"HEIGHT {ch}px > 110 for {p['text']!r}")
     for p in pops:
         log.append(f"{p['start']:8.2f}-{p['end']:7.2f}  sc{p['scene']:02d} {p['slot']}  {p['method']:<18} {p['text']}")
 

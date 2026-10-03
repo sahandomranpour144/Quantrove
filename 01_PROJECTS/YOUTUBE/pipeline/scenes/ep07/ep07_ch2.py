@@ -98,7 +98,7 @@ class M06_CONTEXT_PULL(QScene):
         self.beat(Succession(LaggedStart(FadeIn(ra, shift=UP * 0.2), FadeIn(rb, shift=UP * 0.2), lag_ratio=0.4,
                                          run_time=1.4),
                              AnimationGroup(ctx.animate.set_color(LIME), Create(win), run_time=1.4)), run=3.2)
-        Y = -0.75
+        Y = 0.05
         cof = label_dot("COFFEE", [-4.4, Y, 0], OFFWHITE, size=28)
         tea = label_dot("TEA", [4.4, Y, 0], OFFWHITE, size=28)
         # b2: COFFEE and TEA start far apart
@@ -108,8 +108,8 @@ class M06_CONTEXT_PULL(QScene):
         def cols(t, xc, xt):
             vc = [a + (b - a) * t for a, b in zip(steps[0], targ[0])]
             vt = [a + (b - a) * t for a, b in zip(steps[1], targ[1])]
-            return (number_col(vc, LEFT, Dot([xc, Y, 0])).shift(DOWN * 0.25),
-                    number_col(vt, RIGHT, Dot([xt, Y, 0])).shift(DOWN * 0.25))
+            return (number_col(vc, DOWN, Dot([xc, Y, 0])).shift(DOWN * 0.1),
+                    number_col(vt, DOWN, Dot([xt, Y, 0])).shift(DOWN * 0.1))
         cc, ct = cols(0, -4.4, 4.4)
         cc.shift(RIGHT * (cc.width + 0.5)).shift(DOWN * 0.0)   # first appearance: under/next to the dot
         ct.shift(LEFT * (ct.width + 0.5))
@@ -133,7 +133,7 @@ class M06_CONTEXT_PULL(QScene):
         vt, num = counter(0, 0, size=34, color=LIME)
         tick = VGroup(txt("UPDATES", 22, bold=False), num)
         num.add_updater(lambda m: m.next_to(tick[0], RIGHT, buff=0.2))
-        tick[0].move_to([-4.6, 1.15 - 0.0, 0])
+        tick[0].move_to([-5.0, 0.85, 0])
         self.add(tick)
         self.beat(vt.animate(rate_func=linear).set_value(48210), FadeIn(tick[0]),
                   Succession(move(2.3, 0.55, 0.9), move(1.75, 0.75, 0.9), move(1.45, 0.88, 0.9)), run=2.9)
@@ -185,7 +185,7 @@ class M06B_PUSH_APART(QScene):
         # b4: Pumpkin springs push them away from COFFEE
         op = ValueTracker(1)
         sB, sV = spring(dots[iC], dots[iB], PUMPKIN, op=op), spring(dots[iC], dots[iV], PUMPKIN, op=op)
-        far = {iB: np.array([4.6, 1.7, 0]), iV: np.array([4.0, -1.9, 0])}
+        far = {iB: np.array([3.9, 1.7, 0]), iV: np.array([3.6, -1.9, 0])}
         for m in (cofL, bL, vL, rings[0], rings[1]):
             pass
         bL.add_updater(lambda m: m.next_to(dots[iB], UR, buff=0.1))
@@ -228,24 +228,24 @@ class M06D_CONTEXT_WINDOW(QScene):
         C = 9                                              # coffee
         words.shift(UP * 0.7 - RIGHT * words[C].get_x())
         x0 = np.array([w.get_x() for w in words])
-        home = words.get_center().copy()
-        at = lambda c: home + LEFT * (x0[c] - x0[C])       # sentence position that centers word c
+        base = words.copy()                                # sentence at rest, for window geometry
+        sh = ValueTracker(7.0)                             # scroll offset (updater-driven: no animation fights)
+        words.add_updater(lambda m: [w.set_x(x0[i] + sh.get_value()) for i, w in enumerate(m)])
         def window(c):
-            g = VGroup(*words[c - 5:c + 6]).copy().shift(LEFT * (x0[c] - x0[C]))
+            g = VGroup(*base[c - 5:c + 6]).copy().shift(LEFT * (x0[c] - x0[C]))
             return SurroundingRectangle(g, buff=0.2, corner_radius=0.12, stroke_color=LIME, stroke_width=4)
-        words.shift(RIGHT * 7)
         # b1: a long sentence scrolls in
-        self.beat(words.animate.move_to(home), run=1.9)
+        self.beat(sh.animate.set_value(0.0), run=1.9)
         # b2: lime window frames a handful of words either side of COFFEE (no count shown, see VERIFY #5)
         win = window(C)
         arcs = VGroup(*[ArcBetweenPoints(words[C].get_top() + UP * 0.08, words[j].get_top() + UP * 0.08,
                                          angle=-0.9 if j > C else 0.9, stroke_color=LIME, stroke_width=2.5)
-                        for j in range(C - 5, C + 6) if j != C]).set_opacity(0.7)
+                        for j in range(C - 5, C + 6) if j != C]).set_fill(opacity=0).set_stroke(opacity=0.7)
         self.beat(Succession(AnimationGroup(words[C].animate.set_color(LIME), Create(win), run_time=1.4),
                              LaggedStart(*[Create(a) for a in arcs], lag_ratio=0.08, run_time=2.0)), run=3.7)
         # b3: the window slides one word at a time
         def step(c, prev):
-            return AnimationGroup(words.animate.move_to(at(c)), Transform(win, window(c)),
+            return AnimationGroup(sh.animate.set_value(-(x0[c] - x0[C])), Transform(win, window(c)),
                                   words[c].animate.set_color(LIME), words[prev].animate.set_color(OFFWHITE))
         self.beat(FadeOut(arcs), Succession(step(C + 1, C), step(C + 2, C + 1)), run=2.4)
         # b4: one more step; words outside the window fade to grey
@@ -309,11 +309,11 @@ class M06C_SIDE_EFFECT(QScene):
         gone = VGroup(machine, bars, prog_t, prog, ptxt)
         self.beat(gone.animate.shift(UP * 4.2).set_opacity(0), FadeOut(feed), run=2.4)
         # b5: what they kept: the table glows lime, KEPT
-        self.beat(rows.animate.move_to(UP * 0.1).scale(1.12), rows[1][0].animate.set_color(OFFWHITE), run=1.6)
+        self.beat(rows.animate.move_to(UP * 0.1).scale(1.12), run=1.6)
         frame = SurroundingRectangle(rows, buff=0.25, corner_radius=0.12, stroke_color=LIME, stroke_width=4)
         kept = txt("KEPT", 40, LIME).next_to(frame, RIGHT, buff=0.35).rotate(-0.12)
         # (b5 continues) -> b6: the numbers for each word: lime sweep row by row
-        self.beat(Create(frame), FadeIn(kept, scale=1.5),
+        self.beat(Create(frame), FadeIn(kept, scale=1.5), rows[1][0].animate.set_color(OFFWHITE),
                   LaggedStart(*[Indicate(row[1], color=LIME, scale_factor=1.04) for row in rows], lag_ratio=0.15),
                   run=1.9)
         # b7: like walking a city to run errands: table becomes a street map, a walker runs errands
@@ -336,7 +336,7 @@ class M06C_SIDE_EFFECT(QScene):
         pj = Proj(self, spin=0.05, k=0.85)
         cloud = pj.cloud(CLOUD, reveal=0)
         self.add(cloud)
-        self.beat(streets.animate.set_stroke(LIME, opacity=0.25), trail.animate.set_stroke(opacity=0.15),
+        self.beat(streets.animate.set_stroke(LIME, opacity=0.25), FadeOut(trail),
                   cloud.reveal.animate.set_value(1), run=2.0)
         self.finish()
 
@@ -486,7 +486,7 @@ class M08_COSINE_ANGLE(QScene):
         # b3: small angle means similar
         self.beat(Create(arc1), Write(c1), run=1.3)
         arc2 = Arc(radius=0.95, start_angle=a_c, angle=a_x - a_c, arc_center=O, stroke_color=OFFWHITE, stroke_width=5)
-        c2 = txt("cos ≈ 0.1", 30).move_to(O + np.array([-0.9, 1.2, 0]))
+        c2 = txt("cos ≈ 0.1", 30).move_to(O + np.array([-1.5, 1.35, 0]))
         # b4: wide angle means unrelated
         self.beat(ax.animate.set_opacity(1), Create(arc2), Write(c2), VGroup(arc1, c1).animate.set_opacity(0.55),
                   run=1.5)
@@ -511,7 +511,7 @@ class M09_DIRECTION_TEASE(QScene):
         self.beat(cloud.dim.animate.set_value(0.4), *[h.dim.animate.set_value(0.15) for h in halos], run=2.2)
         # b2: the positions mattered: rings mark where each cluster sits
         names = ["COUNTRIES", "FOODS", "MOTION", "MONEY", "RIVER", "TRAVEL"]
-        rings = VGroup(*[pj.pin(Circle(radius=0.5, stroke_color=OFFWHITE, stroke_width=2.5).set_opacity(0.7),
+        rings = VGroup(*[pj.pin(Circle(radius=0.5, stroke_color=OFFWHITE, stroke_width=2.5, stroke_opacity=0.7, fill_opacity=0),
                                 CLUSTERS[n], idx=None) for n in names])
         self.beat(LaggedStart(*[Create(c) for c in rings], lag_ratio=0.15), run=1.3)
         # b3: faint arrows between them appear, one brightens (the MAN -> WOMAN direction); push in
@@ -521,6 +521,6 @@ class M09_DIRECTION_TEASE(QScene):
         ends = VGroup(*[pj.pin(glow_dot(ORIGIN, LIME, 0.06), p) for p in (MAN, WOMAN)]).set_opacity(0)
         self.beat(Succession(LaggedStart(*[a.g.animate.set_value(1) for a in faint], lag_ratio=0.2, run_time=1.1),
                              AnimationGroup(hero.g.animate.set_value(1), ends.animate.set_opacity(1),
-                                            rings.animate.set_opacity(0.25), run_time=1.0)),
+                                            rings.animate.set_stroke(opacity=0.25), run_time=1.0)),
                   run=2.2, focus=pj.P(MAN) * 0.5)
         self.finish()

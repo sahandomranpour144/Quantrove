@@ -587,21 +587,18 @@ export const RecapStack: React.FC<{
   cardH?: number;
   gap?: number;
   y: number;
-}> = ({ items, alignAt, cardW, cardH = 210, gap = 32, y }) => {
+}> = ({ items, cardW, cardH = 210, gap = 32, y }) => {
   const f = useCurrentFrame();
   const n = items.length;
   const rowW = n * cardW + (n - 1) * gap;
-  const a = ease(f, alignAt, alignAt + 40);
   return (
     <>
       {items.map((it, k) => {
         const p = sp(f, it.at, 30);
-        // stack: cascade around centre; row: evenly spaced
-        const sx = 960 - cardW / 2 + (k - (n - 1) / 2) * 120;
-        const sy = y - 70 + k * 40;
         const rx = 960 - rowW / 2 + k * (cardW + gap);
-        const x = sx + (rx - sx) * a;
-        const yy = sy + (y - sy) * a;
+        // cards land directly in their row slot (a cascaded stack hid the earlier years)
+        const x = rx;
+        const yy = y;
         const col = it.color ?? C.lime;
         const tag = it.tagAt === undefined ? 0 : sp(f, it.tagAt, 24);
         return (

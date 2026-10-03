@@ -1,0 +1,1298 @@
+[
+ {
+  "word": "2017",
+  "start": 0.34,
+  "end": 2.74,
+  "anchor": 0.42,
+  "method": "phrase",
+  "scene": 1,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   328,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "250,000+ CITATIONS",
+  "start": 8.5,
+  "end": 10.9,
+  "anchor": 8.58,
+  "method": "token:250000",
+  "scene": 1,
+  "slot": "TC",
+  "bbox": [
+   817,
+   61,
+   1104,
+   172
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "THE T IN GPT",
+  "start": 13.94,
+  "end": 16.34,
+  "anchor": 14.02,
+  "method": "token:gpt",
+  "scene": 1,
+  "slot": "TR",
+  "bbox": [
+   1320,
+   74,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "WHAT DID THEY SEE?",
+  "start": 18.74,
+  "end": 21.14,
+  "anchor": 18.82,
+  "method": "token:see",
+  "scene": 2,
+  "slot": "TL",
+  "bbox": [
+   96,
+   65,
+   376,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "A BAD MEMORY",
+  "start": 33.14,
+  "end": 35.35,
+  "anchor": 33.22,
+  "method": "phrase",
+  "scene": 3,
+  "slot": "ML",
+  "bbox": [
+   96,
+   501,
+   628,
+   579
+  ],
+  "font_px": 61,
+  "color": "#FD802E",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "ONE WORD AT A TIME",
+  "start": 35.4,
+  "end": 37.8,
+  "anchor": 35.48,
+  "method": "phrase",
+  "scene": 4,
+  "slot": "TC",
+  "bbox": [
+   814,
+   65,
+   1106,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "RUNNING MEMORY",
+  "start": 41.18,
+  "end": 43.58,
+  "anchor": 41.26,
+  "method": "phrase",
+  "scene": 4,
+  "slot": "TR",
+  "bbox": [
+   1572,
+   65,
+   1824,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "SQUEEZED",
+  "start": 51.18,
+  "end": 53.58,
+  "anchor": 51.26,
+  "method": "phrase",
+  "scene": 5,
+  "slot": "TL",
+  "bbox": [
+   96,
+   70,
+   520,
+   163
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "EARLY WORDS FADE",
+  "start": 54.08,
+  "end": 56.48,
+  "anchor": 54.16,
+  "method": "phrase",
+  "scene": 5,
+  "slot": "TC",
+  "bbox": [
+   789,
+   65,
+   1131,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "1997 LSTM",
+  "start": 60.44,
+  "end": 62.84,
+  "anchor": 60.52,
+  "method": "token:1997",
+  "scene": 6,
+  "slot": "TR",
+  "bbox": [
+   1376,
+   74,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "2016",
+  "start": 67.82,
+  "end": 70.22,
+  "anchor": 67.9,
+  "method": "phrase",
+  "scene": 6,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   334,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "\u221260% ERRORS",
+  "start": 74.14,
+  "end": 76.54,
+  "anchor": 74.22,
+  "method": "token:errors",
+  "scene": 6,
+  "slot": "TC",
+  "bbox": [
+   690,
+   75,
+   1230,
+   158
+  ],
+  "font_px": 68,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "WHAT IS \"IT\"?",
+  "start": 87.2,
+  "end": 89.6,
+  "anchor": 87.28,
+  "method": "token:what",
+  "scene": 7,
+  "slot": "TR",
+  "bbox": [
+   1288,
+   74,
+   1824,
+   158
+  ],
+  "font_px": 70,
+  "color": "#C3D809",
+  "scene_type": "html_motion"
+ },
+ {
+  "word": "SEVERAL STEPS BACK",
+  "start": 96.58,
+  "end": 98.98,
+  "anchor": 96.66,
+  "method": "phrase",
+  "scene": 8,
+  "slot": "TL",
+  "bbox": [
+   96,
+   65,
+   422,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "IN ORDER",
+  "start": 108.24,
+  "end": 110.64,
+  "anchor": 108.32,
+  "method": "phrase",
+  "scene": 9,
+  "slot": "TC",
+  "bbox": [
+   767,
+   73,
+   1153,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "IDLE CORES",
+  "start": 111.2,
+  "end": 113.6,
+  "anchor": 111.28,
+  "method": "token:cores",
+  "scene": 9,
+  "slot": "TR",
+  "bbox": [
+   1360,
+   73,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "2014",
+  "start": 115.78,
+  "end": 118.18,
+  "anchor": 115.86,
+  "method": "phrase",
+  "scene": 10,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   337,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "ATTENTION",
+  "start": 126.42,
+  "end": 128.17,
+  "anchor": 126.5,
+  "method": "phrase",
+  "scene": 10,
+  "slot": "TC",
+  "bbox": [
+   731,
+   73,
+   1190,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "STILL STEP BY STEP",
+  "start": 128.22,
+  "end": 130.62,
+  "anchor": 128.3,
+  "method": "token:still",
+  "scene": 10,
+  "slot": "TR",
+  "bbox": [
+   1536,
+   65,
+   1824,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "DELETE THE CHAIN?",
+  "start": 137.14,
+  "end": 139.54,
+  "anchor": 137.22,
+  "method": "anchor:keep",
+  "scene": 11,
+  "slot": "TL",
+  "bbox": [
+   96,
+   65,
+   405,
+   167
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "DELETED THE CHAIN",
+  "start": 145.36,
+  "end": 147.76,
+  "anchor": 145.44,
+  "method": "token:deleted",
+  "scene": 12,
+  "slot": "MR",
+  "bbox": [
+   1542,
+   489,
+   1824,
+   591
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "ATTENTION IS ALL YOU NEED",
+  "start": 149.64,
+  "end": 152.04,
+  "anchor": 149.72,
+  "method": "phrase",
+  "scene": 13,
+  "slot": "TC",
+  "bbox": [
+   784,
+   65,
+   1137,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "ALL AT ONCE",
+  "start": 164.04,
+  "end": 166.44,
+  "anchor": 164.12,
+  "method": "phrase",
+  "scene": 14,
+  "slot": "TR",
+  "bbox": [
+   1310,
+   73,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "ONE STEP",
+  "start": 170.6,
+  "end": 173.0,
+  "anchor": 170.68,
+  "method": "token:step",
+  "scene": 14,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   498,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "144 COMPARISONS",
+  "start": 181.14,
+  "end": 183.54,
+  "anchor": 181.22,
+  "method": "phrase",
+  "scene": 15,
+  "slot": "TC",
+  "bbox": [
+   769,
+   65,
+   1151,
+   168
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "SAME MOMENT",
+  "start": 189.52,
+  "end": 191.92,
+  "anchor": 189.6,
+  "method": "phrase",
+  "scene": 15,
+  "slot": "TR",
+  "bbox": [
+   1290,
+   77,
+   1825,
+   156
+  ],
+  "font_px": 63,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "QUERY",
+  "start": 196.4,
+  "end": 198.69,
+  "anchor": 196.48,
+  "method": "phrase",
+  "scene": 16,
+  "slot": "TL",
+  "bbox": [
+   96,
+   70,
+   395,
+   163
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "KEY",
+  "start": 198.74,
+  "end": 201.14,
+  "anchor": 198.82,
+  "method": "phrase",
+  "scene": 16,
+  "slot": "TC",
+  "bbox": [
+   863,
+   74,
+   1057,
+   158
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "VALUE",
+  "start": 201.48,
+  "end": 203.88,
+  "anchor": 201.56,
+  "method": "phrase",
+  "scene": 16,
+  "slot": "TR",
+  "bbox": [
+   1538,
+   74,
+   1824,
+   158
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "QUERY \u00b7 KEY = SCORE",
+  "start": 205.68,
+  "end": 208.08,
+  "anchor": 205.76,
+  "method": "token:query",
+  "scene": 17,
+  "slot": "TL",
+  "bbox": [
+   96,
+   62,
+   424,
+   170
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "WEIGHTS SUM TO 1",
+  "start": 218.96,
+  "end": 221.36,
+  "anchor": 219.04,
+  "method": "token:weights",
+  "scene": 18,
+  "slot": "TC",
+  "bbox": [
+   832,
+   65,
+   1088,
+   168
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "A WEIGHTED BLEND",
+  "start": 227.08,
+  "end": 229.48,
+  "anchor": 227.16,
+  "method": "phrase",
+  "scene": 18,
+  "slot": "TR",
+  "bbox": [
+   1502,
+   65,
+   1824,
+   167
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "ONE LINE",
+  "start": 231.54,
+  "end": 233.94,
+  "anchor": 231.62,
+  "method": "phrase",
+  "scene": 19,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   463,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "LEARNED, NOT WRITTEN",
+  "start": 256.58,
+  "end": 258.98,
+  "anchor": 256.66,
+  "method": "token:learned",
+  "scene": 20,
+  "slot": "TC",
+  "bbox": [
+   784,
+   61,
+   1137,
+   172
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "8 HEADS",
+  "start": 263.08,
+  "end": 265.48,
+  "anchor": 263.16,
+  "method": "token:heads",
+  "scene": 21,
+  "slot": "TR",
+  "bbox": [
+   1462,
+   74,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "FOUND, NOT PROGRAMMED",
+  "start": 288.04,
+  "end": 290.44,
+  "anchor": 288.12,
+  "method": "token:programmed",
+  "scene": 22,
+  "slot": "TL",
+  "bbox": [
+   96,
+   61,
+   470,
+   172
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "\u00d7 6 LAYERS",
+  "start": 302.9,
+  "end": 305.3,
+  "anchor": 302.98,
+  "method": "token:layers",
+  "scene": 23,
+  "slot": "TC",
+  "bbox": [
+   732,
+   74,
+   1188,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "WORD ORDER",
+  "start": 310.68,
+  "end": 313.08,
+  "anchor": 310.76,
+  "method": "phrase",
+  "scene": 24,
+  "slot": "TR",
+  "bbox": [
+   1290,
+   74,
+   1825,
+   159
+  ],
+  "font_px": 70,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "SINE WAVES",
+  "start": 318.38,
+  "end": 320.78,
+  "anchor": 318.46,
+  "method": "phrase",
+  "scene": 24,
+  "slot": "TL",
+  "bbox": [
+   96,
+   74,
+   598,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "PARALLEL",
+  "start": 327.34,
+  "end": 329.74,
+  "anchor": 327.42,
+  "method": "phrase",
+  "scene": 25,
+  "slot": "TC",
+  "bbox": [
+   754,
+   74,
+   1167,
+   158
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "12 HOURS",
+  "start": 329.8,
+  "end": 332.2,
+  "anchor": 329.88,
+  "method": "phrase",
+  "scene": 25,
+  "slot": "TR",
+  "bbox": [
+   1420,
+   73,
+   1825,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "3.5 DAYS",
+  "start": 334.34,
+  "end": 336.74,
+  "anchor": 334.42,
+  "method": "token:days",
+  "scene": 25,
+  "slot": "TL",
+  "bbox": [
+   96,
+   74,
+   483,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "28.4",
+  "start": 340.36,
+  "end": 342.76,
+  "anchor": 340.44,
+  "method": "phrase",
+  "scene": 26,
+  "slot": "TC",
+  "bbox": [
+   849,
+   74,
+   1072,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "41.8",
+  "start": 347.1,
+  "end": 349.15,
+  "anchor": 347.18,
+  "method": "phrase",
+  "scene": 26,
+  "slot": "TR",
+  "bbox": [
+   1616,
+   74,
+   1825,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "FRACTION OF THE COST",
+  "start": 349.2,
+  "end": 351.6,
+  "anchor": 349.28,
+  "method": "token:fraction",
+  "scene": 26,
+  "slot": "TL",
+  "bbox": [
+   96,
+   65,
+   428,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "GROWS WITH HARDWARE",
+  "start": 357.4,
+  "end": 359.8,
+  "anchor": 357.48,
+  "method": "token:hardware",
+  "scene": 27,
+  "slot": "ML",
+  "bbox": [
+   96,
+   489,
+   447,
+   592
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "GPT",
+  "start": 364.54,
+  "end": 366.94,
+  "anchor": 364.62,
+  "method": "phrase",
+  "scene": 28,
+  "slot": "TC",
+  "bbox": [
+   858,
+   74,
+   1062,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "BERT",
+  "start": 369.34,
+  "end": 371.74,
+  "anchor": 369.42,
+  "method": "phrase",
+  "scene": 28,
+  "slot": "TR",
+  "bbox": [
+   1584,
+   74,
+   1825,
+   158
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "175 BILLION",
+  "start": 376.24,
+  "end": 378.64,
+  "anchor": 376.32,
+  "method": "phrase",
+  "scene": 28,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   563,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "CHATGPT",
+  "start": 381.3,
+  "end": 383.7,
+  "anchor": 381.38,
+  "method": "phrase",
+  "scene": 28,
+  "slot": "TC",
+  "bbox": [
+   759,
+   74,
+   1162,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "213 MILLION \u2192 175 BILLION",
+  "start": 386.44,
+  "end": 388.84,
+  "anchor": 386.52,
+  "method": "token:million",
+  "scene": 29,
+  "slot": "TR",
+  "bbox": [
+   1474,
+   65,
+   1824,
+   168
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "\u2248 800\u00d7",
+  "start": 392.38,
+  "end": 394.78,
+  "anchor": 392.46,
+  "method": "phrase",
+  "scene": 29,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   412,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "PREDICT THE NEXT TOKEN",
+  "start": 403.82,
+  "end": 406.22,
+  "anchor": 403.9,
+  "method": "phrase",
+  "scene": 30,
+  "slot": "TC",
+  "bbox": [
+   795,
+   65,
+   1125,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "LOOK BACK, NEVER AHEAD",
+  "start": 407.98,
+  "end": 410.38,
+  "anchor": 408.06,
+  "method": "token:never",
+  "scene": 30,
+  "slot": "TR",
+  "bbox": [
+   1474,
+   61,
+   1825,
+   172
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "PREDICTABLE",
+  "start": 426.42,
+  "end": 428.29,
+  "anchor": 426.5,
+  "method": "phrase",
+  "scene": 31,
+  "slot": "TL",
+  "bbox": [
+   96,
+   74,
+   636,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "SCALING LAWS",
+  "start": 428.34,
+  "end": 430.74,
+  "anchor": 428.42,
+  "method": "token:scaling",
+  "scene": 31,
+  "slot": "TC",
+  "bbox": [
+   692,
+   77,
+   1228,
+   155
+  ],
+  "font_px": 63,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "100 MILLION",
+  "start": 434.54,
+  "end": 436.77,
+  "anchor": 434.62,
+  "method": "phrase",
+  "scene": 32,
+  "slot": "TR",
+  "bbox": [
+   1330,
+   73,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "2 MONTHS",
+  "start": 436.82,
+  "end": 439.22,
+  "anchor": 436.9,
+  "method": "phrase",
+  "scene": 32,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   531,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "IMAGES",
+  "start": 446.08,
+  "end": 448.48,
+  "anchor": 446.16,
+  "method": "phrase",
+  "scene": 33,
+  "slot": "TC",
+  "bbox": [
+   793,
+   74,
+   1128,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "PROTEINS",
+  "start": 456.8,
+  "end": 459.2,
+  "anchor": 456.88,
+  "method": "token:proteins",
+  "scene": 33,
+  "slot": "TR",
+  "bbox": [
+   1412,
+   73,
+   1825,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "EVERY PIECE",
+  "start": 462.44,
+  "end": 464.84,
+  "anchor": 462.52,
+  "method": "phrase",
+  "scene": 33,
+  "slot": "TL",
+  "bbox": [
+   96,
+   74,
+   598,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "DOUBLE THE TEXT = 4\u00d7 THE WORK",
+  "start": 471.52,
+  "end": 473.92,
+  "anchor": 471.6,
+  "method": "token:double",
+  "scene": 34,
+  "slot": "TC",
+  "bbox": [
+   743,
+   65,
+   1177,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "10 BILLION COMPARISONS",
+  "start": 484.16,
+  "end": 486.56,
+  "anchor": 484.24,
+  "method": "phrase",
+  "scene": 35,
+  "slot": "TR",
+  "bbox": [
+   1442,
+   65,
+   1824,
+   168
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "2,048 \u2192 1,000,000 TOKENS",
+  "start": 496.34,
+  "end": 498.74,
+  "anchor": 496.42,
+  "method": "token:tokens",
+  "scene": 36,
+  "slot": "TL",
+  "bbox": [
+   96,
+   61,
+   560,
+   172
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "CHARGED BY THE TOKEN",
+  "start": 517.42,
+  "end": 519.82,
+  "anchor": 517.5,
+  "method": "token:charged",
+  "scene": 37,
+  "slot": "TC",
+  "bbox": [
+   793,
+   65,
+   1127,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "html_motion"
+ },
+ {
+  "word": "TRANSFORMER ENGINE",
+  "start": 532.0,
+  "end": 534.4,
+  "anchor": 532.08,
+  "method": "phrase",
+  "scene": 38,
+  "slot": "TR",
+  "bbox": [
+   1442,
+   65,
+   1825,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "THE CHAIN WAS THE BOTTLENECK",
+  "start": 542.94,
+  "end": 545.34,
+  "anchor": 543.02,
+  "method": "token:bottleneck",
+  "scene": 39,
+  "slot": "TL",
+  "bbox": [
+   96,
+   65,
+   522,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "A NEW WAY TO ROUTE INFORMATION",
+  "start": 557.72,
+  "end": 560.12,
+  "anchor": 557.8,
+  "method": "phrase",
+  "scene": 40,
+  "slot": "TC",
+  "bbox": [
+   706,
+   65,
+   1214,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "ROUTING \u2260 CHECKING",
+  "start": 571.54,
+  "end": 573.94,
+  "anchor": 571.62,
+  "method": "token:checking",
+  "scene": 41,
+  "slot": "TR",
+  "bbox": [
+   1536,
+   65,
+   1825,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "ONE DELETION",
+  "start": 596.22,
+  "end": 598.62,
+  "anchor": 596.3,
+  "method": "phrase",
+  "scene": 42,
+  "slot": "TL",
+  "bbox": [
+   96,
+   74,
+   630,
+   158
+  ],
+  "font_px": 69,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "ALL 8 LEFT",
+  "start": 603.1,
+  "end": 605.5,
+  "anchor": 603.18,
+  "method": "token:left",
+  "scene": 43,
+  "slot": "TC",
+  "bbox": [
+   745,
+   74,
+   1175,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "STILL RUNNING",
+  "start": 623.38,
+  "end": 625.78,
+  "anchor": 623.46,
+  "method": "phrase",
+  "scene": 44,
+  "slot": "TR",
+  "bbox": [
+   1286,
+   76,
+   1824,
+   156
+  ],
+  "font_px": 65,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ }
+]

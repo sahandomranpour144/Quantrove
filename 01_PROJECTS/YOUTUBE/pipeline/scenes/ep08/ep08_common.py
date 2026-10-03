@@ -182,3 +182,30 @@ def chip(s, size=22, color=OFFWHITE, stroke=SLATE):
     box = RoundedRectangle(corner_radius=0.08, width=t.width + 0.4, height=t.height + 0.3).set_stroke(stroke, 2.2)
     box.set_fill(BACKGROUND, 0.92).move_to(t)
     return VGroup(box, t)
+
+
+def web(n=9, rx=2.2, ry=1.5, color=LIME, width=1.4, opacity=0.6, center=ORIGIN):
+    """Complete attention graph on an ellipse. Returns VGroup(lines, dots)."""
+    pts = [center + np.array([rx * np.cos(a), ry * np.sin(a), 0]) for a in np.linspace(0.3, 0.3 + TAU, n, endpoint=False)]
+    lines = VGroup(*[Line(pts[i], pts[j]) for i in range(n) for j in range(i + 1, n)]).set_stroke(color, width, opacity)
+    dots = VGroup(*[glow_dot(p, color, 0.06) for p in pts])
+    return VGroup(lines, dots)
+
+
+def live_txt(get, size, pos=None, bold=True, place=None):
+    """Text that rebuilds only when (string, color) changes (CleanText is slow to rebuild every frame).
+    place(m) re-positions it every frame (e.g. follow a moving bar); else it stays at `pos`."""
+    k0 = get()
+    place = place or (lambda m: m.move_to(pos))
+    m = txt(k0[0], size, k0[1], bold=bold)
+    place(m)
+    m.key = k0
+
+    def upd(mm):
+        k = get()
+        if k != mm.key:
+            mm.become(txt(k[0], size, k[1], bold=bold))
+            mm.key = k
+        place(mm)
+    m.add_updater(upd)
+    return m

@@ -189,7 +189,9 @@ class Proj:
 
 def tag(scene, s, corner=DR):
     """Pinned ILLUSTRATIVE / source tag inside the safe area (clear of the caption lane)."""
-    return scene.hud(txt(s, 16, bold=False).set_opacity(0.6), corner=corner, buff=np.array([0.8, 1.78, 0]))
+    m = scene.hud(txt(s, 16, bold=False).set_opacity(0.6), corner=corner, buff=np.array([0.8, 1.78, 0]))
+    scene.add(m)    # EP07 builder fix: tag() previously built the label but never added it to the scene
+    return m
 
 
 def flicker(n=3):

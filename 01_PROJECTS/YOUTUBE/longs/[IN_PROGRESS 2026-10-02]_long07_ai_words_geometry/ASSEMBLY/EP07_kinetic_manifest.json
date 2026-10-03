@@ -1,0 +1,1424 @@
+[
+ {
+  "word": "AI",
+  "start": 0.22,
+  "end": 2.29,
+  "anchor": 0.3,
+  "method": "phrase",
+  "scene": 1,
+  "slot": "TL",
+  "bbox": [
+   96,
+   75,
+   222,
+   158
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "EVERY WORD",
+  "start": 2.34,
+  "end": 3.49,
+  "anchor": 2.42,
+  "method": "phrase",
+  "scene": 1,
+  "slot": "TC",
+  "bbox": [
+   693,
+   73,
+   1227,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "GEOMETRY",
+  "start": 3.54,
+  "end": 5.94,
+  "anchor": 3.62,
+  "method": "phrase",
+  "scene": 1,
+  "slot": "TR",
+  "bbox": [
+   1370,
+   73,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "KING \u2212 MAN + WOMAN \u2248 QUEEN",
+  "start": 12.6,
+  "end": 15.0,
+  "anchor": 12.68,
+  "method": "token:woman",
+  "scene": 1,
+  "slot": "TL",
+  "bbox": [
+   96,
+   62,
+   524,
+   170
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "NOBODY PROGRAMMED IT",
+  "start": 16.5,
+  "end": 18.9,
+  "anchor": 16.58,
+  "method": "token:nobody",
+  "scene": 2,
+  "slot": "TC",
+  "bbox": [
+   749,
+   65,
+   1171,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "WHAT ELSE?",
+  "start": 25.72,
+  "end": 28.12,
+  "anchor": 25.8,
+  "method": "phrase",
+  "scene": 2,
+  "slot": "TR",
+  "bbox": [
+   1314,
+   74,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "IBM 701",
+  "start": 32.0,
+  "end": 33.0,
+  "anchor": 32.08,
+  "method": "anchor:January",
+  "scene": 3,
+  "slot": "ML",
+  "bbox": [
+   96,
+   497,
+   432,
+   583
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "1954",
+  "start": 33.05,
+  "end": 35.45,
+  "anchor": 32.32,
+  "method": "phrase",
+  "scene": 3,
+  "slot": "MR",
+  "bbox": [
+   1584,
+   499,
+   1825,
+   582
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "250 WORDS",
+  "start": 44.02,
+  "end": 45.75,
+  "anchor": 44.1,
+  "method": "phrase",
+  "scene": 4,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   598,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "6 RULES",
+  "start": 45.8,
+  "end": 48.2,
+  "anchor": 45.88,
+  "method": "phrase",
+  "scene": 4,
+  "slot": "TC",
+  "bbox": [
+   785,
+   74,
+   1135,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "\"3\u20135 YEARS\"",
+  "start": 52.36,
+  "end": 54.75,
+  "anchor": 52.44,
+  "method": "token:years",
+  "scene": 4,
+  "slot": "TR",
+  "bbox": [
+   1300,
+   74,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "1966",
+  "start": 54.8,
+  "end": 57.2,
+  "anchor": 54.88,
+  "method": "phrase",
+  "scene": 5,
+  "slot": "TL",
+  "bbox": [
+   96,
+   74,
+   335,
+   158
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "SLOWER",
+  "start": 63.02,
+  "end": 64.43,
+  "anchor": 63.1,
+  "method": "phrase",
+  "scene": 5,
+  "slot": "TC",
+  "bbox": [
+   777,
+   73,
+   1143,
+   159
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "LESS ACCURATE",
+  "start": 64.48,
+  "end": 66.37,
+  "anchor": 64.56,
+  "method": "phrase",
+  "scene": 5,
+  "slot": "TR",
+  "bbox": [
+   1288,
+   78,
+   1824,
+   154
+  ],
+  "font_px": 59,
+  "color": "#FD802E",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "2\u00d7 COST",
+  "start": 66.42,
+  "end": 68.82,
+  "anchor": 66.5,
+  "method": "anchor:expensive",
+  "scene": 5,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   455,
+   159
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "MORE RULES",
+  "start": 71.18,
+  "end": 73.58,
+  "anchor": 71.26,
+  "method": "phrase",
+  "scene": 6,
+  "slot": "TC",
+  "bbox": [
+   705,
+   73,
+   1215,
+   159
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "BROKE ON REAL TEXT",
+  "start": 74.12,
+  "end": 76.52,
+  "anchor": 74.2,
+  "method": "token:broke",
+  "scene": 6,
+  "slot": "TR",
+  "bbox": [
+   1542,
+   65,
+   1824,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "ONE-HOT",
+  "start": 79.36,
+  "end": 81.76,
+  "anchor": 79.44,
+  "method": "token:1",
+  "scene": 7,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   483,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "html_motion"
+ },
+ {
+  "word": "50,257 SLOTS",
+  "start": 86.18,
+  "end": 88.58,
+  "anchor": 86.26,
+  "method": "phrase",
+  "scene": 7,
+  "slot": "TC",
+  "bbox": [
+   692,
+   68,
+   1228,
+   164
+  ],
+  "font_px": 68,
+  "color": "#E6EDF3",
+  "scene_type": "html_motion"
+ },
+ {
+  "word": "SAME DISTANCE",
+  "start": 101.02,
+  "end": 103.42,
+  "anchor": 101.1,
+  "method": "phrase",
+  "scene": 8,
+  "slot": "TR",
+  "bbox": [
+   1284,
+   78,
+   1824,
+   154
+  ],
+  "font_px": 60,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "SIMILARITY = 0",
+  "start": 107.68,
+  "end": 110.08,
+  "anchor": 107.76,
+  "method": "token:similarity",
+  "scene": 9,
+  "slot": "TL",
+  "bbox": [
+   96,
+   75,
+   633,
+   157
+  ],
+  "font_px": 66,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "1957",
+  "start": 119.12,
+  "end": 121.52,
+  "anchor": 119.2,
+  "method": "phrase",
+  "scene": 10,
+  "slot": "TC",
+  "bbox": [
+   844,
+   74,
+   1076,
+   158
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "ONE SENTENCE",
+  "start": 125.36,
+  "end": 127.76,
+  "anchor": 125.44,
+  "method": "phrase",
+  "scene": 10,
+  "slot": "TR",
+  "bbox": [
+   1286,
+   76,
+   1824,
+   157
+  ],
+  "font_px": 65,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "THE COMPANY IT KEEPS",
+  "start": 130.52,
+  "end": 132.92,
+  "anchor": 130.6,
+  "method": "phrase",
+  "scene": 11,
+  "slot": "TL",
+  "bbox": [
+   96,
+   65,
+   467,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "FILL THE BLANK",
+  "start": 141.34,
+  "end": 143.74,
+  "anchor": 141.42,
+  "method": "token:blank",
+  "scene": 12,
+  "slot": "TC",
+  "bbox": [
+   692,
+   77,
+   1229,
+   156
+  ],
+  "font_px": 64,
+  "color": "#C3D809",
+  "scene_type": "html_motion"
+ },
+ {
+  "word": "SAME COMPANY \u2192 CLOSER",
+  "start": 160.9,
+  "end": 163.3,
+  "anchor": 160.98,
+  "method": "token:company",
+  "scene": 13,
+  "slot": "TR",
+  "bbox": [
+   1410,
+   65,
+   1824,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "PULL IN",
+  "start": 165.12,
+  "end": 167.52,
+  "anchor": 165.2,
+  "method": "token:pull",
+  "scene": 14,
+  "slot": "TL",
+  "bbox": [
+   96,
+   75,
+   414,
+   158
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "PUSH OUT",
+  "start": 175.14,
+  "end": 177.54,
+  "anchor": 175.22,
+  "method": "token:push",
+  "scene": 14,
+  "slot": "TC",
+  "bbox": [
+   751,
+   73,
+   1170,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "CONTEXT WINDOW",
+  "start": 183.92,
+  "end": 186.32,
+  "anchor": 184.0,
+  "method": "token:window",
+  "scene": 15,
+  "slot": "TR",
+  "bbox": [
+   1566,
+   65,
+   1825,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "2013",
+  "start": 194.42,
+  "end": 196.03,
+  "anchor": 194.5,
+  "method": "phrase",
+  "scene": 16,
+  "slot": "ML",
+  "bbox": [
+   96,
+   497,
+   333,
+   583
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "GOOGLE",
+  "start": 196.08,
+  "end": 198.48,
+  "anchor": 196.16,
+  "method": "phrase",
+  "scene": 16,
+  "slot": "MR",
+  "bbox": [
+   1474,
+   497,
+   1824,
+   583
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "WORD2VEC",
+  "start": 201.7,
+  "end": 204.1,
+  "anchor": 201.78,
+  "method": "phrase",
+  "scene": 17,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   574,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "100 BILLION WORDS",
+  "start": 204.7,
+  "end": 207.1,
+  "anchor": 204.78,
+  "method": "phrase",
+  "scene": 17,
+  "slot": "TC",
+  "bbox": [
+   806,
+   65,
+   1115,
+   168
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "300 NUMBERS",
+  "start": 211.4,
+  "end": 213.8,
+  "anchor": 211.48,
+  "method": "phrase",
+  "scene": 17,
+  "slot": "TR",
+  "bbox": [
+   1286,
+   75,
+   1824,
+   157
+  ],
+  "font_px": 66,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "THE SIDE EFFECT",
+  "start": 227.16,
+  "end": 229.56,
+  "anchor": 227.24,
+  "method": "phrase",
+  "scene": 18,
+  "slot": "TL",
+  "bbox": [
+   96,
+   78,
+   634,
+   154
+  ],
+  "font_px": 60,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "NOT RANDOM",
+  "start": 242.34,
+  "end": 243.97,
+  "anchor": 242.42,
+  "method": "phrase",
+  "scene": 19,
+  "slot": "TC",
+  "bbox": [
+   692,
+   74,
+   1228,
+   159
+  ],
+  "font_px": 70,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "CLUSTERS",
+  "start": 244.02,
+  "end": 246.42,
+  "anchor": 244.1,
+  "method": "anchor:gather",
+  "scene": 19,
+  "slot": "TR",
+  "bbox": [
+   1394,
+   74,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "DIRECTIONS, NOT AXES",
+  "start": 259.78,
+  "end": 262.18,
+  "anchor": 259.86,
+  "method": "token:directions",
+  "scene": 20,
+  "slot": "TL",
+  "bbox": [
+   96,
+   61,
+   419,
+   172
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "ANGLE = SIMILARITY",
+  "start": 275.74,
+  "end": 278.14,
+  "anchor": 275.82,
+  "method": "token:similarity",
+  "scene": 21,
+  "slot": "TC",
+  "bbox": [
+   811,
+   65,
+   1109,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "DIRECTIONS",
+  "start": 282.52,
+  "end": 284.92,
+  "anchor": 282.6,
+  "method": "phrase",
+  "scene": 22,
+  "slot": "TR",
+  "bbox": [
+   1340,
+   73,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "KING \u2212 MAN + WOMAN \u2248 QUEEN",
+  "start": 287.74,
+  "end": 290.14,
+  "anchor": 287.82,
+  "method": "token:woman",
+  "scene": 23,
+  "slot": "TL",
+  "bbox": [
+   96,
+   62,
+   524,
+   170
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "CAPITALS",
+  "start": 300.58,
+  "end": 302.98,
+  "anchor": 300.66,
+  "method": "phrase",
+  "scene": 24,
+  "slot": "TC",
+  "bbox": [
+   754,
+   74,
+   1166,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "NO RULES",
+  "start": 311.32,
+  "end": 313.01,
+  "anchor": 311.4,
+  "method": "anchor:wrote",
+  "scene": 24,
+  "slot": "TR",
+  "bbox": [
+   1418,
+   73,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "PAST TENSE",
+  "start": 313.06,
+  "end": 315.46,
+  "anchor": 313.14,
+  "method": "phrase",
+  "scene": 24,
+  "slot": "TL",
+  "bbox": [
+   96,
+   74,
+   590,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "19,544 QUESTIONS",
+  "start": 321.26,
+  "end": 323.66,
+  "anchor": 321.34,
+  "method": "token:questions",
+  "scene": 25,
+  "slot": "TC",
+  "bbox": [
+   810,
+   61,
+   1111,
+   172
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "55%",
+  "start": 325.74,
+  "end": 328.14,
+  "anchor": 325.82,
+  "method": "phrase",
+  "scene": 25,
+  "slot": "TR",
+  "bbox": [
+   1606,
+   75,
+   1824,
+   158
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "59%",
+  "start": 328.62,
+  "end": 331.02,
+  "anchor": 328.7,
+  "method": "phrase",
+  "scene": 25,
+  "slot": "TL",
+  "bbox": [
+   96,
+   75,
+   315,
+   158
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "0 FACTS TAUGHT",
+  "start": 332.72,
+  "end": 334.65,
+  "anchor": 332.8,
+  "method": "token:taught",
+  "scene": 25,
+  "slot": "TC",
+  "bbox": [
+   692,
+   79,
+   1228,
+   153
+  ],
+  "font_px": 56,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "2014",
+  "start": 334.7,
+  "end": 337.1,
+  "anchor": 334.78,
+  "method": "anchor:year",
+  "scene": 26,
+  "slot": "TR",
+  "bbox": [
+   1584,
+   73,
+   1825,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "GLOVE",
+  "start": 338.28,
+  "end": 340.68,
+  "anchor": 338.36,
+  "method": "phrase",
+  "scene": 26,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   388,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "IN THE LANGUAGE ITSELF",
+  "start": 353.54,
+  "end": 355.94,
+  "anchor": 353.62,
+  "method": "phrase",
+  "scene": 26,
+  "slot": "TC",
+  "bbox": [
+   742,
+   65,
+   1179,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "LEARNED FROM US",
+  "start": 358.98,
+  "end": 361.38,
+  "anchor": 359.06,
+  "method": "anchor:people",
+  "scene": 27,
+  "slot": "ML",
+  "bbox": [
+   96,
+   489,
+   346,
+   592
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "2016",
+  "start": 362.24,
+  "end": 364.64,
+  "anchor": 362.32,
+  "method": "phrase",
+  "scene": 28,
+  "slot": "TR",
+  "bbox": [
+   1586,
+   73,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "HOMEMAKER",
+  "start": 373.56,
+  "end": 375.96,
+  "anchor": 373.64,
+  "method": "phrase",
+  "scene": 28,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   618,
+   159
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "SAME PRECISION",
+  "start": 377.58,
+  "end": 379.98,
+  "anchor": 377.66,
+  "method": "phrase",
+  "scene": 28,
+  "slot": "TC",
+  "bbox": [
+   691,
+   79,
+   1229,
+   154
+  ],
+  "font_px": 57,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "REMOVE THE DIRECTION",
+  "start": 382.84,
+  "end": 385.24,
+  "anchor": 382.92,
+  "method": "token:direction",
+  "scene": 29,
+  "slot": "TR",
+  "bbox": [
+   1498,
+   65,
+   1825,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "NOT SOLVED",
+  "start": 395.92,
+  "end": 398.32,
+  "anchor": 396.0,
+  "method": "token:solved",
+  "scene": 29,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   600,
+   159
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "THE SEARCH RULE MATTERS",
+  "start": 401.0,
+  "end": 403.4,
+  "anchor": 401.08,
+  "method": "token:rule",
+  "scene": 30,
+  "slot": "TC",
+  "bbox": [
+   770,
+   65,
+   1151,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "TOKENS",
+  "start": 423.18,
+  "end": 425.58,
+  "anchor": 423.26,
+  "method": "phrase",
+  "scene": 31,
+  "slot": "TR",
+  "bbox": [
+   1480,
+   73,
+   1825,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "html_motion"
+ },
+ {
+  "word": "50,257",
+  "start": 428.78,
+  "end": 431.18,
+  "anchor": 428.86,
+  "method": "phrase",
+  "scene": 31,
+  "slot": "TL",
+  "bbox": [
+   96,
+   66,
+   410,
+   166
+  ],
+  "font_px": 72,
+  "color": "#E6EDF3",
+  "scene_type": "html_motion"
+ },
+ {
+  "word": "300 \u2192 768 \u2192 12,288",
+  "start": 445.12,
+  "end": 447.52,
+  "anchor": 445.2,
+  "method": "token:12288",
+  "scene": 32,
+  "slot": "TC",
+  "bbox": [
+   815,
+   61,
+   1106,
+   172
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "617 MILLION NUMBERS",
+  "start": 458.42,
+  "end": 460.82,
+  "anchor": 458.5,
+  "method": "phrase",
+  "scene": 33,
+  "slot": "TR",
+  "bbox": [
+   1510,
+   65,
+   1824,
+   168
+  ],
+  "font_px": 43,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "ROOM FOR MEANING",
+  "start": 478.34,
+  "end": 480.74,
+  "anchor": 478.42,
+  "method": "token:room",
+  "scene": 34,
+  "slot": "TL",
+  "bbox": [
+   96,
+   65,
+   381,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "TRAINED TOGETHER",
+  "start": 493.72,
+  "end": 496.12,
+  "anchor": 493.8,
+  "method": "phrase",
+  "scene": 35,
+  "slot": "TC",
+  "bbox": [
+   819,
+   65,
+   1101,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "NEXT TOKEN",
+  "start": 499.4,
+  "end": 501.03,
+  "anchor": 499.48,
+  "method": "phrase",
+  "scene": 35,
+  "slot": "TR",
+  "bbox": [
+   1324,
+   73,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "ONE POINT, TWO MEANINGS",
+  "start": 501.08,
+  "end": 503.48,
+  "anchor": 501.16,
+  "method": "token:point",
+  "scene": 36,
+  "slot": "TL",
+  "bbox": [
+   96,
+   61,
+   497,
+   172
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "CONTEXT MOVES THE POINT",
+  "start": 521.4,
+  "end": 523.8,
+  "anchor": 521.48,
+  "method": "token:moves",
+  "scene": 37,
+  "slot": "TC",
+  "bbox": [
+   748,
+   65,
+   1172,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "SEARCH = GEOMETRY",
+  "start": 542.28,
+  "end": 544.68,
+  "anchor": 542.36,
+  "method": "token:geometry",
+  "scene": 38,
+  "slot": "MR",
+  "bbox": [
+   1530,
+   489,
+   1824,
+   592
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Flow"
+ },
+ {
+  "word": "1 IN 10 SEARCHES",
+  "start": 548.66,
+  "end": 551.06,
+  "anchor": 548.74,
+  "method": "token:searches",
+  "scene": 39,
+  "slot": "TR",
+  "bbox": [
+   1286,
+   79,
+   1824,
+   153
+  ],
+  "font_px": 56,
+  "color": "#E6EDF3",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "QUERY \u2192 POINT",
+  "start": 563.68,
+  "end": 566.08,
+  "anchor": 563.76,
+  "method": "token:query",
+  "scene": 39,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   634,
+   159
+  ],
+  "font_px": 62,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "NEAREST NEIGHBORS",
+  "start": 577.34,
+  "end": 579.74,
+  "anchor": 577.42,
+  "method": "phrase",
+  "scene": 40,
+  "slot": "TC",
+  "bbox": [
+   808,
+   65,
+   1113,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "html_motion"
+ },
+ {
+  "word": "MEANING = POSITION",
+  "start": 589.02,
+  "end": 591.42,
+  "anchor": 589.1,
+  "method": "token:position",
+  "scene": 41,
+  "slot": "TR",
+  "bbox": [
+   1536,
+   65,
+   1825,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "RELATIONSHIP = DIRECTION",
+  "start": 592.68,
+  "end": 595.08,
+  "anchor": 592.76,
+  "method": "token:relationship",
+  "scene": 41,
+  "slot": "TL",
+  "bbox": [
+   96,
+   65,
+   460,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "CLOSE \u2260 TRUE",
+  "start": 597.84,
+  "end": 600.24,
+  "anchor": 597.92,
+  "method": "token:close",
+  "scene": 42,
+  "slot": "TC",
+  "bbox": [
+   691,
+   74,
+   1230,
+   158
+  ],
+  "font_px": 69,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "EVERY WORD \u2192 A POINT",
+  "start": 623.7,
+  "end": 626.1,
+  "anchor": 623.78,
+  "method": "token:point",
+  "scene": 43,
+  "slot": "TR",
+  "bbox": [
+   1482,
+   65,
+   1824,
+   168
+  ],
+  "font_px": 43,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "FROM US",
+  "start": 626.74,
+  "end": 629.14,
+  "anchor": 626.82,
+  "method": "phrase",
+  "scene": 44,
+  "slot": "TL",
+  "bbox": [
+   96,
+   73,
+   477,
+   159
+  ],
+  "font_px": 72,
+  "color": "#C3D809",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "A MIRROR WITH A RULER",
+  "start": 636.98,
+  "end": 639.38,
+  "anchor": 637.06,
+  "method": "phrase",
+  "scene": 44,
+  "slot": "TC",
+  "bbox": [
+   781,
+   65,
+   1140,
+   168
+  ],
+  "font_px": 43,
+  "color": "#FD802E",
+  "scene_type": "Manim"
+ },
+ {
+  "word": "RULES FAILED",
+  "start": 651.14,
+  "end": 652.53,
+  "anchor": 651.22,
+  "method": "phrase",
+  "scene": 45,
+  "slot": "TR",
+  "bbox": [
+   1288,
+   74,
+   1824,
+   159
+  ],
+  "font_px": 72,
+  "color": "#FD802E",
+  "scene_type": "Remotion"
+ },
+ {
+  "word": "NEIGHBORS WON",
+  "start": 652.58,
+  "end": 654.98,
+  "anchor": 652.66,
+  "method": "phrase",
+  "scene": 45,
+  "slot": "TL",
+  "bbox": [
+   96,
+   79,
+   633,
+   153
+  ],
+  "font_px": 56,
+  "color": "#C3D809",
+  "scene_type": "Remotion"
+ }
+]

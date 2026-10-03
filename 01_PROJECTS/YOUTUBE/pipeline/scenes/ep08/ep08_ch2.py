@@ -174,9 +174,8 @@ class M08_DOT_SCORES(QScene):
                               AnimationGroup(FadeIn(glows, scale=0.5), FadeIn(tag)), lag_ratio=0.5), run=3.6)
         # b3: score readouts: aligned arrows score high
         t = ValueTracker(0)
-        scores = VGroup(*[always_redraw(lambda i=i: txt(f"{abs(SCORES[i] * t.get_value()):.1f}", 22,
-                                                         LIME if SCORES[i] > 1 else OFFWHITE)
-                                        .move_to([bases[i][0], -0.85, 0])) for i in range(12)])
+        scores = VGroup(*[live_txt(lambda i=i: (f"{abs(SCORES[i] * t.get_value()):.1f}", LIME if SCORES[i] > 1 else OFFWHITE),
+                                   22, [bases[i][0], -0.85, 0]) for i in range(12)])
         self.add(scores)
         self.beat(t.animate.set_value(1), FadeIn(illustrative(self)), run=1.8)
         # b4: right angles score near zero; TROPHY scores highest
@@ -304,11 +303,9 @@ class M11_IT_RESOLVES(QScene):
         w_small[TROPHY], w_small[SUITCASE] = W_IT[SUITCASE], W_IT[TROPHY]      # 0.18 / 0.71, still sums to 1.00
         wb = bars(s, W_IT, 3.0, base, LIME)
         vts = [ValueTracker(w) for w in W_IT]
-        labs = VGroup(*[always_redraw(lambda i=i: txt(f"{vts[i].get_value():.2f}",
-                                                      20 if i in (TROPHY, SUITCASE) else 16,
-                                                      LIME if vts[i].get_value() > 0.4 else OFFWHITE,
-                                                      bold=i in (TROPHY, SUITCASE)).next_to(wb[i], UP, buff=0.1))
-                        for i in range(12)])
+        labs = VGroup(*[live_txt(lambda i=i: (f"{vts[i].get_value():.2f}", LIME if vts[i].get_value() > 0.4 else OFFWHITE),
+                                 20 if i in (TROPHY, SUITCASE) else 16, bold=i in (TROPHY, SUITCASE),
+                                 place=lambda m, i=i: m.next_to(wb[i], UP, buff=0.1)) for i in range(12)])
         self.add(s, wb, labs)
         s.box(IT).set_stroke(LIME, 3).set_fill(LIME, 0.14)
         s.word(IT).set_color(LIME)
