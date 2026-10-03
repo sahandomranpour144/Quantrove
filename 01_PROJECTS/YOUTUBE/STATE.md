@@ -9,8 +9,8 @@
 | long04_can_ai_predict_markets | [PUBLISHED 2026-09-26] | None (live on YouTube: jwPcJSfDQPg) | `longs/[PUBLISHED 2026-09-26]_long04_can_ai_predict_markets/` |
 | long05_market_making_illusion | [PUBLISHED 2026-09-30] | Confirmed Live on YouTube (-SH2kNLF3WA) | `longs/[PUBLISHED 2026-09-30]_long05_market_making_illusion/` |
 | long06_hft_microsecond_pricing | [SCHEDULED 2026-10-04] | Final uploaded; UNLISTED in Studio until Sun 2026-10-04, then public. Do not touch. | `longs/[SCHEDULED 2026-10-04]_long06_hft_microsecond_pricing/` |
-| long07_ai_words_geometry | [IN_PROGRESS 2026-10-02] | **GATE 2 awaiting CEO**: 47/47 scenes + overlay, frame-exact; CapCut order in ASSEMBLY/ | `longs/[IN_PROGRESS 2026-10-02]_long07_ai_words_geometry/ASSEMBLY/` |
-| long08_attention_transformer | [IN_PROGRESS 2026-10-02] | Assets partial (HyperFrames, overlay, Flow done; Manim + Remotion queued after EP07 Gate 2, one task at a time) | `longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/` |
+| long07_ai_words_geometry | [IN_PROGRESS 2026-10-02] | **Gate 2 APPROVED 2026-10-03.** All assets + metadata + thumbnail + assembly guide done. Next: Sahand assembles in CapCut (after EP08). Publish before EP08 | `longs/[IN_PROGRESS 2026-10-02]_long07_ai_words_geometry/ASSEMBLY/EP07_ASSEMBLY_GUIDE.md` |
+| long08_attention_transformer | [IN_PROGRESS 2026-10-02] | Next session: render 24 Manim + 15 Remotion (all coded), Gate 2, docs. Start from `EP08_SESSION_BRIEF.md` | `longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/EP08_SESSION_BRIEF.md` |
 | ep01_short_margin_call | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep01_short_margin_call/` |
 | ep01_short_trigger_changes | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep01_short_trigger_changes/` |
 | ep02_short_2009_bottom | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep02_short_2009_bottom/` |

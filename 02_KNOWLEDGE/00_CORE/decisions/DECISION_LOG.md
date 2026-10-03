@@ -272,3 +272,15 @@ Sahand approved the titles "How AI Turns Every Word Into Geometry" (EP07) and "T
 2. Asset production started against word-aligned master timelines (`ASSEMBLY/EPxx_MASTER_TIMELINE.json`, 96.9% / 97.7% word match).
 3. GitHub remote set to `github.com/sahandomranpour144/Quantrove` (text-only repo). The first push is pending Sahand's browser sign-in.
 ## Status: Approved by CEO (Sahand). Gate 2 review follows the asset build.
+
+---
+
+## Date: 2026-10-03
+## Decision: EP07 Gate 2 Approved; Sequential Production; EP08 in a New Session
+## Context:
+Sahand watched every EP07 timeline clip ("perfect") and approved Gate 2. CPU load from parallel builders was too high.
+## Choices Enacted:
+1. EP07 Gate 2 approved. Sahand assembles EP07 in CapCut after EP08 is finished; EP07 publishes before EP08.
+2. Production runs one task at a time (one render, one builder) on this CPU-only machine.
+3. EP08 production continues in a fresh Claude Code session from `EP08_SESSION_BRIEF.md` to keep context small.
+## Status: Approved by CEO (Sahand) and Enacted.
