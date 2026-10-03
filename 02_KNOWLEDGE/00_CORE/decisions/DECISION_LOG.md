@@ -284,3 +284,15 @@ Sahand watched every EP07 timeline clip ("perfect") and approved Gate 2. CPU loa
 2. Production runs one task at a time (one render, one builder) on this CPU-only machine.
 3. EP08 production continues in a fresh Claude Code session from `EP08_SESSION_BRIEF.md` to keep context small.
 ## Status: Approved by CEO (Sahand) and Enacted.
+
+---
+
+## Date: 2026-10-03
+## Decision: EP08 Gate 2 Approved; Title Optimized for Search
+## Context:
+All 46 EP08 scenes rendered sequentially (24 Manim, 17 Remotion, 3 Flow, 2 HyperFrames + overlay). gate2_package: 46/46 present, 0 to check, overlay OK. Frame review fixed edge clipping (focus clamp), the √ fill bug, label overlaps (M11, M18, M18B, R1, R7, R8, R10, R11B) and safe-area overruns (R4B, R8B). Sahand approved the contact sheet and asked for best-in-class SEO and packaging to reach monetization fast.
+## Choices Enacted:
+1. EP08 Gate 2 approved. Sahand assembles EP07 then EP08 in CapCut; EP07 publishes first.
+2. Publish title changed from the Gate 1 "The 2017 Paper That Rebuilt Modern AI" (vidIQ 77) to **"The 2017 Paper That Built ChatGPT"** (85). It keeps rule L2 ("2017" and "paper" spoken in the first 3 s). "Attention Is All You Need, Explained" (88; 35.3k searches/mo, competition 34.7) is the title A/B variant.
+3. Two thumbnails (A "2017" attention fan = primary, B "GPT" glowing T) go into YouTube Test & Compare.
+## Status: Approved by CEO (Sahand) and Enacted (title change made under the CEO's SEO mandate; revert to the Gate 1 title on request).

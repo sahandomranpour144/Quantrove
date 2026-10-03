@@ -9,8 +9,8 @@
 | long04_can_ai_predict_markets | [PUBLISHED 2026-09-26] | None (live on YouTube: jwPcJSfDQPg) | `longs/[PUBLISHED 2026-09-26]_long04_can_ai_predict_markets/` |
 | long05_market_making_illusion | [PUBLISHED 2026-09-30] | Confirmed Live on YouTube (-SH2kNLF3WA) | `longs/[PUBLISHED 2026-09-30]_long05_market_making_illusion/` |
 | long06_hft_microsecond_pricing | [SCHEDULED 2026-10-04] | Final uploaded; UNLISTED in Studio until Sun 2026-10-04, then public. Do not touch. | `longs/[SCHEDULED 2026-10-04]_long06_hft_microsecond_pricing/` |
-| long07_ai_words_geometry | [IN_PROGRESS 2026-10-02] | **Gate 2 APPROVED 2026-10-03.** All assets + metadata + thumbnail + assembly guide done. Next: Sahand assembles in CapCut (after EP08). Publish before EP08 | `longs/[IN_PROGRESS 2026-10-02]_long07_ai_words_geometry/ASSEMBLY/EP07_ASSEMBLY_GUIDE.md` |
-| long08_attention_transformer | [IN_PROGRESS 2026-10-02] | Next session: render 24 Manim + 15 Remotion (all coded), Gate 2, docs. Start from `EP08_SESSION_BRIEF.md` | `longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/EP08_SESSION_BRIEF.md` |
+| long07_ai_words_geometry | [IN_PROGRESS 2026-10-02] | **Gate 2 APPROVED 2026-10-03.** All docs done. Next: Sahand assembles in CapCut, publishes **before** EP08 | `longs/[IN_PROGRESS 2026-10-02]_long07_ai_words_geometry/ASSEMBLY/EP07_ASSEMBLY_GUIDE.md` |
+| long08_attention_transformer | [IN_PROGRESS 2026-10-02] | **Gate 2 APPROVED 2026-10-03.** 46 assets + metadata + thumbnails A/B + assembly guide done. Next: Sahand assembles after EP07; paste EP07 URL into WATCH NEXT; recheck citations (≥250k) on publish day | `longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/ASSEMBLY/EP08_ASSEMBLY_GUIDE.md` |
 | ep01_short_margin_call | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep01_short_margin_call/` |
 | ep01_short_trigger_changes | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep01_short_trigger_changes/` |
 | ep02_short_2009_bottom | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep02_short_2009_bottom/` |
@@ -21,7 +21,7 @@
 | ep03_short_clicks_to_watchtime | [PUBLISHED 2026-09-24] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep03_short_clicks_to_watchtime/` |
 | ep03_short_rabbit_hole | [PUBLISHED 2026-09-25] | None (live on YouTube: E0ta91FyIAI) | `shorts/_ARCHIVE/published/[UPLOADED]_ep03_short_rabbit_hole/` |
 | ep04_shorts (5 published) | [PUBLISHED 2026-09-27..29] | None (all 5 live on YouTube: 1xv9s, R7L_5, -TMK9, tP7F, PIsxfdkx4Q8) | `shorts/_ARCHIVE/published/[UPLOADED]_ep04_*/` |
-| ep05_shorts (5) | [PUBLISHED / SCHEDULED] | 01, 03 live (archived); 02 (10-02), 04 + 05 (10-03) scheduled | `shorts/02,04,05_*/` + `shorts/_ARCHIVE/published/01,03_*` |
+| ep05_shorts (5) | [PUBLISHED / SCHEDULED] | 01, 02, 03, 05 live (archived, checked 2026-10-03); 04 (WfTsYZXEkRk) still private in Studio, folder stays in `shorts/` until live | `shorts/04_*/` + `shorts/_ARCHIVE/published/01,02,03,05_*` |
 | ep06_shorts_package (4) | [QA_PASSED] | Sahand uploads manually AFTER EP06 goes public (2026-10-04) | `shorts/06..09_*_ep06_*/` |
 
 ## Review Gates

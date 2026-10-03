@@ -99,7 +99,7 @@ export const R1_PAPER_COUNTER: React.FC = () => {
       </Beat>
       <Beat b={B[2]}>
         <Appear style={{ left: 1110, top: 400, opacity: 1 }}>
-          <div style={{ opacity: dim }}>
+          <div style={{ opacity: 1 - ease(f, at(3), at(3, 24)) }}>
             <Counter to={250000} from={1} log suffix="+" size={124} color={C.lime} dur={150} />
             <Label style={{ marginTop: 14 }}>CITATIONS</Label>
           </div>
@@ -498,7 +498,7 @@ export const R4B_WHAT_HEADS_LEARN: React.FC = () => {
         <HeadPanel x={1240} label="PRONOUN → REFERENT" words={["Ana", "said", "she", "left"]} from={2} to={0} />
       </Beat>
       <Beat b={B[6]}>
-        <Appear style={{ left: 1400, top: 380 }}>
+        <Appear style={{ left: 1320, top: 230 }}>
           <Tag color={C.lime} fill size={26}>FOUND, NOT PROGRAMMED</Tag>
         </Appear>
       </Beat>
@@ -694,7 +694,7 @@ export const R7_TIMELINE_2018_2022: React.FC = () => {
       </Beat>
       <Beat b={B[1]}>
         {stem(ax(2018.45), Y - 14, 410, at(1, 10))}
-        <MiniCard x={ax(2018.45) - 160} y={220} w={560} kicker="2018 · OPENAI" title="GPT">
+        <MiniCard x={ax(2018.45) - 300} y={220} w={560} kicker="2018 · OPENAI" title="GPT">
           <div style={{ fontSize: 24, fontWeight: 700, marginTop: 8, whiteSpace: "nowrap" }}>
             {["GENERATIVE", "PRE-TRAINED", "TRANSFORMER"].map((w, k) => (
               <span key={k}>
@@ -713,7 +713,7 @@ export const R7_TIMELINE_2018_2022: React.FC = () => {
       </Beat>
       <Beat b={B[3]}>
         {stem(ax(2020.4), Y - 14, 470, at(3, 10))}
-        <MiniCard x={ax(2020.4) - 170} y={208} w={470} kicker="2020 · OPENAI" title="GPT-3">
+        <MiniCard x={ax(2020.4) - 110} y={208} w={470} kicker="2020 · OPENAI" title="GPT-3">
           <div style={{ display: "flex", alignItems: "baseline", gap: 12, marginTop: 6 }}>
             <Counter to={96} size={44} color={C.lime} dur={50} />
             <span style={{ fontSize: 24, fontWeight: 700 }}>LAYERS</span>
@@ -740,7 +740,7 @@ export const R7_TIMELINE_2018_2022: React.FC = () => {
 // ---------------------------------------------------------------- S29
 export const R8_PARAM_GROWTH: React.FC = () => {
   const { B, f, at } = useScene("R8_PARAM_GROWTH");
-  const base = 740, H = 420, bw = 180, x1 = 500, x2 = 1060;
+  const base = 700, H = 420, bw = 180, x1 = 500, x2 = 1060;
   const grow = ease(f, at(1, 4), at(1, 60)); // GPT-3 bar overshoots
   const rescale = ease(f, at(1, 70), at(1, 150));
   const maxV = Math.pow(10, interpolate(rescale, [0, 1], [Math.log10(250e6), Math.log10(200e9)]));
@@ -809,8 +809,8 @@ export const R8_PARAM_GROWTH: React.FC = () => {
       <Beat b={B[4]}>
         {stack(x1 + bw + 24, 12, 4, 10, at(4))}
         {stack(x2 + bw + 24, 96, 1.2, 3, at(4))}
-        <Appear delay={20} style={{ left: x1 + bw + 20, top: base + 16 }}><Label size={18}>6 + 6 LAYERS</Label></Appear>
-        <Appear delay={40} style={{ left: x2 + bw + 20, top: base + 16 }}><Label size={18}>96 LAYERS</Label></Appear>
+        <Appear delay={20} style={{ left: x1 + bw + 24, top: base + 60 }}><Label size={18}>6 + 6 LAYERS</Label></Appear>
+        <Appear delay={40} style={{ left: x2 + bw + 24, top: base + 60 }}><Label size={18}>96 LAYERS</Label></Appear>
       </Beat>
       <Beat b={B[5]}>
         {Array.from({ length: 10 }).map((_, k) => (
@@ -874,8 +874,8 @@ export const R8B_SCALING_LAWS: React.FC = () => {
           <line x1={lx(0.78)} y1={ly(0.78)} x2={lx(0.78 + 0.2 * ext)} y2={ly(0.78 + 0.2 * ext)} stroke={C.lime} strokeWidth={6} strokeDasharray="14 12" strokeDashoffset={-f} />
           <circle cx={lx(0.98)} cy={ly(0.98)} r={14 + 8 * pulse(f, at(4, 60) - at(4) + at(4), 50)} fill="none" stroke={C.lime} strokeWidth={4} opacity={ext} />
         </svg>
-        <Appear delay={40} style={{ left: 1320, top: 600 }}>
-          <Tag color={C.lime} fill size={26}>BIGGER → PREDICTABLY BETTER</Tag>
+        <Appear delay={40} style={{ left: 1290, top: 720 }}>
+          <Tag color={C.lime} fill size={22}>BIGGER → PREDICTABLY BETTER</Tag>
         </Appear>
       </Beat>
     </Scene>
@@ -992,14 +992,14 @@ export const R10_QUADRATIC_TABLE: React.FC = () => {
         </Appear>
       </Beat>
       <Beat b={B[3]}>
-        <Arrow x1={510} y1={606} x2={600} y2={606} p={ease(f, at(3), at(3, 20))} color={C.pumpkin} width={5} />
-        <Appear delay={10} style={{ left: 620, top: 566 }}>
+        <Arrow x1={600} y1={606} x2={690} y2={606} p={ease(f, at(3), at(3, 20))} color={C.pumpkin} width={5} />
+        <Appear delay={10} style={{ left: 710, top: 566 }}>
           <Counter to={10_000_000_000} from={1000000} log size={72} color={C.pumpkin} dur={80} delay={10} />
           <Label style={{ marginTop: 10 }} color={C.pumpkin} dim={false}>COMPARISONS</Label>
         </Appear>
       </Beat>
       <Beat b={B[4]}>
-        <Appear style={{ left: 620, top: 712 }}>
+        <Appear style={{ left: 710, top: 712 }}>
           <Tag color={C.pumpkin} size={22}>PER HEAD, PER LAYER</Tag>
         </Appear>
       </Beat>
@@ -1143,7 +1143,7 @@ export const R11B_TRANSFORMER_ENGINE: React.FC = () => {
               return <rect key={i} x={16 + i * 19} y={14} width={13} height={60} rx={2} fill={C.lime} opacity={0.25 + 0.6 * (ph > 0 && ph < 3 && f > at(2, 110) ? 1 : 0.3)} />;
             })}
           </svg>
-          <div style={{ position: "absolute", left: 0, top: 12, width: "100%", textAlign: "center", fontSize: 26, fontWeight: 700, color: C.lime, letterSpacing: "0.08em" }}>TRANSFORMER ENGINE</div>
+          <div style={{ position: "absolute", left: 0, top: 12, width: "100%", textAlign: "center", fontSize: 22, fontWeight: 700, color: C.lime, letterSpacing: "0.04em", whiteSpace: "nowrap" }}>TRANSFORMER ENGINE</div>
         </div>
       </Beat>
       <Beat b={B[3]}>

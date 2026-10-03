@@ -76,8 +76,10 @@ class M18_T_RETURNS(QScene):
         body = VGroup(tw, lines, dots)
         f = Formula(34).move_to(ORIGIN)
         plate = RoundedRectangle(corner_radius=0.2, width=f.width + 0.8, height=f.height + 0.7).set_stroke(LIME, 2.5)
-        plate.set_fill(BACKGROUND, 0.92).move_to(f)
-        self.beat(FadeIn(plate, scale=0.95), FadeIn(f, lag_ratio=0.08), run=1.5)
+        plate.set_fill(BACKGROUND, 1).move_to(f)
+        plate.set_z_index(20)
+        f.set_z_index(21)                 # tower_web lines carry their own z_index
+        self.beat(LaggedStart(FadeIn(plate, scale=0.95), FadeIn(f, lag_ratio=0.08), lag_ratio=0.4), run=1.5)
         # b5: and grows 800-fold
         n = ValueTracker(1)
         X0, X1, YR = -5.4, 5.4, -1.8
@@ -106,7 +108,7 @@ class M18B_WHAT_IT_DID_NOT_SOLVE(QScene):
         N = chip("NEXT TOKEN", 24, OFFWHITE, SLATE).move_to([4.6, -0.35, 0])
         box = DashedVMobject(RoundedRectangle(corner_radius=0.15, width=3.2, height=1.0).set_stroke(PUMPKIN, 3.5)
                              .set_fill(opacity=0).move_to([0, -0.35, 0]), num_dashes=40)
-        lab = txt("FACT CHECK", 22, PUMPKIN).next_to(box, DOWN, buff=0.2)
+        lab = txt("FACT CHECK", 22, PUMPKIN).move_to(box)
         bypass = arc(A.get_top(), N.get_top(), LIME, 4, 1, h=0.75).add_tip(tip_length=0.2)
         stream = Sentence(["the", "bank", "raised", "rates", "again"], 24, gap=0.16, center=DOWN * 1.35)
         # b1: the formula

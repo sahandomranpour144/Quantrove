@@ -14,6 +14,33 @@ assert abs(sum(W_IT) - 1) < 1e-9
 ILLU_BUFF = np.array([0.75, 1.7, 0])   # keeps the ILLUSTRATIVE tag inside the safe area
 
 
+_beat = QScene.beat
+
+
+def _clamped_beat(self, *anims, focus=None, **kw):
+    """ep08: clamp focus offsets. At 1.08 zoom an 11-unit sentence/formula only has ~1 unit of slack per side;
+    larger offsets clipped words at the frame edge (M07/M08/M10/M11 at Gate 2)."""
+    if focus is not None:
+        focus = np.array(focus, dtype=float)
+        focus[0], focus[1] = np.clip(focus[0], -0.4, 0.4), np.clip(focus[1], -0.6, 0.6)
+    return _beat(self, *anims, focus=focus, **kw)
+
+
+QScene.beat = _clamped_beat
+
+
+class _StrokeOnly(VMobject):
+    """Open polyline that never fills: set_opacity()/set_color() otherwise fill the radical (EP07 failure class)."""
+
+    def set_fill(self, color=None, opacity=None, family=True):
+        return super().set_fill(color, 0, family)
+
+
+def flicker(n=3):
+    """Rate function 0 -> 1 that flickers n times on the way (same as ep07_intro)."""
+    return lambda t: min(1.0, 1.25 * t) * (0.55 + 0.45 * np.cos(2 * n * PI * t))
+
+
 def illustrative(scene):
     return scene.hud(txt("ILLUSTRATIVE", 16, OFFWHITE, bold=False).set_opacity(0.6), DR, buff=ILLU_BUFF)
 
@@ -124,7 +151,7 @@ class Formula(VGroup):
         x0, x1 = dk.get_left()[0] - 0.1 * u, dk.get_right()[0] + 0.06 * u
         yt, yb = dk.get_top()[1] + 0.1 * u, dk.get_bottom()[1] - 0.04 * u
         ym = (yt + yb) / 2 - 0.05 * u
-        rad = VMobject().set_points_as_corners([
+        rad = _StrokeOnly().set_points_as_corners([
             [x0 - 0.42 * u, ym, 0], [x0 - 0.32 * u, ym + 0.06 * u, 0], [x0 - 0.19 * u, yb, 0],
             [x0, yt, 0], [x1, yt, 0]])
         rad.set_stroke(OFFWHITE, 3.2 * u)

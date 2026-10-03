@@ -4,6 +4,19 @@ All folder renames, status promotions, and automated synchronizations are logged
 
 ---
 
+## [2026-10-03] EP08 Gate 2 Approved & Complete
+
+- **EP08 renders**: 24 Manim + 15 Remotion rendered one at a time, R13 re-rendered, all Remotion converted to yuv420p limited. Every clip is frame-exact (±1). `gate2_package`: 46/46, 0 to check, overlay OK.
+- **Gate 2 fixes**: ep08 focus clamp (edge clipping M07/M08/M10/M11), stroke-only √ radical (filled triangle under set_opacity), M11 "small." swap + tag height, M18 plate z-order, M18B FACT CHECK label, missing `flicker`. Remotion layout: R1, R4B, R7, R8, R8B, R10, R11B.
+- **EP08 docs**: `METADATA/EP08_METADATA.md` (title "The 2017 Paper That Built ChatGPT" from vidIQ scoring, description with timeline chapters + 17 sources + music credit, tags 292 chars, hashtags, pinned comment, end screen + card, Test & Compare plan, VERIFY 14/14 resolved), `METADATA/EP08_THUMBNAIL.png` (A) + `EP08_THUMBNAIL_B.png` (B), `ASSEMBLY/EP08_ASSEMBLY_GUIDE.md`.
+- **New tools**: `pipeline/scenes/ep08/render_ep08.sh`, `pipeline/remotion_engine/render_ep08.sh` (sequential render + frame check + QA strip), `pipeline/thumbnail_ep08.py`.
+
+---
+
+## [2026-10-03] Channel check: EP05 Shorts archived
+- Studio check (manual): ep05 #02 `SSFzhfnUAuw` and #05 `LVLjievqILs` public → moved to `shorts/_ARCHIVE/published/` as `[PUBLISHED]` (old folders removed).
+- ep05 #04 `WfTsYZXEkRk` still private → left in `shorts/`. EP06 long `tPqCJmgwZjY` private (scheduled 10-04), untouched.
+
 ## [2026-10-03] EP07 Gate 2 Approved & Complete; EP08 Handoff
 
 - **EP07**: all 47 scenes built (27 Manim, 12 Remotion, 4 HyperFrames, 4 Flow) + kinetic overlay; frame-exact to `EP07_MASTER_TIMELINE.json`. Gate 2 visual review fixed S15 (arc fills), S23 (label collisions: slower orbit), S45 (RecapStack overlap). Remotion clips re-encoded yuvj420p → yuv420p.
@@ -271,3 +284,5 @@ All folder renames, status promotions, and automated synchronizations are logged
 
 
 
+
+- 2026-10-03: EP06 metadata updated (music credit added, chapter 07:00 removed, timing 421.09s, Studio settings section, EP06_captions_en.srt generated).

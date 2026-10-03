@@ -236,7 +236,7 @@ class M10_FORMULA(QScene):
 
     def construct(self):
         self.setup_q()
-        f = Formula(46).move_to(UP * 1.2)
+        f = Formula(42).move_to(UP * 1.2)
         # b1: the formula assembles
         self.beat(LaggedStart(*[FadeIn(p, shift=UP * 0.2) for p in f.parts()], lag_ratio=0.12), run=2.2)
         rest = VGroup(*[p for p in f.parts() if p is not f.qk])
@@ -312,9 +312,10 @@ class M11_IT_RESOLVES(QScene):
         s.box(TROPHY).set_stroke(LIME, 3).set_fill(LIME, 0.14)
         s.word(TROPHY).set_color(LIME)
         illustrative(self)
-        # b1: change big to small
-        self.beat(Transform(s[BIG], s2[BIG]), s.box(BIG).animate.set_stroke(PUMPKIN, 3), run=0.8, focus=s[BIG].get_center() * 0.3)
-        s.word(BIG).set_color(PUMPKIN)
+        s2.box(BIG).set_stroke(PUMPKIN, 3)
+        s2.word(BIG).set_color(PUMPKIN)
+        # b1: change big to small (one Transform owns box + word; a second box anim fought it at Gate 2)
+        self.beat(Transform(s[BIG], s2[BIG]), run=0.8, focus=s[BIG].get_center() * 0.3)
         # b2: the weight shifts toward SUITCASE
         new_h = lambda w: max(w * 3.0, 0.03)
         self.beat(*[vts[i].animate.set_value(w_small[i]) for i in (TROPHY, SUITCASE)],
@@ -323,12 +324,12 @@ class M11_IT_RESOLVES(QScene):
                   s.box(TROPHY).animate.set_stroke(SLATE, 2.2).set_fill(BACKGROUND, 0.92), s.word(TROPHY).animate.set_color(OFFWHITE),
                   s.mark(SUITCASE), run=2.4)
         # b3: nobody wrote a rule
-        rule = chip("RULE:  big → trophy", 30).move_to(UP * 1.45)
+        rule = chip("RULE:  big → trophy", 30).move_to(UP * 2.3)
         strike = Line(rule.get_left() + RIGHT * 0.1, rule.get_right() + LEFT * 0.1).set_stroke(PUMPKIN, 5)
         self.beat(LaggedStart(FadeIn(rule, shift=DOWN * 0.15), Create(strike), lag_ratio=0.6), run=2.2,
                   focus=UP * 0.6)
         # b4: queries and keys are learned from data
-        cap = chip("LEARNED, NOT WRITTEN", 30, LIME, LIME).move_to(UP * 1.45)
+        cap = chip("LEARNED, NOT WRITTEN", 30, LIME, LIME).move_to(UP * 2.3)
         self.beat(FadeOut(VGroup(rule, strike), shift=UP * 0.2), FadeIn(cap, shift=UP * 0.2),
                   wb[SUITCASE].animate(rate_func=there_and_back).set_fill(LIME, 1), run=1.4)
         self.finish()
