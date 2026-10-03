@@ -9,8 +9,8 @@
 | long04_can_ai_predict_markets | [PUBLISHED 2026-09-26] | None (live on YouTube: jwPcJSfDQPg) | `longs/[PUBLISHED 2026-09-26]_long04_can_ai_predict_markets/` |
 | long05_market_making_illusion | [PUBLISHED 2026-09-30] | Confirmed Live on YouTube (-SH2kNLF3WA) | `longs/[PUBLISHED 2026-09-30]_long05_market_making_illusion/` |
 | long06_hft_microsecond_pricing | [SCHEDULED 2026-10-04] | Final uploaded; UNLISTED in Studio until Sun 2026-10-04, then public. Do not touch. | `longs/[SCHEDULED 2026-10-04]_long06_hft_microsecond_pricing/` |
-| long07_ai_words_geometry | [IN_PROGRESS 2026-10-02] | **GATE 1 awaiting CEO**: script + 46-scene/229-beat shot list, ≈10:59 | `longs/[IN_PROGRESS 2026-10-02]_long07_ai_words_geometry/EP07_SCRIPT_AND_SHOTLIST.md` |
-| long08_attention_transformer | [IN_PROGRESS 2026-10-02] | **GATE 1 awaiting CEO**: script + 45-scene/219-beat shot list, ≈10:45; publish after EP07 | `longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/EP08_SCRIPT_AND_SHOTLIST.md` |
+| long07_ai_words_geometry | [IN_PROGRESS 2026-10-02] | Gate 1 APPROVED 2026-10-03 · VO 667.6 s (11:28 total) · asset build in progress (Manim/Remotion/HyperFrames/overlay) · Flow: Sahand | `longs/[IN_PROGRESS 2026-10-02]_long07_ai_words_geometry/` |
+| long08_attention_transformer | [IN_PROGRESS 2026-10-02] | Gate 1 APPROVED 2026-10-03 · VO 641.8 s (11:02 total) · asset build in progress · Flow: Sahand · publish after EP07 | `longs/[IN_PROGRESS 2026-10-02]_long08_attention_transformer/` |
 | ep01_short_margin_call | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep01_short_margin_call/` |
 | ep01_short_trigger_changes | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep01_short_trigger_changes/` |
 | ep02_short_2009_bottom | [PUBLISHED] | None (live on YouTube) | `shorts/_ARCHIVE/published/[UPLOADED]_ep02_short_2009_bottom/` |

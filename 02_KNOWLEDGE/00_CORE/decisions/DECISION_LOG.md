@@ -260,3 +260,15 @@ After EP06, Sahand judged the visuals better but still lacking motion (EP06 aver
 5. **Workspace reorg**: 55 moves, zero deletions (manifest + undo in `logs/reorg_2026-10-02_*`). Uniform longs naming, `03_ARCHIVE` → `99_ARCHIVE`, single root `logs/` + `reports/`, episode one-off scripts → `pipeline/_legacy/`, stale `E:\AI_COMPANY` paths fixed in the live pipeline tools.
 6. **EP06**: folder `[SCHEDULED 2026-10-04]`; Sahand uploads its 4 Shorts manually after EP06 goes public.
 ## Status: Approved by CEO (Sahand) and Enacted.
+
+---
+
+## Date: 2026-10-03
+## Decision: EP07 + EP08 Gate 1 Approved
+## Context:
+Sahand approved the titles "How AI Turns Every Word Into Geometry" (EP07) and "The 2017 Paper That Rebuilt Modern AI" (EP08), delivered both ElevenLabs voiceovers (EP07 667.64 s, EP08 641.80 s), and instructed production to proceed.
+## Choices Enacted:
+1. Scripts and beat-level shot lists locked as approved at Gate 1. Thumbnails default to concept A for both (swappable before upload).
+2. Asset production started against word-aligned master timelines (`ASSEMBLY/EPxx_MASTER_TIMELINE.json`, 96.9% / 97.7% word match).
+3. GitHub remote set to `github.com/sahandomranpour144/Quantrove` (text-only repo). The first push is pending Sahand's browser sign-in.
+## Status: Approved by CEO (Sahand). Gate 2 review follows the asset build.
