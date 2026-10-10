@@ -4,6 +4,10 @@ All folder renames, status promotions, and automated synchronizations are logged
 
 ---
 
+## 2026-10-08 — State hooks (workspace step D)
+- `SessionStart` → `.claude/hooks/session_state.py`: injects STATE.md digest (finished PUBLISHED rows dropped) + over-budget warning (>40 lines / 6 KB). Local files only, no MCP.
+- `Stop` → `.claude/hooks/state_checkpoint.py`: if work files changed this session but STATE/CHANGELOG weren't updated after them, blocks once and asks for the update (loop-guarded). Registered in `.claude/settings.local.json`; CLAUDE.md §0 updated.
+
 ## [2026-10-03] EP08 Gate 2 Approved & Complete
 
 - **EP08 renders**: 24 Manim + 15 Remotion rendered one at a time, R13 re-rendered, all Remotion converted to yuv420p limited. Every clip is frame-exact (±1). `gate2_package`: 46/46, 0 to check, overlay OK.
