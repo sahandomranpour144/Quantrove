@@ -4,7 +4,7 @@
 
 ## 0. Session Start (read these, nothing else unless needed)
 
-1. `01_PROJECTS/YOUTUBE/STATE.md` — episode status and next actions
+1. `01_PROJECTS/YOUTUBE/STATE.md` — **auto-injected** as a digest by the SessionStart hook (`session_state.py`); don't re-read it unless editing. The Stop hook (`state_checkpoint.py`) asks once for a STATE + CHANGELOG update when work files changed.
 2. `01_PROJECTS/YOUTUBE/DIRECTOR_HANDOFF.md` — **primary brief**: how to work with Sahand, channel identity, standing rules, EP06 quality bar, open items, operating mode
 3. `CHANGELOG.md` — recent changes
 
